@@ -94,13 +94,17 @@
 
 
 
-<meta property="og:type" content="website">
+<meta name="description" content="Python 3.2+ concurrent.futures Python 2.7 pip install futures submit, done, result123from concurrent.futures import ProcessPoolExecutor, ThreadPoolExecutor, as_completedimport timeimport math 12345678">
+<meta property="og:type" content="article">
 <meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta property="og:url" content="http://yoursite.com/2018/09/08/concurrent.futures/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="Python 3.2+ concurrent.futures Python 2.7 pip install futures submit, done, result123from concurrent.futures import ProcessPoolExecutor, ThreadPoolExecutor, as_completedimport timeimport math 12345678">
 <meta property="og:locale" content="default">
+<meta property="og:updated_time" content="2018-09-08T11:56:04.103Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo">
+<meta name="twitter:description" content="Python 3.2+ concurrent.futures Python 2.7 pip install futures submit, done, result123from concurrent.futures import ProcessPoolExecutor, ThreadPoolExecutor, as_completedimport timeimport math 12345678">
 
 
 
@@ -129,13 +133,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/"/>
+  <link rel="canonical" href="http://yoursite.com/2018/09/08/concurrent.futures/"/>
 
 
 
 
 
-  <title>Hexo</title>
+  <title> | Hexo</title>
   
 
 
@@ -160,9 +164,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-   page-home 
- ">
+  <div class="container sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -245,9 +247,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -277,9 +279,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/09/08/concurrent.futures/" itemprop="url">Untitled</a></h1>
+          <h1 class="post-title" itemprop="name headline"></h1>
         
 
         <div class="post-meta">
@@ -329,17 +329,13 @@
       
 
       
-        
-          
-            <p>Python 3.2+ concurrent.futures</p>
+        <p>Python 3.2+ concurrent.futures</p>
 <p>Python 2.7 pip install futures</p>
 <h1 id="submit-done-result"><a href="#submit-done-result" class="headerlink" title="submit, done, result"></a>submit, done, result</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> concurrent.futures <span class="keyword">import</span> ProcessPoolExecutor, ThreadPoolExecutor, as_completed</span><br><span class="line"><span class="keyword">import</span> time</span><br><span class="line"><span class="keyword">import</span> math</span><br></pre></td></tr></table></figure>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">return_future_result</span><span class="params">(message)</span>:</span></span><br><span class="line">    time.sleep(<span class="number">2</span>)</span><br><span class="line">    <span class="keyword">return</span> message</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">test1</span><span class="params">()</span>:</span></span><br><span class="line">    pool = ProcessPoolExecutor(max_workers=<span class="number">2</span>)</span><br><span class="line">    <span class="comment"># pool = ThreadPoolExecutor(max_workers=2)</span></span><br><span class="line">    future1 = pool.submit(return_future_result, (<span class="string">"hello"</span>))</span><br><span class="line">    future2 = pool.submit(return_future_result, (<span class="string">"world"</span>))</span><br><span class="line">    print(future1.done())  <span class="comment"># 判断task1是否结束</span></span><br><span class="line">    time.sleep(<span class="number">3</span>)</span><br><span class="line">    print(future2.done())  <span class="comment"># 判断task2是否结束</span></span><br><span class="line">    print(future1.result())  <span class="comment"># 查看task1返回的结果</span></span><br><span class="line">    print(future2.result())  <span class="comment"># 查看task2返回的结果</span></span><br></pre></td></tr></table></figure>
 <h1 id="as-completed"><a href="#as-completed" class="headerlink" title="as_completed"></a>as_completed</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">worker</span><span class="params">(params: tuple)</span>:</span></span><br><span class="line">    <span class="keyword">return</span> <span class="string">"&#123;&#125; and &#123;&#125;"</span>.format(params[<span class="number">0</span>], params[<span class="number">1</span>])</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">test2</span><span class="params">()</span>:</span></span><br><span class="line">    tasks = [(<span class="string">'http://www.baidu.com'</span>, <span class="number">40</span>), (<span class="string">'http://example.com/'</span>, <span class="number">40</span>), (<span class="string">'https://www.github.com/'</span>, <span class="number">40</span>)]</span><br><span class="line">    <span class="keyword">with</span> ProcessPoolExecutor(max_workers=<span class="number">3</span>) <span class="keyword">as</span> executor:</span><br><span class="line">        futures = [executor.submit(worker, task) <span class="keyword">for</span> task <span class="keyword">in</span> tasks]</span><br><span class="line">        <span class="keyword">for</span> future <span class="keyword">in</span> as_completed(futures):</span><br><span class="line">            print(future.result())</span><br><span class="line">            <span class="comment"># try:</span></span><br><span class="line">            <span class="comment"># ret = f.done()</span></span><br><span class="line">            <span class="comment"># if ret:</span></span><br><span class="line">            <span class="comment">#     f_ret = f.result()</span></span><br><span class="line">            <span class="comment">#     print(f_ret)</span></span><br><span class="line">            <span class="comment"># except Exception as e:</span></span><br><span class="line">            <span class="comment">#     f.cancel()</span></span><br><span class="line">            <span class="comment">#     print(str(e))</span></span><br></pre></td></tr></table></figure>
 <h1 id="executor-map"><a href="#executor-map" class="headerlink" title="executor.map"></a>executor.map</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line">PRIMES = [</span><br><span class="line">    <span class="number">112272535095293</span>,</span><br><span class="line">    <span class="number">112582705942171</span>,</span><br><span class="line">    <span class="number">112272535095293</span>,</span><br><span class="line">    <span class="number">115280095190773</span>,</span><br><span class="line">    <span class="number">115797848077099</span>,</span><br><span class="line">    <span class="number">1099726899285419</span>]</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">is_prime</span><span class="params">(n)</span>:</span></span><br><span class="line">    <span class="keyword">if</span> n % <span class="number">2</span> == <span class="number">0</span>:</span><br><span class="line">        <span class="keyword">return</span> <span class="keyword">False</span></span><br><span class="line"></span><br><span class="line">    sqrt_n = int(math.floor(math.sqrt(n)))</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> range(<span class="number">3</span>, sqrt_n + <span class="number">1</span>, <span class="number">2</span>):</span><br><span class="line">        <span class="keyword">if</span> n % i == <span class="number">0</span>:</span><br><span class="line">            <span class="keyword">return</span> <span class="keyword">False</span></span><br><span class="line">    <span class="keyword">return</span> <span class="keyword">True</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">test3</span><span class="params">()</span>:</span></span><br><span class="line">    <span class="keyword">with</span> ProcessPoolExecutor() <span class="keyword">as</span> executor:</span><br><span class="line">        <span class="keyword">for</span> number, prime <span class="keyword">in</span> zip(PRIMES, executor.map(is_prime, PRIMES)):</span><br><span class="line">            print(<span class="string">'%d is prime: %s'</span> % (number, prime))</span><br></pre></td></tr></table></figure>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">Future Objects</span><br><span class="line">The Future class encapulates the asynchronous execution of a callable. Future instances are created by Executor.submit().</span><br><span class="line">用cancel(),可以终止某个线程和进程的任务，返回状态为 True False</span><br><span class="line">Future.cancel()</span><br><span class="line">Attempt to cancel the call. If the call is currently being executed then it cannot be cancelled and the method will return False, otherwise the call will be cancelled and the method will return True.</span><br><span class="line"></span><br><span class="line">判断是否真的结束了任务。</span><br><span class="line">Future.cancelled()</span><br><span class="line">Return True if the call was successfully cancelled.</span><br><span class="line"></span><br><span class="line">判断是否还在运行</span><br><span class="line">Future.running()</span><br><span class="line">Return True if the call is currently being executed and cannot be cancelled.</span><br><span class="line"></span><br><span class="line">判断是正常执行完毕的。 </span><br><span class="line">Future.done()</span><br><span class="line">Return True if the call was successfully cancelled or finished running.</span><br><span class="line"></span><br><span class="line">针对result结果做超时的控制。 </span><br><span class="line">Future.result(timeout=None)</span><br><span class="line">Return the value returned by the call. If the call hasn’t yet completed then this method will wait up to timeout seconds. If the call hasn’t completed in timeout seconds then a TimeoutError will be raised. timeout can be an int or float.If timeout is not specified or None then there is no limit to the wait time.</span><br></pre></td></tr></table></figure>
-          
-        
       
     </div>
     
@@ -356,12 +352,12 @@
       
 
       
+      
+      
 
       
 
       
-      
-        <div class="post-eof"></div>
       
     </footer>
   </div>
@@ -371,10 +367,11 @@
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -382,6 +379,10 @@
 
 
           
+  <div class="comments" id="comments">
+    
+  </div>
+
 
         </div>
         
@@ -402,8 +403,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            Overview
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
+      <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/avatar.gif"
@@ -447,6 +457,22 @@
 
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#submit-done-result"><span class="nav-number">1.</span> <span class="nav-text">submit, done, result</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#as-completed"><span class="nav-number">2.</span> <span class="nav-text">as_completed</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#executor-map"><span class="nav-number">3.</span> <span class="nav-text">executor.map</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -567,10 +593,10 @@
 
 
   
-    <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.2"></script>
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.2"></script>
 <script type="text/javascript" src="/js/src/post-details.js?v=5.1.2"></script>
 
-  
+
 
   
 
