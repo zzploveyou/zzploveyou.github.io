@@ -92,18 +92,18 @@
 
 
 
-<meta name="description" content="用法：  python this.py 10 1234567891011121314151617181920212223242526272829303132333435363738#!/usr/bin/env python#coding:utf-8&apos;&apos;&apos;Author       :  ZZPMail         :  zhangzhaopeng@mail.nankai.edu.cnCreate">
+<meta name="description" content="用法：  python this.py 10">
 <meta name="keywords" content="python">
 <meta property="og:type" content="article">
 <meta property="og:title" content="刷新stdout，实现滚动字幕">
 <meta property="og:url" content="https://zzploveyou.github.io/2016/04/26/python/滚动字幕实现/index.html">
 <meta property="og:site_name" content="zzp&#39;s blog">
-<meta property="og:description" content="用法：  python this.py 10 1234567891011121314151617181920212223242526272829303132333435363738#!/usr/bin/env python#coding:utf-8&apos;&apos;&apos;Author       :  ZZPMail         :  zhangzhaopeng@mail.nankai.edu.cnCreate">
+<meta property="og:description" content="用法：  python this.py 10">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-09-10T07:16:34.910Z">
+<meta property="og:updated_time" content="2018-09-11T07:22:37.999Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="刷新stdout，实现滚动字幕">
-<meta name="twitter:description" content="用法：  python this.py 10 1234567891011121314151617181920212223242526272829303132333435363738#!/usr/bin/env python#coding:utf-8&apos;&apos;&apos;Author       :  ZZPMail         :  zhangzhaopeng@mail.nankai.edu.cnCreate">
+<meta name="twitter:description" content="用法：  python this.py 10">
 
 
 
@@ -306,8 +306,8 @@
               
                 <span class="post-meta-item-text">更新于</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2018-09-10T15:16:34+08:00">
-                2018-09-10
+              <time title="更新于" itemprop="dateModified" datetime="2018-09-11T15:22:37+08:00">
+                2018-09-11
               </time>
             
           </span>
@@ -357,6 +357,7 @@
 
       
         <p>用法：  python this.py 10</p>
+<a id="more"></a>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#!/usr/bin/env python</span></span><br><span class="line"><span class="comment">#coding:utf-8</span></span><br><span class="line"><span class="string">'''</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">Author       :  ZZP</span></span><br><span class="line"><span class="string">Mail         :  zhangzhaopeng@mail.nankai.edu.cn</span></span><br><span class="line"><span class="string">Created Time :  2016-04-26 16:30:52</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">Description  : </span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">'''</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> sys</span><br><span class="line"><span class="keyword">import</span> time</span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">move_words</span><span class="params">(string)</span>:</span></span><br><span class="line">    length=int(<span class="number">2</span>*len(string))</span><br><span class="line">    dicc=&#123;&#125;</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> range(len(string)<span class="number">-1</span>):</span><br><span class="line">        dicc[i]=i+<span class="number">1</span></span><br><span class="line">    dicc[len(string)]=<span class="number">0</span></span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> range(Size):</span><br><span class="line">        time.sleep(<span class="number">0.5</span>)</span><br><span class="line">        tmp=<span class="string">""</span></span><br><span class="line">        ind=i%len(string)</span><br><span class="line">        char=string[ind]</span><br><span class="line">        <span class="keyword">while</span>(len(tmp)!=length):</span><br><span class="line">            tmp+=char</span><br><span class="line">            char=string[(ind+<span class="number">1</span>)%len(string)]</span><br><span class="line">            ind+=<span class="number">1</span></span><br><span class="line">        <span class="keyword">print</span> <span class="string">'\r%s'</span> %(tmp),</span><br><span class="line">        sys.stdout.flush()</span><br><span class="line">    <span class="keyword">print</span> </span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">'__main__'</span>:</span><br><span class="line">    Size = int(sys.argv[<span class="number">1</span>])</span><br><span class="line">    string = <span class="string">r" i love you "</span> <span class="comment">#'abcdefghijklmnopqrstuvwxyz'</span></span><br><span class="line">    move_words(string)</span><br></pre></td></tr></table></figure>
       
     </div>
