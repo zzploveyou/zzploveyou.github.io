@@ -258,7 +258,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://zzploveyou.github.io/2017/01/04/linux/rsync命令/">
+    <link itemprop="mainEntityOfPage" href="https://zzploveyou.github.io/2017/09/22/vim/vim操作大全/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="ningning">
@@ -277,7 +277,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2017/01/04/linux/rsync命令/" itemprop="url">rsync同步命令</a></h1>
+                <a class="post-title-link" href="/2017/09/22/vim/vim操作大全/" itemprop="url">vim操作大全</a></h1>
         
 
         <div class="post-meta">
@@ -290,8 +290,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-01-04T00:00:00+08:00">
-                2017-01-04
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-09-22T00:00:00+08:00">
+                2017-09-22
               </time>
             
 
@@ -306,163 +306,7 @@
               
                 <span class="post-meta-item-text">更新于</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2018-09-11T17:42:54+08:00">
-                2018-09-11
-              </time>
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-             <span id="/2017/01/04/linux/rsync命令/" class="leancloud_visitors" data-flag-title="rsync同步命令">
-               <span class="post-meta-divider">|</span>
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               
-                 <span class="post-meta-item-text">阅读次数 </span>
-               
-                 <span class="leancloud-visitors-count"></span>
-             </span>
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h1 id="rsync最常用的操作"><a href="#rsync最常用的操作" class="headerlink" title="rsync最常用的操作"></a>rsync最常用的操作</h1><p>同步远程zzp主机下note文件夹到本地文件夹note(以前者为准,后者的更改都会被抹除)</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rsync -urv --delete <span class="string">"zzp:/home/zzp/note/"</span> note/</span><br></pre></td></tr></table></figure>
-<h1 id="rsync的命令格式"><a href="#rsync的命令格式" class="headerlink" title="rsync的命令格式"></a>rsync的命令格式</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">rsync [OPTION]... SRC DEST</span><br><span class="line">rsync [OPTION]... SRC [USER@]HOST:DEST</span><br><span class="line">rsync [OPTION]... [USER@]HOST:SRC DEST</span><br><span class="line">rsync [OPTION]... [USER@]HOST::SRC DEST</span><br><span class="line"></span><br><span class="line">rsync [OPTION]... SRC [USER@]HOST::DEST</span><br><span class="line">rsync [OPTION]... rsync://[USER@]HOST[:PORT]/SRC [DEST]</span><br></pre></td></tr></table></figure>
-<p>对应于以上六种命令格式，rsync有六种不同的工作模式：</p>
-<ol>
-<li><p>拷贝本地文件。当SRC和DES路径信息都不包含有单个冒号”:”分隔符时就启动这种工作模式。如：<figure class="highlight plain"><figcaption><span>-a</span><a href="/data">/backup```</a></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">2. 使用一个远程shell程序(如rsh、ssh)来实现将本地机器的内容拷贝到远程机器。当DST路径地址包含单个冒号&quot;:&quot;分隔符时启动该模式。如：```rsync -avz *.c foo:src</span><br></pre></td></tr></table></figure></p>
-</li>
-<li><p>使用一个远程shell程序(如rsh、ssh)来实现将远程机器的内容拷贝到本地机器。当SRC地址路径包含单个冒号”:”分隔符时启动该模式。如：<figure class="highlight plain"><figcaption><span>-avz foo:src/bar</span><a href="/data```">link</a></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">4. 从远程rsync服务器中拷贝文件到本地机。当SRC路径信息包含&quot;::&quot;分隔符时启动该模式。如：```rsync -av root@172.16.78.192::www /databack</span><br></pre></td></tr></table></figure></p>
-</li>
-<li><p>从本地机器拷贝文件到远程rsync服务器中。当DST路径信息包含”::”分隔符时启动该模式。如：<figure class="highlight plain"><figcaption><span>-av</span><a href="/databack">root@172.16.78.192::www```</a></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">6. 列远程机的文件列表。这类似于rsync传输，不过只要在命令中省略掉本地机信息即可。如：```rsync -v rsync://172.16.78.192/www</span><br></pre></td></tr></table></figure></p>
-</li>
-</ol>
-<h1 id="rsync参数"><a href="#rsync参数" class="headerlink" title="rsync参数"></a>rsync参数</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br></pre></td><td class="code"><pre><span class="line">-v, --verbose 详细模式输出</span><br><span class="line">-q, --quiet 精简输出模式</span><br><span class="line">-c, --checksum 打开校验开关，强制对文件传输进行校验</span><br><span class="line">-a, --archive 归档模式，表示以递归方式传输文件，并保持所有文件属性，等于-rlptgoD</span><br><span class="line">-r, --recursive 对子目录以递归模式处理</span><br><span class="line">-R, --relative 使用相对路径信息</span><br><span class="line">-b, --backup 创建备份，也就是对于目的已经存在有同样的文件名时，将老的文件重新命名为~filename。可以使用--suffix选项来指定不同的备份文件前缀。</span><br><span class="line">--backup-dir 将备份文件(如~filename)存放在在目录下。</span><br><span class="line">-suffix=SUFFIX 定义备份文件前缀</span><br><span class="line">-u, --update 仅仅进行更新，也就是跳过所有已经存在于DST，并且文件时间晚于要备份的文件。(不覆盖更新的文件)</span><br><span class="line">-l, --links 保留软链结</span><br><span class="line">-L, --copy-links 想对待常规文件一样处理软链结</span><br><span class="line">--copy-unsafe-links 仅仅拷贝指向SRC路径目录树以外的链结</span><br><span class="line">--safe-links 忽略指向SRC路径目录树以外的链结</span><br><span class="line">-H, --hard-links 保留硬链结</span><br><span class="line">-p, --perms 保持文件权限</span><br><span class="line">-o, --owner 保持文件属主信息</span><br><span class="line">-g, --group 保持文件属组信息</span><br><span class="line">-D, --devices 保持设备文件信息</span><br><span class="line">-t, --times 保持文件时间信息</span><br><span class="line">-S, --sparse 对稀疏文件进行特殊处理以节省DST的空间</span><br><span class="line">-n, --dry-run现实哪些文件将被传输</span><br><span class="line">-W, --whole-file 拷贝文件，不进行增量检测</span><br><span class="line">-x, --one-file-system 不要跨越文件系统边界</span><br><span class="line">-B, --block-size=SIZE 检验算法使用的块尺寸，默认是700字节</span><br><span class="line">-e, --rsh=COMMAND 指定使用rsh、ssh方式进行数据同步</span><br><span class="line">--rsync-path=PATH 指定远程服务器上的rsync命令所在路径信息</span><br><span class="line">-C, --cvs-exclude 使用和CVS一样的方法自动忽略文件，用来排除那些不希望传输的文件</span><br><span class="line">--existing 仅仅更新那些已经存在于DST的文件，而不备份那些新创建的文件</span><br><span class="line">--delete 删除那些DST中SRC没有的文件</span><br><span class="line">--delete-excluded 同样删除接收端那些被该选项指定排除的文件</span><br><span class="line">--delete-after 传输结束以后再删除</span><br><span class="line">--ignore-errors 及时出现IO错误也进行删除</span><br><span class="line">--max-delete=NUM 最多删除NUM个文件</span><br><span class="line">--partial 保留那些因故没有完全传输的文件，以是加快随后的再次传输</span><br><span class="line">--force 强制删除目录，即使不为空</span><br><span class="line">--numeric-ids 不将数字的用户和组ID匹配为用户名和组名</span><br><span class="line">--timeout=TIME IP超时时间，单位为秒</span><br><span class="line">-I, --ignore-times 不跳过那些有同样的时间和长度的文件</span><br><span class="line">--size-only 当决定是否要备份文件时，仅仅察看文件大小而不考虑文件时间</span><br><span class="line">--modify-window=NUM 决定文件是否时间相同时使用的时间戳窗口，默认为0</span><br><span class="line">-T --temp-dir=DIR 在DIR中创建临时文件</span><br><span class="line">--compare-dest=DIR 同样比较DIR中的文件来决定是否需要备份</span><br><span class="line">-P 等同于 --partial</span><br><span class="line">--progress 显示备份过程</span><br><span class="line">-z, --compress 对备份的文件在传输时进行压缩处理</span><br><span class="line">--exclude=PATTERN 指定排除不需要传输的文件模式</span><br><span class="line">--include=PATTERN 指定不排除而需要传输的文件模式</span><br><span class="line">--exclude-from=FILE 排除FILE中指定模式的文件</span><br><span class="line">--include-from=FILE 不排除FILE指定模式匹配的文件</span><br><span class="line">--version 打印版本信息</span><br><span class="line">--address 绑定到特定的地址</span><br><span class="line">--config=FILE 指定其他的配置文件，不使用默认的rsyncd.conf文件</span><br><span class="line">--port=PORT 指定其他的rsync服务端口</span><br><span class="line">--blocking-io 对远程shell使用阻塞IO</span><br><span class="line">-stats 给出某些文件的传输状态</span><br><span class="line">--progress 在传输时现实传输过程</span><br><span class="line">--log-format=formAT 指定日志文件格式</span><br><span class="line">--password-file=FILE 从FILE中得到密码</span><br><span class="line">--bwlimit=KBPS 限制I/O带宽，KBytes per second</span><br><span class="line">-h, --help 显示帮助信息</span><br></pre></td></tr></table></figure>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://zzploveyou.github.io/2017/01/03/windows-tricks/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="ningning">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/doggod.png">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="zzp's blog">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2017/01/03/windows-tricks/" itemprop="url">windows-tricks</a></h1>
-        
-
-        <div class="post-meta">
-            
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-01-03T14:25:53+08:00">
-                2017-01-03
-              </time>
-            
-
-            
-              <span class="post-meta-divider">|</span>
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-check-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">更新于</span>
-              
-              <time title="更新于" itemprop="dateModified" datetime="2018-09-12T14:11:34+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2018-09-12T18:05:23+08:00">
                 2018-09-12
               </time>
             
@@ -476,7 +320,7 @@
 
           
           
-             <span id="/2017/01/03/windows-tricks/" class="leancloud_visitors" data-flag-title="windows-tricks">
+             <span id="/2017/09/22/vim/vim操作大全/" class="leancloud_visitors" data-flag-title="vim操作大全">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -508,10 +352,10 @@
 
       
         
-          <p>使用windows系统的小技巧，2015年之前整理。</p>
+          <h1 id="粘贴模式"><a href="#粘贴模式" class="headerlink" title="粘贴模式"></a>粘贴模式</h1><p>复制东西进vi时,为了避免vi自动缩进,<br>set paste之后再复制<br>复制完set nopaste</p>
           <!--noindex-->
           <div class="post-button text-center">
-            <a class="btn" href="/2017/01/03/windows-tricks/#more" rel="contents">
+            <a class="btn" href="/2017/09/22/vim/vim操作大全/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
@@ -562,7 +406,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://zzploveyou.github.io/2017/01/03/linux/patchelf/">
+    <link itemprop="mainEntityOfPage" href="https://zzploveyou.github.io/2017/09/16/python/字符编码判断/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="ningning">
@@ -581,7 +425,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2017/01/03/linux/patchelf/" itemprop="url">patchelf 修改动态链接库</a></h1>
+                <a class="post-title-link" href="/2017/09/16/python/字符编码判断/" itemprop="url">python判断字符编码</a></h1>
         
 
         <div class="post-meta">
@@ -594,8 +438,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-01-03T00:00:00+08:00">
-                2017-01-03
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-09-16T00:00:00+08:00">
+                2017-09-16
               </time>
             
 
@@ -610,7 +454,7 @@
               
                 <span class="post-meta-item-text">更新于</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2018-09-11T16:06:35+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2018-09-11T15:22:34+08:00">
                 2018-09-11
               </time>
             
@@ -624,7 +468,7 @@
 
           
           
-             <span id="/2017/01/03/linux/patchelf/" class="leancloud_visitors" data-flag-title="patchelf 修改动态链接库">
+             <span id="/2017/09/16/python/字符编码判断/" class="leancloud_visitors" data-flag-title="python判断字符编码">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -657,7 +501,18 @@
       
         
           
-            <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">patchelf --set-rpath $&#123;HOME&#125;/temp/demo/lib subscriber</span><br></pre></td></tr></table></figure>
+            <a id="more"></a>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">import sys</span><br><span class="line">reload(sys)</span><br><span class="line">sys.setdefaultencoding(&apos;utf-8&apos;)</span><br></pre></td></tr></table></figure>
+<p>Python 字符编码判断</p>
+<h1 id="法一"><a href="#法一" class="headerlink" title="法一"></a>法一</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">#判断是否为一般字符串</span><br><span class="line"></span><br><span class="line">isinstance(s, str)</span><br><span class="line"></span><br><span class="line">#用来判断是否为unicode</span><br><span class="line"></span><br><span class="line">isinstance(s, unicode)</span><br></pre></td></tr></table></figure>
+<p>或</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">if type(str).__name__  != &quot;unicode&quot;:</span><br><span class="line">    str=unicode(str, &quot;utf-8&quot;)</span><br></pre></td></tr></table></figure>
+<h1 id="法二："><a href="#法二：" class="headerlink" title="法二："></a>法二：</h1><p>Python chardet 字符编码判断<br>使用 chardet 可以很方便的实现字符串/文件的编码检测。尤其是中文网页，有的页面使用GBK/GB2312，有的使用UTF8，如果你需要去爬一些页面，知道网页编码很重要的，虽然HTML页面有charset标签，但是有些时候是不对的。那么chardet就能帮我们大忙了。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">import urllib</span><br><span class="line"></span><br><span class="line">import chardet</span><br><span class="line">rawdata = urllib.urlopen(&apos;http://www.google.cn/&apos;).read()</span><br><span class="line">chardet.detect(rawdata)</span><br></pre></td></tr></table></figure></p>
+<p>Results:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">&#123;&apos;confidence&apos;: 0.98999999999999999, &apos;encoding&apos;: &apos;GB2312&apos;&#125;</span><br></pre></td></tr></table></figure>
+<p>chardet可以直接用detect函数来检测所给字符的编码。</p>
+<p>函数返回值为字典，有2个元数，一个是检测的可信度，另外一个就是检测到的编码。 </p>
+
           
         
       
@@ -705,7 +560,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://zzploveyou.github.io/2017/01/03/linux/rar-tar/">
+    <link itemprop="mainEntityOfPage" href="https://zzploveyou.github.io/2017/09/16/python/python-operator/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="ningning">
@@ -724,7 +579,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2017/01/03/linux/rar-tar/" itemprop="url">rar and tar</a></h1>
+                <a class="post-title-link" href="/2017/09/16/python/python-operator/" itemprop="url">python: operator</a></h1>
         
 
         <div class="post-meta">
@@ -737,156 +592,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-01-03T00:00:00+08:00">
-                2017-01-03
-              </time>
-            
-
-            
-              <span class="post-meta-divider">|</span>
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-check-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">更新于</span>
-              
-              <time title="更新于" itemprop="dateModified" datetime="2018-09-11T16:03:32+08:00">
-                2018-09-11
-              </time>
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-             <span id="/2017/01/03/linux/rar-tar/" class="leancloud_visitors" data-flag-title="rar and tar">
-               <span class="post-meta-divider">|</span>
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               
-                 <span class="post-meta-item-text">阅读次数 </span>
-               
-                 <span class="leancloud-visitors-count"></span>
-             </span>
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <p>rar，tar为linux上最常用的压缩解压打包工具。</p>
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2017/01/03/linux/rar-tar/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://zzploveyou.github.io/2017/01/03/python/python-pdf/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="ningning">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/doggod.png">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="zzp's blog">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2017/01/03/python/python-pdf/" itemprop="url">python生成pdf文件</a></h1>
-        
-
-        <div class="post-meta">
-            
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-01-03T00:00:00+08:00">
-                2017-01-03
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-09-16T00:00:00+08:00">
+                2017-09-16
               </time>
             
 
@@ -915,303 +622,7 @@
 
           
           
-             <span id="/2017/01/03/python/python-pdf/" class="leancloud_visitors" data-flag-title="python生成pdf文件">
-               <span class="post-meta-divider">|</span>
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               
-                 <span class="post-meta-item-text">阅读次数 </span>
-               
-                 <span class="leancloud-visitors-count"></span>
-             </span>
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <p>添加语句，添加图片，定义字体</p>
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2017/01/03/python/python-pdf/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://zzploveyou.github.io/2017/01/03/linux/devtodo/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="ningning">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/doggod.png">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="zzp's blog">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2017/01/03/linux/devtodo/" itemprop="url">Linux: todo</a></h1>
-        
-
-        <div class="post-meta">
-            
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-01-03T00:00:00+08:00">
-                2017-01-03
-              </time>
-            
-
-            
-              <span class="post-meta-divider">|</span>
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-check-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">更新于</span>
-              
-              <time title="更新于" itemprop="dateModified" datetime="2018-09-11T15:46:50+08:00">
-                2018-09-11
-              </time>
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-             <span id="/2017/01/03/linux/devtodo/" class="leancloud_visitors" data-flag-title="Linux: todo">
-               <span class="post-meta-divider">|</span>
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               
-                 <span class="post-meta-item-text">阅读次数 </span>
-               
-                 <span class="leancloud-visitors-count"></span>
-             </span>
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <h1 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt install devtodo</span><br></pre></td></tr></table></figure>
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2017/01/03/linux/devtodo/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://zzploveyou.github.io/2017/01/03/python/判断字符串内容类型/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="ningning">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/doggod.png">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="zzp's blog">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2017/01/03/python/判断字符串内容类型/" itemprop="url">python 判断字符串内容类型</a></h1>
-        
-
-        <div class="post-meta">
-            
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-01-03T00:00:00+08:00">
-                2017-01-03
-              </time>
-            
-
-            
-              <span class="post-meta-divider">|</span>
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-check-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">更新于</span>
-              
-              <time title="更新于" itemprop="dateModified" datetime="2018-09-11T15:22:37+08:00">
-                2018-09-11
-              </time>
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-             <span id="/2017/01/03/python/判断字符串内容类型/" class="leancloud_visitors" data-flag-title="python 判断字符串内容类型">
+             <span id="/2017/09/16/python/python-operator/" class="leancloud_visitors" data-flag-title="python: operator">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -1245,44 +656,925 @@
         
           
             <a id="more"></a>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line">#!/usr/bin/env python3</span><br><span class="line">&quot;&quot;&quot;</span><br><span class="line">This program lets you create a simple command line calculator without using</span><br><span class="line">the &apos;if..else&apos; construct. It uses built-in &apos;operator&apos; module to accomplish the</span><br><span class="line">same</span><br><span class="line"></span><br><span class="line">Created with help of an answer on stackoverflow. Don&apos;t have the exact link.</span><br><span class="line">&quot;&quot;&quot;</span><br><span class="line"></span><br><span class="line">import operator</span><br><span class="line">ops = &#123;</span><br><span class="line">    &quot;+&quot;: operator.add,</span><br><span class="line">    &quot;-&quot;: operator.sub,</span><br><span class="line">    &quot;/&quot;: operator.truediv,</span><br><span class="line">    &quot;*&quot;: operator.mul</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">x = input(&quot;Enter an operator [OPTIONS: +, -, *, /]: &quot;)</span><br><span class="line">y = int(input(&quot;Enter number: &quot;))</span><br><span class="line">z = int(input(&quot;Enter number: &quot;))</span><br><span class="line"></span><br><span class="line">print (ops[x](y, z))</span><br></pre></td></tr></table></figure>
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://zzploveyou.github.io/2017/05/24/python/set/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="ningning">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/doggod.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="zzp's blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2017/05/24/python/set/" itemprop="url">python: set</a></h1>
+        
+
+        <div class="post-meta">
+            
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-05-24T00:00:00+08:00">
+                2017-05-24
+              </time>
+            
+
+            
+              <span class="post-meta-divider">|</span>
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">更新于</span>
+              
+              <time title="更新于" itemprop="dateModified" datetime="2018-09-11T15:22:23+08:00">
+                2018-09-11
+              </time>
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/2017/05/24/python/set/" class="leancloud_visitors" data-flag-title="python: set">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数 </span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <a id="more"></a>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">&gt;&gt;&gt; x = set(&quot;jihite&quot;)</span><br><span class="line"></span><br><span class="line">&gt;&gt;&gt; y = set([&apos;d&apos;, &apos;i&apos;, &apos;m&apos;, &apos;i&apos;, &apos;t&apos;, &apos;e&apos;])</span><br><span class="line"></span><br><span class="line">&gt;&gt;&gt; x       #把字符串转化为set，去重了</span><br><span class="line"></span><br><span class="line">set([&apos;i&apos;, &apos;h&apos;, &apos;j&apos;, &apos;e&apos;, &apos;t&apos;])</span><br><span class="line"></span><br><span class="line">&gt;&gt;&gt; y</span><br><span class="line"></span><br><span class="line">set([&apos;i&apos;, &apos;e&apos;, &apos;m&apos;, &apos;d&apos;, &apos;t&apos;])</span><br><span class="line"></span><br><span class="line">&gt;&gt;&gt; x &amp; y   #交</span><br><span class="line"></span><br><span class="line">set([&apos;i&apos;, &apos;e&apos;, &apos;t&apos;])</span><br><span class="line"></span><br><span class="line">&gt;&gt;&gt; x | y   #并</span><br><span class="line"></span><br><span class="line">set([&apos;e&apos;, &apos;d&apos;, &apos;i&apos;, &apos;h&apos;, &apos;j&apos;, &apos;m&apos;, &apos;t&apos;])</span><br><span class="line"></span><br><span class="line">&gt;&gt;&gt; x - y   #差</span><br><span class="line"></span><br><span class="line">set([&apos;h&apos;, &apos;j&apos;])</span><br><span class="line"></span><br><span class="line">&gt;&gt;&gt; y - x</span><br><span class="line"></span><br><span class="line">set([&apos;m&apos;, &apos;d&apos;])</span><br><span class="line"></span><br><span class="line">&gt;&gt;&gt; x ^ y   #对称差：x和y的交集减去并集</span><br><span class="line"></span><br><span class="line">set([&apos;d&apos;, &apos;h&apos;, &apos;j&apos;, &apos;m&apos;])</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">&gt;&gt;&gt; x</span><br><span class="line"></span><br><span class="line">set([&apos;i&apos;, &apos;h&apos;, &apos;j&apos;, &apos;e&apos;, &apos;t&apos;])</span><br><span class="line"></span><br><span class="line">&gt;&gt;&gt; s = set(&quot;hi&quot;)</span><br><span class="line"></span><br><span class="line">&gt;&gt;&gt; s</span><br><span class="line"></span><br><span class="line">set([&apos;i&apos;, &apos;h&apos;])</span><br><span class="line"></span><br><span class="line">&gt;&gt;&gt; len(x)                    #长度</span><br><span class="line"></span><br><span class="line">&gt;&gt;&gt; &apos;i&apos; in x</span><br><span class="line"></span><br><span class="line">True</span><br><span class="line"></span><br><span class="line">&gt;&gt;&gt; s.issubset(x)             #s是否为x的子集</span><br><span class="line"></span><br><span class="line">True</span><br><span class="line"></span><br><span class="line">&gt;&gt;&gt; y</span><br><span class="line"></span><br><span class="line">set([&apos;i&apos;, &apos;e&apos;, &apos;m&apos;, &apos;d&apos;, &apos;t&apos;])</span><br><span class="line"></span><br><span class="line">&gt;&gt;&gt; x.union(y)                #交</span><br><span class="line"></span><br><span class="line">set([&apos;e&apos;, &apos;d&apos;, &apos;i&apos;, &apos;h&apos;, &apos;j&apos;, &apos;m&apos;, &apos;t&apos;])</span><br><span class="line"></span><br><span class="line">&gt;&gt;&gt; x.intersection(y)         #并</span><br><span class="line"></span><br><span class="line">set([&apos;i&apos;, &apos;e&apos;, &apos;t&apos;])</span><br><span class="line"></span><br><span class="line">&gt;&gt;&gt; x.difference(y)           #差</span><br><span class="line"></span><br><span class="line">set([&apos;h&apos;, &apos;j&apos;])</span><br><span class="line"></span><br><span class="line">&gt;&gt;&gt; x.symmetric_difference(y) #对称差</span><br><span class="line"></span><br><span class="line">set([&apos;d&apos;, &apos;h&apos;, &apos;j&apos;, &apos;m&apos;])</span><br><span class="line"></span><br><span class="line">&gt;&gt;&gt; s.update(x)               #更新s，加上x中的元素</span><br><span class="line"></span><br><span class="line">&gt;&gt;&gt; s</span><br><span class="line"></span><br><span class="line">set([&apos;e&apos;, &apos;t&apos;, &apos;i&apos;, &apos;h&apos;, &apos;j&apos;])</span><br><span class="line"></span><br><span class="line">&gt;&gt;&gt; s.add(1)                  #增加元素</span><br><span class="line"></span><br><span class="line">&gt;&gt;&gt; s</span><br><span class="line"></span><br><span class="line">set([1, &apos;e&apos;, &apos;t&apos;, &apos;i&apos;, &apos;h&apos;, &apos;j&apos;])</span><br><span class="line"></span><br><span class="line">&gt;&gt;&gt; s.remove(1)               #删除已有元素，如果没有会返回异常</span><br><span class="line"></span><br><span class="line">&gt;&gt;&gt; s</span><br><span class="line"></span><br><span class="line">set([&apos;e&apos;, &apos;t&apos;, &apos;i&apos;, &apos;h&apos;, &apos;j&apos;])</span><br><span class="line"></span><br><span class="line">&gt;&gt;&gt; s.remove(2)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">Traceback (most recent call last):</span><br><span class="line"></span><br><span class="line">  File &quot;&lt;pyshell#29&gt;&quot;, line 1, in &lt;module&gt;</span><br><span class="line"></span><br><span class="line">    s.remove(2)</span><br><span class="line"></span><br><span class="line">KeyError: 2</span><br><span class="line"></span><br><span class="line">&gt;&gt;&gt; s.discard(2)               #如果存在元素，就删除；没有不报异常</span><br><span class="line"></span><br><span class="line">&gt;&gt;&gt; s</span><br><span class="line"></span><br><span class="line">set([&apos;e&apos;, &apos;t&apos;, &apos;i&apos;, &apos;h&apos;, &apos;j&apos;])</span><br><span class="line"></span><br><span class="line">&gt;&gt;&gt; s.clear()                  #清除set</span><br><span class="line"></span><br><span class="line">&gt;&gt;&gt; s</span><br><span class="line"></span><br><span class="line">set([])</span><br><span class="line"></span><br><span class="line">&gt;&gt;&gt; x</span><br><span class="line"></span><br><span class="line">set([&apos;i&apos;, &apos;h&apos;, &apos;j&apos;, &apos;e&apos;, &apos;t&apos;])</span><br><span class="line"></span><br><span class="line">&gt;&gt;&gt; x.pop()                    #随机删除一元素</span><br><span class="line"></span><br><span class="line">&apos;i&apos;</span><br><span class="line"></span><br><span class="line">&gt;&gt;&gt; x</span><br><span class="line"></span><br><span class="line">set([&apos;h&apos;, &apos;j&apos;, &apos;e&apos;, &apos;t&apos;])</span><br><span class="line"></span><br><span class="line">&gt;&gt;&gt; x.pop()</span><br><span class="line"></span><br><span class="line">&apos;h&apos;</span><br></pre></td></tr></table></figure>
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://zzploveyou.github.io/2017/05/04/python/python-找出成对数中两个单独元素/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="ningning">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/doggod.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="zzp's blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2017/05/04/python/python-找出成对数中两个单独元素/" itemprop="url">除了两个异类元素，其余都是成对出现的，O(n)时间复杂度找出它俩</a></h1>
+        
+
+        <div class="post-meta">
+            
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-05-04T00:00:00+08:00">
+                2017-05-04
+              </time>
+            
+
+            
+              <span class="post-meta-divider">|</span>
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">更新于</span>
+              
+              <time title="更新于" itemprop="dateModified" datetime="2018-09-11T15:22:31+08:00">
+                2018-09-11
+              </time>
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/2017/05/04/python/python-找出成对数中两个单独元素/" class="leancloud_visitors" data-flag-title="除了两个异类元素，其余都是成对出现的，O(n)时间复杂度找出它俩">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数 </span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <a id="more"></a>
+<p>#按位与（AND）：处理两个长度相同的二进制数，两个相应的二进位都为1，该位的结果值才为1，否则为0</p>
+<p>0b1010 &amp; 0b1100</p>
+<p>8   #1000</p>
+<p>#按位或(OR): 按位或处理两个长度相同的二进制数，两个相应的二进位中只要有一个为1，该位的结果值为1</p>
+<p>0b1010 | 0b1100</p>
+<p>14  #1110</p>
+<p>#按位异或（XOR): 对等长二进制模式按位，或二进制数的每一位执行逻辑异按位或操作。操作的结果是如果某位不同则该位为1，否则该位为0</p>
+<p>0b1010 ^ 0b1100</p>
+<p>6   #0110</p>
+<p>#移位：将一个二进制数中的每一位全部都向一个方向移动指定位，溢出的部分将被舍弃，而空缺的部分填入一定的值。</p>
+<p>0b1010 &lt;&lt; 2</p>
+<p>40  #101000</p>
+<p>0b1010 &gt;&gt; 2</p>
+<p>2   #10</p>
+<p>#取反(NOT): 一元操作，对二进制每位执行逻辑反，1-&gt;0, 0-&gt;1, 值得注意的是此操作符与”逻辑非（!）”操作符不同</p>
+<p>~0b1010<br>-11 #10000000 00000000 00000000 00001011</p>
+<p>type(0b1010)</p>
+<type 'int'="">
+
+
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># coding:utf-8</span></span><br><span class="line"><span class="string">'''</span></span><br><span class="line"><span class="string">一个数组仅有两个不同的值是仅含一个的.</span></span><br><span class="line"><span class="string">其余值都是含两个的. 例如:[1, 1, 2, 2, 3, 4]</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">目标:</span></span><br><span class="line"><span class="string">    找出那两个异常值.</span></span><br><span class="line"><span class="string">要求:</span></span><br><span class="line"><span class="string">    算法复杂度O(n)</span></span><br><span class="line"><span class="string">    空间占用为常数,与n无关</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">为了不局限于比较对象,对hash值进行位操作.</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">'''</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">XOR</span><span class="params">(a)</span>:</span></span><br><span class="line">    <span class="string">"""</span></span><br><span class="line"><span class="string">    XOR of all elements of a.</span></span><br><span class="line"><span class="string">    """</span></span><br><span class="line">    xor = hash(a[<span class="number">0</span>])</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> a[<span class="number">1</span>:]:</span><br><span class="line">        xor ^= hash(i)</span><br><span class="line">    <span class="keyword">return</span> xor</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">find</span><span class="params">(a)</span>:</span></span><br><span class="line">    r = XOR(a)</span><br><span class="line">    pos = <span class="number">0</span></span><br><span class="line">    <span class="comment"># pos 为r的2进制形式下从左往右首位不是0的位置.</span></span><br><span class="line">    <span class="keyword">while</span> r &amp; <span class="number">1</span> == <span class="number">0</span>:</span><br><span class="line">        r = r&gt;&gt;<span class="number">1</span></span><br><span class="line">        pos += <span class="number">1</span></span><br><span class="line">    num1, num2 = <span class="keyword">None</span>, <span class="keyword">None</span></span><br><span class="line">    <span class="comment"># 将原数组按照二进制在pos位置是否为1分成两组</span></span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> a:</span><br><span class="line">        <span class="keyword">if</span> (hash(i) &gt;&gt; pos) &amp; <span class="number">1</span> == <span class="number">0</span>:</span><br><span class="line">            <span class="keyword">if</span> num1 != <span class="keyword">None</span>:</span><br><span class="line">                num1 ^= hash(i)</span><br><span class="line">            <span class="keyword">else</span>:</span><br><span class="line">                num1 = hash(i)</span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            <span class="keyword">if</span> num2 != <span class="keyword">None</span>:</span><br><span class="line">                num2 ^= hash(i)</span><br><span class="line">            <span class="keyword">else</span>:</span><br><span class="line">                num2 = hash(i)</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> a:</span><br><span class="line">        <span class="keyword">if</span> hash(i) == num1 <span class="keyword">or</span> hash(i) == num2:</span><br><span class="line">            <span class="keyword">yield</span> i</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">'__main__'</span>:</span><br><span class="line">    a = range(<span class="number">10</span>)*<span class="number">2</span> + [<span class="number">11</span>,<span class="number">12</span>]</span><br><span class="line">    print(a)</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> find(a):</span><br><span class="line">        print(i)</span><br><span class="line">    a = [<span class="string">'a'</span>, <span class="string">'a'</span>, <span class="string">'b'</span>, <span class="string">'b'</span>, <span class="string">'zsdf'</span>, <span class="string">'fdfe'</span>]</span><br><span class="line">    print(a)</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> find(a):</span><br><span class="line">        print(i)</span><br></pre></td></tr></table></figure>
+</type>
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://zzploveyou.github.io/2017/03/12/linux/mdcharm/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="ningning">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/doggod.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="zzp's blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2017/03/12/linux/mdcharm/" itemprop="url">mdcharm编辑器配置</a></h1>
+        
+
+        <div class="post-meta">
+            
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-03-12T00:00:00+08:00">
+                2017-03-12
+              </time>
+            
+
+            
+              <span class="post-meta-divider">|</span>
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">更新于</span>
+              
+              <time title="更新于" itemprop="dateModified" datetime="2018-09-12T17:36:27+08:00">
+                2018-09-12
+              </time>
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/2017/03/12/linux/mdcharm/" class="leancloud_visitors" data-flag-title="mdcharm编辑器配置">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数 </span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="mdcharm打开方式消失"><a href="#mdcharm打开方式消失" class="headerlink" title="mdcharm打开方式消失"></a>mdcharm打开方式消失</h1><p>解决方法：</p>
+<p>修改<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure></p>
+<p>Exec=/usr/bin/mdcharm %u<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"># 去掉启动打开历史记录的功能</span><br><span class="line"></span><br><span class="line">```bash</span><br><span class="line"># cd MdCharm config dir.</span><br><span class="line">cd ~/.config/MdCharm/</span><br><span class="line"></span><br><span class="line"># clear file history in session.xml.</span><br><span class="line">vi session.xml</span><br><span class="line"></span><br><span class="line"># -write </span><br><span class="line">chmod -w session.xml</span><br></pre></td></tr></table></figure></p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://zzploveyou.github.io/2017/01/12/linux/check_if_it_is_ssh_process/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="ningning">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/doggod.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="zzp's blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2017/01/12/linux/check_if_it_is_ssh_process/" itemprop="url">linux确认进程运行环境是否为ssh远程连接</a></h1>
+        
+
+        <div class="post-meta">
+            
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-01-12T00:00:00+08:00">
+                2017-01-12
+              </time>
+            
+
+            
+              <span class="post-meta-divider">|</span>
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">更新于</span>
+              
+              <time title="更新于" itemprop="dateModified" datetime="2018-09-12T13:33:32+08:00">
+                2018-09-12
+              </time>
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/2017/01/12/linux/check_if_it_is_ssh_process/" class="leancloud_visitors" data-flag-title="linux确认进程运行环境是否为ssh远程连接">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数 </span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="check-if-this-command-coming-from-sshd"><a href="#check-if-this-command-coming-from-sshd" class="headerlink" title="check if this command coming from sshd."></a>check if this command coming from sshd.</h1><h2 id="process"><a href="#process" class="headerlink" title="process"></a>process</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cat /proc/$PPID/status | head -1 | cut -f2</span><br></pre></td></tr></table></figure>
+<h2 id="SSH-environment-variable"><a href="#SSH-environment-variable" class="headerlink" title="SSH environment variable"></a>SSH environment variable</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">echo $SSH_CLIENT</span><br><span class="line">echo $SSH_CONNECTION</span><br><span class="line"># ubuntu desktop: they are not existed</span><br></pre></td></tr></table></figure>
+<h2 id="who-am-i"><a href="#who-am-i" class="headerlink" title="who am i"></a>who am i</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">who am i</span><br></pre></td></tr></table></figure>
+<h2 id="graphic-environ"><a href="#graphic-environ" class="headerlink" title="graphic environ"></a>graphic environ</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">echo $DISPLAY</span><br><span class="line"># ssh : None</span><br><span class="line"># ubuntu desktop: &quot;:0&quot;</span><br></pre></td></tr></table></figure>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://zzploveyou.github.io/2017/01/04/linux/shadowsocks-proxy/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="ningning">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/doggod.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="zzp's blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2017/01/04/linux/shadowsocks-proxy/" itemprop="url">shadowsocks配置，运行</a></h1>
+        
+
+        <div class="post-meta">
+            
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-01-04T00:00:00+08:00">
+                2017-01-04
+              </time>
+            
+
+            
+              <span class="post-meta-divider">|</span>
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">更新于</span>
+              
+              <time title="更新于" itemprop="dateModified" datetime="2018-09-11T16:54:22+08:00">
+                2018-09-11
+              </time>
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/2017/01/04/linux/shadowsocks-proxy/" class="leancloud_visitors" data-flag-title="shadowsocks配置，运行">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数 </span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <p><a href="https://github.com/shadowsocks/shadowsocks/wiki" target="_blank" rel="noopener">Home · shadowsocks/shadowsocks Wiki</a></p>
+<p>sudo pip install shadowsocks</p>
+<p>在远程服务器上：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">后台运行ss：</span><br><span class="line">sudo ssserver -p 14321 -k your_password -d start</span><br><span class="line"></span><br><span class="line">停止：</span><br><span class="line">sudo ssserver -d stop</span><br><span class="line"></span><br><span class="line">检查日志：</span><br><span class="line">sudo less /var/log/shadowsocks.log</span><br></pre></td></tr></table></figure></p>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2017/01/04/linux/shadowsocks-proxy/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://zzploveyou.github.io/2017/01/04/python/python-struct-binary-data/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="ningning">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/doggod.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="zzp's blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2017/01/04/python/python-struct-binary-data/" itemprop="url">python: struct模块处理二进制数据</a></h1>
+        
+
+        <div class="post-meta">
+            
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-01-04T00:00:00+08:00">
+                2017-01-04
+              </time>
+            
+
+            
+              <span class="post-meta-divider">|</span>
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">更新于</span>
+              
+              <time title="更新于" itemprop="dateModified" datetime="2018-09-11T15:22:26+08:00">
+                2018-09-11
+              </time>
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/2017/01/04/python/python-struct-binary-data/" class="leancloud_visitors" data-flag-title="python: struct模块处理二进制数据">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数 </span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <a id="more"></a>
+<p>struct模块中最重要的三个函数是pack(), unpack(), calcsize()</p>
+<p>#pack(fmt, v1, v2, …)<br> 按照给定的格式(fmt)，把数据封装成字符串(实际上是类似于c结构体的字节流)</p>
+<p>#unpack(fmt, string)<br>按照给定的格式(fmt)解析字节流string，返回解析出来的tuple</p>
+<p>#calcsize(fmt)<br>计算给定的格式(fmt)占用多少字节的内存</p>
+<p>struct中支持的格式如下表：</p>
 <table>
 <thead>
 <tr>
-<th style="text-align:center">字符串函数</th>
-<th style="text-align:center">返回True的情况</th>
+<th style="text-align:center">Format</th>
+<th style="text-align:center">C Type</th>
+<th style="text-align:center">Python</th>
+<th style="text-align:center">字节数</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align:center">s.isalnum</td>
-<td style="text-align:center">只含字母数字且非空</td>
-</tr>
-<tr>
-<td style="text-align:center">s.isalpha</td>
-<td style="text-align:center">只含有字母且非空</td>
-</tr>
-<tr>
-<td style="text-align:center">s.isdigit</td>
-<td style="text-align:center">只含有数字且非空</td>
-</tr>
-<tr>
-<td style="text-align:center">s.islower</td>
-<td style="text-align:center">没有大写字母且非空</td>
-</tr>
-<tr>
-<td style="text-align:center">s.isupper</td>
-<td style="text-align:center">没有小写字母且非空</td>
-</tr>
-<tr>
-<td style="text-align:center">s.isspace</td>
-<td style="text-align:center">只含有空白字符且非空</td>
-</tr>
-<tr>
-<td style="text-align:center">s.istitle</td>
-<td style="text-align:center">每个英文单词首字母都大写且非空</td>
+<td style="text-align:center"></td>
 </tr>
 </tbody>
 </table>
+<p>x|pad byte|no value|1<br>c|char|string of length 1|1<br>b|signed char|integer|1<br>B|unsigned char|integer|1<br>?|_Bool|bool|1<br>h|short|integer|2<br>H|unsigned short|integer|2<br>i|int|integer|4<br>I|unsigned int|integer or long|4<br>l|long|integer|4<br>L|unsigned long|long|4<br>q|long long|long|8<br>Q|unsigned long long|long|8<br>f|float|float|4<br>d|double|float|8<br>s|char[]|string|1<br>p|char[]|string|1<br>P|void *|long|</p>
 
           
         
@@ -1331,7 +1623,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://zzploveyou.github.io/2017/01/03/ai/sklearn-kmeans/">
+    <link itemprop="mainEntityOfPage" href="https://zzploveyou.github.io/2017/01/04/linux/ubuntu-config/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="ningning">
@@ -1350,7 +1642,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2017/01/03/ai/sklearn-kmeans/" itemprop="url">sklearn: kmeans</a></h1>
+                <a class="post-title-link" href="/2017/01/04/linux/ubuntu-config/" itemprop="url">ubuntu配置初始化</a></h1>
         
 
         <div class="post-meta">
@@ -1363,8 +1655,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-01-03T00:00:00+08:00">
-                2017-01-03
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-01-04T00:00:00+08:00">
+                2017-01-04
               </time>
             
 
@@ -1379,8 +1671,8 @@
               
                 <span class="post-meta-item-text">更新于</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2018-09-11T15:18:30+08:00">
-                2018-09-11
+              <time title="更新于" itemprop="dateModified" datetime="2018-09-12T17:39:43+08:00">
+                2018-09-12
               </time>
             
           </span>
@@ -1393,7 +1685,7 @@
 
           
           
-             <span id="/2017/01/03/ai/sklearn-kmeans/" class="leancloud_visitors" data-flag-title="sklearn: kmeans">
+             <span id="/2017/01/04/linux/ubuntu-config/" class="leancloud_visitors" data-flag-title="ubuntu配置初始化">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -1425,305 +1717,15 @@
 
       
         
-          
-            <a id="more"></a>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br></pre></td><td class="code"><pre><span class="line"># -*- coding: utf-8 -*-</span><br><span class="line">from sklearn.cluster import KMeans</span><br><span class="line">from sklearn.externals import joblib</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">final = open(&apos;c:/test/final.dat&apos; , &apos;r&apos;)</span><br><span class="line"></span><br><span class="line">data = [line.strip().split(&apos;\t&apos;) for line in final]</span><br><span class="line">feature = [[float(x) for x in row[3:]] for row in data]</span><br><span class="line"></span><br><span class="line">#调用kmeans类</span><br><span class="line">clf = KMeans(n_clusters=9)</span><br><span class="line">s = clf.fit(feature)</span><br><span class="line">print s</span><br><span class="line"></span><br><span class="line">#9个中心</span><br><span class="line">print clf.cluster_centers_</span><br><span class="line"></span><br><span class="line">#每个样本所属的簇</span><br><span class="line">print clf.labels_</span><br><span class="line"></span><br><span class="line">#用来评估簇的个数是否合适，距离越小说明簇分的越好，选取临界点的簇个数</span><br><span class="line">print clf.inertia_</span><br><span class="line"></span><br><span class="line">#进行预测</span><br><span class="line">print clf.predict(feature)</span><br><span class="line"></span><br><span class="line">#保存模型</span><br><span class="line">joblib.dump(clf , &apos;c:/km.pkl&apos;)</span><br><span class="line"></span><br><span class="line">#载入保存的模型</span><br><span class="line">clf = joblib.load(&apos;c:/km.pkl&apos;)</span><br><span class="line"></span><br><span class="line">&apos;&apos;&apos;</span><br><span class="line">#用来评估簇的个数是否合适，距离越小说明簇分的越好，选取临界点的簇个数</span><br><span class="line">for i in range(5,30,1):</span><br><span class="line">    clf = KMeans(n_clusters=i)</span><br><span class="line">    s = clf.fit(feature)</span><br><span class="line">    print i , clf.inertia_</span><br><span class="line">&apos;&apos;&apos;</span><br></pre></td></tr></table></figure>
-<p>来源：<a href="http://blog.itpub.net/12199764/viewspace-1479320/" target="_blank" rel="noopener">http://blog.itpub.net/12199764/viewspace-1479320/</a></p>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://zzploveyou.github.io/2017/01/03/python/python-qrcode/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="ningning">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/doggod.png">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="zzp's blog">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2017/01/03/python/python-qrcode/" itemprop="url">python qrcode 二维码</a></h1>
-        
-
-        <div class="post-meta">
-            
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-01-03T00:00:00+08:00">
-                2017-01-03
-              </time>
-            
-
-            
-              <span class="post-meta-divider">|</span>
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-check-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">更新于</span>
-              
-              <time title="更新于" itemprop="dateModified" datetime="2018-09-11T15:22:27+08:00">
-                2018-09-11
-              </time>
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-             <span id="/2017/01/03/python/python-qrcode/" class="leancloud_visitors" data-flag-title="python qrcode 二维码">
-               <span class="post-meta-divider">|</span>
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               
-                 <span class="post-meta-item-text">阅读次数 </span>
-               
-                 <span class="leancloud-visitors-count"></span>
-             </span>
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <p>用qrcode包做的生成字符串的二维码的脚本</p>
-<p>ps: ubuntu下有个可以终端显示二维码像素点的软件：qrencode</p>
+          <h1 id="fcitx-输入法"><a href="#fcitx-输入法" class="headerlink" title="fcitx 输入法"></a>fcitx 输入法</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install fcitx fcitx-config-gtk fcitx-sunpinyin fcitx-googlepinyin fcitx-module-cloudpinyin im-config</span><br><span class="line">sudo im-config -s fcitx -z default</span><br></pre></td></tr></table></figure>
+<h1 id="取消默认文件夹设置"><a href="#取消默认文件夹设置" class="headerlink" title="取消默认文件夹设置"></a>取消默认文件夹设置</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"># ~/.config/user-dirs.dirs</span><br><span class="line">xdg-user-dirs-update --set DESKTOP $HOME/</span><br><span class="line">xdg-user-dirs-update --set DOWNLOAD $HOME/</span><br><span class="line">xdg-user-dirs-update --set TEMPLATES $HOME/</span><br><span class="line">xdg-user-dirs-update --set PUBLICSHARE $HOME/</span><br><span class="line">xdg-user-dirs-update --set DOCUMENTS $HOME/</span><br><span class="line">xdg-user-dirs-update --set MUSIC $HOME/</span><br><span class="line">xdg-user-dirs-update --set PICTURES $HOME/</span><br><span class="line">xdg-user-dirs-update --set VIDEOS $HOME/</span><br></pre></td></tr></table></figure>
           <!--noindex-->
           <div class="post-button text-center">
-            <a class="btn" href="/2017/01/03/python/python-qrcode/#more" rel="contents">
+            <a class="btn" href="/2017/01/04/linux/ubuntu-config/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
           <!--/noindex-->
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://zzploveyou.github.io/2016/11/12/python/正则表达式判断素数/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="ningning">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/doggod.png">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="zzp's blog">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2016/11/12/python/正则表达式判断素数/" itemprop="url">正则表达式判断是否为素数</a></h1>
-        
-
-        <div class="post-meta">
-            
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2016-11-12T00:00:00+08:00">
-                2016-11-12
-              </time>
-            
-
-            
-              <span class="post-meta-divider">|</span>
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-check-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">更新于</span>
-              
-              <time title="更新于" itemprop="dateModified" datetime="2018-09-11T15:22:36+08:00">
-                2018-09-11
-              </time>
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-             <span id="/2016/11/12/python/正则表达式判断素数/" class="leancloud_visitors" data-flag-title="正则表达式判断是否为素数">
-               <span class="post-meta-divider">|</span>
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               
-                 <span class="post-meta-item-text">阅读次数 </span>
-               
-                 <span class="leancloud-visitors-count"></span>
-             </span>
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <a id="more"></a>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"># coding:utf-8</span><br><span class="line"></span><br><span class="line">&apos;&apos;&apos;</span><br><span class="line">Author       :  ZZP</span><br><span class="line">Mail         :  zhangzhaopeng@mail.nankai.edu.cn</span><br><span class="line">Created Time :  2016-11-12 19:30:37</span><br><span class="line"></span><br><span class="line">Description  :</span><br><span class="line"></span><br><span class="line">&apos;&apos;&apos;</span><br><span class="line"></span><br><span class="line">import re</span><br><span class="line">def is_prime(num):</span><br><span class="line">    return not re.match(r&quot;^X$|^(XX+?)\1+$&quot;, &apos;X&apos; * num)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">if __name__ == &apos;__main__&apos;:</span><br><span class="line">    for i in range(1,20):</span><br><span class="line">        print &apos;%s -- is_prime: %s&apos; %(i, is_prime(i))</span><br></pre></td></tr></table></figure>
-          
         
       
     </div>
@@ -1761,7 +1763,7 @@
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/4/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/4/">4</a><span class="page-number current">5</span><a class="page-number" href="/page/6/">6</a><a class="extend next" rel="next" href="/page/6/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" href="/page/4/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/4/">4</a><span class="page-number current">5</span><a class="page-number" href="/page/6/">6</a><a class="page-number" href="/page/7/">7</a><a class="extend next" rel="next" href="/page/6/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 
@@ -1807,7 +1809,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives/">
-                <span class="site-state-item-count">52</span>
+                <span class="site-state-item-count">62</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
@@ -1820,7 +1822,7 @@
             
             <div class="site-state-item site-state-tags">
               <a href="/tags/index.html">
-                <span class="site-state-item-count">23</span>
+                <span class="site-state-item-count">28</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>

@@ -258,7 +258,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://zzploveyou.github.io/2018/09/08/hexo-scripts/">
+    <link itemprop="mainEntityOfPage" href="https://zzploveyou.github.io/2018/09/08/tricks/hexo-scripts/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="ningning">
@@ -277,7 +277,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2018/09/08/hexo-scripts/" itemprop="url">hexo-scripts</a></h1>
+                <a class="post-title-link" href="/2018/09/08/tricks/hexo-scripts/" itemprop="url">hexo-scripts</a></h1>
         
 
         <div class="post-meta">
@@ -324,7 +324,7 @@
 
           
           
-             <span id="/2018/09/08/hexo-scripts/" class="leancloud_visitors" data-flag-title="hexo-scripts">
+             <span id="/2018/09/08/tricks/hexo-scripts/" class="leancloud_visitors" data-flag-title="hexo-scripts">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -364,7 +364,7 @@
 </ul>
           <!--noindex-->
           <div class="post-button text-center">
-            <a class="btn" href="/2018/09/08/hexo-scripts/#more" rel="contents">
+            <a class="btn" href="/2018/09/08/tricks/hexo-scripts/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
@@ -415,7 +415,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://zzploveyou.github.io/2018/09/12/github-gist-sync-settings/">
+    <link itemprop="mainEntityOfPage" href="https://zzploveyou.github.io/2018/09/12/linux/efficient-tools/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="ningning">
@@ -434,7 +434,190 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2018/09/12/github-gist-sync-settings/" itemprop="url">gist id of atom and vscode settings</a></h1>
+                <a class="post-title-link" href="/2018/09/12/linux/efficient-tools/" itemprop="url">linux tools</a></h1>
+        
+
+        <div class="post-meta">
+            
+            <i class="fa fa-thumb-tack"></i>
+            <font color=7D26CD>置顶</font>
+            <span class="post-meta-divider">|</span>
+            
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-09-12T00:00:00+08:00">
+                2018-09-12
+              </time>
+            
+
+            
+              <span class="post-meta-divider">|</span>
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">更新于</span>
+              
+              <time title="更新于" itemprop="dateModified" datetime="2018-09-12T17:34:10+08:00">
+                2018-09-12
+              </time>
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/2018/09/12/linux/efficient-tools/" class="leancloud_visitors" data-flag-title="linux tools">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数 </span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <h1 id="trash-cli"><a href="#trash-cli" class="headerlink" title="trash-cli"></a>trash-cli</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt install trash-cli</span><br></pre></td></tr></table></figure>
+<h2 id="Usage"><a href="#Usage" class="headerlink" title="Usage"></a>Usage</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#alias rm!="/bin/rm -vi"</span></span><br><span class="line"><span class="comment">#alias rm=trash</span></span><br><span class="line"><span class="built_in">alias</span>  t=trash</span><br><span class="line"><span class="built_in">alias</span> lt=trash-list</span><br><span class="line"><span class="built_in">alias</span> rt=restore-trash</span><br><span class="line"><span class="built_in">alias</span> et=trash-empty</span><br></pre></td></tr></table></figure>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">命令</th>
+<th style="text-align:center">用途</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">trash-put/trash</td>
+<td style="text-align:center">文件或目录移入回收站</td>
+</tr>
+<tr>
+<td style="text-align:center">trash-empty</td>
+<td style="text-align:center">清空回收站</td>
+</tr>
+<tr>
+<td style="text-align:center">trash-list</td>
+<td style="text-align:center">列出回收站中的文件</td>
+</tr>
+<tr>
+<td style="text-align:center">restore-trash</td>
+<td style="text-align:center">还原回收站中的文件</td>
+</tr>
+<tr>
+<td style="text-align:center">trash-rm</td>
+<td style="text-align:center">删除回收站中的单个文件</td>
+</tr>
+</tbody>
+</table>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/09/12/linux/efficient-tools/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://zzploveyou.github.io/2018/09/12/linux/github-gist-sync-settings/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="ningning">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/doggod.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="zzp's blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/09/12/linux/github-gist-sync-settings/" itemprop="url">gist id of atom and vscode settings</a></h1>
         
 
         <div class="post-meta">
@@ -481,7 +664,7 @@
 
           
           
-             <span id="/2018/09/12/github-gist-sync-settings/" class="leancloud_visitors" data-flag-title="gist id of atom and vscode settings">
+             <span id="/2018/09/12/linux/github-gist-sync-settings/" class="leancloud_visitors" data-flag-title="gist id of atom and vscode settings">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -516,7 +699,7 @@
           The article has been encrypted, please enter your password to view.<br>
           <!--noindex-->
           <div class="post-button text-center">
-            <a class="btn" href="/2018/09/12/github-gist-sync-settings/#more" rel="contents">
+            <a class="btn" href="/2018/09/12/linux/github-gist-sync-settings/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
@@ -1353,7 +1536,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://zzploveyou.github.io/2018/06/19/bashlog/">
+    <link itemprop="mainEntityOfPage" href="https://zzploveyou.github.io/2018/09/03/linux/FRP/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="ningning">
@@ -1372,7 +1555,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2018/06/19/bashlog/" itemprop="url">linux bash colorful log.</a></h1>
+                <a class="post-title-link" href="/2018/09/03/linux/FRP/" itemprop="url">内网穿透FRP使用方法</a></h1>
         
 
         <div class="post-meta">
@@ -1385,8 +1568,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-06-19T00:00:00+08:00">
-                2018-06-19
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-09-03T00:00:00+08:00">
+                2018-09-03
               </time>
             
 
@@ -1401,7 +1584,7 @@
               
                 <span class="post-meta-item-text">更新于</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2018-09-12T09:43:46+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2018-09-12T17:12:58+08:00">
                 2018-09-12
               </time>
             
@@ -1415,7 +1598,7 @@
 
           
           
-             <span id="/2018/06/19/bashlog/" class="leancloud_visitors" data-flag-title="linux bash colorful log.">
+             <span id="/2018/09/03/linux/FRP/" class="leancloud_visitors" data-flag-title="内网穿透FRP使用方法">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -1447,9 +1630,17 @@
 
       
         
-          
-            <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#!/bin/bash</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Check for root</span></span><br><span class="line"><span class="keyword">if</span> [[ <span class="string">"<span class="variable">$(id -u)</span>"</span> == <span class="string">"0"</span> ]]</span><br><span class="line"><span class="keyword">then</span></span><br><span class="line">  <span class="built_in">echo</span> <span class="string">"<span class="variable">$fail</span> Do not run this script as root."</span></span><br><span class="line">  <span class="built_in">exit</span> 1</span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"></span><br><span class="line">disableColor=<span class="string">""</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> [[ <span class="variable">$disableColor</span> == <span class="string">""</span> ]] || [[ <span class="variable">$disableColor</span> == <span class="literal">false</span> ]]</span><br><span class="line"><span class="keyword">then</span></span><br><span class="line">  fail=<span class="string">"[<span class="variable">$(tput setaf 1)</span> FAIL <span class="variable">$(tput sgr0)</span>]"</span></span><br><span class="line">  ok=<span class="string">"[<span class="variable">$(tput setaf 2)</span>  OK  <span class="variable">$(tput sgr0)</span>]"</span></span><br><span class="line">  running=<span class="string">"[<span class="variable">$(tput setaf 3)</span>  **  <span class="variable">$(tput sgr0)</span>]"</span></span><br><span class="line">  notice=<span class="string">"[<span class="variable">$(tput setaf 3)</span>NOTICE<span class="variable">$(tput sgr0)</span>]"</span></span><br><span class="line">  warn=<span class="string">"[<span class="variable">$(tput setaf 3)</span> WARN <span class="variable">$(tput sgr0)</span>]"</span></span><br><span class="line">  info=<span class="string">"[<span class="variable">$(tput setaf 6)</span> INFO <span class="variable">$(tput sgr0)</span>]"</span></span><br><span class="line">  finish=<span class="string">"[<span class="variable">$(tput setaf 4)</span> DONE <span class="variable">$(tput sgr0)</span>]"</span></span><br><span class="line"><span class="keyword">elif</span> [[ <span class="variable">$disableColor</span> == <span class="literal">true</span> ]]</span><br><span class="line"><span class="keyword">then</span></span><br><span class="line">  fail=<span class="string">"[ FAIL ]"</span></span><br><span class="line">  ok=<span class="string">"[  OK  ]"</span></span><br><span class="line">  running=<span class="string">"[  **  ]"</span></span><br><span class="line">  notice=<span class="string">"[NOTICE]"</span></span><br><span class="line">  warn=<span class="string">"[ WARN ]"</span></span><br><span class="line">  info=<span class="string">"[ INFO ]"</span></span><br><span class="line">  finish=<span class="string">"[ DONE ]"</span></span><br><span class="line"><span class="keyword">else</span></span><br><span class="line">  <span class="built_in">echo</span> <span class="string">"Unknown disableColor setting."</span></span><br><span class="line">  <span class="built_in">exit</span> 1</span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span> <span class="string">"<span class="variable">$fail</span> this is fail."</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">"<span class="variable">$ok</span> this is OK."</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">"<span class="variable">$running</span> this is running."</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">"<span class="variable">$notice</span> this is notice."</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">"<span class="variable">$warn</span> this is warn."</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">"<span class="variable">$info</span> this is info."</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">"<span class="variable">$finish</span> this is finish."</span></span><br></pre></td></tr></table></figure>
-          
+          <p><a href="https://github.com/fatedier/frp/blob/master/README_zh.md" target="_blank" rel="noopener">frp/README_zh.md at master · fatedier/frp</a></p>
+<h1 id="公网服务器server端"><a href="#公网服务器server端" class="headerlink" title="公网服务器server端"></a>公网服务器server端</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./frps -c ./frps.ini</span><br></pre></td></tr></table></figure>
+<p><strong>frps.ini</strong></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># frps.ini</span></span><br><span class="line">[common]</span><br><span class="line">bind_port = 7000</span><br><span class="line">vhost_http_port = 8080</span><br></pre></td></tr></table></figure>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/09/03/linux/FRP/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -1496,7 +1687,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://zzploveyou.github.io/2018/06/10/ai/music-recommendation/">
+    <link itemprop="mainEntityOfPage" href="https://zzploveyou.github.io/2018/08/22/linux/download-folder-from-github-repo/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="ningning">
@@ -1515,7 +1706,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2018/06/10/ai/music-recommendation/" itemprop="url">music-recommendation</a></h1>
+                <a class="post-title-link" href="/2018/08/22/linux/download-folder-from-github-repo/" itemprop="url">下载github repo的子文件夹</a></h1>
         
 
         <div class="post-meta">
@@ -1528,8 +1719,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-06-10T14:50:59+08:00">
-                2018-06-10
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-08-22T00:00:00+08:00">
+                2018-08-22
               </time>
             
 
@@ -1544,8 +1735,8 @@
               
                 <span class="post-meta-item-text">更新于</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2018-09-10T14:53:45+08:00">
-                2018-09-10
+              <time title="更新于" itemprop="dateModified" datetime="2018-09-12T17:19:16+08:00">
+                2018-09-12
               </time>
             
           </span>
@@ -1558,7 +1749,7 @@
 
           
           
-             <span id="/2018/06/10/ai/music-recommendation/" class="leancloud_visitors" data-flag-title="music-recommendation">
+             <span id="/2018/08/22/linux/download-folder-from-github-repo/" class="leancloud_visitors" data-flag-title="下载github repo的子文件夹">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -1591,164 +1782,10 @@
       
         
           
-            <p>sklearn CCA python</p>
-<p><a href="http://scikit-learn.org/stable/modules/generated/sklearn.cross_decomposition.CCA.html" target="_blank" rel="noopener">http://scikit-learn.org/stable/modules/generated/sklearn.cross_decomposition.CCA.html</a></p>
-<p>跨平台的音乐推荐算法</p>
-<p><a href="http://media.people.com.cn/n1/2017/0113/c409702-29021998-2.html" target="_blank" rel="noopener">http://media.people.com.cn/n1/2017/0113/c409702-29021998-2.html</a></p>
-<p>openSMILE音频情感分析</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./SMILExtract -C config/paraling\ IS10.conf -I example-audio/opensmile.wav -O opensmile.csv</span><br></pre></td></tr></table></figure>
-<p>特征结果存放在最后一行～</p>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://zzploveyou.github.io/2018/06/05/linux/screen简要命令/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="ningning">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/doggod.png">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="zzp's blog">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/06/05/linux/screen简要命令/" itemprop="url">screen命令</a></h1>
-        
-
-        <div class="post-meta">
-            
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-06-05T00:00:00+08:00">
-                2018-06-05
-              </time>
-            
-
-            
-              <span class="post-meta-divider">|</span>
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-check-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">更新于</span>
-              
-              <time title="更新于" itemprop="dateModified" datetime="2018-09-11T17:35:51+08:00">
-                2018-09-11
-              </time>
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-             <span id="/2018/06/05/linux/screen简要命令/" class="leancloud_visitors" data-flag-title="screen命令">
-               <span class="post-meta-divider">|</span>
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               
-                 <span class="post-meta-item-text">阅读次数 </span>
-               
-                 <span class="leancloud-visitors-count"></span>
-             </span>
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>##1. 进入screen，<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">screen</span><br></pre></td></tr></table></figure></p>
-<p>##2.  列出所有id的session<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">screen - ls</span><br></pre></td></tr></table></figure></p>
-<p>##3. 切换到某id的session<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">screen -r (id)</span><br></pre></td></tr></table></figure></p>
-<p>##4. 新建某id的session<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">screen -S id</span><br></pre></td></tr></table></figure></p>
-<p>##5. 杀死某个id的session<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">screen -S id -X quit</span><br></pre></td></tr></table></figure></p>
-<p>##6. 切换出screen<br>    ctrl+a+d</p>
-<p>##7. 切换到下一个id的session<br>    ctrl+a+n</p>
-<h2 id="改session名字"><a href="#改session名字" class="headerlink" title="改session名字"></a>改session名字</h2><p>ctrl+A<br>:sessionname newname</p>
+            <p><a href="https://github.com/tensorflow/models/tree/master/research/inception" target="_blank" rel="noopener">https://github.com/tensorflow/models/tree/master/research/inception</a></p>
+<p><a href="https://github.com/tensorflow/models/trunk/research/inception" target="_blank" rel="noopener">https://github.com/tensorflow/models/trunk/research/inception</a></p>
+<p>replace<br>“tree/master” with “trunk”</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">svn checkout https://github.com/tensorflow/models/trunk/research/inception</span><br></pre></td></tr></table></figure>
 
           
         
@@ -1788,7 +1825,7 @@
 
   
   <nav class="pagination">
-    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><span class="space">&hellip;</span><a class="page-number" href="/page/6/">6</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-angle-right"></i></a>
+    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><span class="space">&hellip;</span><a class="page-number" href="/page/7/">7</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 
@@ -1834,7 +1871,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives/">
-                <span class="site-state-item-count">52</span>
+                <span class="site-state-item-count">62</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
@@ -1847,7 +1884,7 @@
             
             <div class="site-state-item site-state-tags">
               <a href="/tags/index.html">
-                <span class="site-state-item-count">23</span>
+                <span class="site-state-item-count">28</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
