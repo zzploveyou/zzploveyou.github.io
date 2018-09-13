@@ -5,15 +5,15 @@
     <url>%2F2018%2F09%2F12%2Flinux%2Fefficient-tools%2F</url>
     <content type="text"><![CDATA[trash-cli1sudo apt install trash-cli Usage123456#alias rm!="/bin/rm -vi"#alias rm=trashalias t=trashalias lt=trash-listalias rt=restore-trashalias et=trash-empty 命令 用途 trash-put/trash 文件或目录移入回收站 trash-empty 清空回收站 trash-list 列出回收站中的文件 restore-trash 还原回收站中的文件 trash-rm 删除回收站中的单个文件 递归搜索文件内容-agggreer/the_silver_searcher: A code-searching tool similar to ack, but faster. 123sudo apt install silversearcher-agag def lib/ 字符模式下交互查看git项目-tigjonas/tig: Text-mode interface for git mysql客户端-mycli类似于ipython的mysql客户端，支持语法高亮和命令补全 C++手册查询-cppman1cppman std::thread 多线程下载工具axel1axel -n 20 URL 终端会话录制-script/scriptreplay12345script -t 2&gt;time.txt session.typescript# your commandexitscriptreplay -t time.txt session.typescript 媒体下载工具 you-getyoutube, google+, 优酷，腾讯视频，秒拍等12# socks5(pip install pysocks)you-get &apos;https://www.youtube.com/watch?v=jNQXAC9IVRw&apos; -s 127.0.0.1:12345 网络流量分析 iptraf-ng123sudo apt install iptrafiptraf-ng w实时网速查看 bwm-ng1sudo apt install bwm-ng terminal录屏 asciinema查询天气1234curl wttr.in/:helpcurl "wttr.in/Beijing?lang=zh"curl "wttr.in/Beijing?pq&amp;lang=zh"curl "wttr.in/Beijing?0pq&amp;lang=zh" sudoku1sudoku cmatrix12cmatrix figlet — 字符串在终端上显示1figlet i love you xdotool — 控制鼠标点击123456789101112131415161718显示鼠标当前位置xdotool getmouselocationxdotool mousemove x yxdotool click 1xdotool click 2xdotool click 3xdotool key ctrl +1xdotool click --repeat 10 --delay 500 1间隔0.5s一次，重复10次左键 qrencode –字符串转为终端像素点二维码nitrogen – 多显示屏设置不同壁纸1: install dconf-editor and nitrogen 1234sudo apt-get install dconf-editorsudo apt-get install nitrogen 2: Open dconf-editor 3: In dconf-editor, explore to /org/gnome/desktop/background/ 4: Unmark the show-desktop-icons option. 5: Open nitrogen 这样之后桌面文件夹不显示 xeyesfortune名句 fortune-zh唐诗 cowsay123456789101112cowsay -l查看所有动物/usr/share/cowsay/cows/*cowsay -f turtle指定动物fortune-zh | cowsay -f turtle动物说话 equalxlatex公式编辑器1sudo apt install equalx ffmpeg1ffmpeg -i '123.avi' -ac 2 -b:v 2000k -c:a aac -c:v libx264 -b:a 160k -vprofile high -bf 0 -strict experimental -f mp4 '123.mp4' 12-b:v 2000k-b:v 1000k 文件清晰度，大小 convmv更改文件名编码方式的一个工具 1convmv -f gbk -t utf-8 -r –-notest /home 就是将/home目录下原来文件名是gbk编码方式的全部改为utf-8格式的。这里 -f 后面为原来的编码方式，-t 后面是要更改为的编码方式， 12-r 表示这个目录下面的所有文件， –notest 表示马上执行，而不是仅仅测试而已。 iconv更改文件编码方式的一个工具 1iconv -f gbk -t utf-8 -o outfile infile -f为原来的编码方式，-t 为输出文件的编码方式， -o表示输出文件名，这利用outfile表示，最后跟上要更改编码方式的文件名sourcefile]]></content>
       <tags>
-        <tag>linux</tag>
         <tag>tool</tag>
+        <tag>linux</tag>
         <tag>trick</tag>
       </tags>
   </entry>
   <entry>
     <title><![CDATA[gist id of atom and vscode settings]]></title>
     <url>%2F2018%2F09%2F12%2Flinux%2Fgithub-gist-sync-settings%2F</url>
-    <content type="text"><![CDATA[Please enter the password to read the blog. Decrypt U2FsdGVkX1/MbQEkoDAZ7aDbCZgFcwbDusEIjo32gpLGi6AY5UO4n5wchd3Lzxul1Tx1oBrjUVOl7msdMkBETAVj+kk5Uew2UhDmIYXX5EmshJgAtRgjgWwgYypgPFKnxP/YSRYEGIHxLPyt1VgrpsI2orVz2QV86yiWZdlk0gU4DtyxoVnjPpMMWhYrgX44VkC2q3fSk1gGbcUjLTXqwKrTc7EQshqw7yWzZ4RzdJTPRuXLo+r//CSgQPh13j/AyUp9tl6FBKvIoHLAn1L9jXdFQxFHeMq7SlLddN54tFWzlQT6Q5XHymX+k8eSZJnU6ggYXceXU7YtxBsVAlg6CbWm1Vk20Ue27U3dFsBZVnD13D0CmpYBo9+NTuot8PWBYVi9KxBW60Ag8ctNO6d2K23f60svFcijqsK7Hfw1O5w3QXgqLarAbR2bLnwOuZi1+oF+0qhiSEE6HrzaTa6O/XJtsxsdqPIsfMyPaGwtLf6mZs3MBwAeewzTY4quA6MP3+7DoKN8en2WxqjmStAkYAckO8F/GOge1VS6WuLQCWvAhYaSRalmpqea/ZJJLNGVd8xcMyw42W5OV/NYRuAC1cwemxdjZ1iMcwX63VHFj+gjQFQVdi7zZBm6PXBeM1SdrvDm0Cik31I2ZrRx8MKyrDjD1bvZWUimN3pi0v832pYAAMuWN/SHlWarnkLdgODPRvcLu0JB3gVh84VQbi5fxCEZ82De3hqMxlFCDy+RqC42lACn88j0X+8crV2fUb0f+sh9s4DQ9VWWA4C9szYfRkGbAbrHJ8ATJeVtr69gQhAa8IYKQX9Hd++KAEJGU/8WpQR2r5Q90eK+pM3gYB5qc3sfiEzO32OggnJfnp7Bs/f3lq123470f/dF5qaWTC2fLQAjSzg9hWEqsq6diicupcLgNUtz31UPjWphDLUo22KLUQ4/gw1Cz2x8U+v/8cOJORAkz/e9jB9e3ExUHj+GkDlxUXb/ujH+FFd2wot9rC+s4vmZoZDpJwZ9gtN4c2gACafZ2XMGbkz3amFwmWt0h979PRu2+gW9DFdHkKvJ0GiNRkFl9UXKKallCKZYdMZyhUD+97uCn+dJZP8mr6OmqCw/oW0LAoibKbjRAL32u9LujPystlSntdUMN3AKYybKxO5Jdr5VXjQJ4CbPGCb2R6Nmpu0cQfer4ITl9NRaUwLYwVPHmI+yB4tO7HNfVvud67qELzk852lDx71eLh+5ixislPo2BiFvLaHoHQLN/idYc74qRVW0qFbMgEEXyBGHkQlVAqkSZQuae7pCs3b5qgvKqcFIR8PlNr9CRbHoX9cU7xFOfa+4v2pafmQTId1qENq+sGiH7l+m+rFISyD1TCLXdelRrCUszhE+1HmZvEM+L0SYwW+mE+utMFs164wpPpnEtyS67fJq65Tu96WcJo+Zl6vsyQCli9UtGkP2GijlmhvNrSvxYlf5QvHdtZzYww3kmd7G0D+gA3XVU4Ku6D2bIPJra7IOPI0eHZb6BxEkHp38BAX7qjipLKj+y2fbpC3O7/Edu4ije9chbFCpA4wi9P2uNEnBBxaRfY++kMOEx/LoqbwLNHr0sl8WcV1kJiBoDchlIk0H7mam6tZQcWdgZDBMNLdDShJ6Klr0qHiuJi5io+Z9+NMqyFBwOVdTY87xho3DtXtwApEgafgNLVdUjKQn7pRtAaRRxiSj/6rPc3PirLqJlkauy1PRegDAetvOVOC0H3lISnarFRichvxHXMHtHAQ/vlDrpgRBIzM1Y7R1pUg3wRl8EJCFVCNnfjefSAPdU8FaD69Q7cXIfaNRm8n2bj+Y6KI+utbDSsHOj7ezf3VW+p/Hve8xa8xmBXJN1LMzaYVhXU1ny/zr/cQ5Nclbw20caHVBx01g2G4=]]></content>
+    <content type="text"><![CDATA[Please enter the password to read the blog. Decrypt U2FsdGVkX189fgtOozVx5EpkDD+qrYXyZtws57SGIyelU/q2DlPWSdSsTEoL3rIdIEkaHPy3p4SAgP6aZGB6IKsvopjjIzxjqrL1NFETxwcFf4K4k4cz7WKzNLJAK671YCxLpGKXWAIc9Je41d85Pufy/mFmeVG3PbxqY5QdtpHGeycAKYmfZeWVG8XfK99GTzImDWkj51/W/NOsRCbvEwBo23Z6Xfw+0R6nYU5qqTP4zy5WHzXWjMlKneXL1QF28u9w2oIjsmQ36IbCSWYFOWHni/+JXbG9a8TbOKafvL4+mr/ql5ba54Kgt2zQilQaBMDQlFd+6qi+wv7O2LUuJCdgOf1+SPdc+wguxgNouNWuZb9SWxxgscOdrtH1XltEsQQpczzn5s9Zn5q6P7OmoyPtEcuYX1/Z1/GQKN6IsUzyFZWu9xTyzNjipuXSRSEeEcVe/GXf+yxcURT82hUu5+JUE8wmcj/MoGhzcsH/G87kLA88qVBaGL/vXTTyyni5xQnmlXy9rY2nXx4whTvXb+93L//7b5yPovF43m3rZ62WLQEzBev8SwEzMF2bJ0yS6+Locr5lh+xI2dAZylesY8pQGtv0lTt95tDuN+QftT4HX+ovYXCgKhE8XuFTJ9dNb1CyPWQWiWZdWXeVabjjWJpP4uZHCY2bvFXUMq9KoCyp5QsXl96WIPwGq4+yQ83VHVIi3qUOjmV/o2FBK7QeWb3SLWixNLNcitcjDdWx+jEFALVfD9fBg0uSzu6TbXHQ9yylcKRWpc+5v+kfeiVduFMWxjoBTaiDT6FLPpovzIsqRzNXUMv6umeRDhsfP2yrrN9GvHjD8iGC/XIr/U7XeJbPK7JnAyCaXmT74XyoEKYV3qKKkQX1k/gEedv/JfwmcNOilNBOAGK69r8OtXex2gV622KNI8QgTNX7u7/yDBpY7Oz2kBoUszbT4OtoYN2Fwsr4wJpN222LsFbnJkhEEYf8h4Xv3ZUTL1FkTogQ2oEk8zdgJP8xcKBSfvZXxweypAv+BMxvhL9Fq9n+e063M/YA7mg+Aqmw5yD53uBrTCL4bzSYDTNWluhjd0dBsplEhYtb6VYhDETWOVtQU1sONrwLDzEsAtXISS4GRaLz/X21xEPSAhsHRRIyBFLxbvhlIcKwC95v1dhgTXfp1dPFEmOXPPRkd+eOvXgorOe4u1rfNCAjsK6fa+HIoV8qB2a21m5hJmz6wgtkDVxmtWTAbIAb2YQyrW9fNzM668+L7LB9rR0O1fdZXfx4fMK2qbenba40ZNxii0OCS6khADD5h/v/tFbVFCJnPs17FZEB4SZkTYmVdXqfnBPAifUPnalj+tAyDHJkWwBIBX2T1ul0TsbCvMHqsvmdAlXJpveSjrszfafR8dv7/keQkm7Lp3hqMtQSiuQ7dSYmmTxzIfvW3cL8wvqVc7DzTszSmTLZ1SsdPuHe3XtBOh0Hi0459C8a+KslNEQyaCdHS54qdi97YpiOI/RDGsf3uaiqzdpIHO6cfJhgEAc/i+eG/tZL9Eu3uTKYIuBE4hrVBU8sewF/rH2goDiZyXAAFLfg2NPuPzsSXku6/v+MA/eKW+F+U3NOkp3XR3jE4gJhwG6CB/5rTYx943W711ykOIJ6WGyQvO37xRSMFPYSozFr5FSCvYb2kMn+F11ViPc6g0gF9fDmiFZjJCLkBjPeumyRqAT9b9b3JKF3daTzgv49TjdUfOeOH1mHXIta+kat0ul8z9q3mjXhHljIkci5huHtXmk6cfvmjz0LMbJQavUHvva66x1urNvBuhlQoHANaKwNfJ4Q8v/iCqfOSurmOwbx5+WAM0O+2WMNpNvmP6fdqssho3bOZza2VYQzRf3ZSnGqImt+QYnQGbcXdzSPUx8pUBAYX6k=]]></content>
       <tags>
         <tag>config</tag>
       </tags>
@@ -58,8 +58,8 @@
     <url>%2F2018%2F09%2F07%2Flinux%2Fwget%2F</url>
     <content type="text"><![CDATA[wget 递归爬取网站并存在本地 12345678wget -L 仅跟踪相对链接wget -r -p -np -k# exclude directorieswget -c -r -p -np -k -X /class/cs224n/reports,/class/cs224n/archive http://web.stanford.edu/class/cs224n/syllabus.html# reject-regex wget -c -r -p -np -k --reject-regex="/proj*" http://cs229.stanford.edu/syllabus.html]]></content>
       <tags>
-        <tag>linux</tag>
         <tag>tool</tag>
+        <tag>linux</tag>
         <tag>web</tag>
       </tags>
   </entry>
@@ -77,8 +77,8 @@
     <url>%2F2018%2F09%2F03%2Flinux%2FFRP%2F</url>
     <content type="text"><![CDATA[frp/README_zh.md at master · fatedier/frp 公网服务器server端1./frps -c ./frps.ini frps.ini 1234# frps.ini[common]bind_port = 7000vhost_http_port = 8080 内网client端1./frpc -c ./frpc.ini frpc.ini 1234567891011121314[common]server_addr = x.x.x.xserver_port = 7000[ssh]type = tcplocal_ip = 127.0.0.1local_port = 22remote_port = 9921[web]type = httplocal_port = 9920custom_domains = x.x.x.x 访问方式 ssh 1ssh -p 9921 user@x.x.x.x web 1x.x.x.x:8080]]></content>
       <tags>
-        <tag>linux</tag>
         <tag>tool</tag>
+        <tag>linux</tag>
       </tags>
   </entry>
   <entry>
@@ -114,8 +114,8 @@
     <url>%2F2018%2F06%2F05%2Flinux%2Fscreen%E7%AE%80%E8%A6%81%E5%91%BD%E4%BB%A4%2F</url>
     <content type="text"><![CDATA[##1. 进入screen，1screen ##2. 列出所有id的session1screen - ls ##3. 切换到某id的session1screen -r (id) ##4. 新建某id的session1screen -S id ##5. 杀死某个id的session1screen -S id -X quit ##6. 切换出screen ctrl+a+d ##7. 切换到下一个id的session ctrl+a+n 改session名字ctrl+A:sessionname newname]]></content>
       <tags>
-        <tag>linux</tag>
         <tag>tool</tag>
+        <tag>linux</tag>
         <tag>command</tag>
       </tags>
   </entry>
@@ -198,9 +198,9 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[LeetCode:longest substring without repeating characters]]></title>
-    <url>%2F2018%2F04%2F12%2Falgorithms%2Flongest-substring-without-repeating-characters%2F</url>
-    <content type="text"><![CDATA[“””https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/description/无重复字符的最长子串“”” class Solution(object): def lengthOfLongestSubstring(self, s): “”” :type s: str :rtype: int &gt;&gt;&gt; s = Solution() &gt;&gt;&gt; s.lengthOfLongestSubstring(“aab”) 2 &gt;&gt;&gt; s.lengthOfLongestSubstring(“dvdf”) 3 &gt;&gt;&gt; s.lengthOfLongestSubstring(“abcabcbb”) 3 &gt;&gt;&gt; s.lengthOfLongestSubstring(“abcabcbb”) 3 &gt;&gt;&gt; s.lengthOfLongestSubstring(“abba”) 2 &gt;&gt;&gt; s.lengthOfLongestSubstring(“aaaaaaa”) 1 &gt;&gt;&gt; s.lengthOfLongestSubstring(“a”) 1 &gt;&gt;&gt; s.lengthOfLongestSubstring(“”) 0 “”” if s == “”: return 0 if len(s) == 1: return 1 # 记录字符到index的映射 dic = {} L, start_ind = 0, 0 for idx, i in enumerate(s): # 第idx个字符在dic中且是超过start_ind的字符 if i in dic and start_ind &lt;= dic[i]: L = max(idx - start_ind, L) start_ind = dic[i] + 1 dic[i] = idx L = max(idx + 1 - start_ind, L) return L]]></content>
+    <title><![CDATA[LeetCode: add two numbers]]></title>
+    <url>%2F2018%2F04%2F12%2Falgorithms%2Fadd-two-number%2F</url>
+    <content type="text"><![CDATA[123456789101112131415161718192021222324252627282930313233343536373839404142"""https://leetcode-cn.com/problems/add-two-numbers/description/copy codes."""class ListNode: def __init__(self, x): self.val = x self.next = Noneclass Solution(object): def addTwoNumbers(self, l1, l2): """ :type l1: ListNode :type l2: ListNode :rtype: ListNode """ dummy = ListNode(0) current, carry = dummy, 0 while l1 or l2: val = carry if l1: val += l1.val l1 = l1.next if l2: val += l2.val l2 = l2.next carry, val = divmod(val, 10) current.next = ListNode(val) current = current.next if carry == 1: current.next = ListNode(1) return dummy.nextif __name__ == '__main__': a, a.next, a.next.next = ListNode(2), ListNode(4), ListNode(3) b, b.next, b.next.next = ListNode(5), ListNode(6), ListNode(4) result = Solution().addTwoNumbers(a, b) print("&#123;0&#125; -&gt; &#123;1&#125; -&gt; &#123;2&#125;".format(result.val, result.next.val, result.next.next.val))]]></content>
       <tags>
         <tag>python</tag>
         <tag>LeetCode</tag>
@@ -208,9 +208,9 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[LeetCode: add two numbers]]></title>
-    <url>%2F2018%2F04%2F12%2Falgorithms%2Fadd-two-number%2F</url>
-    <content type="text"><![CDATA[123456789101112131415161718192021222324252627282930313233343536373839404142"""https://leetcode-cn.com/problems/add-two-numbers/description/copy codes."""class ListNode: def __init__(self, x): self.val = x self.next = Noneclass Solution(object): def addTwoNumbers(self, l1, l2): """ :type l1: ListNode :type l2: ListNode :rtype: ListNode """ dummy = ListNode(0) current, carry = dummy, 0 while l1 or l2: val = carry if l1: val += l1.val l1 = l1.next if l2: val += l2.val l2 = l2.next carry, val = divmod(val, 10) current.next = ListNode(val) current = current.next if carry == 1: current.next = ListNode(1) return dummy.nextif __name__ == '__main__': a, a.next, a.next.next = ListNode(2), ListNode(4), ListNode(3) b, b.next, b.next.next = ListNode(5), ListNode(6), ListNode(4) result = Solution().addTwoNumbers(a, b) print("&#123;0&#125; -&gt; &#123;1&#125; -&gt; &#123;2&#125;".format(result.val, result.next.val, result.next.next.val))]]></content>
+    <title><![CDATA[LeetCode:longest substring without repeating characters]]></title>
+    <url>%2F2018%2F04%2F12%2Falgorithms%2Flongest-substring-without-repeating-characters%2F</url>
+    <content type="text"><![CDATA[“””https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/description/无重复字符的最长子串“”” class Solution(object): def lengthOfLongestSubstring(self, s): “”” :type s: str :rtype: int &gt;&gt;&gt; s = Solution() &gt;&gt;&gt; s.lengthOfLongestSubstring(“aab”) 2 &gt;&gt;&gt; s.lengthOfLongestSubstring(“dvdf”) 3 &gt;&gt;&gt; s.lengthOfLongestSubstring(“abcabcbb”) 3 &gt;&gt;&gt; s.lengthOfLongestSubstring(“abcabcbb”) 3 &gt;&gt;&gt; s.lengthOfLongestSubstring(“abba”) 2 &gt;&gt;&gt; s.lengthOfLongestSubstring(“aaaaaaa”) 1 &gt;&gt;&gt; s.lengthOfLongestSubstring(“a”) 1 &gt;&gt;&gt; s.lengthOfLongestSubstring(“”) 0 “”” if s == “”: return 0 if len(s) == 1: return 1 # 记录字符到index的映射 dic = {} L, start_ind = 0, 0 for idx, i in enumerate(s): # 第idx个字符在dic中且是超过start_ind的字符 if i in dic and start_ind &lt;= dic[i]: L = max(idx - start_ind, L) start_ind = dic[i] + 1 dic[i] = idx L = max(idx + 1 - start_ind, L) return L]]></content>
       <tags>
         <tag>python</tag>
         <tag>LeetCode</tag>
@@ -242,8 +242,8 @@
     <url>%2F2018%2F03%2F27%2Flinux%2Fscreensaver%2F</url>
     <content type="text"><![CDATA[1sudo apt-get install xscreensaver xscreensaver-gl-extra xscreensaver-data-extra Atlantis boxed FadePlot FlipFlop GLMatrix Grav Juggler3D Pacman Rubik 锁屏进入屏保1xscreensaver-command -lock 或者自带的屏保gnome-screensaver]]></content>
       <tags>
-        <tag>linux</tag>
         <tag>tool</tag>
+        <tag>linux</tag>
       </tags>
   </entry>
   <entry>
@@ -286,8 +286,8 @@
     <url>%2F2018%2F01%2F03%2Flinux%2Frename_many_files%2F</url>
     <content type="text"><![CDATA[目标： copy all files .pdf to _0.pdf 推荐使用rename.ul或mmv 1. rename.ul1rename.ul -v -n &quot;.pdf&quot; &quot;_0.pdf&quot; *.pdf 2. bash1for f in *.pdf; do pre="$&#123;f%.pdf&#125;"; echo mv -- "$f" "$&#123;pre&#125;_0.pdf"; done 3. rename1rename -n &apos;s/\.pdf$/_0$&amp;/&apos; *.pdf matches .pdf at the end of the filename12. in the replacement, the match is prepended by ```_0```: ```_0$&amp; drop -n for actual action 4. mmv12sudo apt-get install mmvmmv &apos;*.pdf&apos; &apos;#1_0.pdf&apos;]]></content>
       <tags>
-        <tag>linux</tag>
         <tag>tool</tag>
+        <tag>linux</tag>
       </tags>
   </entry>
   <entry>
@@ -327,20 +327,20 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[vim registers 寄存器]]></title>
-    <url>%2F2017%2F12%2F14%2Fvim%2Fvim-registers%2F</url>
-    <content type="text"><![CDATA[常见文本编辑器都会提供剪切板来支持复制粘贴，Vim也不例外。 不同的是Vim提供了10类共48个寄存器，提供无与伦比的寄存功能。 最常用的y操作将会拷贝到默认的匿名寄存器中，我们也可以指定具体拷贝到哪个寄存器中。 一般来讲，可以用用```"&#123;register&#125;p```来粘贴```&#123;register&#125;```中的内容。例如： "ayy可以拷贝当前行到寄存器a中，而"ap则可以粘贴寄存器a中的内容。12345678910111213141516171819202122232425262728除了a-z26个命名寄存器，Vim还提供了很多特殊寄存器。合理地使用可以极大地提高效率。例如：* ```&quot;+p```可以粘贴剪切板的内容，* ```&quot;:p```可以粘贴上一个Vim命令（比如你刚刚费力拼写的正则表达式），* ```&quot;/p```可以粘贴上一次搜索关键词（你猜的没错，正是normal模式下的/foo搜索命令）。在Vim中可通过```:reg```来查看每个寄存器当前的值。寄存器分类Vim提供了10类寄存器，可在Vim中通过:help registers查看帮助。1. 匿名寄存器 &quot;&quot;2. 编号寄存器 &quot;0 到 &quot;93. 小删除寄存器 &quot;-4. 26个命名寄存器 &quot;a 到 &quot;z5. 3个只读寄存器 &quot;:, &quot;., &quot;%6. Buffer交替文件寄存器 &quot;#7. 表达式寄存器 &quot;=8. 选区和拖放寄存器 &quot;*, &quot;+, &quot;~9. 黑洞寄存器 &quot;_10. 搜索模式寄存器 &quot;/# 1. 匿名寄存器使用d, c, s, x等会删除字符的命令时，被删除字符会进入匿名寄存器&quot;&quot;。 你可以认为&quot;&quot;寄存器是一个指针，指向刚才被存到的寄存器。在如何用Vim搭建IDE？一文中提到，Mac下可通过下列设置来让Vim共享系统剪切板， 就是这个原理：所有删除和拷贝操作默认都会到匿名寄存器。 set clipboard=unnamed1234567891011121314使用y命令未指定寄存器会存到&quot;0寄存器中，同时&quot;&quot;会与该寄存器保有同样的值。 这意味着你使用p和&quot;p总会得到同样的结果。# 2. 编号寄存器编号寄存器从&quot;0到&quot;9共10个，其中&quot;0保存着拷贝来的字符串，&quot;1到&quot;9保存着删除掉的字符串。 删除操作符包括s, c, d, x。 删除掉的字符串会被存到&quot;1中，上次删除的则会被存到&quot;2中。以此类推，Vim会保存你最近的9次删除。* 只有整行整行的删除，和通过段落级别的移动指令（包括%,(,),/,`,?,n,N,&#123;,&#125;） 的删除才会被放到&quot;1中。* 当用户指定拷贝操作的寄存器时（如&quot;ap），&quot;0不会被写入；但删除操作一定会被写入到&quot;1中。&gt; &quot;0寄存器很有用，比如我们copy了一段文本然后用它替换另一段文本。 这时默认寄存器&quot;&quot;中的值就变成了被替换文本，如果还需要用copy的文本继续替换的话就需要&quot;0p了。# 3. 小删除寄存器不足一行的小删除则会被放到小删除寄存器中（&quot;-），起作用的删除操作符也包括s, c, d, x。 例如： dw # 删除一个词d9l # 删除9个字符cb # 向前更改一个词1234与&quot;0寄存器类似，当用户指定寄存器并进行删除时，&quot;-不会被写入。# 4. 命名寄存器命名寄存器有&quot;a到&quot;z共26个，这些寄存器只有当我们指定时才会被使用。 其实我们在录制宏时，所有键盘操作会以字符串的形式存到寄存器中。 例如录制一个宏存到&quot;a寄存器中，内容为更改当前行cc，改为foo字符串： qaccfoo1234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950然后执行:reg来查看寄存器，可以发现a寄存器的值是ccfoo。 小技巧：当使用小写字母进行操作时会覆盖当前寄存器内容，当使用大写字母进行操作时，会追加当前寄存器内容。# 5. 只读寄存器只读寄存器共3个，它们的值是由Vim提供的，不允许改变： &quot;.：上次insert模式中插入的字符串。还记得吗？.命令可以重复上次操作，而&quot;.存储了上次插入。 &quot;%：当前文件名，不是全路径，也不是纯文件名，而是从当前Vim的工作目录到该文件的路径。例如此时Harttle的Vim中，&quot;%p的结果为_drafts/vim-registers.md。 &quot;:：上次命令模式下键入的命令。正如@a可以执行&quot;a寄存器中的宏一样，&quot;:可以执行上次命令。# 6. 交替文件寄存器交替文件寄存器&quot;#存储着当前Vim窗口（Window）的交替文件。交替文件（alternate file）是指 Buffer中的上一个文件，可通过Ctrl+^来切换交替文件与当前文件。 Window和Buffer有什么区别？参见Vim 多文件编辑：窗口一文。# 7. 表达式寄存器表达式寄存器&quot;=主要用于计算Vim脚本的返回值，并插入到文本中。 当我们键入&quot;=后光标会移动到命令行，此时我们可以输入任何Vim脚本的表达式。 例如3+2，按下回车并且p则会得到5。这在我们调试Vim脚本时非常有用，比如调用一个函数看它是否有正确的返回值。# 8. 选择和拖放寄存器选择和拖放寄存器包括&quot;*, &quot;+, 和&quot;~，这三个寄存器的行为是和GUI相关的。&quot;*和&quot;+在Mac和Windows中，都是指系统剪切板（clipboard），例如&quot;*yy即可复制当前行到剪切板。 以供其他程序中粘贴。其他程序中复制的内容也会被存储到这两个寄存器中。 在X11系统中（绝大多数带有桌面环境的Linux发行版），二者是有区别的： &quot;*指X11中的PRIMARY选区，即鼠标选中区域。在桌面系统中可按鼠标中键粘贴。 &quot;+指X11中的CLIPBOARD选区，即系统剪切板。在桌面系统中可按Ctrl+V粘贴。 上文所述的Mac下set clipboard=unnamed会使得系统剪切板寄存器&quot;*和Vim默认的匿名寄存器&quot;&quot;始终保有同样的值，即Vim和系统共用剪切板。有文本拖拽到Vim时，被拖拽的文本被存储在&quot;~中。Vim默认的行为是将&quot;~中内容插入到光标所在位置。 当然你可以给&lt;DROP&gt;做键盘映射。# 9. 黑洞寄存器黑洞寄存器&quot;_，所有删除或拷贝到黑洞寄存器的文本将会消失。 这是为了在删除文本的同时不影响任何寄存器的值，&quot;_通常用于Vim脚本中。# 10. 搜索寄存器搜索寄存器&quot;/用于存储上一次搜索的关键词。Vim中如何进行搜索呢？ 在normal模式下按下/即进入search模式，输入关键字并按下回车即可。该寄存器是可写的，例如:let @/ = &quot;harttle&quot;将会把&quot;harttle&quot;写入该寄存器。 下次搜索时不输入搜索词直接回车便会搜索&quot;harttle&quot;。命令行模式拷贝值得一提的时，任何寄存器中的值都是可以拷贝到命令模式下的。比如对于寄存器&quot;a中的值，在normal模式下可以通过&quot;ap来粘贴；在command-line模式下通过&lt;Ctrl-R&gt;a来粘贴。这一操作存在风险，因为寄存器中的值可能是从网页中拷贝来的。如果寄存器中的字符串存在&lt;Esc&gt;字符或&lt;CR&gt;字符，则会时Vim回到normal模式， 并继续执行寄存器中的命令。为了防范剪切板劫持，可以添加下列的Vim配置： inoremap + u&lt;C->“+gP` 该命令的解释请移步：http://vim.wikia.com/wiki/Pasting_registers]]></content>
-      <tags>
-        <tag>trick</tag>
-        <tag>vim</tag>
-      </tags>
-  </entry>
-  <entry>
     <title><![CDATA[vundle插件安装器， nerdcommenter注释插件]]></title>
     <url>%2F2017%2F12%2F14%2Fvim%2Fvundle-vim%2F</url>
     <content type="text"><![CDATA[vundle vim 使用命令 1234&quot; :PluginList - 列出所有已配置的插件&quot; :PluginInstall - 安装插件, 加 `!` 用以更新或使用 :PluginUpdate&quot; :PluginSearch foo - 搜索 foo ;追加 `!` 清除本地缓存&quot; :PluginClean - 清除未使用插件,需要确认; 追加 `!` nerdcommenterUsage Doc 12345678910111213141516 n\cc : 为光标以下 n 行添加注释 n\cu : 为光标以下 n 行取消注释 n\cm : 为光标以下 n 行添加块注释for python:单行：注释: \cs取消注释：\cu多行：ctrl + v 块选中后：注释: \cs取消注释：\cu\ci 为Inverts the commented state of each selected line.]]></content>
       <tags>
         <tag>config</tag>
+        <tag>vim</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[vim registers 寄存器]]></title>
+    <url>%2F2017%2F12%2F14%2Fvim%2Fvim-registers%2F</url>
+    <content type="text"><![CDATA[常见文本编辑器都会提供剪切板来支持复制粘贴，Vim也不例外。 不同的是Vim提供了10类共48个寄存器，提供无与伦比的寄存功能。 最常用的y操作将会拷贝到默认的匿名寄存器中，我们也可以指定具体拷贝到哪个寄存器中。 一般来讲，可以用用```"&#123;register&#125;p```来粘贴```&#123;register&#125;```中的内容。例如： "ayy可以拷贝当前行到寄存器a中，而"ap则可以粘贴寄存器a中的内容。12345678910111213141516171819202122232425262728除了a-z26个命名寄存器，Vim还提供了很多特殊寄存器。合理地使用可以极大地提高效率。例如：* ```&quot;+p```可以粘贴剪切板的内容，* ```&quot;:p```可以粘贴上一个Vim命令（比如你刚刚费力拼写的正则表达式），* ```&quot;/p```可以粘贴上一次搜索关键词（你猜的没错，正是normal模式下的/foo搜索命令）。在Vim中可通过```:reg```来查看每个寄存器当前的值。寄存器分类Vim提供了10类寄存器，可在Vim中通过:help registers查看帮助。1. 匿名寄存器 &quot;&quot;2. 编号寄存器 &quot;0 到 &quot;93. 小删除寄存器 &quot;-4. 26个命名寄存器 &quot;a 到 &quot;z5. 3个只读寄存器 &quot;:, &quot;., &quot;%6. Buffer交替文件寄存器 &quot;#7. 表达式寄存器 &quot;=8. 选区和拖放寄存器 &quot;*, &quot;+, &quot;~9. 黑洞寄存器 &quot;_10. 搜索模式寄存器 &quot;/# 1. 匿名寄存器使用d, c, s, x等会删除字符的命令时，被删除字符会进入匿名寄存器&quot;&quot;。 你可以认为&quot;&quot;寄存器是一个指针，指向刚才被存到的寄存器。在如何用Vim搭建IDE？一文中提到，Mac下可通过下列设置来让Vim共享系统剪切板， 就是这个原理：所有删除和拷贝操作默认都会到匿名寄存器。 set clipboard=unnamed1234567891011121314使用y命令未指定寄存器会存到&quot;0寄存器中，同时&quot;&quot;会与该寄存器保有同样的值。 这意味着你使用p和&quot;p总会得到同样的结果。# 2. 编号寄存器编号寄存器从&quot;0到&quot;9共10个，其中&quot;0保存着拷贝来的字符串，&quot;1到&quot;9保存着删除掉的字符串。 删除操作符包括s, c, d, x。 删除掉的字符串会被存到&quot;1中，上次删除的则会被存到&quot;2中。以此类推，Vim会保存你最近的9次删除。* 只有整行整行的删除，和通过段落级别的移动指令（包括%,(,),/,`,?,n,N,&#123;,&#125;） 的删除才会被放到&quot;1中。* 当用户指定拷贝操作的寄存器时（如&quot;ap），&quot;0不会被写入；但删除操作一定会被写入到&quot;1中。&gt; &quot;0寄存器很有用，比如我们copy了一段文本然后用它替换另一段文本。 这时默认寄存器&quot;&quot;中的值就变成了被替换文本，如果还需要用copy的文本继续替换的话就需要&quot;0p了。# 3. 小删除寄存器不足一行的小删除则会被放到小删除寄存器中（&quot;-），起作用的删除操作符也包括s, c, d, x。 例如： dw # 删除一个词d9l # 删除9个字符cb # 向前更改一个词1234与&quot;0寄存器类似，当用户指定寄存器并进行删除时，&quot;-不会被写入。# 4. 命名寄存器命名寄存器有&quot;a到&quot;z共26个，这些寄存器只有当我们指定时才会被使用。 其实我们在录制宏时，所有键盘操作会以字符串的形式存到寄存器中。 例如录制一个宏存到&quot;a寄存器中，内容为更改当前行cc，改为foo字符串： qaccfoo1234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950然后执行:reg来查看寄存器，可以发现a寄存器的值是ccfoo。 小技巧：当使用小写字母进行操作时会覆盖当前寄存器内容，当使用大写字母进行操作时，会追加当前寄存器内容。# 5. 只读寄存器只读寄存器共3个，它们的值是由Vim提供的，不允许改变： &quot;.：上次insert模式中插入的字符串。还记得吗？.命令可以重复上次操作，而&quot;.存储了上次插入。 &quot;%：当前文件名，不是全路径，也不是纯文件名，而是从当前Vim的工作目录到该文件的路径。例如此时Harttle的Vim中，&quot;%p的结果为_drafts/vim-registers.md。 &quot;:：上次命令模式下键入的命令。正如@a可以执行&quot;a寄存器中的宏一样，&quot;:可以执行上次命令。# 6. 交替文件寄存器交替文件寄存器&quot;#存储着当前Vim窗口（Window）的交替文件。交替文件（alternate file）是指 Buffer中的上一个文件，可通过Ctrl+^来切换交替文件与当前文件。 Window和Buffer有什么区别？参见Vim 多文件编辑：窗口一文。# 7. 表达式寄存器表达式寄存器&quot;=主要用于计算Vim脚本的返回值，并插入到文本中。 当我们键入&quot;=后光标会移动到命令行，此时我们可以输入任何Vim脚本的表达式。 例如3+2，按下回车并且p则会得到5。这在我们调试Vim脚本时非常有用，比如调用一个函数看它是否有正确的返回值。# 8. 选择和拖放寄存器选择和拖放寄存器包括&quot;*, &quot;+, 和&quot;~，这三个寄存器的行为是和GUI相关的。&quot;*和&quot;+在Mac和Windows中，都是指系统剪切板（clipboard），例如&quot;*yy即可复制当前行到剪切板。 以供其他程序中粘贴。其他程序中复制的内容也会被存储到这两个寄存器中。 在X11系统中（绝大多数带有桌面环境的Linux发行版），二者是有区别的： &quot;*指X11中的PRIMARY选区，即鼠标选中区域。在桌面系统中可按鼠标中键粘贴。 &quot;+指X11中的CLIPBOARD选区，即系统剪切板。在桌面系统中可按Ctrl+V粘贴。 上文所述的Mac下set clipboard=unnamed会使得系统剪切板寄存器&quot;*和Vim默认的匿名寄存器&quot;&quot;始终保有同样的值，即Vim和系统共用剪切板。有文本拖拽到Vim时，被拖拽的文本被存储在&quot;~中。Vim默认的行为是将&quot;~中内容插入到光标所在位置。 当然你可以给&lt;DROP&gt;做键盘映射。# 9. 黑洞寄存器黑洞寄存器&quot;_，所有删除或拷贝到黑洞寄存器的文本将会消失。 这是为了在删除文本的同时不影响任何寄存器的值，&quot;_通常用于Vim脚本中。# 10. 搜索寄存器搜索寄存器&quot;/用于存储上一次搜索的关键词。Vim中如何进行搜索呢？ 在normal模式下按下/即进入search模式，输入关键字并按下回车即可。该寄存器是可写的，例如:let @/ = &quot;harttle&quot;将会把&quot;harttle&quot;写入该寄存器。 下次搜索时不输入搜索词直接回车便会搜索&quot;harttle&quot;。命令行模式拷贝值得一提的时，任何寄存器中的值都是可以拷贝到命令模式下的。比如对于寄存器&quot;a中的值，在normal模式下可以通过&quot;ap来粘贴；在command-line模式下通过&lt;Ctrl-R&gt;a来粘贴。这一操作存在风险，因为寄存器中的值可能是从网页中拷贝来的。如果寄存器中的字符串存在&lt;Esc&gt;字符或&lt;CR&gt;字符，则会时Vim回到normal模式， 并继续执行寄存器中的命令。为了防范剪切板劫持，可以添加下列的Vim配置： inoremap + u&lt;C->“+gP` 该命令的解释请移步：http://vim.wikia.com/wiki/Pasting_registers]]></content>
+      <tags>
+        <tag>trick</tag>
         <tag>vim</tag>
       </tags>
   </entry>
@@ -358,8 +358,8 @@
     <url>%2F2017%2F12%2F01%2Flinux%2Fparallel%2F</url>
     <content type="text"><![CDATA[1ls | parallel -j 8 "python dic.py -f &#123;&#125;" How can I use GNU Parallel to run a lot of commands in parallel | Minnesota Supercomputing Institute GNU Parallel tutorial]]></content>
       <tags>
-        <tag>linux</tag>
         <tag>tool</tag>
+        <tag>linux</tag>
       </tags>
   </entry>
   <entry>
@@ -376,8 +376,8 @@
     <url>%2F2017%2F10%2F27%2Flinux%2Fmp3-gbk-utf8-tag-mid3iconv%2F</url>
     <content type="text"><![CDATA[1sudo apt install python-mutagen 切换到mp3所在目录下 1find . -iname "*.mp3" -execdir mid3iconv -e gbk &#123;&#125; \;]]></content>
       <tags>
-        <tag>linux</tag>
         <tag>tool</tag>
+        <tag>linux</tag>
       </tags>
   </entry>
   <entry>
@@ -390,17 +390,17 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[python: operator]]></title>
-    <url>%2F2017%2F09%2F16%2Fpython%2Fpython-operator%2F</url>
-    <content type="text"><![CDATA[12345678910111213141516171819202122#!/usr/bin/env python3&quot;&quot;&quot;This program lets you create a simple command line calculator without usingthe &apos;if..else&apos; construct. It uses built-in &apos;operator&apos; module to accomplish thesameCreated with help of an answer on stackoverflow. Don&apos;t have the exact link.&quot;&quot;&quot;import operatorops = &#123; &quot;+&quot;: operator.add, &quot;-&quot;: operator.sub, &quot;/&quot;: operator.truediv, &quot;*&quot;: operator.mul&#125;x = input(&quot;Enter an operator [OPTIONS: +, -, *, /]: &quot;)y = int(input(&quot;Enter number: &quot;))z = int(input(&quot;Enter number: &quot;))print (ops[x](y, z))]]></content>
+    <title><![CDATA[python判断字符编码]]></title>
+    <url>%2F2017%2F09%2F16%2Fpython%2F%E5%AD%97%E7%AC%A6%E7%BC%96%E7%A0%81%E5%88%A4%E6%96%AD%2F</url>
+    <content type="text"><![CDATA[1234import sysreload(sys)sys.setdefaultencoding(&apos;utf-8&apos;) Python 字符编码判断 法一12345678#判断是否为一般字符串isinstance(s, str)#用来判断是否为unicodeisinstance(s, unicode) 或 12if type(str).__name__ != &quot;unicode&quot;: str=unicode(str, &quot;utf-8&quot;) 法二：Python chardet 字符编码判断使用 chardet 可以很方便的实现字符串/文件的编码检测。尤其是中文网页，有的页面使用GBK/GB2312，有的使用UTF8，如果你需要去爬一些页面，知道网页编码很重要的，虽然HTML页面有charset标签，但是有些时候是不对的。那么chardet就能帮我们大忙了。123456import urllibimport chardetrawdata = urllib.urlopen(&apos;http://www.google.cn/&apos;).read()chardet.detect(rawdata) Results: 12&#123;&apos;confidence&apos;: 0.98999999999999999, &apos;encoding&apos;: &apos;GB2312&apos;&#125; chardet可以直接用detect函数来检测所给字符的编码。 函数返回值为字典，有2个元数，一个是检测的可信度，另外一个就是检测到的编码。]]></content>
       <tags>
         <tag>python</tag>
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[python判断字符编码]]></title>
-    <url>%2F2017%2F09%2F16%2Fpython%2F%E5%AD%97%E7%AC%A6%E7%BC%96%E7%A0%81%E5%88%A4%E6%96%AD%2F</url>
-    <content type="text"><![CDATA[1234import sysreload(sys)sys.setdefaultencoding(&apos;utf-8&apos;) Python 字符编码判断 法一12345678#判断是否为一般字符串isinstance(s, str)#用来判断是否为unicodeisinstance(s, unicode) 或 12if type(str).__name__ != &quot;unicode&quot;: str=unicode(str, &quot;utf-8&quot;) 法二：Python chardet 字符编码判断使用 chardet 可以很方便的实现字符串/文件的编码检测。尤其是中文网页，有的页面使用GBK/GB2312，有的使用UTF8，如果你需要去爬一些页面，知道网页编码很重要的，虽然HTML页面有charset标签，但是有些时候是不对的。那么chardet就能帮我们大忙了。123456import urllibimport chardetrawdata = urllib.urlopen(&apos;http://www.google.cn/&apos;).read()chardet.detect(rawdata) Results: 12&#123;&apos;confidence&apos;: 0.98999999999999999, &apos;encoding&apos;: &apos;GB2312&apos;&#125; chardet可以直接用detect函数来检测所给字符的编码。 函数返回值为字典，有2个元数，一个是检测的可信度，另外一个就是检测到的编码。]]></content>
+    <title><![CDATA[python: operator]]></title>
+    <url>%2F2017%2F09%2F16%2Fpython%2Fpython-operator%2F</url>
+    <content type="text"><![CDATA[12345678910111213141516171819202122#!/usr/bin/env python3&quot;&quot;&quot;This program lets you create a simple command line calculator without usingthe &apos;if..else&apos; construct. It uses built-in &apos;operator&apos; module to accomplish thesameCreated with help of an answer on stackoverflow. Don&apos;t have the exact link.&quot;&quot;&quot;import operatorops = &#123; &quot;+&quot;: operator.add, &quot;-&quot;: operator.sub, &quot;/&quot;: operator.truediv, &quot;*&quot;: operator.mul&#125;x = input(&quot;Enter an operator [OPTIONS: +, -, *, /]: &quot;)y = int(input(&quot;Enter number: &quot;))z = int(input(&quot;Enter number: &quot;))print (ops[x](y, z))]]></content>
       <tags>
         <tag>python</tag>
       </tags>
@@ -436,27 +436,17 @@
     <url>%2F2017%2F01%2F12%2Flinux%2Fcheck_if_it_is_ssh_process%2F</url>
     <content type="text"><![CDATA[check if this command coming from sshd.process1cat /proc/$PPID/status | head -1 | cut -f2 SSH environment variable123echo $SSH_CLIENTecho $SSH_CONNECTION# ubuntu desktop: they are not existed who am i1who am i graphic environ123echo $DISPLAY# ssh : None# ubuntu desktop: &quot;:0&quot;]]></content>
       <tags>
+        <tag>linux</tag>
         <tag>ssh</tag>
-        <tag>linux</tag>
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[ubuntu配置初始化]]></title>
-    <url>%2F2017%2F01%2F04%2Flinux%2Fubuntu-config%2F</url>
-    <content type="text"><![CDATA[fcitx 输入法12sudo apt-get install fcitx fcitx-config-gtk fcitx-sunpinyin fcitx-googlepinyin fcitx-module-cloudpinyin im-configsudo im-config -s fcitx -z default 取消默认文件夹设置123456789# ~/.config/user-dirs.dirsxdg-user-dirs-update --set DESKTOP $HOME/xdg-user-dirs-update --set DOWNLOAD $HOME/xdg-user-dirs-update --set TEMPLATES $HOME/xdg-user-dirs-update --set PUBLICSHARE $HOME/xdg-user-dirs-update --set DOCUMENTS $HOME/xdg-user-dirs-update --set MUSIC $HOME/xdg-user-dirs-update --set PICTURES $HOME/xdg-user-dirs-update --set VIDEOS $HOME/ 卸载软件列表1sudo apt purge deja-dup gnome-sudoku webbrowser-app cheese gnome-mines gnome-mahjongg simple-scan empathy thunderbird rhythmbox libreoffice-common unity-webapps-common aisleriot transmission-common transmission-gtk remmina ubuntu-web-launchers 必备软件列表1234sudo apt-get install curl vim exuberant-ctags git ack-grepsudo pip install pep8 flake8 pyflakes isort yapfsudo apt install tmux zsh htop rar vim terminator ipython3 python3-pip openssh-server devtodo tree chsh -s /bin/zsh 可选安装软件列表123sudo apt install flashplugin-installer folder-color ubuntu-gnome-desktop moc kdeconnect gnome-tweak-toolsudo apt install graphviz virtualbox masterpdfeditor4sudo apt install gtk-recordmydesktop recordmydesktop 其余软件列表123nitrogen okular vlc screenfetchunison unison-gtk qrencode figlet xdotool cmatrix fortune fortune-zh cowsay vscode wps vimconfig zsh]]></content>
+    <title><![CDATA[shadowsocks配置，运行]]></title>
+    <url>%2F2017%2F01%2F04%2Flinux%2Fshadowsocks-proxy%2F</url>
+    <content type="text"><![CDATA[Home · shadowsocks/shadowsocks Wiki sudo pip install shadowsocks 在远程服务器上：12345678后台运行ss：sudo ssserver -p 14321 -k your_password -d start停止：sudo ssserver -d stop检查日志：sudo less /var/log/shadowsocks.log 本地linux1sslocal -s 服务器地址 -p 服务器端口 -l 本地端端口 -k 密码 -m 加密方法 或者ssh端口转发12ssh -fND 127.0.0.1:1234 zzp@10.2.0.4 -p 9920ssh -L 12369:localhost:12369 -R 12369:localhost:12370 -ND localhost:12345 root@138.69.29.65]]></content>
       <tags>
-        <tag>linux</tag>
-        <tag>config</tag>
-        <tag>ubuntu</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[python: struct模块处理二进制数据]]></title>
-    <url>%2F2017%2F01%2F04%2Fpython%2Fpython-struct-binary-data%2F</url>
-    <content type="text"><![CDATA[struct模块中最重要的三个函数是pack(), unpack(), calcsize() #pack(fmt, v1, v2, …) 按照给定的格式(fmt)，把数据封装成字符串(实际上是类似于c结构体的字节流) #unpack(fmt, string)按照给定的格式(fmt)解析字节流string，返回解析出来的tuple #calcsize(fmt)计算给定的格式(fmt)占用多少字节的内存 struct中支持的格式如下表： Format C Type Python 字节数 x|pad byte|no value|1c|char|string of length 1|1b|signed char|integer|1B|unsigned char|integer|1?|_Bool|bool|1h|short|integer|2H|unsigned short|integer|2i|int|integer|4I|unsigned int|integer or long|4l|long|integer|4L|unsigned long|long|4q|long long|long|8Q|unsigned long long|long|8f|float|float|4d|double|float|8s|char[]|string|1p|char[]|string|1P|void *|long|]]></content>
-      <tags>
-        <tag>python</tag>
-        <tag>binary</tag>
+        <tag>tool</tag>
+        <tag>internet</tag>
       </tags>
   </entry>
   <entry>
@@ -469,12 +459,22 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[shadowsocks配置，运行]]></title>
-    <url>%2F2017%2F01%2F04%2Flinux%2Fshadowsocks-proxy%2F</url>
-    <content type="text"><![CDATA[Home · shadowsocks/shadowsocks Wiki sudo pip install shadowsocks 在远程服务器上：12345678后台运行ss：sudo ssserver -p 14321 -k your_password -d start停止：sudo ssserver -d stop检查日志：sudo less /var/log/shadowsocks.log 本地linux1sslocal -s 服务器地址 -p 服务器端口 -l 本地端端口 -k 密码 -m 加密方法 或者ssh端口转发12ssh -fND 127.0.0.1:1234 zzp@10.2.0.4 -p 9920ssh -L 12369:localhost:12369 -R 12369:localhost:12370 -ND localhost:12345 root@138.69.29.65]]></content>
+    <title><![CDATA[python: struct模块处理二进制数据]]></title>
+    <url>%2F2017%2F01%2F04%2Fpython%2Fpython-struct-binary-data%2F</url>
+    <content type="text"><![CDATA[struct模块中最重要的三个函数是pack(), unpack(), calcsize() #pack(fmt, v1, v2, …) 按照给定的格式(fmt)，把数据封装成字符串(实际上是类似于c结构体的字节流) #unpack(fmt, string)按照给定的格式(fmt)解析字节流string，返回解析出来的tuple #calcsize(fmt)计算给定的格式(fmt)占用多少字节的内存 struct中支持的格式如下表： Format C Type Python 字节数 x|pad byte|no value|1c|char|string of length 1|1b|signed char|integer|1B|unsigned char|integer|1?|_Bool|bool|1h|short|integer|2H|unsigned short|integer|2i|int|integer|4I|unsigned int|integer or long|4l|long|integer|4L|unsigned long|long|4q|long long|long|8Q|unsigned long long|long|8f|float|float|4d|double|float|8s|char[]|string|1p|char[]|string|1P|void *|long|]]></content>
       <tags>
-        <tag>tool</tag>
-        <tag>internet</tag>
+        <tag>python</tag>
+        <tag>binary</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[ubuntu配置初始化]]></title>
+    <url>%2F2017%2F01%2F04%2Flinux%2Fubuntu-config%2F</url>
+    <content type="text"><![CDATA[fcitx 输入法12sudo apt-get install fcitx fcitx-config-gtk fcitx-sunpinyin fcitx-googlepinyin fcitx-module-cloudpinyin im-configsudo im-config -s fcitx -z default 取消默认文件夹设置123456789# ~/.config/user-dirs.dirsxdg-user-dirs-update --set DESKTOP $HOME/xdg-user-dirs-update --set DOWNLOAD $HOME/xdg-user-dirs-update --set TEMPLATES $HOME/xdg-user-dirs-update --set PUBLICSHARE $HOME/xdg-user-dirs-update --set DOCUMENTS $HOME/xdg-user-dirs-update --set MUSIC $HOME/xdg-user-dirs-update --set PICTURES $HOME/xdg-user-dirs-update --set VIDEOS $HOME/ 卸载软件列表1sudo apt purge deja-dup gnome-sudoku webbrowser-app cheese gnome-mines gnome-mahjongg simple-scan empathy thunderbird rhythmbox libreoffice-common unity-webapps-common aisleriot transmission-common transmission-gtk remmina ubuntu-web-launchers 必备软件列表1234sudo apt-get install curl vim exuberant-ctags git ack-grepsudo pip install pep8 flake8 pyflakes isort yapfsudo apt install tmux zsh htop rar vim terminator ipython3 python3-pip openssh-server devtodo tree chsh -s /bin/zsh 可选安装软件列表123sudo apt install flashplugin-installer folder-color ubuntu-gnome-desktop moc kdeconnect gnome-tweak-toolsudo apt install graphviz virtualbox masterpdfeditor4sudo apt install gtk-recordmydesktop recordmydesktop 其余软件列表123nitrogen okular vlc screenfetchunison unison-gtk qrencode figlet xdotool cmatrix fortune fortune-zh cowsay vscode wps vimconfig zsh]]></content>
+      <tags>
+        <tag>linux</tag>
+        <tag>config</tag>
+        <tag>ubuntu</tag>
       </tags>
   </entry>
   <entry>
@@ -495,12 +495,11 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[patchelf 修改动态链接库]]></title>
-    <url>%2F2017%2F01%2F03%2Flinux%2Fpatchelf%2F</url>
-    <content type="text"><![CDATA[12patchelf --set-rpath $&#123;HOME&#125;/temp/demo/lib subscriber]]></content>
+    <title><![CDATA[python生成pdf文件]]></title>
+    <url>%2F2017%2F01%2F03%2Fpython%2Fpython-pdf%2F</url>
+    <content type="text"><![CDATA[添加语句，添加图片，定义字体 123456789from reportlab.pdfgen import canvasc=canvas.Canvas(&quot;hello.pdf&quot;)c.drawString(100,700,&quot;hello&quot;)c.drawImage(&quot;123.jpg&quot;,1*inch,1*inch,width=8*inch,height=9*inch)c.save()from reportlab.pdfbase.cidfonts import UnicodeCIDFontpdfmetrics.registerFont(UnicodeCIDFont(&apos;STSong-Light&apos;))c.setFont(&quot;STSong-Light&quot;,12)]]></content>
       <tags>
-        <tag>linux</tag>
-        <tag>tool</tag>
+        <tag>python</tag>
       </tags>
   </entry>
   <entry>
@@ -509,16 +508,6 @@
     <content type="text"><![CDATA[用qrcode包做的生成字符串的二维码的脚本 ps: ubuntu下有个可以终端显示二维码像素点的软件：qrencode 输入qrencode -o - -t UTF8，输入字符串，然后ctrl+D结束 123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899100101102103104105106107108109110111112113114115116117118#coding:utf-8import qrcodefrom PIL import Imageimport osdef openpic(filename): os.system(&quot;eog &quot; + filename)# 生成二维码图片def make_qr(string, pic_name): qr = qrcode.QRCode( version = 4, # 生成二维码尺寸的大小 1-40 1:21*21（21+(n-1)*4） error_correction = qrcode.constants.ERROR_CORRECT_M, #L:7% M:15% Q:25% H:30% box_size = 10, # 每个格子的像素大小 border = 2, # 边框的格子宽度大小 ) qr.add_data(string) qr.make(fit = True) img = qr.make_image() img.save(pic_name) openpic(pic_name) # 生成带logo的二维码图片def make_logo_qr(string, logo, pic_name): # 参数配置 qr = qrcode.QRCode( version = 4, error_correction = qrcode.constants.ERROR_CORRECT_Q, box_size = 8, border = 2 ) # 添加转换内容 qr.add_data(string) # qr.make(fit = True) # 生成二维码 img=qr.make_image() # img=img.convert(&quot;RGBA&quot;) # 添加logo if logo and os.path.exists(logo): icon = Image.open(logo) # 获取二维码图片的大小 img_w, img_h = img.size factor = 4 size_w = int(img_w/factor) size_h = int(img_h/factor) # logo图片的大小不能超过二维码图片的1/4 icon_w, icon_h = icon.size if icon_w &gt; size_w: icon_w = size_w if icon_h &gt; size_h: icon_h = size_h icon = icon.resize((icon_w, icon_h), Image.ANTIALIAS) # 计算logo在二维码图中的位置 w = int((img_w - icon_w) / 2) h = int((img_h - icon_h) / 2) icon = icon.convert(&quot;RGBA&quot;) img.paste(icon, (w, h), icon) # 保存处理后图片 img.save(pic_name) openpic(pic_name) if __name__==&apos;__main__&apos;: print print &quot;usage: input text, then input empty line to stop input&quot; print &quot; or input q or nothing to stop the script!&quot; print path = os.path.dirname(os.path.realpath(__file__)) qrcode_pic = os.path.join(path, &apos;theqrcode.png&apos;) #生成后的保存文件 logo = os.path.join(path, &apos;logo.png&apos;) #logo图片 string = &quot;start&quot; stop_strings = [&quot;q&quot;, &quot;exit&quot;, &quot;&quot;] while(1): string = raw_input(&quot;input:\n&quot;) if(string.strip() in stop_strings): break # 输入内容允许有空格 while True: line = raw_input() if(line == &apos;&apos;): break else: string = string + &quot;\n&quot; + line #make_qr(string, qrcode_pic) make_logo_qr(string, logo, qrcode_pic)]]></content>
       <tags>
         <tag>python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[Linux: todo]]></title>
-    <url>%2F2017%2F01%2F03%2Flinux%2Fdevtodo%2F</url>
-    <content type="text"><![CDATA[安装1sudo apt install devtodo 用法12345678910111213141516todo # 显示 todo listtda # 添加一项 todo，也可以用 todo -a 命令tde &lt;index&gt; # 修改第 index 条 todotdd &lt;index&gt; # 标记第 index 条 todo 已经完成tdr &lt;index&gt; # 删除第 index 条 todotodo -A # 显示所有的 todo 条目，包括完成的以及未完成的todo -Ac &lt;index&gt; #显示第index条todo的commenttodo --purge #删除已完成的todotodo -R 1,2 #将1变成2的子任务todo -R 1.1 #将1的子任务1变为根节点todo -G # ~/.todo_global aliases123456alias td=&quot;todo -G&quot;alias todo=&quot;todo -G&quot;alias tda=&quot;tda -G&quot;alias tdd=&quot;tdd -G&quot;alias tde=&quot;tde -G&quot;alias tdr=&quot;tdr -G&quot;]]></content>
-      <tags>
-        <tag>linux</tag>
-        <tag>tool</tag>
-        <tag>terminal</tag>
       </tags>
   </entry>
   <entry>
@@ -531,20 +520,31 @@
       </tags>
   </entry>
   <entry>
+    <title><![CDATA[patchelf 修改动态链接库]]></title>
+    <url>%2F2017%2F01%2F03%2Flinux%2Fpatchelf%2F</url>
+    <content type="text"><![CDATA[12patchelf --set-rpath $&#123;HOME&#125;/temp/demo/lib subscriber]]></content>
+      <tags>
+        <tag>tool</tag>
+        <tag>linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Linux: todo]]></title>
+    <url>%2F2017%2F01%2F03%2Flinux%2Fdevtodo%2F</url>
+    <content type="text"><![CDATA[安装1sudo apt install devtodo 用法12345678910111213141516todo # 显示 todo listtda # 添加一项 todo，也可以用 todo -a 命令tde &lt;index&gt; # 修改第 index 条 todotdd &lt;index&gt; # 标记第 index 条 todo 已经完成tdr &lt;index&gt; # 删除第 index 条 todotodo -A # 显示所有的 todo 条目，包括完成的以及未完成的todo -Ac &lt;index&gt; #显示第index条todo的commenttodo --purge #删除已完成的todotodo -R 1,2 #将1变成2的子任务todo -R 1.1 #将1的子任务1变为根节点todo -G # ~/.todo_global aliases123456alias td=&quot;todo -G&quot;alias todo=&quot;todo -G&quot;alias tda=&quot;tda -G&quot;alias tdd=&quot;tdd -G&quot;alias tde=&quot;tde -G&quot;alias tdr=&quot;tdr -G&quot;]]></content>
+      <tags>
+        <tag>tool</tag>
+        <tag>linux</tag>
+        <tag>terminal</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[rar and tar]]></title>
     <url>%2F2017%2F01%2F03%2Flinux%2Frar-tar%2F</url>
     <content type="text"><![CDATA[rar，tar为linux上最常用的压缩解压打包工具。 rar12345678910111213#将文件log.py, grades.py，文件夹dir1压缩到log.rarrar a log.rar log.py grades.py dir1#将log.rar解压至temp文件夹（需新建）rar x log.rar ./temp#列出压缩包内文件rar l log.rar tar123456789101112131415161718192021222324# 压缩文件tar zcvf sth.tar.gz file1 file2 dir1#解压到当前目录tar zxvf sth.tar.gz#解压到指定目录tar zxvf sth.tar.gz -C ./temp#列出压缩包内文件tar tvf sth.tar.gz# 不压缩，只打包tar cvf sth.tar file1 dir1-c, --create 创建一个新归档-z 通过gzip压缩( tar本身不是压缩命令，)]]></content>
       <tags>
-        <tag>linux</tag>
         <tag>tool</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[python生成pdf文件]]></title>
-    <url>%2F2017%2F01%2F03%2Fpython%2Fpython-pdf%2F</url>
-    <content type="text"><![CDATA[添加语句，添加图片，定义字体 123456789from reportlab.pdfgen import canvasc=canvas.Canvas(&quot;hello.pdf&quot;)c.drawString(100,700,&quot;hello&quot;)c.drawImage(&quot;123.jpg&quot;,1*inch,1*inch,width=8*inch,height=9*inch)c.save()from reportlab.pdfbase.cidfonts import UnicodeCIDFontpdfmetrics.registerFont(UnicodeCIDFont(&apos;STSong-Light&apos;))c.setFont(&quot;STSong-Light&quot;,12)]]></content>
-      <tags>
-        <tag>python</tag>
+        <tag>linux</tag>
       </tags>
   </entry>
   <entry>
