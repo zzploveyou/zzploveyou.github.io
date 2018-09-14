@@ -4,16 +4,22 @@
     <title><![CDATA[linux tools]]></title>
     <url>%2F2018%2F09%2F12%2Flinux%2Fefficient-tools%2F</url>
     <content type="text"><![CDATA[trash-cli1sudo apt install trash-cli Usage123456#alias rm!="/bin/rm -vi"#alias rm=trashalias t=trashalias lt=trash-listalias rt=restore-trashalias et=trash-empty 命令 用途 trash-put/trash 文件或目录移入回收站 trash-empty 清空回收站 trash-list 列出回收站中的文件 restore-trash 还原回收站中的文件 trash-rm 删除回收站中的单个文件 递归搜索文件内容-agggreer/the_silver_searcher: A code-searching tool similar to ack, but faster. 123sudo apt install silversearcher-agag def lib/ 字符模式下交互查看git项目-tigjonas/tig: Text-mode interface for git mysql客户端-mycli类似于ipython的mysql客户端，支持语法高亮和命令补全 C++手册查询-cppman1cppman std::thread 多线程下载工具axel1axel -n 20 URL 终端会话录制-script/scriptreplay12345script -t 2&gt;time.txt session.typescript# your commandexitscriptreplay -t time.txt session.typescript 媒体下载工具 you-getyoutube, google+, 优酷，腾讯视频，秒拍等12# socks5(pip install pysocks)you-get &apos;https://www.youtube.com/watch?v=jNQXAC9IVRw&apos; -s 127.0.0.1:12345 网络流量分析 iptraf-ng123sudo apt install iptrafiptraf-ng w实时网速查看 bwm-ng1sudo apt install bwm-ng terminal录屏 asciinema查询天气1234curl wttr.in/:helpcurl "wttr.in/Beijing?lang=zh"curl "wttr.in/Beijing?pq&amp;lang=zh"curl "wttr.in/Beijing?0pq&amp;lang=zh" sudoku1sudoku cmatrix12cmatrix figlet — 字符串在终端上显示1figlet i love you xdotool — 控制鼠标点击123456789101112131415161718显示鼠标当前位置xdotool getmouselocationxdotool mousemove x yxdotool click 1xdotool click 2xdotool click 3xdotool key ctrl +1xdotool click --repeat 10 --delay 500 1间隔0.5s一次，重复10次左键 qrencode –字符串转为终端像素点二维码nitrogen – 多显示屏设置不同壁纸1: install dconf-editor and nitrogen 1234sudo apt-get install dconf-editorsudo apt-get install nitrogen 2: Open dconf-editor 3: In dconf-editor, explore to /org/gnome/desktop/background/ 4: Unmark the show-desktop-icons option. 5: Open nitrogen 这样之后桌面文件夹不显示 xeyesfortune名句 fortune-zh唐诗 cowsay123456789101112cowsay -l查看所有动物/usr/share/cowsay/cows/*cowsay -f turtle指定动物fortune-zh | cowsay -f turtle动物说话 equalxlatex公式编辑器1sudo apt install equalx ffmpeg1ffmpeg -i '123.avi' -ac 2 -b:v 2000k -c:a aac -c:v libx264 -b:a 160k -vprofile high -bf 0 -strict experimental -f mp4 '123.mp4' 12-b:v 2000k-b:v 1000k 文件清晰度，大小 convmv更改文件名编码方式的一个工具 1convmv -f gbk -t utf-8 -r –-notest /home 就是将/home目录下原来文件名是gbk编码方式的全部改为utf-8格式的。这里 -f 后面为原来的编码方式，-t 后面是要更改为的编码方式， 12-r 表示这个目录下面的所有文件， –notest 表示马上执行，而不是仅仅测试而已。 iconv更改文件编码方式的一个工具 1iconv -f gbk -t utf-8 -o outfile infile -f为原来的编码方式，-t 为输出文件的编码方式， -o表示输出文件名，这利用outfile表示，最后跟上要更改编码方式的文件名sourcefile]]></content>
+      <categories>
+        <category>linux</category>
+      </categories>
       <tags>
-        <tag>tool</tag>
         <tag>linux</tag>
+        <tag>tool</tag>
         <tag>trick</tag>
       </tags>
   </entry>
   <entry>
     <title><![CDATA[gist id of atom and vscode settings]]></title>
     <url>%2F2018%2F09%2F12%2Flinux%2Fgithub-gist-sync-settings%2F</url>
-    <content type="text"><![CDATA[Please enter the password to read the blog. Decrypt U2FsdGVkX1/MslRKkVBEBLdAsC/0tD9Zq07CF1/OEKEnkwLWWOGB3dezqX4GwrJGKiwQuq5mh0zqk/n3x7qb8Cf/6zmd8+UVOK4UV6LT2KgvpNNc26/rh7zsXl+e2KoGiIhV+FVFAeR8tK9+vpHM8ah1BGAesJcTUA98ZkV/YKXnzxlSidQ9kqq8R5tfRKHLOARZb6OQ3eR1IjwQkze2O5z6Nko0jZ+RQN43+tjb+UnrepsymVynDdzouSp7VVPbMcZCuKkA0Ej3piwM/K9dA5eCtAdXWQbiJvf2beoR2wS13LbOqftPuP/BbQAkqg7mzGRD4RcAKjU9DtWLToaMEsPJ4UcN8P/QVptRW3uvilUsFOcIgsAgZ2RaGkBAHpfG3U8SzL6+dEhLQmwOMzE1O1xwNXX5eUvSgm7SPfAJYGZuHV5co+39MBTe47wDAzpuCDRqTg50SMXCnaVPvLGKUdJlWDS9w3IIfIn9PPSOdY4uSU/eMFwqcBXU58pLLZO9iocdjnbDgn7BittPUOtzujl5HTl2Zo1DUIL27GjayjJg7DjfON5PT5Q6Ys3Edi6cMxKCNSdDdkK/8fvkF+RPtPt2rOu50DfEtmd2QphJv6/kJ0Vl4wazy0Iws1vqBZMx4l66ppYvLRPnnp+HQ1ncNoMf0ZrcAXr5+l+jQjJwU41OSOnfxmo53uJSVooxRR8IqoBau4TCn0chDjKusz1LktHdP1ByvpD2OOEN/5fGDsEMlZm07leGaWu6Xm4iPTwtyuPmMRNNna17MlmbWBDNU9+HO+rdO71knSQNzt5cp30YWQ3iTkdJkEL80ms5CqWuzNJfreoUcQrqqPBsCwXt8hlqegbstiUMmsEVSn7kR9NYdXS7w1hchBSrbELgoJbnh8DqHEXZFJMuy+bBtsHMk7BMccXxKn1m1/ii7LKafJg3XTEIFedDPGIrqhWSusQeOJnkAjzBTZmo3rhjZWTbqUU5TjhIqPSv1tR/qwE3Um+2G3lauZH7dH05H5cLR5pOxlQg+KDz1PKosAQcmEWHNyPynGZw7Dh1Ne+K32Gxli6R4iKcSbVzhxRQcyqdem/oWpJLt9v5VxFLxQsYTtK7JFn56bOGy8p6ttN2F8bKO9rITVGXsTA5+Hw45ymGLXvr/wfKjbgXo5SGjTdFTlm+P0Ju8DJoNXEL+7tpoiux47d941Y/g1uuasI1OC7cGw6LNuDYdnlbg68A2ElRYQKBIZpxk5BGnsQKOeL2qe/7WfZoonmMY9BYwr0siXfJK7Ovc+a8/0hsRIXQW46sI6kFPy5pY2dIecgHk2fs2LxXLfRdnKFGcYNd6DRqlVYopQX/dCP5HnGlqffSWKZ991yjeEbHHeX+6wB5SRb4bd4MCQ1FIwSpOyFKLiqgBa3AxNFe1sQp8doh/0AaQRXFzgKQFSXwdzu3n+Y1WaQVPryf+iBJe3kWuSOp0zl2WeOdvjOdkgQL7F7LVkskuiJbHS3gCEiToaVbLdko2OqppHclZ8jUTDIBHiy/bj3Yt0ItUQFv+PdvIdpHjuuBMbdB66Bb5dpEvjweB8sckEUjt3tct0UGOKlpUSz92iXutRQ6mZDgScapcvriQw3AgVMzhIlkCUWCnqVgj1pnfrXMw6vCN2/0u4jnhu5veAatGvROS8GwQQ4SwxE2xHk5iLHwuJEIJc/H1PLwpT+aMQ3ne/g0FBDiahq6GmEHVxB+xvSoQIxapXccigDH57WKQhO9sKVaFB6CelfxNUZPPvTLMWCaVRJPsS7CEPcA8N+9lzC3KsIc4czz0VxjJa616J3ULIdf/iTZpbXQjIjyFYGP3QtpaEMtLIr1PNOYKZNR+Z+0fg5+2+ycniNqqaSDbq2sQWlSpyzkwSYGZgxGW/XahcGo9tU=]]></content>
+    <content type="text"><![CDATA[Please enter the password to read the blog. Decrypt U2FsdGVkX1+4Zfy9YA77J9hfIRM09Nh3fWDFSDZUNsKSFFPJPbcSa53jlhn74LuXJFkVccZMQ87dQUzDkSO35D2d7dJhM/8b2KdhUXZtCw+4pNDYnZv9ip4di+pc5gzN/DCFS2F/lohb1xqOsbimKQf/r5yTFNyJ9iIHMmxqaiP4LDpy6EKZB1gJQdgp4Ny7y9RXE1rdIBTYv1lncv+qHOrqB1tsvIldGLbpoiup6gJX5M8qzs/g4n6QXQpqz9uF0ymdDhQFdKEJG+vLj0Ci7UUA3wgIPJRAFePEOGW1ALw+VlQAwz5PXiJBKh0Jjrm4j25NhC1CiPfWVQ6RTtSSaKxiPBIE8zu2zCLaUBpQLvuj+EwrjMqGvM1OnNQxn3qZQkmNK9mXNttXD0tgAzw8MFzMzs+1E1/m4+hbhLTQGZM7iGrGN9HmstGSMdaYivHpBLn4aAIB5ELu/B1okqrtVpS22wEQnCCuruWS7LH35oST7ztLoNwC7i5Q8vbnrfuWfZMiS7T7BxEys7cT241ptp/KBk7dxUfMjThN8m2RR+d6BLKhgjYpFSY67c29WCX9IalGgRQOroPKnKI2EDYmcPA1tt+BdjwRSCNcDJTTd62GnVZUYaf4pBaab9kZ4EysSBBc/DRh559HGgulteUeSYXMsHn2R5+v9GX8sKeGmLj5e4EQYoD0/X8MgBt+qvnCTbOfmlMUGeGTJVVwhYhfhH8xLseQrAzjINciuO6XsEqVCKStNXwfrSmo5PhR413dcNrBiyFx1MgaKantP0UTo6HNrVGUCM9uxOyG3aQc6BHniqggzsVsu3XCZcBQ/1hJpDEv57lZWr87D53udcxHF6TMtmrRCyg1o/EH1n7mGySv1oH/32Ai3kt1HL70HJ9r4TjmZuKnZco5duTR1Y9bYfcxkuKHKQuIh4cEb4OmfFoWnEWGQfD4nb5kDDUX48pcAAq16zHJhMULfdgxcGbL/WZ6PyeOw4Z1pEAp/AKw7iZZa2Tu9fejCcnFbf2VE+vCAemyS+JZSuLZT7PcnvvzzEl1+ZGPN1ZMP7UE5eLw6snO/C19YCMBr9Z+TJwRZy0lq69Ycc36wbWB4zIDJkl+IZK2ha/kCGcv31/RGVIM0lT+2Q96kSd+6wto/F9DU8y2W6v2IIWry1igBs2fPjPMSpJoCKNiYZ0oF1pEQpyDtMaxYWbSKZR+FZaAKui51lI2t/5MY1ab2nZDy69ZxrnTs3+p36QB5hj5ffSzUmoUjmaWRcBGT4N5rdM/q8lv5Clb/4GVCzp1ZXmD1xScYDGmR16gnxceOg5i/q7A1iMzm9iHPRjFTuahiK5bSbw/Ky1WtGlIcFBC1J8QrbtNMAfkqkrpt9GKFvWT8JiWFY6yuj15v+KBTi9CF2yG0EqM4/5O+9DqYTzrleuqJOH9xcF73laR1VGgCikglPxXb7mqaMliWQtV+7drO6FohzJJOO1mXhCeHfhEzz4nCGPTnSVQL6ExywawOcfHiR3YQyrcEyxwU5HIhJZXC7/hzrgS3Cs2Y5wg+umRTBCUDw7SxR5jFMl3GVn5TphhBUn9T6eHNaHmL9vR7Z3Bp0JX+bYvmnz5XmK8T6Yr1zIFOGMKMMn0ndV/bWC0SW3U8uCbGQ8aCPp8ZBzFijg/FsjuICcfPC5FkR7A58XxCCVsX2PoJTzuguXRb8Q2kfOOHsIHa/Q64yWoEZfS49go0ogxPxu4R8WhoaEjVdLsoiUmZcndeCgYJk4BaiUIG4NaLAZA5soMmloew0ygLExmO5S8GAURQ99OgeuNEvMKJOuxRKyTfJlJ4PBfRi2Gav1T8G767pBZMtR/6fFf7tcs4eJgTBYs83hALmO3tB5VxcNjCfh2aF0ZF1jlgWclqVIDZ5OQY2qBL1U=]]></content>
+      <categories>
+        <category>linux</category>
+      </categories>
       <tags>
         <tag>config</tag>
       </tags>
@@ -22,6 +28,9 @@
     <title><![CDATA[linux: sed]]></title>
     <url>%2F2018%2F09%2F11%2Flinux%2Flinux-sed%2F</url>
     <content type="text"><![CDATA[sed是一种流编辑器，它是文本处理中非常中的工具，能够完美的配合正则表达式使用，功能不同凡响。处理时，把当前处理的行存储在临时缓冲区中，称为“模式空间”（pattern space），接着用sed命令处理缓冲区中的内容，处理完成后，把缓冲区的内容送往屏幕。接着处理下一行，这样不断重复，直到文件末尾。文件内容并没有 改变，除非你使用重定向存储输出。Sed主要用来自动编辑一个或多个文件；简化对文件的反复操作；编写转换程序等。 sed的选项、命令、替换标记命令格式 12sed [options] &apos;command&apos; file(s)sed [options] -f scriptfile file(s) 选项12345-e&lt;script&gt;或--expression=&lt;script&gt;：以选项中的指定的script来处理输入的文本文件；-f&lt;script文件&gt;或--file=&lt;script文件&gt;：以选项中指定的script文件来处理输入的文本文件；-h或--help：显示帮助；-n或--quiet或——silent：仅显示script处理后的结果；-V或--version：显示版本信息。 参数文件：指定待处理的文本文件列表。 sed命令12345678910111213141516171819202122232425a\ 在当前行下面插入文本。i\ 在当前行上面插入文本。c\ 把选定的行改为新的文本。d 删除，删除选择的行。D 删除模板块的第一行。s 替换指定字符h 拷贝模板块的内容到内存中的缓冲区。H 追加模板块的内容到内存中的缓冲区。g 获得内存缓冲区的内容，并替代当前模板块中的文本。G 获得内存缓冲区的内容，并追加到当前模板块文本的后面。l 列表不能打印字符的清单。n 读取下一个输入行，用下一个命令处理新的行而不是用第一个命令。N 追加下一个输入行到模板块后面并在二者间嵌入一个新行，改变当前行号码。p 打印模板块的行。P(大写) 打印模板块的第一行。q 退出Sed。b lable 分支到脚本中带有标记的地方，如果分支不存在则分支到脚本的末尾。r file 从file中读行。t label if分支，从最后一行开始，条件一旦满足或者T，t命令，将导致分支到带有标号的命令处，或者到脚本的末尾。T label 错误分支，从最后一行开始，一旦发生错误或者T，t命令，将导致分支到带有标号的命令处，或者到脚本的末尾。w file 写并追加模板块到file末尾。 W file 写并追加模板块的第一行到file末尾。 ! 表示后面的命令对所有没有被选定的行发生作用。 = 打印当前行号码。 # 把注释扩展到下一个换行符以前。 sed替换标记1234567g 表示行内全面替换。 p 表示打印行。 w 表示把行写入一个文件。 x 表示互换模板块中的文本和缓冲区中的文本。 y 表示把一个字符翻译为另外的字符（但是不用于正则表达式）\1 子串匹配标记&amp; 已匹配字符串标记 sed元字符集12345678910111213^ 匹配行开始，如：/^sed/匹配所有以sed开头的行。$ 匹配行结束，如：/sed$/匹配所有以sed结尾的行。. 匹配一个非换行符的任意字符，如：/s.d/匹配s后接一个任意字符，最后是d。* 匹配0个或多个字符，如：/*sed/匹配所有模板是一个或多个空格后紧跟sed的行。[] 匹配一个指定范围内的字符，如/[ss]ed/匹配sed和Sed。 [^] 匹配一个不在指定范围内的字符，如：/[^A-RT-Z]ed/匹配不包含A-R和T-Z的一个字母开头，紧跟ed的行。\(..\) 匹配子串，保存匹配的字符，如s/\(love\)able/\1rs，loveable被替换成lovers。&amp; 保存搜索字符用来替换其他字符，如s/love/**&amp;**/，love这成**love**。\&lt; 匹配单词的开始，如:/\&lt;love/匹配包含以love开头的单词的行。\&gt; 匹配单词的结束，如/love\&gt;/匹配包含以love结尾的单词的行。x\&#123;m\&#125; 重复字符x，m次，如：/0\&#123;5\&#125;/匹配包含5个0的行。x\&#123;m,\&#125; 重复字符x，至少m次，如：/0\&#123;5,\&#125;/匹配至少有5个0的行。x\&#123;m,n\&#125; 重复字符x，至少m次，不多于n次，如：/0\&#123;5,10\&#125;/匹配5~10个0的行。 sed用法实例替换操作：s命令替换文本中的字符串： 1sed 's/book/books/' file -n选项和p命令一起使用表示只打印那些发生替换的行： 1sed -n 's/test/TEST/p' file 直接编辑文件选项-i，会匹配file文件中每一行的第一个book替换为books： 1sed -i 's/book/books/g' file 全面替换标记g使用后缀 /g 标记会替换每一行中的所有匹配： 1sed 's/book/books/g' file 当需要从第N处匹配开始替换时，可以使用 /Ng： 12345678echo sksksksksksk | sed 's/sk/SK/2g'skSKSKSKSKSKecho sksksksksksk | sed 's/sk/SK/3g'skskSKSKSKSKecho sksksksksksk | sed 's/sk/SK/4g'skskskSKSKSK 定界符以上命令中字符 / 在sed中作为定界符使用，也可以使用任意的定界符： 12sed 's:test:TEXT:g'sed 's|test|TEXT|g' 定界符出现在样式内部时，需要进行转义： 1sed 's/\/bin/\/usr\/local\/bin/g' 删除操作：d命令删除空白行： 1sed '/^$/d' file 删除文件的第2行： 1sed '2d' file 删除文件的第2行到末尾所有行： 1sed '2,$d' file 删除文件最后一行： 1sed '$d' file 删除文件中所有开头是test的行： 1sed '/^test/'d file 已匹配字符串标记&amp;正则表达式 \w+ 匹配每一个单词，使用 [&amp;] 替换它，&amp; 对应于之前所匹配到的单词： 12echo this is a test line | sed 's/\w\+/[&amp;]/g'[this] [is] [a] [test] [line] 所有以192.168.0.1开头的行都会被替换成它自已加localhost： 12sed 's/^192.168.0.1/&amp;localhost/' file192.168.0.1localhost 子串匹配标记\1匹配给定样式的其中一部分： 12echo this is digit 7 in a number | sed 's/digit \([0-9]\)/\1/'this is 7 in a number 命令中 digit 7，被替换成了 7。样式匹配到的子串是 7，(..) 用于匹配子串，对于匹配到的第一个子串就标记为 \1，依此类推匹配到的第二个结果就是 \2，例如： 12echo aaa BBB | sed 's/\([a-z]\+\) \([A-Z]\+\)/\2 \1/'BBB aaa love被标记为1，所有loveable会被替换成lovers，并打印出来： 1sed -n 's/\(love\)able/\1rs/p' file 组合多个表达式12345sed &apos;表达式&apos; | sed &apos;表达式&apos;等价于：sed &apos;表达式; 表达式&apos; 引用sed表达式可以使用单引号来引用，但是如果表达式内部包含变量字符串，就需要使用双引号。 123test=helloecho hello WORLD | sed "s/$test/HELLO"HELLO WORLD 选定行的范围：,（逗号）所有在模板test和check所确定的范围内的行都被打印： 1sed -n '/test/,/check/p' file 打印从第5行开始到第一个包含以test开始的行之间的所有行： 1sed -n '5,/^test/p' file 对于模板test和west之间的行，每行的末尾用字符串aaa bbb替换： 1sed '/test/,/west/s/$/aaa bbb/' file 多点编辑：e命令-e选项允许在同一行里执行多条命令： 1sed -e &apos;1,5d&apos; -e &apos;s/test/check/&apos; file 上面sed表达式的第一条命令删除1至5行，第二条命令用check替换test。命令的执行顺序对结果有影响。如果两个命令都是替换命令，那么第一个替换命令将影响第二个替换命令的结果。 和 -e 等价的命令是 –expression： 1sed --expression=&apos;s/test/check/&apos; --expression=&apos;/love/d&apos; file 从文件读入：r命令file里的内容被读进来，显示在与test匹配的行后面，如果匹配多行，则file的内容将显示在所有匹配行的下面： 1sed &apos;/test/r file&apos; filename 写入文件：w命令在example中所有包含test的行都被写入file里： 1sed -n &apos;/test/w file&apos; example 追加（行下）：a\命令将 this is a test line 追加到 以test 开头的行后面： 1sed '/^test/a\this is a test line' file 在 test.conf 文件第2行之后插入 this is a test line： 1sed -i '2a\this is a test line' test.conf 插入（行上）：i\命令将 this is a test line 追加到以test开头的行前面： 1sed '/^test/i\this is a test line' file 在test.conf文件第5行之前插入this is a test line： 1sed -i '5i\this is a test line' test.conf 下一个：n命令如果test被匹配，则移动到匹配行的下一行，替换这一行的aa，变为bb，并打印该行，然后继续： 1sed '/test/&#123; n; s/aa/bb/; &#125;' file 变形：y命令把1~10行内所有abcde转变为大写，注意，正则表达式元字符不能使用这个命令： 1sed '1,10y/abcde/ABCDE/' file 退出：q命令打印完第10行后，退出sed 1sed '10q' file 保持和获取：h命令和G命令在sed处理文件的时候，每一行都被保存在一个叫模式空间的临时缓冲区中，除非行被删除或者输出被取消，否则所有被处理的行都将 打印在屏幕上。接着模式空间被清空，并存入新的一行等待处理。 1sed -e '/test/h' -e '$G' file 在这个例子里，匹配test的行被找到后，将存入模式空间，h命令将其复制并存入一个称为保持缓存区的特殊缓冲区内。第二条语句的意思是，当到达最后一行后，G命令取出保持缓冲区的行，然后把它放回模式空间中，且追加到现在已经存在于模式空间中的行的末尾。在这个例子中就是追加到最后一行。简单来说，任何包含test的行都被复制并追加到该文件的末尾。 保持和互换：h命令和x命令互换模式空间和保持缓冲区的内容。也就是把包含test与check的行互换： 1sed -e '/test/h' -e '/check/x' file 脚本scriptfilesed脚本是一个sed的命令清单，启动Sed时以-f选项引导脚本文件名。Sed对于脚本中输入的命令非常挑剔，在命令的末尾不能有任何空白或文本，如果在一行中有多个命令，要用分号分隔。以#开头的行为注释行，且不能跨行。 1sed [options] -f scriptfile file(s) 打印奇数行或偶数行方法1： 12sed -n 'p;n' test.txt #奇数行sed -n 'n;p' test.txt #偶数行 方法2： 12sed -n '1~2p' test.txt #奇数行sed -n '2~2p' test.txt #偶数行 打印匹配字符串的下一行123grep -A 1 SCC URFILEsed -n '/SCC/&#123;n;p&#125;' URFILEawk '/SCC/&#123;getline; print&#125;' URFILE sed命令_Linux sed 命令用法详解：功能强大的流式文本编辑器]]></content>
+      <categories>
+        <category>linux</category>
+      </categories>
       <tags>
         <tag>linux</tag>
         <tag>command</tag>
@@ -31,6 +40,9 @@
     <title><![CDATA[sys.platform python运行平台]]></title>
     <url>%2F2018%2F09%2F10%2Fpython%2Fsys-platform%2F</url>
     <content type="text"><![CDATA[平台 值 Linux (2.x and 3.x) ‘linux2’ Windows ‘win32’ Windows/Cygwin ‘cygwin’ Mac OS X ‘darwin’ OS/2 ‘os2’ OS/2 EMX ‘os2emx’ RiscOS ‘riscos’ AtheOS ‘atheos’ 12import platformprint(platform.platform())]]></content>
+      <categories>
+        <category>python</category>
+      </categories>
       <tags>
         <tag>python</tag>
       </tags>
@@ -39,6 +51,9 @@
     <title><![CDATA[scipy tricks]]></title>
     <url>%2F2018%2F09%2F10%2Fpython%2Fscipy-tricks%2F</url>
     <content type="text"><![CDATA[排列组合数12from scipy.misc import combcomb(N, k, exact=False, repetition=False) 最优化相关 Optimization and root finding (scipy.optimize) — SciPy v0.18.1 Reference Guide from scipy.optimize import leastsq Minimize the sum of squares of a set of equations. 12345678910111213141516171819202122232425262728293031323334353637###最小二乘法试验###import numpy as npfrom scipy.optimize import leastsq###采样点(Xi,Yi)###Xi=np.array([8.19,2.72,6.39,8.71,4.7,2.66,3.78])Yi=np.array([7.01,2.78,6.47,6.71,4.1,4.23,4.05])###需要拟合的函数func及误差error###def func(p,x): k,b=p return k*x+bdef error(p,x,y,s): print s return func(p,x)-y #x、y都是列表，故返回值也是个列表#TESTp0=[100,2]#print( error(p0,Xi,Yi) )###主函数从此开始###s="Test the number of iteration" #试验最小二乘法函数leastsq得调用几次error函数才能找到使得均方误差之和最小的k、bPara=leastsq(error,p0,args=(Xi,Yi,s)) #把error函数中除了p以外的参数打包到args中k,b=Para[0]print"k=",k,'\n',"b=",b###绘图，看拟合效果###import matplotlib.pyplot as pltplt.figure(figsize=(8,6))plt.scatter(Xi,Yi,color="red",label="Sample Point",linewidth=3) #画样本点x=np.linspace(0,10,1000)y=k*x+bplt.plot(x,y,color="orange",label="Fitting Line",linewidth=2) #画拟合直线plt.legend()plt.show() from scipy.optimize import linprog12345678Minimize a linear objective function subject to linear equality and inequality constraints.Linear Programming is intended to solve the following problem form:Minimize: c^T * xSubject to: A_ub * x &lt;= b_ub A_eq * x == b_eq from scipy.optimize import minimizeMinimization of scalar function of one or more variables. In general, the optimization problems are of the form: minimize f(x) subject to12g_i(x) &gt;= 0, i = 1,...,mh_j(x) = 0, j = 1,...,p where x is a vector of one or more variables. g_i(x) are the inequality constraints. h_j(x) are the equality constrains. Optionally, the lower and upper bounds for each element in x can also be specified using the bounds argument.]]></content>
+      <categories>
+        <category>python</category>
+      </categories>
       <tags>
         <tag>python</tag>
       </tags>
@@ -47,6 +62,9 @@
     <title><![CDATA[hexo-scripts]]></title>
     <url>%2F2018%2F09%2F08%2Ftricks%2Fhexo-scripts%2F</url>
     <content type="text"><![CDATA[针对hexo-next搭建的博客，写了几个方便操作的脚本： new.sh: 任意目录新建带模板的md文件 post.sh: 任意目录post+deploy backup.sh: 备份博客，以便日后迁移 new.shpost.shbackup.sh1alias new=your_path/new.sh 任意目录下new 123-456 会生成123-456.md文件并mv到当前目录下。 12345678#!/bin/bashblog_PATH=/home/zzp/work/blogCURRENT=$PWDcd $blog_PATH# echo “Usage: new.sh title”hexo n $1echo “[+] mv $1.md to current directory …”mv $blog_PATH/source/_posts/$1.md $CURRENT posh.sh运行参数12345678910# 将文件post到hexo博客source/_post下./post.sh [file]# deploy your website../post.sh -d# local server./post.sh -p 9920# post + deploy./post.sh -d [file]# post + local server./post.sh -p 9920 [file] 脚本内容123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263#!/bin/bashblog_PATH=/home/zzp/work/blogpost_PATH=$blog_PATH/source/_posts# update to web if DEPLOY=1DEPLOY=0PORT=0if [ “$1“ == “-h” ]||[ “$1“ == “–help” ]||[ $# -eq 0 ];then echo “Usage: basename &lt;span class=&quot;variable&quot;&gt;$0&lt;/span&gt; mdfile1 mdfile2 …” echo “Options:” echo “-d, –deploy: deploy your website.” echo “-p PORT: port of local server.” exit 0fiPOSITIONAL=()while [[ $# -gt 0 ]]dokey=“$1“case $key in -d|–develop) DEPLOY=1 shift # past argument ;; -p|–port) PORT=“$2“ shift # past argument shift # past value ;; *) # unknown option POSITIONAL+=(“$1“) # save it in an array for later shift # past argument ;;esacdoneset – “$&#123;POSITIONAL[@]&#125;“ # restore positional parametersfor i in $@; do if [ -f $i ];then mv $i $post_PATH echo “[+] move $i into blog source …” fidonecd $blog_PATH# hexo clean and generate.if [ $DEPLOY == 1 ]||[ $PORT != 0 ];then # hexo clean hexo gfi# hexo deploy your website.if [ $DEPLOY == 1 ];then hexo delse # local server port. if [ $PORT != 0 ];then hexo s -p $PORT fifi backup.sh打包hexo博客项目内需要备份的文件 12345#!/bin/bashblog_PATH=/home/zzp/work/blogcd $blog_PATH# backuptar zcvf “blogsource.date +%Y%m%d.tar.gz” scaffolds/ source/ themes/ .gitignore _config.yml package.json *.sh backup]]></content>
+      <categories>
+        <category>tricks</category>
+      </categories>
       <tags>
         <tag>linux</tag>
         <tag>shell</tag>
@@ -57,9 +75,12 @@
     <title><![CDATA[wget 递归爬取网页]]></title>
     <url>%2F2018%2F09%2F07%2Flinux%2Fwget%2F</url>
     <content type="text"><![CDATA[wget 递归爬取网站并存在本地 12345678wget -L 仅跟踪相对链接wget -r -p -np -k# exclude directorieswget -c -r -p -np -k -X /class/cs224n/reports,/class/cs224n/archive http://web.stanford.edu/class/cs224n/syllabus.html# reject-regex wget -c -r -p -np -k --reject-regex="/proj*" http://cs229.stanford.edu/syllabus.html]]></content>
+      <categories>
+        <category>linux</category>
+      </categories>
       <tags>
-        <tag>tool</tag>
         <tag>linux</tag>
+        <tag>tool</tag>
         <tag>web</tag>
       </tags>
   </entry>
@@ -67,6 +88,9 @@
     <title><![CDATA[pdb调试Python程序]]></title>
     <url>%2F2018%2F09%2F06%2Fpython%2Fpython-debugger-pdb%2F</url>
     <content type="text"><![CDATA[使用pdb module调试python程序 1python -m pdb test.py 进入交互pdb调试界面后，可键入如下命令 命令 用法 h/help 查看可用命令 h command 查看command用法 p 查看变量值 pp 查看变量值（pretty-print） n/next 单步执行（遇到函数会跳过中间步骤） s/step 单步执行（遇到函数不会跳过中间步骤） c/cont/continue 执行到下一断点前 run/restart 重新运行程序 b/break 10 第十行设置断点 cl/clear num 删除断点 l 显示当前文件的源码 ll/longlist 显示当前function或frame的源码 j/jump 10 跳到第十行开始执行（跳过某些代码） unt/until 10 执行到第十行 a/args 当前函数参数值 q/quit/exit 退出 u/up 上层调用 d/down 下层调用 enable/disable 断点生效/失效 alias/unalias 别名/取消别名 r/return 执行到return rv/retval 打印上次return的值 … …]]></content>
+      <categories>
+        <category>python</category>
+      </categories>
       <tags>
         <tag>python</tag>
         <tag>debug</tag>
@@ -76,15 +100,21 @@
     <title><![CDATA[内网穿透FRP使用方法]]></title>
     <url>%2F2018%2F09%2F03%2Flinux%2FFRP%2F</url>
     <content type="text"><![CDATA[frp/README_zh.md at master · fatedier/frp 公网服务器server端1./frps -c ./frps.ini frps.ini 1234# frps.ini[common]bind_port = 7000vhost_http_port = 8080 内网client端1./frpc -c ./frpc.ini frpc.ini 1234567891011121314[common]server_addr = x.x.x.xserver_port = 7000[ssh]type = tcplocal_ip = 127.0.0.1local_port = 22remote_port = 9921[web]type = httplocal_port = 9920custom_domains = x.x.x.x 访问方式 ssh 1ssh -p 9921 user@x.x.x.x web 1x.x.x.x:8080]]></content>
+      <categories>
+        <category>linux</category>
+      </categories>
       <tags>
-        <tag>tool</tag>
         <tag>linux</tag>
+        <tag>tool</tag>
       </tags>
   </entry>
   <entry>
     <title><![CDATA[下载github repo的子文件夹]]></title>
     <url>%2F2018%2F08%2F22%2Flinux%2Fdownload-folder-from-github-repo%2F</url>
     <content type="text"><![CDATA[https://github.com/tensorflow/models/tree/master/research/inception https://github.com/tensorflow/models/trunk/research/inception replace“tree/master” with “trunk” 1svn checkout https://github.com/tensorflow/models/trunk/research/inception]]></content>
+      <categories>
+        <category>linux</category>
+      </categories>
       <tags>
         <tag>linux</tag>
         <tag>github</tag>
@@ -95,6 +125,9 @@
     <title><![CDATA[linux bash colorful log.]]></title>
     <url>%2F2018%2F06%2F19%2Flinux%2Fbashlog%2F</url>
     <content type="text"><![CDATA[1234567891011121314151617181920212223242526272829303132333435363738394041#!/bin/bash# Check for rootif [[ "$(id -u)" == "0" ]]then echo "$fail Do not run this script as root." exit 1fidisableColor=""if [[ $disableColor == "" ]] || [[ $disableColor == false ]]then fail="[$(tput setaf 1) FAIL $(tput sgr0)]" ok="[$(tput setaf 2) OK $(tput sgr0)]" running="[$(tput setaf 3) ** $(tput sgr0)]" notice="[$(tput setaf 3)NOTICE$(tput sgr0)]" warn="[$(tput setaf 3) WARN $(tput sgr0)]" info="[$(tput setaf 6) INFO $(tput sgr0)]" finish="[$(tput setaf 4) DONE $(tput sgr0)]"elif [[ $disableColor == true ]]then fail="[ FAIL ]" ok="[ OK ]" running="[ ** ]" notice="[NOTICE]" warn="[ WARN ]" info="[ INFO ]" finish="[ DONE ]"else echo "Unknown disableColor setting." exit 1fiecho "$fail this is fail."echo "$ok this is OK."echo "$running this is running."echo "$notice this is notice."echo "$warn this is warn."echo "$info this is info."echo "$finish this is finish."]]></content>
+      <categories>
+        <category>linux</category>
+      </categories>
       <tags>
         <tag>linux</tag>
         <tag>shell</tag>
@@ -104,6 +137,9 @@
     <title><![CDATA[music-recommendation]]></title>
     <url>%2F2018%2F06%2F10%2Fai%2Fmusic-recommendation%2F</url>
     <content type="text"><![CDATA[sklearn CCA python http://scikit-learn.org/stable/modules/generated/sklearn.cross_decomposition.CCA.html 跨平台的音乐推荐算法 http://media.people.com.cn/n1/2017/0113/c409702-29021998-2.html openSMILE音频情感分析 1./SMILExtract -C config/paraling\ IS10.conf -I example-audio/opensmile.wav -O opensmile.csv 特征结果存放在最后一行～]]></content>
+      <categories>
+        <category>ai</category>
+      </categories>
       <tags>
         <tag>machine learning</tag>
         <tag>audio</tag>
@@ -113,9 +149,12 @@
     <title><![CDATA[screen命令]]></title>
     <url>%2F2018%2F06%2F05%2Flinux%2Fscreen%E7%AE%80%E8%A6%81%E5%91%BD%E4%BB%A4%2F</url>
     <content type="text"><![CDATA[##1. 进入screen，1screen ##2. 列出所有id的session1screen - ls ##3. 切换到某id的session1screen -r (id) ##4. 新建某id的session1screen -S id ##5. 杀死某个id的session1screen -S id -X quit ##6. 切换出screen ctrl+a+d ##7. 切换到下一个id的session ctrl+a+n 改session名字ctrl+A:sessionname newname]]></content>
+      <categories>
+        <category>linux</category>
+      </categories>
       <tags>
-        <tag>tool</tag>
         <tag>linux</tag>
+        <tag>tool</tag>
         <tag>command</tag>
       </tags>
   </entry>
@@ -123,6 +162,9 @@
     <title><![CDATA[ubuntu制作u盘启动盘: usb-creater-gtk & unetbootin]]></title>
     <url>%2F2018%2F05%2F03%2Flinux%2Fusb-creator-gtk_unetbootin%2F</url>
     <content type="text"><![CDATA[方法1、Ubuntu使用usb-creator工具制作U盘系统启动盘1sudo usb-creator-gtk 方法2、u盘制作工具unetbootin(1)安装u盘制作工具unetbootin1sudo apt-get install unetbootin (2)格式化u盘123sudo fdisk -l #查看U盘盘符，假设为/dev/sdbsudo umount /dev/sdb #先卸载u盘sudo mkfs.vfat /dev/sdb #格式化为fat32模式 (3)使用unetbootin制作u盘镜像(4)设置BIOS u盘启动一般电脑按F2进入BIOS设置，设置u盘启动即可安装ubuntu操作系统]]></content>
+      <categories>
+        <category>linux</category>
+      </categories>
       <tags>
         <tag>linux</tag>
       </tags>
@@ -131,6 +173,9 @@
     <title><![CDATA[LeetCode: plus-one]]></title>
     <url>%2F2018%2F04%2F30%2Falgorithms%2Fplus-one%2F</url>
     <content type="text"><![CDATA[1234567891011121314151617181920212223242526272829303132"""https://leetcode.com/problems/plus-one/description/"""class Solution(object): def plusOne(self, digits): """ :type digits: List[int] :rtype: List[int] &gt;&gt;&gt; s = Solution() &gt;&gt;&gt; s.plusOne([1, 2, 3]) [1, 2, 4] &gt;&gt;&gt; s.plusOne([4, 3, 2 ,1]) [4, 3, 2, 2] &gt;&gt;&gt; s.plusOne([1, 9, 9]) [2, 0, 0] &gt;&gt;&gt; s.plusOne([9, 9, 9]) [1, 0, 0, 0] """ if digits == [0]: return [1] idx = len(digits) - 1 while True: digits[idx] += 1 if digits[idx] != 10: return digits else: digits[idx] = 0 idx -= 1 if idx == -1: return [1] + digits]]></content>
+      <categories>
+        <category>algorithms</category>
+      </categories>
       <tags>
         <tag>python</tag>
         <tag>LeetCode</tag>
@@ -141,6 +186,9 @@
     <title><![CDATA[LeetCode: valid number]]></title>
     <url>%2F2018%2F04%2F26%2Falgorithms%2Fvalid-number%2F</url>
     <content type="text"><![CDATA[12345678910111213141516"""https://leetcode.com/problems/valid-number/description/"""class Solution(object): def isNumber(self, s): """ :type s: str :rtype: bool """ try: float(s.strip()) return True except Exception: return False]]></content>
+      <categories>
+        <category>algorithms</category>
+      </categories>
       <tags>
         <tag>python</tag>
         <tag>LeetCode</tag>
@@ -151,6 +199,9 @@
     <title><![CDATA[LeetCode: sqrtx]]></title>
     <url>%2F2018%2F04%2F23%2Falgorithms%2Fsqrtx%2F</url>
     <content type="text"><![CDATA[12345678910111213141516171819202122232425262728293031323334"""https://leetcode.com/problems/sqrtx/description/"""class Solution(object): def mySqrt(self, x): """ :type x: int :rtype: int &gt;&gt;&gt; s = Solution() &gt;&gt;&gt; s.mySqrt(4) 2 &gt;&gt;&gt; s.mySqrt(0) 0 &gt;&gt;&gt; s.mySqrt(8) 2 &gt;&gt;&gt; s.mySqrt(1) 1 &gt;&gt;&gt; s.mySqrt(2147395600) 46340 """ if 0 &lt;= x &lt; 1: return 0 elif x == 1: return 1 else: # how to choose the init value ? x0 = x // 2 while True: # x**2/4 &gt; x if x0**2 &lt;= x: return x0 x0 = int((x0 + x / x0) / 2)]]></content>
+      <categories>
+        <category>algorithms</category>
+      </categories>
       <tags>
         <tag>python</tag>
         <tag>LeetCode</tag>
@@ -161,6 +212,9 @@
     <title><![CDATA[LeetCode: search for a range]]></title>
     <url>%2F2018%2F04%2F20%2Falgorithms%2Fsearch-for-a-range%2F</url>
     <content type="text"><![CDATA[123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566"""https://leetcode.com/problems/search-for-a-range/description/"""class Solution(object): def searchRange(self, nums, target): """ :type nums: List[int] :type target: int :rtype: List[int] &gt;&gt;&gt; s = Solution() &gt;&gt;&gt; s.searchRange([5, 7, 7, 8, 8, 10], 8) [3, 4] &gt;&gt;&gt; s.searchRange([5, 7, 7, 8, 8, 10], 6) [-1, -1] &gt;&gt;&gt; s.searchRange([], 0) [-1, -1] &gt;&gt;&gt; s.searchRange([1], 1) [0, 0] &gt;&gt;&gt; s.searchRange([1, 3], 1) [0, 0] &gt;&gt;&gt; s.searchRange([1, 4], 4) [1, 1] &gt;&gt;&gt; s.searchRange([2, 2], 2) [0, 1] """ start = 0 end = len(nums) if end == 0: return [-1, -1] ex = -1 while True: if end - start == 1: if nums[start] == target: ex = start break mid_ind = (start+end)//2 mid = nums[mid_ind] if mid &gt; target: end = mid_ind elif mid &lt; target: start = mid_ind else: ex = mid_ind break # cannot find target in nums. if ex == -1: return [-1, -1] start = ex end = ex # extend to the end. for idx in range(ex+1, len(nums)): if nums[idx] == target: end = idx else: break # extend to the start. for idx in range(ex-1, -1, -1): if nums[idx] == target: start = idx else: break return [start, end]]]></content>
+      <categories>
+        <category>algorithms</category>
+      </categories>
       <tags>
         <tag>python</tag>
         <tag>LeetCode</tag>
@@ -171,6 +225,9 @@
     <title><![CDATA[LeetCode: string to integer / atoi]]></title>
     <url>%2F2018%2F04%2F20%2Falgorithms%2Fstring-to-integer-atoi%2F</url>
     <content type="text"><![CDATA[123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990"""https://leetcode.com/problems/string-to-integer-atoi/description/"""class Solution(object): def myAtoi(self, st): """ :type str: str :rtype: int &gt;&gt;&gt; s = Solution() &gt;&gt;&gt; s.myAtoi("42") 42 &gt;&gt;&gt; s.myAtoi(" -42") -42 &gt;&gt;&gt; s.myAtoi("4193 with words") 4193 &gt;&gt;&gt; s.myAtoi("words and 987") 0 &gt;&gt;&gt; s.myAtoi("-91283472332") -2147483648 &gt;&gt;&gt; s.myAtoi(" -12-45") -12 &gt;&gt;&gt; s.myAtoi("-") 0 &gt;&gt;&gt; s.myAtoi("- 1") 0 &gt;&gt;&gt; s.myAtoi("- 1") 0 &gt;&gt;&gt; s.myAtoi("- -1") 0 &gt;&gt;&gt; s.myAtoi("+1") 1 &gt;&gt;&gt; s.myAtoi("123 456") 123 """ INT_MAX = 2**31 - 1 INT_MIN = -2**31 start, end = -1, -1 if st == "": return 0 for idx, i in enumerate(st): if i == " ": if start != -1: end = idx break elif i in set(&#123;"-", "+"&#125;): if start == -1: start = idx else: end = idx break elif i in set(&#123;"0", "1", "2", "3", "4", "5", "6", "7", "8", "9"&#125;): if start == -1: start = idx else: if start == -1: return 0 else: end = idx break try: if end == -1: value = int(st[start:]) else: value = int(st[start:end]) except ValueError: return 0 if value &gt; INT_MAX: return INT_MAX if value &lt; INT_MIN: return INT_MIN return value def myAtoi2(self, st): """ :type str: str :rtype: int """ import re st = st.strip() try: res = re.search('(^[\+\-]?\d+)', st).group() res = int(res) res = res if res &lt;= 2147483647 else 2147483647 res = res if res &gt;= -2147483648 else -2147483648 except: res = 0 return res]]></content>
+      <categories>
+        <category>algorithms</category>
+      </categories>
       <tags>
         <tag>python</tag>
         <tag>LeetCode</tag>
@@ -181,6 +238,9 @@
     <title><![CDATA[LeetCode: powx-n]]></title>
     <url>%2F2018%2F04%2F13%2Falgorithms%2Fpowx-n%2F</url>
     <content type="text"><![CDATA[1234567891011121314151617181920212223242526272829303132333435363738394041class Solution(object): def myPow(self, x, n): """ :type x: float :type n: int :rtype: float &gt;&gt;&gt; s = Solution() &gt;&gt;&gt; s.myPow(2.00000, 10) 1024.00000 &gt;&gt;&gt; s.myPow(2.10000, 3) 9.26100 """ # change n to position, check whether x is 1 or -1 if n == 0: return 1 elif n &gt; 0: pass else: n = -n x = 1 / x if x == 1: return 1 if x == -1: return 1 if n % 2 == 0 else -1 return self.pow(x, n) def pow(self, x, n): # n is positive if n == 0: return 1 if n == 1: return x if n % 2 == 0: return self.pow(x, n/2)**2 else: return x*self.pow(x, n/2)**2if __name__ == '__main__': s = Solution() print(s.myPow(0.000001, 2111121))]]></content>
+      <categories>
+        <category>algorithms</category>
+      </categories>
       <tags>
         <tag>python</tag>
         <tag>LeetCode</tag>
@@ -191,16 +251,9 @@
     <title><![CDATA[LeetCode: reverse integer]]></title>
     <url>%2F2018%2F04%2F13%2Falgorithms%2Freverse-integer%2F</url>
     <content type="text"><![CDATA[123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051"""https://leetcode.com/problems/reverse-integer/description/"""class Solution(object): def reverse(self, x): """ :type x: int :rtype: int &gt;&gt;&gt; s = Solution() &gt;&gt;&gt; s.reverse(123) 321 &gt;&gt;&gt; s.reverse(0) 0 &gt;&gt;&gt; s.reverse(-123) -321 &gt;&gt;&gt; s.reverse(2**31) 0 &gt;&gt;&gt; s.reverse(1563847412) 0 """ if x == 0: return x if x &lt; 0: sig = -1 else: sig = 1 s = int((str(abs(x))[::-1])) if sig &lt; 0: if s &gt; 2**31: return 0 else: if s &gt; 2**31 - 1: return 0 if sig == -1: s = -s return sdef test(): s = Solution() s.reverse(123) s.reverse(0) s.reverse(-123) s.reverse(2**31) s.reverse(1563847412)if __name__ == '__main__': import timeit print(timeit.timeit("test()", number=100000, setup="from __main__ import test"))]]></content>
-      <tags>
-        <tag>python</tag>
-        <tag>LeetCode</tag>
-        <tag>algorithms</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[LeetCode: add two numbers]]></title>
-    <url>%2F2018%2F04%2F12%2Falgorithms%2Fadd-two-number%2F</url>
-    <content type="text"><![CDATA[123456789101112131415161718192021222324252627282930313233343536373839404142"""https://leetcode-cn.com/problems/add-two-numbers/description/copy codes."""class ListNode: def __init__(self, x): self.val = x self.next = Noneclass Solution(object): def addTwoNumbers(self, l1, l2): """ :type l1: ListNode :type l2: ListNode :rtype: ListNode """ dummy = ListNode(0) current, carry = dummy, 0 while l1 or l2: val = carry if l1: val += l1.val l1 = l1.next if l2: val += l2.val l2 = l2.next carry, val = divmod(val, 10) current.next = ListNode(val) current = current.next if carry == 1: current.next = ListNode(1) return dummy.nextif __name__ == '__main__': a, a.next, a.next.next = ListNode(2), ListNode(4), ListNode(3) b, b.next, b.next.next = ListNode(5), ListNode(6), ListNode(4) result = Solution().addTwoNumbers(a, b) print("&#123;0&#125; -&gt; &#123;1&#125; -&gt; &#123;2&#125;".format(result.val, result.next.val, result.next.next.val))]]></content>
+      <categories>
+        <category>algorithms</category>
+      </categories>
       <tags>
         <tag>python</tag>
         <tag>LeetCode</tag>
@@ -211,6 +264,22 @@
     <title><![CDATA[LeetCode:longest substring without repeating characters]]></title>
     <url>%2F2018%2F04%2F12%2Falgorithms%2Flongest-substring-without-repeating-characters%2F</url>
     <content type="text"><![CDATA[“””https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/description/无重复字符的最长子串“”” class Solution(object): def lengthOfLongestSubstring(self, s): “”” :type s: str :rtype: int &gt;&gt;&gt; s = Solution() &gt;&gt;&gt; s.lengthOfLongestSubstring(“aab”) 2 &gt;&gt;&gt; s.lengthOfLongestSubstring(“dvdf”) 3 &gt;&gt;&gt; s.lengthOfLongestSubstring(“abcabcbb”) 3 &gt;&gt;&gt; s.lengthOfLongestSubstring(“abcabcbb”) 3 &gt;&gt;&gt; s.lengthOfLongestSubstring(“abba”) 2 &gt;&gt;&gt; s.lengthOfLongestSubstring(“aaaaaaa”) 1 &gt;&gt;&gt; s.lengthOfLongestSubstring(“a”) 1 &gt;&gt;&gt; s.lengthOfLongestSubstring(“”) 0 “”” if s == “”: return 0 if len(s) == 1: return 1 # 记录字符到index的映射 dic = {} L, start_ind = 0, 0 for idx, i in enumerate(s): # 第idx个字符在dic中且是超过start_ind的字符 if i in dic and start_ind &lt;= dic[i]: L = max(idx - start_ind, L) start_ind = dic[i] + 1 dic[i] = idx L = max(idx + 1 - start_ind, L) return L]]></content>
+      <categories>
+        <category>algorithms</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+        <tag>LeetCode</tag>
+        <tag>algorithms</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[LeetCode: add two numbers]]></title>
+    <url>%2F2018%2F04%2F12%2Falgorithms%2Fadd-two-number%2F</url>
+    <content type="text"><![CDATA[123456789101112131415161718192021222324252627282930313233343536373839404142"""https://leetcode-cn.com/problems/add-two-numbers/description/copy codes."""class ListNode: def __init__(self, x): self.val = x self.next = Noneclass Solution(object): def addTwoNumbers(self, l1, l2): """ :type l1: ListNode :type l2: ListNode :rtype: ListNode """ dummy = ListNode(0) current, carry = dummy, 0 while l1 or l2: val = carry if l1: val += l1.val l1 = l1.next if l2: val += l2.val l2 = l2.next carry, val = divmod(val, 10) current.next = ListNode(val) current = current.next if carry == 1: current.next = ListNode(1) return dummy.nextif __name__ == '__main__': a, a.next, a.next.next = ListNode(2), ListNode(4), ListNode(3) b, b.next, b.next.next = ListNode(5), ListNode(6), ListNode(4) result = Solution().addTwoNumbers(a, b) print("&#123;0&#125; -&gt; &#123;1&#125; -&gt; &#123;2&#125;".format(result.val, result.next.val, result.next.next.val))]]></content>
+      <categories>
+        <category>algorithms</category>
+      </categories>
       <tags>
         <tag>python</tag>
         <tag>LeetCode</tag>
@@ -221,6 +290,9 @@
     <title><![CDATA[LeetCode: two sum]]></title>
     <url>%2F2018%2F04%2F11%2Falgorithms%2Ftwosum%2F</url>
     <content type="text"><![CDATA[1234567891011121314151617181920212223242526272829"""https://leetcode-cn.com/problems/two-sum/description/"""class Solution(object): def twoSum(self, nums, target): """ :type nums: List[int] :type target: int :rtype: List[int] &gt;&gt;&gt; s = Solution() &gt;&gt;&gt; nums = [3, 2, 4] &gt;&gt;&gt; target = 6 &gt;&gt;&gt; s.twoSum(nums, target) [1, 2] """ # tmp = [target - i for i in nums] # for idx, i in enumerate(tmp): # try: # idx2 = nums.index(i) # if idx2 != idx: # return [idx, idx2] # except ValueError: # pass dic = &#123;&#125; for idx, num in enumerate(nums): if target - num in dic: return [dic[target-num], idx] dic[num] = idx]]></content>
+      <categories>
+        <category>algorithms</category>
+      </categories>
       <tags>
         <tag>python</tag>
         <tag>LeetCode</tag>
@@ -231,6 +303,9 @@
     <title><![CDATA[LeetCode: max sub-array problem]]></title>
     <url>%2F2018%2F04%2F10%2Falgorithms%2Fmax_subarray_leetcode%2F</url>
     <content type="text"><![CDATA[123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899100101102103104105106107108109110111112113114115116117118119120121122123124125126127128129130131132133134135136137138139140141142143144145146147148149150151152153154155156157158159160"""MSP(max sub-array problem)wiki(https://en.wikipedia.org/wiki/Maximum_subarray_problem).1-D: kadene's algorithm time complexity: O(n)2-D: ~=O(n^3)"""import numpy as npfrom itertools import combinations, accumulatedef msp_1D(A): """ 1D array MSP. Parameters ---------- A: list or np.ndarray Returns ------- max_so_far: max sum of subarraies. &gt;&gt;&gt; A = np.array([1, 2, 3, 0, -1, -2, 3, 4, 1, -2, 0]) &gt;&gt;&gt; max_so_far = msp_1D(A) &gt;&gt;&gt; max_so_far == 11 True """ max_ending_here = max_so_far = 0 for x in A: max_ending_here = max(0, max_ending_here + x) max_so_far = max(max_so_far, max_ending_here) return max_so_fardef msp_1D_with_index(A): """ solve 1D max sub-array problem. Parameters ---------- A: list or np.ndarray Returns ------- start_ind: int end_ind: int max_so_far: max sum of subarraies. That is to say: &gt;&gt;&gt; A = np.array([1, 2, 3, 0, -1, -2, 3, 4, 1, -2, 0]) &gt;&gt;&gt; start_ind, end_ind, max_so_far = msp_1D_with_index(A) &gt;&gt;&gt; start_ind, end_ind, max_so_far (0, 8, 11) &gt;&gt;&gt; sum(A[start_ind:end_ind+1]) == max_so_far True """ start_ind, end_ind = 0, 0 max_ending_here, max_so_far = 0, 0 for idx, x in enumerate(A): max_ending_here1 = max_ending_here + x if max_ending_here1 &gt; 0: max_ending_here = max_ending_here1 else: # start with this idx. start_ind = idx + 1 max_ending_here = 0 if max_so_far &lt; max_ending_here: # end with this idx. end_ind = idx max_so_far = max_ending_here return start_ind, end_ind, max_so_fardef msp_2D(A): """ 2D array MSP. Parameters ---------- A: np.ndarray Returns ------- start_ind: int end_ind: int max_so_far: max sum of subarraies. Steps ----- 1. caculate acc matrix(accumulate of A). 2. for all indexes i, j pairs(i&lt;j), calculating sum of block for a k column(using acc matrix). do 1-d MSP(get a max sum block under i, j) 3. return the max. &gt;&gt;&gt; A = np.array([\ [0, -2, -7, 0],\ [9, 2, -6, 2],\ [-4, 1, -4, 1],\ [-1, 8, 0, -2]]) &gt;&gt;&gt; m = msp_2D(A) &gt;&gt;&gt; m == 15 True """ A = np.array(A) acc = np.array([*accumulate(A)]) m = 0 for i, j in combinations(range(A.shape[0]), 2): m_tmp = msp_1D([ acc[j, k] - acc[i - 1, k] if i != 0 else acc[j, k] for k in range(A.shape[1]) ]) if m_tmp &gt; m: m = m_tmp return mdef msp_2D_with_index(A): """ 2D array MSP. Parameters ---------- A: np.ndarray Returns ------- start_ind: tuple max sum block left-top position. end_ind: tuple max sum block right-bottom position. max_so_far: max sum of subarraies. That is to say: &gt;&gt;&gt; A = np.array([\ [0, -2, -7, 0],\ [9, 2, -6, 2],\ [-4, 1, -4, 1],\ [-1, 8, 0, -2]]) &gt;&gt;&gt; start_ind, end_ind, m = msp_2D_with_index(A) &gt;&gt;&gt; A[start_ind[0]:end_ind[0]+1, start_ind[1]:end_ind[1]+1].sum() == m True """ A = np.array(A) acc = np.array([*accumulate(A)]) start_ind, end_ind, m = None, None, 0 for i, j in combinations(range(A.shape[0]), 2): sind, eind, m_tmp = msp_1D_with_index([ acc[j, k] - acc[i - 1, k] if i != 0 else acc[j, k] for k in range(A.shape[1]) ]) if m_tmp &gt; m: m = m_tmp start_ind = (i, sind) end_ind = (j, eind) return start_ind, end_ind, m]]></content>
+      <categories>
+        <category>algorithms</category>
+      </categories>
       <tags>
         <tag>python</tag>
         <tag>LeetCode</tag>
@@ -241,15 +316,21 @@
     <title><![CDATA[ubuntu桌面版屏保screensaver]]></title>
     <url>%2F2018%2F03%2F27%2Flinux%2Fscreensaver%2F</url>
     <content type="text"><![CDATA[1sudo apt-get install xscreensaver xscreensaver-gl-extra xscreensaver-data-extra Atlantis boxed FadePlot FlipFlop GLMatrix Grav Juggler3D Pacman Rubik 锁屏进入屏保1xscreensaver-command -lock 或者自带的屏保gnome-screensaver]]></content>
+      <categories>
+        <category>linux</category>
+      </categories>
       <tags>
-        <tag>tool</tag>
         <tag>linux</tag>
+        <tag>tool</tag>
       </tags>
   </entry>
   <entry>
     <title><![CDATA[python: collections.ChainMap]]></title>
     <url>%2F2018%2F03%2F26%2Fpython%2Fpython-chainmap%2F</url>
     <content type="text"><![CDATA[123456789101112131415161718192021222324252627282930# python3import collections # 初始化字典dict1 = &#123; 'a' : 1, 'b' : 2 &#125;dict2 = &#123; 'b' : 3, 'c' : 4 &#125; # 初始化ChainMapchain = collections.ChainMap(dict1, dict2) # 使用maps输出chainMapprint(chain.maps) # [&#123;'b': 2, 'a': 1&#125;, &#123;'b': 3, 'c': 4&#125;] # 输出keyprint(list(chain.keys())) # ['b', 'c', 'a'] # 输出值print(list(chain.values())) # [2, 4, 1] # 访问print(chain['b']) # 2print(chain.get('b')) # 2 # 使用new_child添加新字典dict3 = &#123; 'f' : 5 &#125;new_chain = chain.new_child(dict3)print (new_chain.maps) # [&#123;'f': 5&#125;, &#123;'b': 2, 'a': 1&#125;, &#123;'b': 3, 'c': 4&#125;] new_chain.maps = reversed(new_chain.maps)print(new_chain.maps)]]></content>
+      <categories>
+        <category>python</category>
+      </categories>
       <tags>
         <tag>python</tag>
       </tags>
@@ -258,6 +339,9 @@
     <title><![CDATA[sklearn: RandomForest]]></title>
     <url>%2F2018%2F03%2F22%2Fai%2Fsklearn-RandomForest%2F</url>
     <content type="text"><![CDATA[随机森林RandomForestClassifier 利用多棵树对样本进行训练并预测的一种分类器 123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263# -*- coding: utf-8 -*-from sklearn.tree import DecisionTreeClassifierfrom matplotlib.pyplot import *from sklearn.cross_validation import train_test_splitfrom sklearn.ensemble import RandomForestClassifierfrom sklearn.externals.joblib import Parallel, delayedfrom sklearn.tree import export_graphvizfinal = open(&apos;c:/test/final.dat&apos; , &apos;r&apos;)data = [line.strip().split(&apos;\t&apos;) for line in final]feature = [[float(x) for x in row[3:]] for row in data]#特征对应的目标值，feature，targettarget = [int(row[0]) for row in data]#拆分训练集和测试集feature_train, feature_test, target_train, target_test = train_test_split(feature, target, test_size=0.1, random_state=42)#初始随机森林对象的参数设置clf = RandomForestClassifier(n_estimators = 8)#训练集开始训练s = clf.fit(feature_train , target_train)# return self object.#评估模型准确率r = clf.score(feature_test , target_test)# return a float score: Mean accuracy of self.predict(feature_test) wrt. target_test.print &apos;判定结果：%s&apos; % clf.predict(feature_test[0])#print clf.predict_proba(feature_test[0])print &apos;所有的树:%s&apos; % clf.estimators_print clf.classes_print clf.n_classes_print &apos;各feature的重要性：%s&apos; % clf.feature_importances_print clf.n_outputs_def _parallel_helper(obj, methodname, *args, **kwargs): return getattr(obj, methodname)(*args, **kwargs)all_proba = Parallel(n_jobs=10, verbose=clf.verbose, backend=&quot;threading&quot;)( delayed(_parallel_helper)(e, &apos;predict_proba&apos;, feature_test[0]) for e in clf.estimators_)print &apos;所有树的判定结果：%s&apos; % all_probaproba = all_proba[0]for j in range(1, len(all_proba)): proba += all_proba[j]proba /= len(clf.estimators_)print &apos;数的棵树：%s ， 判不作弊的树比例：%s&apos; % (clf.n_estimators , proba[0,0])print &apos;数的棵树：%s ， 判作弊的树比例：%s&apos; % (clf.n_estimators , proba[0,1])#当判作弊的树多余不判作弊的树时，最终结果是判作弊print &apos;判断结果：%s&apos; % clf.classes_.take(np.argmax(proba, axis=1), axis=0)#把所有的树都保存到wordfor i in xrange(len(clf.estimators_)): export_graphviz(clf.estimators_[i] , &apos;%d.dot&apos;%i) 来源： http://blog.itpub.net/12199764/viewspace-1572056/]]></content>
+      <categories>
+        <category>ai</category>
+      </categories>
       <tags>
         <tag>python</tag>
         <tag>sklearn</tag>
@@ -267,6 +351,9 @@
     <title><![CDATA[添加右键启动terminator]]></title>
     <url>%2F2018%2F02%2F02%2Flinux%2Fopen-in-terminator-nautilus-actions%2F</url>
     <content type="text"><![CDATA[old: nautilus-actions sudo apt install nautilus-actions Action: display item in location context menu Command: Path: terminator Parameters: –working-directory=%f In the Mimetypes tab, set: Mimetype filter: inode/directory 首选项: (untick) Create a root ‘Nautilus-Actions’ menu (untick) Add an ‘About Nautious-Actions’ item in the Nautilus context menus new: filemanager-actionsubuntu 18.04后 12sudo dpkg -i filemanager-actions_3.4-1_amd64.debsudo apt remove gnome-terminal]]></content>
+      <categories>
+        <category>linux</category>
+      </categories>
       <tags>
         <tag>linux</tag>
         <tag>config</tag>
@@ -276,6 +363,9 @@
     <title><![CDATA[sklearn: metrics]]></title>
     <url>%2F2018%2F01%2F17%2Fai%2Fsklearn-metrics%2F</url>
     <content type="text"><![CDATA[真实情况|预测正|预测反|:-:|:-:|:-:|正|TP(真正例)|FN(假反例)反|FP(假正例|TN(真反例) 查全率sensitivity/true positive rate/recall_score/ TPRTPR = TP / (TP + FN) 1sm.recall_score(y_true, y_pred, labels=None, pos_label=1, average='binary', sample_weight=None) specificity(true negative rate) SPCSPC = TN/(TN+FP) 查准率precision_score/positive predictive value/PPVPPV = TP/(TP+FP)12import sklearn.metrics as smsm.precision_score(y_true, y_pred, labels=None, pos_label=1, average='binary', sample_weight=None) negative predictive value (NPV)NPV = TN/(TN+FN) accuracy (ACC)ACC = (TP+TN)/(TP+FP+FN+TN)1sm.accuracy_score(y_true, y_pred, normalize=True, sample_weight=None) F1是基于查准率与查全率的调和平均1/F1 = 0.5*(1/P+1/R)1sm.f1_score(y_true, y_pred, labels=None, pos_label=1, average='binary', sample_weight=None) F_beta是加权调和平均1/F_beta = 1/(1+beta^2)*(1/P+beta^2/R) ß&gt;O 度量了查全率对查准率的相对重要性 ß&gt;1 时查全率有更大影响 ; ß &lt; 1 时查准率有更大影响. ß = 1时退化为标准的 F11sm.fbeta_score(y_true, y_pred, beta, labels=None, pos_label=1, average='binary', sample_weight=None) Matthews correlation coefficient (MCC)ROC曲线我们根据学习器的预测结果对样例进行排序, 按此顺序逐个把样本作为正例进行预测,每次计算出两个重要量的值, 分别以它们为横、纵坐标作图就得到了 ROC 曲线 横轴是假正例率False Positive Rate(FPR)纵轴是真正例率True Positive Rate(TPR)1sm.roc_curve(y_true, y_score, pos_label=None, sample_weight=None, drop_intermediate=True) AUCArea Under ROC Curve 若一个学习器的 ROC 曲线被另 一个学 习器的曲线完全”包住”, 则可断言后者的性能优于前者;若两个学习 器的 ROC 曲线发生交叉, 则难以-般性地断言两者孰优孰劣 . 此时如果一定要进行比较, 则较为合理的判据是比较 ROC曲线下的面积 ,即 AUC12345678&gt;&gt;&gt; import numpy as np&gt;&gt;&gt; from sklearn import metrics&gt;&gt;&gt; y = np.array([1, 1, 2, 2])&gt;&gt;&gt; pred = np.array([0.1, 0.4, 0.35, 0.8])&gt;&gt;&gt; fpr, tpr, thresholds = metrics.roc_curve(y, pred, pos_label=2)&gt;&gt;&gt; plt.plot(fpr, tpr) # ROC curve&gt;&gt;&gt; metrics.auc(fpr, tpr)0.75]]></content>
+      <categories>
+        <category>ai</category>
+      </categories>
       <tags>
         <tag>python</tag>
         <tag>sklearn</tag>
@@ -285,15 +375,21 @@
     <title><![CDATA[批量重命名文件名称]]></title>
     <url>%2F2018%2F01%2F03%2Flinux%2Frename_many_files%2F</url>
     <content type="text"><![CDATA[目标： copy all files .pdf to _0.pdf 推荐使用rename.ul或mmv 1. rename.ul1rename.ul -v -n &quot;.pdf&quot; &quot;_0.pdf&quot; *.pdf 2. bash1for f in *.pdf; do pre="$&#123;f%.pdf&#125;"; echo mv -- "$f" "$&#123;pre&#125;_0.pdf"; done 3. rename1rename -n &apos;s/\.pdf$/_0$&amp;/&apos; *.pdf matches .pdf at the end of the filename12. in the replacement, the match is prepended by ```_0```: ```_0$&amp; drop -n for actual action 4. mmv12sudo apt-get install mmvmmv &apos;*.pdf&apos; &apos;#1_0.pdf&apos;]]></content>
+      <categories>
+        <category>linux</category>
+      </categories>
       <tags>
-        <tag>tool</tag>
         <tag>linux</tag>
+        <tag>tool</tag>
       </tags>
   </entry>
   <entry>
     <title><![CDATA[linux系统通知notify-send]]></title>
     <url>%2F2018%2F01%2F02%2Flinux%2Fnotify-send%2F</url>
     <content type="text"><![CDATA[1notify-send -i 123.png -t 10000 "title" "content"]]></content>
+      <categories>
+        <category>linux</category>
+      </categories>
       <tags>
         <tag>linux</tag>
         <tag>command</tag>
@@ -303,6 +399,9 @@
     <title><![CDATA[git命令笔记]]></title>
     <url>%2F2018%2F01%2F01%2Flinux%2Fgit%2F</url>
     <content type="text"><![CDATA[git添加远程仓库服务器上 1git init --bare repo repo相当于中转站, 配置一下remote之后,服务器上的程序git push到repo 然后本机再从repo上pull下来. 12345# localgit remote -vgit remote add origin biolab@biolab:~/zzp/repogit push --set-upstream origin mastergit config --global push.default simple rm file from git repo官方文档123456git filter-branch --index-filter 'git rm -r --cached --ignore-unmatch path/to/your/file' HEADgit push origin master --forcerm -rf .git/refs/original/git reflog expire --expire=now --allgit gc --prune=nowgit gc --aggressive --prune=now 设置全局编辑器git config –global core.editor vim 删除恢复:场景1当你改乱了工作区某个文件的内容，想直接丢弃工作区的修改时，用命令git checkout – file。 场景2当你不但改乱了工作区某个文件的内容，还添加到了暂存区时，想丢弃修改，分两步，第一步用命令git reset HEAD file，就回到了场景1，第二步按场景1操作。 场景3已经提交了不合适的修改到版本库时，想要撤销本次提交 HEAD指向的版本就是当前版本，因此，Git允许我们在版本的历史之间穿梭，使用命令git reset –hard commit_id。 穿梭前，用git log可以查看提交历史，以便确定要回退到哪个版本。 要重返未来，用git reflog查看命令历史，以便确定要回到未来的哪个版本 git reset –hard HEAD^回到上一个版本 在Git中，用HEAD表示当前版本. 上一个版本就是HEAD^，上上一个版本就是HEAD^^， 当然往上100个版本写100个^比较容易数不过来，所以写成HEAD~100。 修改.gitignore后移除索引123456git rm -r --cached .git add .git commit -m &quot;update .gitignore&quot; .gitignore设置/*代表当前目录(根目录)下全部 *代表所有 12345678910111213141516171819202122# 以&amp;#39;#&amp;#39;开始的行，被视为注释. # 忽略掉所有文件名是 foo.txt的文件.foo.txt# 忽略所有生成的 html文件,*.html# foo.html是手工维护的，所以例外.!foo.html# 忽略所有.o和 .a文件.*.[oa]# 忽略*.b和*.B文件，my.b除外*.[bB]!my.b# 忽略dbg文件和dbg目录dbg# 只忽略dbg目录，不忽略dbg文件dbg/# 只忽略dbg文件，不忽略dbg目录dbg!dbg/# 只忽略当前目录下的dbg文件和目录，子目录的dbg不在忽略范围内/dbg 不用每次push都输入用户名密码的操作1git config --global credential.helper store 使用下面的命令从远程仓库强制覆盖本地文件:12git fetch --allgit reset --hard origin/master 要下载一些其他分支的更改使用以下命令。 1git reset --hard origin/other_branch 说明：- Git fetch命令下载最新的更新远程，但不合并或本地文件变基址。 Git reset master分支重置你刚才取下的。该-hard选项更改的所有文件到你的工作树origin/master。 一、git clone远程操作的第一步，通常是从远程主机克隆一个版本库，这时就要用到git clone命令。 1$ git clone &lt;版本库的网址&gt; 比如，克隆jQuery的版本库。 1$ git clone https://github.com/jquery/jquery.git 该命令会在本地主机生成一个目录，与远程主机的版本库同名。如果要指定不同的目录名，可以将目录名作为git clone命令的第二个参数。 1$ git clone &lt;版本库的网址&gt; &lt;本地目录名&gt; git clone支持多种协议，除了HTTP(s)以外，还支持SSH、Git、本地文件协议等，下面是一些例子。 12345678910111213$ git clone http[s]://example.com/path/to/repo.git/$ git clone ssh://example.com/path/to/repo.git/$ git clone git://example.com/path/to/repo.git/$ git clone /opt/git/project.git $ git clone file:///opt/git/project.git$ git clone ftp[s]://example.com/path/to/repo.git/$ git clone rsync://example.com/path/to/repo.git/ SSH协议还有另一种写法。 1$ git clone [user@]example.com:path/to/repo.git/ 通常来说，Git协议下载速度最快，SSH协议用于需要用户认证的场合。各种协议优劣的详细讨论请参考官方文档。 二、git remote为了便于管理，Git要求每个远程主机都必须指定一个主机名。git remote命令就用于管理主机名。 不带选项的时候，git remote命令列出所有远程主机。 12$ git remoteorigin 使用-v选项，可以参看远程主机的网址。 123$ git remote -vorigin git@github.com:jquery/jquery.git (fetch)origin git@github.com:jquery/jquery.git (push) 上面命令表示，当前只有一台远程主机，叫做origin，以及它的网址。 克隆版本库的时候，所使用的远程主机自动被Git命名为origin。如果想用其他的主机名，需要用git clone命令的-o选项指定。 123$ git clone -o jQuery https://github.com/jquery/jquery.git$ git remotejQuery 上面命令表示，克隆的时候，指定远程主机叫做jQuery。 git remote show命令加上主机名，可以查看该主机的详细信息。 1$ git remote show &lt;主机名&gt; git remote add命令用于添加远程主机。 1$ git remote add &lt;主机名&gt; &lt;网址&gt; git remote rm命令用于删除远程主机。 12$ git remote rm &lt;主机名&gt;git remote rm origin git remote rename命令用于远程主机的改名。 1$ git remote rename &lt;原主机名&gt; &lt;新主机名&gt; 三、git fetch一旦远程主机的版本库有了更新（Git术语叫做commit），需要将这些更新取回本地，这时就要用到git fetch命令。 1$ git fetch &lt;远程主机名&gt; 上面命令将某个远程主机的更新，全部取回本地。 git fetch命令通常用来查看其他人的进程，因为它取回的代码对你本地的开发代码没有影响。 默认情况下，git fetch取回所有分支（branch）的更新。如果只想取回特定分支的更新，可以指定分支名。 1$ git fetch &lt;远程主机名&gt; &lt;分支名&gt; 比如，取回origin主机的master分支。 1$ git fetch origin master 所取回的更新，在本地主机上要用”远程主机名/分支名”的形式读取。比如origin主机的master，就要用origin/master读取。 git branch命令的-r选项，可以用来查看远程分支，-a选项查看所有分支。 123456$ git branch -rorigin/master$ git branch -a* master remotes/origin/master 上面命令表示，本地主机的当前分支是master，远程分支是origin/master。 取回远程主机的更新以后，可以在它的基础上，使用git checkout命令创建一个新的分支。 1$ git checkout -b newBrach origin/master 上面命令表示，在origin/master的基础上，创建一个新分支。 此外，也可以使用git merge命令或者git rebase命令，在本地分支上合并远程分支。 123$ git merge origin/master# 或者$ git rebase origin/master 上面命令表示在当前分支上，合并origin/master。 四、git pullgit pull命令的作用是，取回远程主机某个分支的更新，再与本地的指定分支合并。它的完整格式稍稍有点复杂。 1$ git pull &lt;远程主机名&gt; &lt;远程分支名&gt;:&lt;本地分支名&gt; 比如，取回origin主机的next分支，与本地的master分支合并，需要写成下面这样。 1$ git pull origin next:master 如果远程分支是与当前分支合并，则冒号后面的部分可以省略。 1$ git pull origin next 上面命令表示，取回origin/next分支，再与当前分支合并。实质上，这等同于先做git fetch，再做git merge。 12$ git fetch origin$ git merge origin/next 在某些场合，Git会自动在本地分支与远程分支之间，建立一种追踪关系（tracking）。比如，在git clone的时候，所有本地分支默认与远程主机的同名分支，建立追踪关系，也就是说，本地的master分支自动”追踪”origin/master分支。 Git也允许手动建立追踪关系。 1git branch --set-upstream master origin/next 上面命令指定master分支追踪origin/next分支。 如果当前分支与远程分支存在追踪关系，git pull就可以省略远程分支名。 1$ git pull origin 上面命令表示，本地的当前分支自动与对应的origin主机”追踪分支”（remote-tracking branch）进行合并。 如果当前分支只有一个追踪分支，连远程主机名都可以省略。 1$ git pull 上面命令表示，当前分支自动与唯一一个追踪分支进行合并。 如果合并需要采用rebase模式，可以使用–rebase选项。 1$ git pull --rebase &lt;远程主机名&gt; &lt;远程分支名&gt;:&lt;本地分支名&gt; 如果远程主机删除了某个分支，默认情况下，git pull 不会在拉取远程分支的时候，删除对应的本地分支。这是为了防止，由于其他人操作了远程主机，导致git pull不知不觉删除了本地分支。 但是，你可以改变这个行为，加上参数 -p 就会在本地删除远程已经删除的分支。 1234$ git pull -p# 等同于下面的命令$ git fetch --prune origin $ git fetch -p 五、git pushgit push命令用于将本地分支的更新，推送到远程主机。它的格式与git pull命令相仿。 1$ git push &lt;远程主机名&gt; &lt;本地分支名&gt;:&lt;远程分支名&gt; 注意，分支推送顺序的写法是&lt;来源地&gt;:&lt;目的地&gt;，所以git pull是&lt;远程分支&gt;:&lt;本地分支&gt;，而git push是&lt;本地分支&gt;:&lt;远程分支&gt;。 如果省略远程分支名，则表示将本地分支推送与之存在”追踪关系”的远程分支（通常两者同名），如果该远程分支不存在，则会被新建。 1$ git push origin master 上面命令表示，将本地的master分支推送到origin主机的master分支。如果后者不存在，则会被新建。 如果省略本地分支名，则表示删除指定的远程分支，因为这等同于推送一个空的本地分支到远程分支。 123$ git push origin :master# 等同于$ git push origin --delete master 上面命令表示删除origin主机的master分支。 如果当前分支与远程分支之间存在追踪关系，则本地分支和远程分支都可以省略。 1$ git push origin 上面命令表示，将当前分支推送到origin主机的对应分支。 如果当前分支只有一个追踪分支，那么主机名都可以省略。 1$ git push 如果当前分支与多个主机存在追踪关系，则可以使用-u选项指定一个默认主机，这样后面就可以不加任何参数使用git push。 1$ git push -u origin master 上面命令将本地的master分支推送到origin主机，同时指定origin为默认主机，后面就可以不加任何参数使用git push了。 不带任何参数的git push，默认只推送当前分支，这叫做simple方式。此外，还有一种matching方式，会推送所有有对应的远程分支的本地分支。Git 2.0版本之前，默认采用matching方法，现在改为默认采用simple方式。如果要修改这个设置，可以采用git config命令。 123$ git config --global push.default matching# 或者$ git config --global push.default simple 还有一种情况，就是不管是否存在对应的远程分支，将本地的所有分支都推送到远程主机，这时需要使用–all选项。 1$ git push --all origin 上面命令表示，将所有本地分支都推送到origin主机。 如果远程主机的版本比本地版本更新，推送时Git会报错，要求先在本地做git pull合并差异，然后再推送到远程主机。这时，如果你一定要推送，可以使用–force选项。 1$ git push --force origin 上面命令使用–force选项，结果导致远程主机上更新的版本被覆盖。除非你很确定要这样做，否则应该尽量避免使用–force选项。 最后，git push不会推送标签（tag），除非使用–tags选项。 1$ git push origin --tags 六、git stashgit栈，在切换分支的时候，当前分支有未完成提交的代码，但又不想提交，一方面是因为代码没有完成，一方面是因为这样会在log中打印许多无用的日志信息。但是不提交就无法切换分支，于是git便开辟出来一个临时的仓库，这个仓库可以暂时存放最新修改过的代码。 git栈，可以存放多次修改，切换分支后这些存放的修改还在。 1234567工作区--------暂存区--------本地仓库 \ \ \----git栈 1git stash 保存当前的工作进度,会分别对暂存区和工作区的状态进行保存。保存后工作区恢复到之前最后一次提交的状态 1git stash list 显示进度列表。此命令显然显示了git stash 可以多次保存工作进度，并在恢复时候选择。 1git stash pop [--index] [] 如果不使用任何参数，会恢复最新保存的工作进度，并将恢复的工作进度从存储的git栈列表中清除。 如果提供参数（来自git stash list显示的列表），则将工作进度恢复。恢复完毕也将从git栈删除工作进度。 1git stash [save [--patch] [-k|--[no]keep-index] [-q|--quiet] []] 这条命令实际上是第一条git stash命令的完整版。 使用参数–patch会显示工作区和HEAD的差异，通过对差异文件的编辑决定在进度中最终要保存的工作区的内容，通过编辑差异文件可以在进度中排除无关内容。 使用-k或者–keep-index参数，在保存进度后不会将暂存区重置。默认会将暂存区和工作区强制重置。 1git stash apply [--index] [] 除了不删除恢复的进度之外，其余和git stash pop 命令一样。 1git stash drop [] 删除一个存储的进度。默认删除最新的进度。 1git stash clear 删除所有存储的进度。]]></content>
+      <categories>
+        <category>linux</category>
+      </categories>
       <tags>
         <tag>usage</tag>
       </tags>
@@ -311,6 +410,9 @@
     <title><![CDATA[fisa-vim-config]]></title>
     <url>%2F2017%2F12%2F29%2Fvim%2Ffisa-vim-config-features%2F</url>
     <content type="text"><![CDATA[install123sudo apt-get install curl vim exuberant-ctags git ack-grepsudo pip install pep8 flake8 pyflakes isort yapfcurl -O https://raw.githubusercontent.com/fisadev/fisa-vim-config/master/.vimrc fisa-vim-config fisa-vim-config/features.rst at master · fisadev/fisa-vim-config Most important features include: Plugins managed using Vim-plug! You can easily install or removeplugins, and they are installed into .vim/plugged/. More infohere | Command | Description || ———————————– | —————————————————————— || PlugInstall [name ...] [#threads] | Install plugins || PlugUpdate [name ...] [#threads] | Install or update plugins || PlugClean[!] | Remove unused directories (bang version will clean without prompt) || PlugUpgrade | Upgrade vim-plug itself || PlugStatus | Check the status of plugins || PlugDiff | Examine changes from the previous update and the pending changes || PlugSnapshot[!] [output path] | Generate script for restoring the current snapshot of the plugins | Smart autocompletion as you type, sometimes using pythoninstrospection (completion of module names, instance methods andattributes) and sometimes text-based (used words) (from version 4.0,it’s even more intelligent!). And with neocomplcache, it even canautocomplete with typos, thanks to the fuzzy completion settings. Fuzzy file, code and command finder (like Textmante or SublimeText 2): ,e = open file (like the original :e) but with recursive andfuzzy file name matching. Example: if you type “mopy” it willfind a file named “models.py” placed on a subdirectory. Andallows you to open the selected file on a new tab with Ctrl-t! ,g = fuzzy symbol finder (classes, methods, variables,functions, …) on the current file. Example: if you type “usr”it will find the User class definition on the current file. ,Gdoes the same but on all opened files. ,c = fuzzy command finder (internal vim commands, or customcommands). Example: if you type “diff” it will find :GitDiff,:diffthis, and many other similar commands. ,f = fuzzy text finder on all the opened files. Example: ifyou type “ctm=6” it will find the line containing “current_time= 16”. ,m = fuzzy finder of most recently used files. ,we, ,wg, ,wc, ,wf and ,wm = same as ,e, ,g, ,c,,f and ,wm but initiate the search with the word under thecursor (also the upper case version of ,G, ,wG). Is usefulto think about the ,wg as a “fuzzy go to definition” (if thedefinition is in the same file, or ,wG if the definition is onany of the opened files). ,pe = same as ,e but initiates the search with the pathunder the cursor. Ropevim for really neat python goodies!: Go to definition with ,d, or open the definition on a newtab with ,D. Find occurrences with ,o. Classes/module browser that lists classes, functions, methods,and such of the current file, and navigates to them when ENTER ispressed. Toggle it with F4. Pending tasks browser pressing F2. This reads the current filesearching for comments that start with “TODO”, “FIXME”, and such,and shows them on a list that allows navigation similar to the classbrowser. Error checking of code using Syntastic (it will detect unusedvariables or imports, syntax errors, and such), for severallanguages, highlighting the errors and warnings in the code. You canopen an errors list with \e. In python, the error checkingincludes pep8 validation, and pylint. Grep code recursively and navigate the results: ,r uses the ack command (a kind of grep optimized for codesearch), lists the found matches, and allows you to open themwith ENTER. ,wr does the same, but searching the word under the cursor. Some settings for better tabs and spaces handling. Better file browser, toggle it with F3, or open it with yourcurrent file selected using ,t. Results count while searching text. Search and read python documentation with the :Pydoc command.Example: :Pydoc collections (also works over the current word withvim’s default help keybinding: Shift-K). Comment and uncomment code with n\ci. Easy tab navigation: tt = new tab and leaves the cursor waiting to specify the filepath to open (leave blank to open an empty tab). tn or Ctrl-Shift-Right = next tab. tp or Ctrl-Shift-Left = previous tab. tm = move current tab to a specific position (or to the end ifno position number is specified). tl = show a list of current tabs with their inner windows on aside pane. You can navigate them! ts = duplicate current tab. The mappings starting with the t letter work only on command mode,but the mappings with Ctrl-Shift work on both, command and insertmode. Easy window navigation using Alt-arrows keys. Some vim goodies enabled by default: incremental search (moves to the first result while you aretyping). highlighted search results. line numbers. keep cursor 3 lines away from screen border while scrolling. shell-like autocompletion of commands and paths(autocomplete the common part and show matching options). syntax highlighting on by default. Python interpreter inside vim, or any other console. They areopened as a buffer using the command :ConqueTerm. Examples::ConqueTerm python, :ConqueTerm bash. Save current file as sudo using :w!!. Navigate html/xml tags the same way that you navigate (), {} and[]: using %. Beautiful status line allways visible, with colors, breadcrumbsand useful information about file type, encoding and position. Whenworking with python files, it also displays the current pythonfunction or class where the cursor is. Automatically removes trailing spaces when saving python files. Smart autoclosing of (, [, and { Beautiful color schemes for on vim with 256 colors (fisacolorscheme) and gvim (wombat colorscheme). Use of 256 colors when possible. 2 spaces indentation for html and javascript (can disable itremoving two lines from the .vimrc). Thousands of code snippets for many languages with SnipMate.Example, in python you can write cl and press tab (while ininser mode), and it will insert the boilerplate code of a commonpython class (then use tab to navigate the snippet fields). Zen coding for html: generate lots of html code writing simpleand short expressions. Example: 12345678910111213141516171819202122231. write `#books&gt;ul&gt;li.book*5&gt;a`2. press `Ctrl-y ,`3. it will generate: &lt;div id=&quot;books&quot;&gt; &lt;ul&gt; &lt;li class=&quot;book&quot;&gt; &lt;a href=&quot;&quot;&gt;&lt;/a&gt; &lt;/li&gt; &lt;li class=&quot;book&quot;&gt; &lt;a href=&quot;&quot;&gt;&lt;/a&gt; &lt;/li&gt; &lt;li class=&quot;book&quot;&gt; &lt;a href=&quot;&quot;&gt;&lt;/a&gt; &lt;/li&gt; &lt;li class=&quot;book&quot;&gt; &lt;a href=&quot;&quot;&gt;&lt;/a&gt; &lt;/li&gt; &lt;li class=&quot;book&quot;&gt; &lt;a href=&quot;&quot;&gt;&lt;/a&gt; &lt;/li&gt; &lt;/ul&gt; &lt;/div&gt; Learn more on the pluginsite. Git and other vcs integration, with commands such as::GitStatus, :GitDiff, :GitBlame, :GitLog, :GitCommit, orsimply :Git with your own command. Key mappings and syntaxhighlighting for git displays. Displays icons on the side of eachline based on the result of a diff of the current file (example: ifyou added a line and still didn’t commit the file, that line willhave a green + on its side). And finally, when on a changed fileyou can jump through changes using \sn and \sp. Better python indentation. Really neat surround actions using the surround.vim plugin.Learn how to use it here. Indentation defined text objects for the editing language, namedi. For example, you can change an entire indented code block withcii, or the indented block and its header line with cai (alsoyank, delete, …). Indentation based movements, move to the header of your currentpython block with [-, to the end of the block with ]-, and more(short referencehere). Python class and method/function text objects for the editinglanguage, named C and M. For example, you can change an entirefunction content with ciM, or delete a class including its headerwith daC. Run the current python file and display the output on a splitwith \r. Insert and remove ipdb breakpoints with \b. Copy history navigation using the YankRing plugin, which allowsyou to cicle the vim clipboard with Ctrl-p and Ctrl-n, and manyother features (describedhere). Insert ipdb breakpoints with \b. Automatically sort python imports using :Isort. Persistent undos modify file, exit vim, reopen file, and you canundo changes done on the previous session. Better paths for temporary swap files, backups, and persistentundos (all of them stored under ~/.vim/dirs). Drag visual blocks (blocks selected on Ctrl-v and Shift-vvisual modes) with Shift-Alt-arrows, or even duplicate themwith D. Simple window chooser: press - and you will see big greenletters for each window. Just press the letter of the window youwant to activate. Paint css color values with the actual color. Format Python code using yapf (:YapfFullFormat formats thewhole file, and has other commands as well, explainedhere. Works only ifyou have a vim compiled with python 2, not python 3). Custom configs by folder add a .vim.custom file in theproject’s root folder with whatever configs you want to customizefor that project. For example, if you have a project tree like thisexample and you want to exclude folder_x from FuzzyFinder, putlet g:ctrlp_custom_ignore[&quot;dir&quot;] = g:ctrlp_custom_ignore[&quot;dir&quot;] . &#39;|\v[\/]folder_x$&#39;in the .vim.custom file. project ├── folder_1 ├── folder_2 ├── folder_x └── .vim.custom]]></content>
+      <categories>
+        <category>vim</category>
+      </categories>
       <tags>
         <tag>config</tag>
         <tag>vim</tag>
@@ -320,6 +422,9 @@
     <title><![CDATA[k个存储空间限制情况下，实现未知规模序列数据的均匀采样]]></title>
     <url>%2F2017%2F12%2F26%2Falgorithms%2Fsampling-uniform%2F</url>
     <content type="text"><![CDATA[123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899100101102103104105106107108109110111112113114115116117118119120121122123# coding:utf-8import osimport randomimport sys'''不知道采样个数n时，想要均匀采样k个的方法！(只有k个存储空间限制的情况下)若sample各不相同，则最终被选取的概率应为k/n假设:1. k&lt;=n2. 第i次的sample，最终接受它的概率为p(i)3. 若已经有k个samples采用，则随机选一个剔除然后接受新的sample采样方法:1. i&lt;=k, approve2. i&gt;k, approve with the probability of k/i证明：对于前k个sample中任意一个sample，最终approved的概率为：k/n = [1-p(k+1)/k] * [1-p(k+2)/k] ... * [1-p(n)/k] ... (1)注： p(i)*((k-1)/k)+1-p(i) 化简得 1-p(i)/k对于i&gt;k的任意一个sample，最终approved的概率为：k/n = p(i) * [1-p(i+1)/k] * ... * [1-p(n)/k] ... (2)连立(1),(2),得p(k+1)=k/(k+1)...p(n)=k/n第i次的sample，最终接受它的概率为: p(i) = k/i决定了p(i),则无论采样个数多少，则最终采用的'''class Sampling(object): def __init__(self, k): self.samples = [] self.k = k self.tick = 0 def sampling(self): return self.samples def read(self, sample): # processing self.processing(sample) assert len(self.samples) &lt;= self.k, "Overflow" def approve(self, sample): idx = random.randint(0, self.k - 1) self.samples[idx] = sample def processing(self, sample): self.tick += 1 if len(self.samples) &lt; self.k: self.samples.append(sample) elif random.randint(1, self.tick) &lt;= self.k: self.approve(sample) else: passclass Stat(object): def __init__(self, T, N, k): """ Repeat T trials, each trial will read N characters and return k samples """ self.T = T self.N = N assert 1 &lt;= k &lt;= 25 assert k &lt;= N self.k = k self.source = &#123;&#125; def stream(self): sampler = Sampling(self.k) for i in range(self.N): delta = random.randint(0, 10) c = chr(ord('A') + delta) if c not in self.source: self.source[c] = 1 else: self.source[c] += 1 sampler.read(c) return sampler def count(self): cnt = &#123;&#125; for t in range(self.T): sampler = self.stream() samples = sampler.sampling() for s in samples: if s in cnt: cnt[s] += 1 else: cnt[s] = 1 return cnt def statistic(self): cnt = self.count() total = sum(cnt.values()) print "total: ", total for k, v in sorted(cnt.items()): print "%c %d %0.3f" % (k, v, float(v) / total) total = sum(self.source.values()) print "source total: ", total for k, v in sorted(self.source.items()): print "%c %d %0.3f" % (k, v, float(v) / total)if __name__ == '__main__': stat_char = Stat(100000, 10, 5) stat_char.statistic()]]></content>
+      <categories>
+        <category>algorithms</category>
+      </categories>
       <tags>
         <tag>python</tag>
         <tag>algorithms</tag>
@@ -327,9 +432,24 @@
       </tags>
   </entry>
   <entry>
+    <title><![CDATA[rst转换为md]]></title>
+    <url>%2F2017%2F12%2F14%2Flinux%2Fpandoc-rst2md%2F</url>
+    <content type="text"><![CDATA[1sudo apt install pandoc 1234567FILES=*.rstfor f in $FILESdo filename="$&#123;f%.*&#125;" echo "Converting $f to $filename.md" `pandoc $f -f rst -t markdown -o $filename.md`done]]></content>
+      <categories>
+        <category>linux</category>
+      </categories>
+      <tags>
+        <tag>linux</tag>
+        <tag>trick</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[vundle插件安装器， nerdcommenter注释插件]]></title>
     <url>%2F2017%2F12%2F14%2Fvim%2Fvundle-vim%2F</url>
     <content type="text"><![CDATA[vundle vim 使用命令 1234&quot; :PluginList - 列出所有已配置的插件&quot; :PluginInstall - 安装插件, 加 `!` 用以更新或使用 :PluginUpdate&quot; :PluginSearch foo - 搜索 foo ;追加 `!` 清除本地缓存&quot; :PluginClean - 清除未使用插件,需要确认; 追加 `!` nerdcommenterUsage Doc 12345678910111213141516 n\cc : 为光标以下 n 行添加注释 n\cu : 为光标以下 n 行取消注释 n\cm : 为光标以下 n 行添加块注释for python:单行：注释: \cs取消注释：\cu多行：ctrl + v 块选中后：注释: \cs取消注释：\cu\ci 为Inverts the commented state of each selected line.]]></content>
+      <categories>
+        <category>vim</category>
+      </categories>
       <tags>
         <tag>config</tag>
         <tag>vim</tag>
@@ -339,33 +459,33 @@
     <title><![CDATA[vim registers 寄存器]]></title>
     <url>%2F2017%2F12%2F14%2Fvim%2Fvim-registers%2F</url>
     <content type="text"><![CDATA[常见文本编辑器都会提供剪切板来支持复制粘贴，Vim也不例外。 不同的是Vim提供了10类共48个寄存器，提供无与伦比的寄存功能。 最常用的y操作将会拷贝到默认的匿名寄存器中，我们也可以指定具体拷贝到哪个寄存器中。 一般来讲，可以用用```"&#123;register&#125;p```来粘贴```&#123;register&#125;```中的内容。例如： "ayy可以拷贝当前行到寄存器a中，而"ap则可以粘贴寄存器a中的内容。12345678910111213141516171819202122232425262728除了a-z26个命名寄存器，Vim还提供了很多特殊寄存器。合理地使用可以极大地提高效率。例如：* ```&quot;+p```可以粘贴剪切板的内容，* ```&quot;:p```可以粘贴上一个Vim命令（比如你刚刚费力拼写的正则表达式），* ```&quot;/p```可以粘贴上一次搜索关键词（你猜的没错，正是normal模式下的/foo搜索命令）。在Vim中可通过```:reg```来查看每个寄存器当前的值。寄存器分类Vim提供了10类寄存器，可在Vim中通过:help registers查看帮助。1. 匿名寄存器 &quot;&quot;2. 编号寄存器 &quot;0 到 &quot;93. 小删除寄存器 &quot;-4. 26个命名寄存器 &quot;a 到 &quot;z5. 3个只读寄存器 &quot;:, &quot;., &quot;%6. Buffer交替文件寄存器 &quot;#7. 表达式寄存器 &quot;=8. 选区和拖放寄存器 &quot;*, &quot;+, &quot;~9. 黑洞寄存器 &quot;_10. 搜索模式寄存器 &quot;/# 1. 匿名寄存器使用d, c, s, x等会删除字符的命令时，被删除字符会进入匿名寄存器&quot;&quot;。 你可以认为&quot;&quot;寄存器是一个指针，指向刚才被存到的寄存器。在如何用Vim搭建IDE？一文中提到，Mac下可通过下列设置来让Vim共享系统剪切板， 就是这个原理：所有删除和拷贝操作默认都会到匿名寄存器。 set clipboard=unnamed1234567891011121314使用y命令未指定寄存器会存到&quot;0寄存器中，同时&quot;&quot;会与该寄存器保有同样的值。 这意味着你使用p和&quot;p总会得到同样的结果。# 2. 编号寄存器编号寄存器从&quot;0到&quot;9共10个，其中&quot;0保存着拷贝来的字符串，&quot;1到&quot;9保存着删除掉的字符串。 删除操作符包括s, c, d, x。 删除掉的字符串会被存到&quot;1中，上次删除的则会被存到&quot;2中。以此类推，Vim会保存你最近的9次删除。* 只有整行整行的删除，和通过段落级别的移动指令（包括%,(,),/,`,?,n,N,&#123;,&#125;） 的删除才会被放到&quot;1中。* 当用户指定拷贝操作的寄存器时（如&quot;ap），&quot;0不会被写入；但删除操作一定会被写入到&quot;1中。&gt; &quot;0寄存器很有用，比如我们copy了一段文本然后用它替换另一段文本。 这时默认寄存器&quot;&quot;中的值就变成了被替换文本，如果还需要用copy的文本继续替换的话就需要&quot;0p了。# 3. 小删除寄存器不足一行的小删除则会被放到小删除寄存器中（&quot;-），起作用的删除操作符也包括s, c, d, x。 例如： dw # 删除一个词d9l # 删除9个字符cb # 向前更改一个词1234与&quot;0寄存器类似，当用户指定寄存器并进行删除时，&quot;-不会被写入。# 4. 命名寄存器命名寄存器有&quot;a到&quot;z共26个，这些寄存器只有当我们指定时才会被使用。 其实我们在录制宏时，所有键盘操作会以字符串的形式存到寄存器中。 例如录制一个宏存到&quot;a寄存器中，内容为更改当前行cc，改为foo字符串： qaccfoo1234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950然后执行:reg来查看寄存器，可以发现a寄存器的值是ccfoo。 小技巧：当使用小写字母进行操作时会覆盖当前寄存器内容，当使用大写字母进行操作时，会追加当前寄存器内容。# 5. 只读寄存器只读寄存器共3个，它们的值是由Vim提供的，不允许改变： &quot;.：上次insert模式中插入的字符串。还记得吗？.命令可以重复上次操作，而&quot;.存储了上次插入。 &quot;%：当前文件名，不是全路径，也不是纯文件名，而是从当前Vim的工作目录到该文件的路径。例如此时Harttle的Vim中，&quot;%p的结果为_drafts/vim-registers.md。 &quot;:：上次命令模式下键入的命令。正如@a可以执行&quot;a寄存器中的宏一样，&quot;:可以执行上次命令。# 6. 交替文件寄存器交替文件寄存器&quot;#存储着当前Vim窗口（Window）的交替文件。交替文件（alternate file）是指 Buffer中的上一个文件，可通过Ctrl+^来切换交替文件与当前文件。 Window和Buffer有什么区别？参见Vim 多文件编辑：窗口一文。# 7. 表达式寄存器表达式寄存器&quot;=主要用于计算Vim脚本的返回值，并插入到文本中。 当我们键入&quot;=后光标会移动到命令行，此时我们可以输入任何Vim脚本的表达式。 例如3+2，按下回车并且p则会得到5。这在我们调试Vim脚本时非常有用，比如调用一个函数看它是否有正确的返回值。# 8. 选择和拖放寄存器选择和拖放寄存器包括&quot;*, &quot;+, 和&quot;~，这三个寄存器的行为是和GUI相关的。&quot;*和&quot;+在Mac和Windows中，都是指系统剪切板（clipboard），例如&quot;*yy即可复制当前行到剪切板。 以供其他程序中粘贴。其他程序中复制的内容也会被存储到这两个寄存器中。 在X11系统中（绝大多数带有桌面环境的Linux发行版），二者是有区别的： &quot;*指X11中的PRIMARY选区，即鼠标选中区域。在桌面系统中可按鼠标中键粘贴。 &quot;+指X11中的CLIPBOARD选区，即系统剪切板。在桌面系统中可按Ctrl+V粘贴。 上文所述的Mac下set clipboard=unnamed会使得系统剪切板寄存器&quot;*和Vim默认的匿名寄存器&quot;&quot;始终保有同样的值，即Vim和系统共用剪切板。有文本拖拽到Vim时，被拖拽的文本被存储在&quot;~中。Vim默认的行为是将&quot;~中内容插入到光标所在位置。 当然你可以给&lt;DROP&gt;做键盘映射。# 9. 黑洞寄存器黑洞寄存器&quot;_，所有删除或拷贝到黑洞寄存器的文本将会消失。 这是为了在删除文本的同时不影响任何寄存器的值，&quot;_通常用于Vim脚本中。# 10. 搜索寄存器搜索寄存器&quot;/用于存储上一次搜索的关键词。Vim中如何进行搜索呢？ 在normal模式下按下/即进入search模式，输入关键字并按下回车即可。该寄存器是可写的，例如:let @/ = &quot;harttle&quot;将会把&quot;harttle&quot;写入该寄存器。 下次搜索时不输入搜索词直接回车便会搜索&quot;harttle&quot;。命令行模式拷贝值得一提的时，任何寄存器中的值都是可以拷贝到命令模式下的。比如对于寄存器&quot;a中的值，在normal模式下可以通过&quot;ap来粘贴；在command-line模式下通过&lt;Ctrl-R&gt;a来粘贴。这一操作存在风险，因为寄存器中的值可能是从网页中拷贝来的。如果寄存器中的字符串存在&lt;Esc&gt;字符或&lt;CR&gt;字符，则会时Vim回到normal模式， 并继续执行寄存器中的命令。为了防范剪切板劫持，可以添加下列的Vim配置： inoremap + u&lt;C->“+gP` 该命令的解释请移步：http://vim.wikia.com/wiki/Pasting_registers]]></content>
+      <categories>
+        <category>vim</category>
+      </categories>
       <tags>
         <tag>trick</tag>
         <tag>vim</tag>
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[rst转换为md]]></title>
-    <url>%2F2017%2F12%2F14%2Flinux%2Fpandoc-rst2md%2F</url>
-    <content type="text"><![CDATA[1sudo apt install pandoc 1234567FILES=*.rstfor f in $FILESdo filename="$&#123;f%.*&#125;" echo "Converting $f to $filename.md" `pandoc $f -f rst -t markdown -o $filename.md`done]]></content>
-      <tags>
-        <tag>linux</tag>
-        <tag>trick</tag>
-      </tags>
-  </entry>
-  <entry>
     <title><![CDATA[parallel命令：并行处理]]></title>
     <url>%2F2017%2F12%2F01%2Flinux%2Fparallel%2F</url>
     <content type="text"><![CDATA[1ls | parallel -j 8 "python dic.py -f &#123;&#125;" How can I use GNU Parallel to run a lot of commands in parallel | Minnesota Supercomputing Institute GNU Parallel tutorial]]></content>
+      <categories>
+        <category>linux</category>
+      </categories>
       <tags>
-        <tag>tool</tag>
         <tag>linux</tag>
+        <tag>tool</tag>
       </tags>
   </entry>
   <entry>
     <title><![CDATA[find max squre submatrix]]></title>
     <url>%2F2017%2F11%2F10%2Falgorithms%2Fmax_squre_submatrix%2F</url>
     <content type="text"><![CDATA[输入0-1矩阵，返回最大边长的全为1的子矩阵的边长，及在原始矩阵中的位置 1234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556# coding:utf-8"""0-1 matrix.find max squre 1 submatrix."""import numpy as npdef max_squre(matrix): # 输入0-1矩阵，返回最大边长的全为1的子矩阵的边长，及在原始矩阵中的位置 # ms矩阵中i，j处元素： # 若不为0, 则代表该处能作为右下角的子矩阵的边长 w, h = matrix.shape ms = np.zeros(shape=(w, h), dtype=np.int8) for i in range(w): for j in range(h): if i == 0 or j == 0: ms[i, j] = matrix[i, j] else: if matrix[i, j] == 1: ms[i, j] = min(ms[i-1, j], ms[i, j-1], ms[i-1, j-1]) + 1 else: ms[i, j] = 0 return ms.max(), (ms.argmax()/h, ms.argmax()%h)def modify(matrix, ms, x, y): if matrix[x-ms+1:x+1, y-ms+1:y+1].all(): # 若子矩阵全为1, 则替换为-1, 显示出来 matrix[x-ms+1:x+1, y-ms+1:y+1] = -1 return matrixdef test(): from random import choice n = 15 for k in range(1): matrix = np.zeros(shape=(n, n), dtype=np.int8) for (idx, idy), d in np.ndenumerate(matrix): matrix[idx, idy] = choice([0, 1]) ms, (x, y) = max_squre(matrix) matrix = modify(matrix, ms, x, y) print matrixif __name__ == "__main__": matrix = np.array([ [0, 0, 1, 1, 1, 0], [1, 0, 1, 1, 1, 1], [1, 1, 1, 1, 1, 0], [0, 1, 1, 0, 1, 1], [1, 0, 1, 1, 1, 1], [0, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1], [0, 0, 1, 1, 1, 1], [1, 0, 1, 1, 0, 1] ]) ms, (x, y) = max_squre(matrix) print ms, x, y print modify(matrix, ms, x, y)]]></content>
+      <categories>
+        <category>algorithms</category>
+      </categories>
       <tags>
         <tag>python</tag>
         <tag>algorithms</tag>
@@ -375,32 +495,44 @@
     <title><![CDATA[批量处理MP3文件tag乱码]]></title>
     <url>%2F2017%2F10%2F27%2Flinux%2Fmp3-gbk-utf8-tag-mid3iconv%2F</url>
     <content type="text"><![CDATA[1sudo apt install python-mutagen 切换到mp3所在目录下 1find . -iname "*.mp3" -execdir mid3iconv -e gbk &#123;&#125; \;]]></content>
+      <categories>
+        <category>linux</category>
+      </categories>
       <tags>
-        <tag>tool</tag>
         <tag>linux</tag>
+        <tag>tool</tag>
       </tags>
   </entry>
   <entry>
     <title><![CDATA[vim操作大全]]></title>
     <url>%2F2017%2F09%2F22%2Fvim%2Fvim%E6%93%8D%E4%BD%9C%E5%A4%A7%E5%85%A8%2F</url>
     <content type="text"><![CDATA[粘贴模式复制东西进vi时,为了避免vi自动缩进,set paste之后再复制复制完set nopaste 命令历史以:和/开头的命令都有历史纪录，可以首先键入:或/然后按上下箭头来选择某个历史命令。 打开单个文件 启动vim在命令行窗口中输入以下命令即可 1234vim # 直接启动vimvim filename # 打开vim并创建名为filename的文件 文件命令 打开单个文件 12vim file 同时打开多个文件 12vim file1 file2 file3 ... 在vim窗口中打开一个新文件 12:open file 在新窗口中打开文件 12:split file 切换到下一个文件 12:bn 切换到上一个文件 12:bp 查看当前打开的文件列表 1234#当前正在编辑的文件会用[]括起来。:args 打开远程文件 123456#比如ftp或者share folder:e ftp://192.168.10.76/abc.txt:e \\qadrive\test\1.txt vim的模式正常模式（按Esc或Ctrl+[进入） 左下角显示文件名或为空 插入模式（按i键进入） 左下角显示–INSERT– 可视模式（正常模式下ctrl+v进入） 左下角显示–VISUAL– 导航命令% 括号匹配 插入命令123456789101112i 在当前位置生前插入I 在当前行首插入a 在当前位置后插入A 在当前行尾插入o 在当前行之后插入一行O 在当前行之前插入一行 查找命令12345678910111213141516171819202122/text 查找text，按n健查找下一个，按N健查找前一个。?text 查找text，反向查找，按n健查找下一个，按N健查找前一个。vim中有一些特殊字符在查找时需要转义 .*[]^%/?~$:set ignorecase 忽略大小写的查找:set noignorecase 不忽略大小写的查找查找很长的词，如果一个词很长，键入麻烦，可以将光标移动到该词上，按*或#键即可以该单词进行搜索，相当于/搜索。而#命令相当于?搜索。:set hlsearch 高亮搜索结果，所有结果都高亮显示，而不是只显示一个匹配。:set nohlsearch 关闭高亮搜索显示:nohlsearch 关闭当前的高亮显示，如果再次搜索或者按下n或N键，则会再次高亮。:set incsearch 逐步搜索模式，对当前键入的字符进行搜索而不必等待键入完成。:set wrapscan 重新搜索，在搜索到文件头或尾时，返回继续搜索，默认开启。 替换命令12345678910111213141516ra 将当前字符替换为a，当期字符即光标所在字符。R 进入替换模式,光标到那,按啥就是替换为啥.s/old/new/ 用old替换new，替换当前行的第一个匹配s/old/new/g 用old替换new，替换当前行的所有匹配%s/old/new/ 用old替换new，替换所有行的第一个匹配%s/old/new/g 用old替换new，替换整个文件的所有匹配:10,20 s/^/ /g 在第10行知第20行每行前面加四个空格，用于缩进。ddp 交换光标所在行和其下紧邻的一行。 移动命令12345678h 左移一个字符l 右移一个字符，这个命令很少用，一般用w代替。k 上移一个字符j 下移一个字符 以上四个命令可以配合数字使用，比如20j就是向下移动20行，5h就是向左移动5个字符，在Vim中，很多命令都可以配合数字使用，比如删除10个字符10x，在当前位置后插入3个！，3a！，这里的Esc是必须的，否则命令不生效。 12345678910111213141516171819202122232425262728293031323334353637383940w 向前移动一个单词（光标停在单词首部），如果已到行尾，则转至下一行行首。此命令快，可以代替l命令。b 向后移动一个单词 2b 向后移动2个单词e，同w，只不过是光标停在单词尾部ge，同b，光标停在单词尾部。^ 移动到本行第一个非空白字符上。0（数字0）移动到本行第一个字符上，&lt;HOME&gt; 移动到本行第一个字符。同0健。移 动 到 行 尾 3 移 动 到 行 尾 3 移动到下面3行的行尾gg 移动到文件头。 = [[G（shift + g） 移动到文件尾。 = ]]f（find）命令也可以用于移动，fx将找到光标后第一个为x的字符，3fd将找到第三个为d的字符。F 同f，反向查找。跳到指定行，冒号+行号，回车，比如跳到240行就是 :240回车。另一个方法是行号+G，比如230G跳到230行。Ctrl + e 向下滚动一行Ctrl + y 向上滚动一行Ctrl + d 向下滚动半屏Ctrl + u 向上滚动半屏Ctrl + f 向下滚动一屏Ctrl + b 向上滚动一屏 撤销和重做12345u 撤销（Undo）U 撤销对整行的操作Ctrl + r 重做（Redo），即撤销的撤销。 删除命令123456789101112131415161718192021222324252627282930313233x 删除当前字符3x 删除当前光标开始向后三个字符X 删除当前字符的前一个字符。X=dhdl 删除当前字符， dl=xdh 删除前一个字符dd 删除当前行dj 删除上一行dk 删除下一行10d 删除当前行开始的10行。D 删除当前字符至行尾。D=d$d$ 删除当前字符之后的所有字符（本行）kdgg 删除当前行之前所有行（不包括当前行）jdG（jd shift + g） 删除当前行之后所有行（不包括当前行）:1,10d 删除1-10行:11,$d 删除11行及以后所有的行:1,$d 删除所有行J(shift + j) 删除两行之间的空行，实际上是合并两行。 拷贝和粘贴1234567891011yy 拷贝当前行nyy 拷贝当前后开始的n行，比如2yy拷贝当前行及其下一行。p 在当前光标后粘贴,如果之前使用了yy命令来复制一行，那么就在当前行的下一行粘贴。shift+p 在当前行前粘贴:1,10 co 20 将1-10行插入到第20行之后。:1, c o c o 将整个文件复制一份并添加到文件尾部。 正常模式下按v（逐字）或V（逐行）进入可视模式，然后用jklh命令移动即可选择某些行或字符，再按y即可复制 123ddp交换当前行和其下一行xp交换当前字符和其后一个字符 剪切命令正常模式下按v（逐字）或V（逐行）进入可视模式，然后用jklh命令移动即可选择某些行或字符，再按d即可剪切 12345ndd 剪切当前行之后的n行。利用p命令可以对剪切的内容进行粘贴:1,10d 将1-10行剪切。利用p命令可将剪切后的内容进行粘贴。:1, 10 m 20 将第1-10行移动到第20行之后。 退出命令1234:wq 保存并退出ZZ 保存并退出:q! 强制退出并忽略所有更改:e! 放弃所有修改，并打开原来文件。 窗口命令123456:split或new 打开一个新窗口，光标停在顶层的窗口上:split file或:new file 用新窗口打开文件split打开的窗口都是横向的，使用vsplit可以纵向打开窗口。Ctrl+ww 移动到下一个窗口Ctrl+wj 移动到下方的窗口Ctrl+wk 移动到上方的窗口 关闭窗口 123:close 最后一个窗口不能使用此命令，可以防止意外退出vim。:q 如果是最后一个被关闭的窗口，那么将退出vim。ZZ 保存并退出。 关闭所有窗口，只保留当前窗口 1:only 录制宏 按q键加任意字母开始录制，再按q键结束录制（这意味着vim中的宏不可嵌套），使用的时候@加宏名，比如qa。。。q录制名为a的宏，@a使用这个宏。 执行shell命令12345:!command:!ls 列出当前目录下文件:!perl -c script.pl 检查perl脚本语法，可以不用退出vim，非常方便。:!perl script.pl 执行perl脚本，可以不用退出vim，非常方便。:suspend或Ctrl - Z 挂起vim，回到shell，按fg可以返回vim。 注释命令perl程序中#开始的行为注释，所以要注释某些行，只需在行首加入# 12343,5 s/^/#/g 注释第3-5行3,5 s/^#//g 解除3-5行的注释1,$ s/^/#/g 注释整个文档。:%s/^/#/g 注释整个文档，此法更快。 帮助命令1234567891011:help or F1 显示整个帮助:help xxx 显示xxx的帮助，比如 :help i, :help CTRL-[（即Ctrl+[的帮助）。:help &amp;#39;number&amp;#39; Vim选项的帮助用单引号括起:help &lt;Esc&gt; 特殊键的帮助用&lt;&gt;扩起:help -t Vim启动参数的帮助用-：help i_&lt;Esc&gt; 插入模式下Esc的帮助，某个模式下的帮助用模式_主题的模式 帮助文件中位于||之间的内容是超链接，可以用Ctrl+]进入链接，Ctrl+o（Ctrl + t）返回 其他非编辑命令1234567. 重复前一次命令:set ruler? 查看是否设置了ruler，在.vimrc中，使用set命令设制的选项都可以通过这个命令查看:scriptnames 查看vim脚本文件的位置，比如.vimrc文件，语法文件及plugin等。:set list 显示非打印字符，如tab，空格，行尾等。如果tab无法显示，请确定用set lcs=tab:&gt;-命令设置了.vimrc文件，并确保你的文件中的确有tab，如果开启了expendtab，那么tab将被扩展为空格。 Vim教程 在Unix系统上 1$ vimtutor 在Windows系统上 12345:help tutor:syntax 列出已经定义的语法项:syntax clear 清除已定义的语法规则:syntax case match 大小写敏感，int和Int将视为不同的语法元素:syntax case ignore 大小写无关，int和Int将视为相同的语法元素，并使用同样的配色方案 加密文件1:X 然后系统会提示输入密码, 输入密码后存盘退出, 保存后就加密了 下次编辑时使用-x filename```, 系统会提示你输入密码 12 set key=1234清除密码# 字符串统计个数 :%s/sth//gn1234vim中字符串出现次数的查找：在所有行中查找 字符串 出现的次数 :%s/字符串/&amp;/gn12在m和n行之间查找 字符串 出现的次数 :m,ns/字符串/&amp;/gnPS: grep -o “sth” file`]]></content>
+      <categories>
+        <category>vim</category>
+      </categories>
       <tags>
         <tag>usage</tag>
         <tag>vim</tag>
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[python: operator]]></title>
-    <url>%2F2017%2F09%2F16%2Fpython%2Fpython-operator%2F</url>
-    <content type="text"><![CDATA[12345678910111213141516171819202122#!/usr/bin/env python3&quot;&quot;&quot;This program lets you create a simple command line calculator without usingthe &apos;if..else&apos; construct. It uses built-in &apos;operator&apos; module to accomplish thesameCreated with help of an answer on stackoverflow. Don&apos;t have the exact link.&quot;&quot;&quot;import operatorops = &#123; &quot;+&quot;: operator.add, &quot;-&quot;: operator.sub, &quot;/&quot;: operator.truediv, &quot;*&quot;: operator.mul&#125;x = input(&quot;Enter an operator [OPTIONS: +, -, *, /]: &quot;)y = int(input(&quot;Enter number: &quot;))z = int(input(&quot;Enter number: &quot;))print (ops[x](y, z))]]></content>
+    <title><![CDATA[python判断字符编码]]></title>
+    <url>%2F2017%2F09%2F16%2Fpython%2F%E5%AD%97%E7%AC%A6%E7%BC%96%E7%A0%81%E5%88%A4%E6%96%AD%2F</url>
+    <content type="text"><![CDATA[1234import sysreload(sys)sys.setdefaultencoding(&apos;utf-8&apos;) Python 字符编码判断 法一12345678#判断是否为一般字符串isinstance(s, str)#用来判断是否为unicodeisinstance(s, unicode) 或 12if type(str).__name__ != &quot;unicode&quot;: str=unicode(str, &quot;utf-8&quot;) 法二：Python chardet 字符编码判断使用 chardet 可以很方便的实现字符串/文件的编码检测。尤其是中文网页，有的页面使用GBK/GB2312，有的使用UTF8，如果你需要去爬一些页面，知道网页编码很重要的，虽然HTML页面有charset标签，但是有些时候是不对的。那么chardet就能帮我们大忙了。123456import urllibimport chardetrawdata = urllib.urlopen(&apos;http://www.google.cn/&apos;).read()chardet.detect(rawdata) Results: 12&#123;&apos;confidence&apos;: 0.98999999999999999, &apos;encoding&apos;: &apos;GB2312&apos;&#125; chardet可以直接用detect函数来检测所给字符的编码。 函数返回值为字典，有2个元数，一个是检测的可信度，另外一个就是检测到的编码。]]></content>
+      <categories>
+        <category>python</category>
+      </categories>
       <tags>
         <tag>python</tag>
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[python判断字符编码]]></title>
-    <url>%2F2017%2F09%2F16%2Fpython%2F%E5%AD%97%E7%AC%A6%E7%BC%96%E7%A0%81%E5%88%A4%E6%96%AD%2F</url>
-    <content type="text"><![CDATA[1234import sysreload(sys)sys.setdefaultencoding(&apos;utf-8&apos;) Python 字符编码判断 法一12345678#判断是否为一般字符串isinstance(s, str)#用来判断是否为unicodeisinstance(s, unicode) 或 12if type(str).__name__ != &quot;unicode&quot;: str=unicode(str, &quot;utf-8&quot;) 法二：Python chardet 字符编码判断使用 chardet 可以很方便的实现字符串/文件的编码检测。尤其是中文网页，有的页面使用GBK/GB2312，有的使用UTF8，如果你需要去爬一些页面，知道网页编码很重要的，虽然HTML页面有charset标签，但是有些时候是不对的。那么chardet就能帮我们大忙了。123456import urllibimport chardetrawdata = urllib.urlopen(&apos;http://www.google.cn/&apos;).read()chardet.detect(rawdata) Results: 12&#123;&apos;confidence&apos;: 0.98999999999999999, &apos;encoding&apos;: &apos;GB2312&apos;&#125; chardet可以直接用detect函数来检测所给字符的编码。 函数返回值为字典，有2个元数，一个是检测的可信度，另外一个就是检测到的编码。]]></content>
+    <title><![CDATA[python: operator]]></title>
+    <url>%2F2017%2F09%2F16%2Fpython%2Fpython-operator%2F</url>
+    <content type="text"><![CDATA[12345678910111213141516171819202122#!/usr/bin/env python3&quot;&quot;&quot;This program lets you create a simple command line calculator without usingthe &apos;if..else&apos; construct. It uses built-in &apos;operator&apos; module to accomplish thesameCreated with help of an answer on stackoverflow. Don&apos;t have the exact link.&quot;&quot;&quot;import operatorops = &#123; &quot;+&quot;: operator.add, &quot;-&quot;: operator.sub, &quot;/&quot;: operator.truediv, &quot;*&quot;: operator.mul&#125;x = input(&quot;Enter an operator [OPTIONS: +, -, *, /]: &quot;)y = int(input(&quot;Enter number: &quot;))z = int(input(&quot;Enter number: &quot;))print (ops[x](y, z))]]></content>
+      <categories>
+        <category>python</category>
+      </categories>
       <tags>
         <tag>python</tag>
       </tags>
@@ -409,6 +541,9 @@
     <title><![CDATA[python: set]]></title>
     <url>%2F2017%2F05%2F24%2Fpython%2Fset%2F</url>
     <content type="text"><![CDATA[1234567891011121314151617181920212223242526272829303132&gt;&gt;&gt; x = set(&quot;jihite&quot;)&gt;&gt;&gt; y = set([&apos;d&apos;, &apos;i&apos;, &apos;m&apos;, &apos;i&apos;, &apos;t&apos;, &apos;e&apos;])&gt;&gt;&gt; x #把字符串转化为set，去重了set([&apos;i&apos;, &apos;h&apos;, &apos;j&apos;, &apos;e&apos;, &apos;t&apos;])&gt;&gt;&gt; yset([&apos;i&apos;, &apos;e&apos;, &apos;m&apos;, &apos;d&apos;, &apos;t&apos;])&gt;&gt;&gt; x &amp; y #交set([&apos;i&apos;, &apos;e&apos;, &apos;t&apos;])&gt;&gt;&gt; x | y #并set([&apos;e&apos;, &apos;d&apos;, &apos;i&apos;, &apos;h&apos;, &apos;j&apos;, &apos;m&apos;, &apos;t&apos;])&gt;&gt;&gt; x - y #差set([&apos;h&apos;, &apos;j&apos;])&gt;&gt;&gt; y - xset([&apos;m&apos;, &apos;d&apos;])&gt;&gt;&gt; x ^ y #对称差：x和y的交集减去并集set([&apos;d&apos;, &apos;h&apos;, &apos;j&apos;, &apos;m&apos;]) 123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899&gt;&gt;&gt; xset([&apos;i&apos;, &apos;h&apos;, &apos;j&apos;, &apos;e&apos;, &apos;t&apos;])&gt;&gt;&gt; s = set(&quot;hi&quot;)&gt;&gt;&gt; sset([&apos;i&apos;, &apos;h&apos;])&gt;&gt;&gt; len(x) #长度&gt;&gt;&gt; &apos;i&apos; in xTrue&gt;&gt;&gt; s.issubset(x) #s是否为x的子集True&gt;&gt;&gt; yset([&apos;i&apos;, &apos;e&apos;, &apos;m&apos;, &apos;d&apos;, &apos;t&apos;])&gt;&gt;&gt; x.union(y) #交set([&apos;e&apos;, &apos;d&apos;, &apos;i&apos;, &apos;h&apos;, &apos;j&apos;, &apos;m&apos;, &apos;t&apos;])&gt;&gt;&gt; x.intersection(y) #并set([&apos;i&apos;, &apos;e&apos;, &apos;t&apos;])&gt;&gt;&gt; x.difference(y) #差set([&apos;h&apos;, &apos;j&apos;])&gt;&gt;&gt; x.symmetric_difference(y) #对称差set([&apos;d&apos;, &apos;h&apos;, &apos;j&apos;, &apos;m&apos;])&gt;&gt;&gt; s.update(x) #更新s，加上x中的元素&gt;&gt;&gt; sset([&apos;e&apos;, &apos;t&apos;, &apos;i&apos;, &apos;h&apos;, &apos;j&apos;])&gt;&gt;&gt; s.add(1) #增加元素&gt;&gt;&gt; sset([1, &apos;e&apos;, &apos;t&apos;, &apos;i&apos;, &apos;h&apos;, &apos;j&apos;])&gt;&gt;&gt; s.remove(1) #删除已有元素，如果没有会返回异常&gt;&gt;&gt; sset([&apos;e&apos;, &apos;t&apos;, &apos;i&apos;, &apos;h&apos;, &apos;j&apos;])&gt;&gt;&gt; s.remove(2)Traceback (most recent call last): File &quot;&lt;pyshell#29&gt;&quot;, line 1, in &lt;module&gt; s.remove(2)KeyError: 2&gt;&gt;&gt; s.discard(2) #如果存在元素，就删除；没有不报异常&gt;&gt;&gt; sset([&apos;e&apos;, &apos;t&apos;, &apos;i&apos;, &apos;h&apos;, &apos;j&apos;])&gt;&gt;&gt; s.clear() #清除set&gt;&gt;&gt; sset([])&gt;&gt;&gt; xset([&apos;i&apos;, &apos;h&apos;, &apos;j&apos;, &apos;e&apos;, &apos;t&apos;])&gt;&gt;&gt; x.pop() #随机删除一元素&apos;i&apos;&gt;&gt;&gt; xset([&apos;h&apos;, &apos;j&apos;, &apos;e&apos;, &apos;t&apos;])&gt;&gt;&gt; x.pop()&apos;h&apos;]]></content>
+      <categories>
+        <category>python</category>
+      </categories>
       <tags>
         <tag>python</tag>
       </tags>
@@ -417,6 +552,9 @@
     <title><![CDATA[除了两个异类元素，其余都是成对出现的，O(n)时间复杂度找出它俩]]></title>
     <url>%2F2017%2F05%2F04%2Fpython%2Fpython-%E6%89%BE%E5%87%BA%E6%88%90%E5%AF%B9%E6%95%B0%E4%B8%AD%E4%B8%A4%E4%B8%AA%E5%8D%95%E7%8B%AC%E5%85%83%E7%B4%A0%2F</url>
     <content type="text"><![CDATA[#按位与（AND）：处理两个长度相同的二进制数，两个相应的二进位都为1，该位的结果值才为1，否则为0 0b1010 &amp; 0b1100 8 #1000 #按位或(OR): 按位或处理两个长度相同的二进制数，两个相应的二进位中只要有一个为1，该位的结果值为1 0b1010 | 0b1100 14 #1110 #按位异或（XOR): 对等长二进制模式按位，或二进制数的每一位执行逻辑异按位或操作。操作的结果是如果某位不同则该位为1，否则该位为0 0b1010 ^ 0b1100 6 #0110 #移位：将一个二进制数中的每一位全部都向一个方向移动指定位，溢出的部分将被舍弃，而空缺的部分填入一定的值。 0b1010 &lt;&lt; 2 40 #101000 0b1010 &gt;&gt; 2 2 #10 #取反(NOT): 一元操作，对二进制每位执行逻辑反，1-&gt;0, 0-&gt;1, 值得注意的是此操作符与”逻辑非（!）”操作符不同 ~0b1010-11 #10000000 00000000 00000000 00001011 type(0b1010) 123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657# coding:utf-8'''一个数组仅有两个不同的值是仅含一个的.其余值都是含两个的. 例如:[1, 1, 2, 2, 3, 4]目标: 找出那两个异常值.要求: 算法复杂度O(n) 空间占用为常数,与n无关为了不局限于比较对象,对hash值进行位操作.'''def XOR(a): """ XOR of all elements of a. """ xor = hash(a[0]) for i in a[1:]: xor ^= hash(i) return xordef find(a): r = XOR(a) pos = 0 # pos 为r的2进制形式下从左往右首位不是0的位置. while r &amp; 1 == 0: r = r&gt;&gt;1 pos += 1 num1, num2 = None, None # 将原数组按照二进制在pos位置是否为1分成两组 for i in a: if (hash(i) &gt;&gt; pos) &amp; 1 == 0: if num1 != None: num1 ^= hash(i) else: num1 = hash(i) else: if num2 != None: num2 ^= hash(i) else: num2 = hash(i) for i in a: if hash(i) == num1 or hash(i) == num2: yield iif __name__ == '__main__': a = range(10)*2 + [11,12] print(a) for i in find(a): print(i) a = ['a', 'a', 'b', 'b', 'zsdf', 'fdfe'] print(a) for i in find(a): print(i)]]></content>
+      <categories>
+        <category>python</category>
+      </categories>
       <tags>
         <tag>python</tag>
         <tag>algorithms</tag>
@@ -426,6 +564,9 @@
     <title><![CDATA[mdcharm编辑器配置]]></title>
     <url>%2F2017%2F03%2F12%2Flinux%2Fmdcharm%2F</url>
     <content type="text"><![CDATA[mdcharm打开方式消失解决方法： 修改12 Exec=/usr/bin/mdcharm %u123456789101112# 去掉启动打开历史记录的功能```bash# cd MdCharm config dir.cd ~/.config/MdCharm/# clear file history in session.xml.vi session.xml# -write chmod -w session.xml]]></content>
+      <categories>
+        <category>linux</category>
+      </categories>
       <tags>
         <tag>config</tag>
         <tag>editor</tag>
@@ -435,15 +576,21 @@
     <title><![CDATA[linux确认进程运行环境是否为ssh远程连接]]></title>
     <url>%2F2017%2F01%2F12%2Flinux%2Fcheck_if_it_is_ssh_process%2F</url>
     <content type="text"><![CDATA[check if this command coming from sshd.process1cat /proc/$PPID/status | head -1 | cut -f2 SSH environment variable123echo $SSH_CLIENTecho $SSH_CONNECTION# ubuntu desktop: they are not existed who am i1who am i graphic environ123echo $DISPLAY# ssh : None# ubuntu desktop: &quot;:0&quot;]]></content>
+      <categories>
+        <category>linux</category>
+      </categories>
       <tags>
-        <tag>linux</tag>
         <tag>ssh</tag>
+        <tag>linux</tag>
       </tags>
   </entry>
   <entry>
     <title><![CDATA[python: struct模块处理二进制数据]]></title>
     <url>%2F2017%2F01%2F04%2Fpython%2Fpython-struct-binary-data%2F</url>
     <content type="text"><![CDATA[struct模块中最重要的三个函数是pack(), unpack(), calcsize() #pack(fmt, v1, v2, …) 按照给定的格式(fmt)，把数据封装成字符串(实际上是类似于c结构体的字节流) #unpack(fmt, string)按照给定的格式(fmt)解析字节流string，返回解析出来的tuple #calcsize(fmt)计算给定的格式(fmt)占用多少字节的内存 struct中支持的格式如下表： Format C Type Python 字节数 x|pad byte|no value|1c|char|string of length 1|1b|signed char|integer|1B|unsigned char|integer|1?|_Bool|bool|1h|short|integer|2H|unsigned short|integer|2i|int|integer|4I|unsigned int|integer or long|4l|long|integer|4L|unsigned long|long|4q|long long|long|8Q|unsigned long long|long|8f|float|float|4d|double|float|8s|char[]|string|1p|char[]|string|1P|void *|long|]]></content>
+      <categories>
+        <category>python</category>
+      </categories>
       <tags>
         <tag>python</tag>
         <tag>binary</tag>
@@ -453,6 +600,9 @@
     <title><![CDATA[ubuntu配置初始化]]></title>
     <url>%2F2017%2F01%2F04%2Flinux%2Fubuntu-config%2F</url>
     <content type="text"><![CDATA[fcitx 输入法12sudo apt-get install fcitx fcitx-config-gtk fcitx-sunpinyin fcitx-googlepinyin fcitx-module-cloudpinyin im-configsudo im-config -s fcitx -z default 取消默认文件夹设置123456789# ~/.config/user-dirs.dirsxdg-user-dirs-update --set DESKTOP $HOME/xdg-user-dirs-update --set DOWNLOAD $HOME/xdg-user-dirs-update --set TEMPLATES $HOME/xdg-user-dirs-update --set PUBLICSHARE $HOME/xdg-user-dirs-update --set DOCUMENTS $HOME/xdg-user-dirs-update --set MUSIC $HOME/xdg-user-dirs-update --set PICTURES $HOME/xdg-user-dirs-update --set VIDEOS $HOME/ 卸载软件列表1sudo apt purge deja-dup gnome-sudoku webbrowser-app cheese gnome-mines gnome-mahjongg simple-scan empathy thunderbird rhythmbox libreoffice-common unity-webapps-common aisleriot transmission-common transmission-gtk remmina ubuntu-web-launchers 必备软件列表1234sudo apt-get install curl vim exuberant-ctags git ack-grepsudo pip install pep8 flake8 pyflakes isort yapfsudo apt install tmux zsh htop rar vim terminator ipython3 python3-pip openssh-server devtodo tree chsh -s /bin/zsh 可选安装软件列表123sudo apt install flashplugin-installer folder-color ubuntu-gnome-desktop moc kdeconnect gnome-tweak-toolsudo apt install graphviz virtualbox masterpdfeditor4sudo apt install gtk-recordmydesktop recordmydesktop 其余软件列表123nitrogen okular vlc screenfetchunison unison-gtk qrencode figlet xdotool cmatrix fortune fortune-zh cowsay vscode wps vimconfig zsh]]></content>
+      <categories>
+        <category>linux</category>
+      </categories>
       <tags>
         <tag>linux</tag>
         <tag>config</tag>
@@ -460,89 +610,119 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[shadowsocks配置，运行]]></title>
-    <url>%2F2017%2F01%2F04%2Flinux%2Fshadowsocks-proxy%2F</url>
-    <content type="text"><![CDATA[Home · shadowsocks/shadowsocks Wiki sudo pip install shadowsocks 在远程服务器上：12345678后台运行ss：sudo ssserver -p 14321 -k your_password -d start停止：sudo ssserver -d stop检查日志：sudo less /var/log/shadowsocks.log 本地linux1sslocal -s 服务器地址 -p 服务器端口 -l 本地端端口 -k 密码 -m 加密方法 或者ssh端口转发12ssh -fND 127.0.0.1:1234 zzp@10.2.0.4 -p 9920ssh -L 12369:localhost:12369 -R 12369:localhost:12370 -ND localhost:12345 root@138.69.29.65]]></content>
-      <tags>
-        <tag>tool</tag>
-        <tag>internet</tag>
-      </tags>
-  </entry>
-  <entry>
     <title><![CDATA[rsync同步命令]]></title>
     <url>%2F2017%2F01%2F04%2Flinux%2Frsync%E5%91%BD%E4%BB%A4%2F</url>
     <content type="text"><![CDATA[rsync最常用的操作同步远程zzp主机下note文件夹到本地文件夹note(以前者为准,后者的更改都会被抹除) 1rsync -urv --delete "zzp:/home/zzp/note/" note/ rsync的命令格式1234567rsync [OPTION]... SRC DESTrsync [OPTION]... SRC [USER@]HOST:DESTrsync [OPTION]... [USER@]HOST:SRC DESTrsync [OPTION]... [USER@]HOST::SRC DESTrsync [OPTION]... SRC [USER@]HOST::DESTrsync [OPTION]... rsync://[USER@]HOST[:PORT]/SRC [DEST] 对应于以上六种命令格式，rsync有六种不同的工作模式： 拷贝本地文件。当SRC和DES路径信息都不包含有单个冒号”:”分隔符时就启动这种工作模式。如：-a/backup```122. 使用一个远程shell程序(如rsh、ssh)来实现将本地机器的内容拷贝到远程机器。当DST路径地址包含单个冒号&quot;:&quot;分隔符时启动该模式。如：```rsync -avz *.c foo:src 使用一个远程shell程序(如rsh、ssh)来实现将远程机器的内容拷贝到本地机器。当SRC地址路径包含单个冒号”:”分隔符时启动该模式。如：-avz foo:src/barlink124. 从远程rsync服务器中拷贝文件到本地机。当SRC路径信息包含&quot;::&quot;分隔符时启动该模式。如：```rsync -av root@172.16.78.192::www /databack 从本地机器拷贝文件到远程rsync服务器中。当DST路径信息包含”::”分隔符时启动该模式。如：-avroot@172.16.78.192::www```126. 列远程机的文件列表。这类似于rsync传输，不过只要在命令中省略掉本地机信息即可。如：```rsync -v rsync://172.16.78.192/www rsync参数12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061-v, --verbose 详细模式输出-q, --quiet 精简输出模式-c, --checksum 打开校验开关，强制对文件传输进行校验-a, --archive 归档模式，表示以递归方式传输文件，并保持所有文件属性，等于-rlptgoD-r, --recursive 对子目录以递归模式处理-R, --relative 使用相对路径信息-b, --backup 创建备份，也就是对于目的已经存在有同样的文件名时，将老的文件重新命名为~filename。可以使用--suffix选项来指定不同的备份文件前缀。--backup-dir 将备份文件(如~filename)存放在在目录下。-suffix=SUFFIX 定义备份文件前缀-u, --update 仅仅进行更新，也就是跳过所有已经存在于DST，并且文件时间晚于要备份的文件。(不覆盖更新的文件)-l, --links 保留软链结-L, --copy-links 想对待常规文件一样处理软链结--copy-unsafe-links 仅仅拷贝指向SRC路径目录树以外的链结--safe-links 忽略指向SRC路径目录树以外的链结-H, --hard-links 保留硬链结-p, --perms 保持文件权限-o, --owner 保持文件属主信息-g, --group 保持文件属组信息-D, --devices 保持设备文件信息-t, --times 保持文件时间信息-S, --sparse 对稀疏文件进行特殊处理以节省DST的空间-n, --dry-run现实哪些文件将被传输-W, --whole-file 拷贝文件，不进行增量检测-x, --one-file-system 不要跨越文件系统边界-B, --block-size=SIZE 检验算法使用的块尺寸，默认是700字节-e, --rsh=COMMAND 指定使用rsh、ssh方式进行数据同步--rsync-path=PATH 指定远程服务器上的rsync命令所在路径信息-C, --cvs-exclude 使用和CVS一样的方法自动忽略文件，用来排除那些不希望传输的文件--existing 仅仅更新那些已经存在于DST的文件，而不备份那些新创建的文件--delete 删除那些DST中SRC没有的文件--delete-excluded 同样删除接收端那些被该选项指定排除的文件--delete-after 传输结束以后再删除--ignore-errors 及时出现IO错误也进行删除--max-delete=NUM 最多删除NUM个文件--partial 保留那些因故没有完全传输的文件，以是加快随后的再次传输--force 强制删除目录，即使不为空--numeric-ids 不将数字的用户和组ID匹配为用户名和组名--timeout=TIME IP超时时间，单位为秒-I, --ignore-times 不跳过那些有同样的时间和长度的文件--size-only 当决定是否要备份文件时，仅仅察看文件大小而不考虑文件时间--modify-window=NUM 决定文件是否时间相同时使用的时间戳窗口，默认为0-T --temp-dir=DIR 在DIR中创建临时文件--compare-dest=DIR 同样比较DIR中的文件来决定是否需要备份-P 等同于 --partial--progress 显示备份过程-z, --compress 对备份的文件在传输时进行压缩处理--exclude=PATTERN 指定排除不需要传输的文件模式--include=PATTERN 指定不排除而需要传输的文件模式--exclude-from=FILE 排除FILE中指定模式的文件--include-from=FILE 不排除FILE指定模式匹配的文件--version 打印版本信息--address 绑定到特定的地址--config=FILE 指定其他的配置文件，不使用默认的rsyncd.conf文件--port=PORT 指定其他的rsync服务端口--blocking-io 对远程shell使用阻塞IO-stats 给出某些文件的传输状态--progress 在传输时现实传输过程--log-format=formAT 指定日志文件格式--password-file=FILE 从FILE中得到密码--bwlimit=KBPS 限制I/O带宽，KBytes per second-h, --help 显示帮助信息]]></content>
+      <categories>
+        <category>linux</category>
+      </categories>
       <tags>
         <tag>linux</tag>
         <tag>command</tag>
       </tags>
   </entry>
   <entry>
+    <title><![CDATA[shadowsocks配置，运行]]></title>
+    <url>%2F2017%2F01%2F04%2Flinux%2Fshadowsocks-proxy%2F</url>
+    <content type="text"><![CDATA[Home · shadowsocks/shadowsocks Wiki sudo pip install shadowsocks 在远程服务器上：12345678后台运行ss：sudo ssserver -p 14321 -k your_password -d start停止：sudo ssserver -d stop检查日志：sudo less /var/log/shadowsocks.log 本地linux1sslocal -s 服务器地址 -p 服务器端口 -l 本地端端口 -k 密码 -m 加密方法 或者ssh端口转发12ssh -fND 127.0.0.1:1234 zzp@10.2.0.4 -p 9920ssh -L 12369:localhost:12369 -R 12369:localhost:12370 -ND localhost:12345 root@138.69.29.65]]></content>
+      <categories>
+        <category>linux</category>
+      </categories>
+      <tags>
+        <tag>tool</tag>
+        <tag>internet</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[windows-tricks]]></title>
     <url>%2F2017%2F01%2F03%2Ftricks%2Fwindows-tricks%2F</url>
     <content type="text"><![CDATA[使用windows系统的小技巧，2015年之前整理。 SoftwareAutoHotkey 键位映射AutoHotkey config file format. 12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152;;ctrl ^;;shift +;;windows #;;alt !#n::run,notepad^!A::run,&quot;C:\GreenPrograms\FSCapture\FSCapture.exe&quot;#f::run,&quot;C:\Program Files\Mozilla Firefox\firefox.exe&quot;#g::run,&quot;E:\win10\regedit.vbs&quot;#c::run,&quot;C:\GreenPrograms\cleaner\kcleaner.exe&quot;^!t::run,&quot;C:\Windows\System32\bash.exe&quot;#PrintScreen::&#123; KeyWait PrintScreen KeyWait LWin ;释放左Win键才激活下面的命令 SendMessage,0x112,0xF170,2,,Program Manager ;关闭显示器。0x112:WM_SYSCOMMAND，0xF170:SC_MONITORPOWER。2：关闭，-1：开启显示器 Return&#125;;双击鼠标右键在窗口最大化与正常状态之间切换 WinStatus:=0 RButton:: &#123; KeyWait, RButton ;松开鼠标右键后才继续执行下面的代码 keyWait, RButton, D T0.15 ;在 100 毫秒内等待再次按下鼠标右键，可以设置一个自己觉得适合的等待时间。 If ErrorLevel Click, Right Else &#123; if WinStatus=0 &#123; WinMaximize , A WinStatus:=1 &#125; else &#123; WinRestore ,A WinStatus:=0 &#125; &#125; Return&#125;;置顶窗口F7::winset,AlwaysOnTop,, A ;;A表示当前窗口标题return dos 命令查看计算机启动时间1net statistics workstation 文件夹及文件名中的点 dos命令 usage md d..\ 创建d..文件夹 rd d..\ 删除d..文件夹 md .f 创建.f文件夹 ren 3 .3 将文件3改名为.3 使用vbs脚本使得bat无黑框1.bat12@echo offshutdown -s -t 3600 1.vbs12Set ws = CreateObject(&quot;Wscript.Shell&quot;) ws.run &quot;cmd /c *.bat&quot;,vbhide 强制删除bat脚本del.bat123DEL /F /A /Q \\?\%1RD /S /Q \\?\%1pause bat脚本传入参数12345传入参数：%1，%2……脚本所在路径：%~dp0脚本所在路径短路径：%~sdp0脚本所在盘符：%~d0环境当前目录：%cd% dos命令显示日期时间#%date% 和 %time% 2007-08-08 23:13 1234567C:/&gt;echo %date%2007-08-08 星期三C:/&gt;echo %date:~0,4%2007 盘符:/&gt;输出 %date%是一个参数 但是他后面带的这些就是取值范围，说说后面的数值 第一个0代表从头开始 后面的4代表共取4个字符1234C:/&gt;echo %date:~-3%星期三 这里面的负数代表倒数,也就取最后3个字符1234C:/&gt;echo %date:~-3,-1%星期 这里的-1是不输出最后1个字符-2当然是2个类推 time也类似1234echo %time%23:12:49.05 dos切换编码切换utf-81chcp 65001 切换gbk 1chcp 936 建立windows特殊文件夹(zzp..)Command 窗口输入 md zzp..\ 普通文件夹是一个“ . ” 复制文件进入： copy 文件名 c:\zzp..\ 打开文件夹： 进行中输入完整的路径和文件夹的名称 删除文件夹： Command 中输入 rd c:\zzp..\ 之前得清空文件夹！ 复制文件到专业文件夹1copy 文件路径 %systemroot%\tasks 伪造文件夹新建文件夹名称为：12## 合并复制隐藏文件 copy d:\ab.jpg /b +d:\abc.txt abcd.jpg12## love bat @echo offset all=zn echo %all% %all%%all% %all% %all% %all%%all%%all%%all%%all%echo %all% %all% %all% %all% %all% %all%echo %all% %all% %all% %all% %all% %all%echo %all% %all% %all% %all% %all% %all%%all%%all%%all%%all%echo %all% %all% %all% %all% %all% %all%echo %all% %all% %all% %all% %all% %all%echo %all% %all% %all% %all% %all% %all%echo %all% %all%%all% %all%%all% %all%%all%%all%%all%%all% pause&gt;nul12345# 注册表相关## 添加右键获取权限 Windows Registry Editor Version 5.00[HKEY_CLASSES_ROOT*\shell\runas]@=”获取权限”“NoWorkingDirectory”=””[HKEY_CLASSES_ROOT*\shell\runas\command]@=”cmd.exe /c takeown /f \”%1\” &amp;&amp; icacls \”%1\” /grant administrators:F”“IsolatedCommand”=”cmd.exe /c takeown /f \”%1\” &amp;&amp; icacls \”%1\” /grant administrators:F”[HKEY_CLASSES_ROOT\Directory\shell\runas]@=”获取权限”“NoWorkingDirectory”=””[HKEY_CLASSES_ROOT\Directory\shell\runas\command]@=”cmd.exe /c takeown /f \”%1\” /r /d y &amp;&amp; icacls \”%1\” /grant administrators:F /t”“IsolatedCommand”=”cmd.exe /c takeown /f \”%1\” /r /d y &amp;&amp; icacls \”%1\” /grant administrators:F /t”12## 隐藏文件 @ECHO OFFMD E:\RECYCLED\UDrives.{25336920-03F9-11CF-8FD0-00AA00686F13}&gt;NULIF EXIST o:\NUL GOTO DELETESUBST o: E:\RECYCLED\UDrives.{25336920-03F9-11CF-8FD0-00AA00686F13}START o:\echo 请把文件移动到打开的窗口中，但请妥善保留该文件，此批处理文件可用来存取隐藏文件！pausesubst /d o:12## 打开剪切板里路径的注册表 ‘ Created by Sergey TkachenkoDim objHTADim cClipBoardDim WshShellset objHTA=createobject(“htmlfile”)cClipBoard=objHTA.parentwindow.clipboarddata.getdata(“text”)Set WshShell = WScript.CreateObject(“WScript.Shell”)WshShell.RegWrite “HKCU\Software\Microsoft\Windows\CurrentVersion\Applets\Regedit\LastKey”, cClipBoard, “REG_SZ”WshShell.Run “regedit.exe -m”Set objHTA = nothingSet WshShell = nothing12## cmd更换字体 Windows Registry Editor Version 5.00[HKEY_CURRENT_USER\Console\%SystemRoot%_system32_cmd.exe]“WindowSize”=dword:00170058“ScreenBufferSize”=dword:01900119“WindowPosition”=dword:0079004b“ColorTable01”=dword:00235600“FontSize”=dword:00150000“FontWeight”=dword:00000190“FaceName”=”Consolas”“FontFamily”=dword:0000003612## 注册表添加程序自启动 开始-运行-输入regeditHKeyLocalMochine\SOFTWARE\Microsoft\Windows\CurrenVersion\Run`]]></content>
+      <categories>
+        <category>tricks</category>
+      </categories>
       <tags>
         <tag>windows</tag>
         <tag>tricks</tag>
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[Linux: todo]]></title>
-    <url>%2F2017%2F01%2F03%2Flinux%2Fdevtodo%2F</url>
-    <content type="text"><![CDATA[安装1sudo apt install devtodo 用法12345678910111213141516todo # 显示 todo listtda # 添加一项 todo，也可以用 todo -a 命令tde &lt;index&gt; # 修改第 index 条 todotdd &lt;index&gt; # 标记第 index 条 todo 已经完成tdr &lt;index&gt; # 删除第 index 条 todotodo -A # 显示所有的 todo 条目，包括完成的以及未完成的todo -Ac &lt;index&gt; #显示第index条todo的commenttodo --purge #删除已完成的todotodo -R 1,2 #将1变成2的子任务todo -R 1.1 #将1的子任务1变为根节点todo -G # ~/.todo_global aliases123456alias td=&quot;todo -G&quot;alias todo=&quot;todo -G&quot;alias tda=&quot;tda -G&quot;alias tdd=&quot;tdd -G&quot;alias tde=&quot;tde -G&quot;alias tdr=&quot;tdr -G&quot;]]></content>
+    <title><![CDATA[rar and tar]]></title>
+    <url>%2F2017%2F01%2F03%2Flinux%2Frar-tar%2F</url>
+    <content type="text"><![CDATA[rar，tar为linux上最常用的压缩解压打包工具。 rar12345678910111213#将文件log.py, grades.py，文件夹dir1压缩到log.rarrar a log.rar log.py grades.py dir1#将log.rar解压至temp文件夹（需新建）rar x log.rar ./temp#列出压缩包内文件rar l log.rar tar123456789101112131415161718192021222324# 压缩文件tar zcvf sth.tar.gz file1 file2 dir1#解压到当前目录tar zxvf sth.tar.gz#解压到指定目录tar zxvf sth.tar.gz -C ./temp#列出压缩包内文件tar tvf sth.tar.gz# 不压缩，只打包tar cvf sth.tar file1 dir1-c, --create 创建一个新归档-z 通过gzip压缩( tar本身不是压缩命令，)]]></content>
+      <categories>
+        <category>linux</category>
+      </categories>
       <tags>
-        <tag>tool</tag>
         <tag>linux</tag>
-        <tag>terminal</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[python qrcode 二维码]]></title>
-    <url>%2F2017%2F01%2F03%2Fpython%2Fpython-qrcode%2F</url>
-    <content type="text"><![CDATA[用qrcode包做的生成字符串的二维码的脚本 ps: ubuntu下有个可以终端显示二维码像素点的软件：qrencode 输入qrencode -o - -t UTF8，输入字符串，然后ctrl+D结束 123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899100101102103104105106107108109110111112113114115116117118#coding:utf-8import qrcodefrom PIL import Imageimport osdef openpic(filename): os.system(&quot;eog &quot; + filename)# 生成二维码图片def make_qr(string, pic_name): qr = qrcode.QRCode( version = 4, # 生成二维码尺寸的大小 1-40 1:21*21（21+(n-1)*4） error_correction = qrcode.constants.ERROR_CORRECT_M, #L:7% M:15% Q:25% H:30% box_size = 10, # 每个格子的像素大小 border = 2, # 边框的格子宽度大小 ) qr.add_data(string) qr.make(fit = True) img = qr.make_image() img.save(pic_name) openpic(pic_name) # 生成带logo的二维码图片def make_logo_qr(string, logo, pic_name): # 参数配置 qr = qrcode.QRCode( version = 4, error_correction = qrcode.constants.ERROR_CORRECT_Q, box_size = 8, border = 2 ) # 添加转换内容 qr.add_data(string) # qr.make(fit = True) # 生成二维码 img=qr.make_image() # img=img.convert(&quot;RGBA&quot;) # 添加logo if logo and os.path.exists(logo): icon = Image.open(logo) # 获取二维码图片的大小 img_w, img_h = img.size factor = 4 size_w = int(img_w/factor) size_h = int(img_h/factor) # logo图片的大小不能超过二维码图片的1/4 icon_w, icon_h = icon.size if icon_w &gt; size_w: icon_w = size_w if icon_h &gt; size_h: icon_h = size_h icon = icon.resize((icon_w, icon_h), Image.ANTIALIAS) # 计算logo在二维码图中的位置 w = int((img_w - icon_w) / 2) h = int((img_h - icon_h) / 2) icon = icon.convert(&quot;RGBA&quot;) img.paste(icon, (w, h), icon) # 保存处理后图片 img.save(pic_name) openpic(pic_name) if __name__==&apos;__main__&apos;: print print &quot;usage: input text, then input empty line to stop input&quot; print &quot; or input q or nothing to stop the script!&quot; print path = os.path.dirname(os.path.realpath(__file__)) qrcode_pic = os.path.join(path, &apos;theqrcode.png&apos;) #生成后的保存文件 logo = os.path.join(path, &apos;logo.png&apos;) #logo图片 string = &quot;start&quot; stop_strings = [&quot;q&quot;, &quot;exit&quot;, &quot;&quot;] while(1): string = raw_input(&quot;input:\n&quot;) if(string.strip() in stop_strings): break # 输入内容允许有空格 while True: line = raw_input() if(line == &apos;&apos;): break else: string = string + &quot;\n&quot; + line #make_qr(string, qrcode_pic) make_logo_qr(string, logo, qrcode_pic)]]></content>
-      <tags>
-        <tag>python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[patchelf 修改动态链接库]]></title>
-    <url>%2F2017%2F01%2F03%2Flinux%2Fpatchelf%2F</url>
-    <content type="text"><![CDATA[12patchelf --set-rpath $&#123;HOME&#125;/temp/demo/lib subscriber]]></content>
-      <tags>
         <tag>tool</tag>
-        <tag>linux</tag>
       </tags>
   </entry>
   <entry>
     <title><![CDATA[sklearn: kmeans]]></title>
     <url>%2F2017%2F01%2F03%2Fai%2Fsklearn-kmeans%2F</url>
     <content type="text"><![CDATA[12345678910111213141516171819202122232425262728293031323334353637383940# -*- coding: utf-8 -*-from sklearn.cluster import KMeansfrom sklearn.externals import joblibfinal = open(&apos;c:/test/final.dat&apos; , &apos;r&apos;)data = [line.strip().split(&apos;\t&apos;) for line in final]feature = [[float(x) for x in row[3:]] for row in data]#调用kmeans类clf = KMeans(n_clusters=9)s = clf.fit(feature)print s#9个中心print clf.cluster_centers_#每个样本所属的簇print clf.labels_#用来评估簇的个数是否合适，距离越小说明簇分的越好，选取临界点的簇个数print clf.inertia_#进行预测print clf.predict(feature)#保存模型joblib.dump(clf , &apos;c:/km.pkl&apos;)#载入保存的模型clf = joblib.load(&apos;c:/km.pkl&apos;)&apos;&apos;&apos;#用来评估簇的个数是否合适，距离越小说明簇分的越好，选取临界点的簇个数for i in range(5,30,1): clf = KMeans(n_clusters=i) s = clf.fit(feature) print i , clf.inertia_&apos;&apos;&apos; 来源：http://blog.itpub.net/12199764/viewspace-1479320/]]></content>
+      <categories>
+        <category>ai</category>
+      </categories>
       <tags>
         <tag>python</tag>
         <tag>sklearn</tag>
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[python 判断字符串内容类型]]></title>
-    <url>%2F2017%2F01%2F03%2Fpython%2F%E5%88%A4%E6%96%AD%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%86%85%E5%AE%B9%E7%B1%BB%E5%9E%8B%2F</url>
-    <content type="text"><![CDATA[字符串函数 返回True的情况 s.isalnum 只含字母数字且非空 s.isalpha 只含有字母且非空 s.isdigit 只含有数字且非空 s.islower 没有大写字母且非空 s.isupper 没有小写字母且非空 s.isspace 只含有空白字符且非空 s.istitle 每个英文单词首字母都大写且非空]]></content>
+    <title><![CDATA[patchelf 修改动态链接库]]></title>
+    <url>%2F2017%2F01%2F03%2Flinux%2Fpatchelf%2F</url>
+    <content type="text"><![CDATA[12patchelf --set-rpath $&#123;HOME&#125;/temp/demo/lib subscriber]]></content>
+      <categories>
+        <category>linux</category>
+      </categories>
       <tags>
-        <tag>python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[rar and tar]]></title>
-    <url>%2F2017%2F01%2F03%2Flinux%2Frar-tar%2F</url>
-    <content type="text"><![CDATA[rar，tar为linux上最常用的压缩解压打包工具。 rar12345678910111213#将文件log.py, grades.py，文件夹dir1压缩到log.rarrar a log.rar log.py grades.py dir1#将log.rar解压至temp文件夹（需新建）rar x log.rar ./temp#列出压缩包内文件rar l log.rar tar123456789101112131415161718192021222324# 压缩文件tar zcvf sth.tar.gz file1 file2 dir1#解压到当前目录tar zxvf sth.tar.gz#解压到指定目录tar zxvf sth.tar.gz -C ./temp#列出压缩包内文件tar tvf sth.tar.gz# 不压缩，只打包tar cvf sth.tar file1 dir1-c, --create 创建一个新归档-z 通过gzip压缩( tar本身不是压缩命令，)]]></content>
-      <tags>
-        <tag>tool</tag>
         <tag>linux</tag>
+        <tag>tool</tag>
       </tags>
   </entry>
   <entry>
     <title><![CDATA[python生成pdf文件]]></title>
     <url>%2F2017%2F01%2F03%2Fpython%2Fpython-pdf%2F</url>
     <content type="text"><![CDATA[添加语句，添加图片，定义字体 123456789from reportlab.pdfgen import canvasc=canvas.Canvas(&quot;hello.pdf&quot;)c.drawString(100,700,&quot;hello&quot;)c.drawImage(&quot;123.jpg&quot;,1*inch,1*inch,width=8*inch,height=9*inch)c.save()from reportlab.pdfbase.cidfonts import UnicodeCIDFontpdfmetrics.registerFont(UnicodeCIDFont(&apos;STSong-Light&apos;))c.setFont(&quot;STSong-Light&quot;,12)]]></content>
+      <categories>
+        <category>python</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[python qrcode 二维码]]></title>
+    <url>%2F2017%2F01%2F03%2Fpython%2Fpython-qrcode%2F</url>
+    <content type="text"><![CDATA[用qrcode包做的生成字符串的二维码的脚本 ps: ubuntu下有个可以终端显示二维码像素点的软件：qrencode 输入qrencode -o - -t UTF8，输入字符串，然后ctrl+D结束 123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899100101102103104105106107108109110111112113114115116117118#coding:utf-8import qrcodefrom PIL import Imageimport osdef openpic(filename): os.system(&quot;eog &quot; + filename)# 生成二维码图片def make_qr(string, pic_name): qr = qrcode.QRCode( version = 4, # 生成二维码尺寸的大小 1-40 1:21*21（21+(n-1)*4） error_correction = qrcode.constants.ERROR_CORRECT_M, #L:7% M:15% Q:25% H:30% box_size = 10, # 每个格子的像素大小 border = 2, # 边框的格子宽度大小 ) qr.add_data(string) qr.make(fit = True) img = qr.make_image() img.save(pic_name) openpic(pic_name) # 生成带logo的二维码图片def make_logo_qr(string, logo, pic_name): # 参数配置 qr = qrcode.QRCode( version = 4, error_correction = qrcode.constants.ERROR_CORRECT_Q, box_size = 8, border = 2 ) # 添加转换内容 qr.add_data(string) # qr.make(fit = True) # 生成二维码 img=qr.make_image() # img=img.convert(&quot;RGBA&quot;) # 添加logo if logo and os.path.exists(logo): icon = Image.open(logo) # 获取二维码图片的大小 img_w, img_h = img.size factor = 4 size_w = int(img_w/factor) size_h = int(img_h/factor) # logo图片的大小不能超过二维码图片的1/4 icon_w, icon_h = icon.size if icon_w &gt; size_w: icon_w = size_w if icon_h &gt; size_h: icon_h = size_h icon = icon.resize((icon_w, icon_h), Image.ANTIALIAS) # 计算logo在二维码图中的位置 w = int((img_w - icon_w) / 2) h = int((img_h - icon_h) / 2) icon = icon.convert(&quot;RGBA&quot;) img.paste(icon, (w, h), icon) # 保存处理后图片 img.save(pic_name) openpic(pic_name) if __name__==&apos;__main__&apos;: print print &quot;usage: input text, then input empty line to stop input&quot; print &quot; or input q or nothing to stop the script!&quot; print path = os.path.dirname(os.path.realpath(__file__)) qrcode_pic = os.path.join(path, &apos;theqrcode.png&apos;) #生成后的保存文件 logo = os.path.join(path, &apos;logo.png&apos;) #logo图片 string = &quot;start&quot; stop_strings = [&quot;q&quot;, &quot;exit&quot;, &quot;&quot;] while(1): string = raw_input(&quot;input:\n&quot;) if(string.strip() in stop_strings): break # 输入内容允许有空格 while True: line = raw_input() if(line == &apos;&apos;): break else: string = string + &quot;\n&quot; + line #make_qr(string, qrcode_pic) make_logo_qr(string, logo, qrcode_pic)]]></content>
+      <categories>
+        <category>python</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Linux: todo]]></title>
+    <url>%2F2017%2F01%2F03%2Flinux%2Fdevtodo%2F</url>
+    <content type="text"><![CDATA[安装1sudo apt install devtodo 用法12345678910111213141516todo # 显示 todo listtda # 添加一项 todo，也可以用 todo -a 命令tde &lt;index&gt; # 修改第 index 条 todotdd &lt;index&gt; # 标记第 index 条 todo 已经完成tdr &lt;index&gt; # 删除第 index 条 todotodo -A # 显示所有的 todo 条目，包括完成的以及未完成的todo -Ac &lt;index&gt; #显示第index条todo的commenttodo --purge #删除已完成的todotodo -R 1,2 #将1变成2的子任务todo -R 1.1 #将1的子任务1变为根节点todo -G # ~/.todo_global aliases123456alias td=&quot;todo -G&quot;alias todo=&quot;todo -G&quot;alias tda=&quot;tda -G&quot;alias tdd=&quot;tdd -G&quot;alias tde=&quot;tde -G&quot;alias tdr=&quot;tdr -G&quot;]]></content>
+      <categories>
+        <category>linux</category>
+      </categories>
+      <tags>
+        <tag>linux</tag>
+        <tag>tool</tag>
+        <tag>terminal</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[python 判断字符串内容类型]]></title>
+    <url>%2F2017%2F01%2F03%2Fpython%2F%E5%88%A4%E6%96%AD%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%86%85%E5%AE%B9%E7%B1%BB%E5%9E%8B%2F</url>
+    <content type="text"><![CDATA[字符串函数 返回True的情况 s.isalnum 只含字母数字且非空 s.isalpha 只含有字母且非空 s.isdigit 只含有数字且非空 s.islower 没有大写字母且非空 s.isupper 没有小写字母且非空 s.isspace 只含有空白字符且非空 s.istitle 每个英文单词首字母都大写且非空]]></content>
+      <categories>
+        <category>python</category>
+      </categories>
       <tags>
         <tag>python</tag>
       </tags>
@@ -551,6 +731,9 @@
     <title><![CDATA[正则表达式判断是否为素数]]></title>
     <url>%2F2016%2F11%2F12%2Fpython%2F%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E5%88%A4%E6%96%AD%E7%B4%A0%E6%95%B0%2F</url>
     <content type="text"><![CDATA[12345678910111213141516171819# coding:utf-8&apos;&apos;&apos;Author : ZZPMail : zhangzhaopeng@mail.nankai.edu.cnCreated Time : 2016-11-12 19:30:37Description :&apos;&apos;&apos;import redef is_prime(num): return not re.match(r&quot;^X$|^(XX+?)\1+$&quot;, &apos;X&apos; * num)if __name__ == &apos;__main__&apos;: for i in range(1,20): print &apos;%s -- is_prime: %s&apos; %(i, is_prime(i))]]></content>
+      <categories>
+        <category>python</category>
+      </categories>
       <tags>
         <tag>python</tag>
       </tags>
@@ -559,6 +742,9 @@
     <title><![CDATA[刷新stdout，实现滚动字幕]]></title>
     <url>%2F2016%2F04%2F26%2Fpython%2F%E6%BB%9A%E5%8A%A8%E5%AD%97%E5%B9%95%E5%AE%9E%E7%8E%B0%2F</url>
     <content type="text"><![CDATA[用法： python this.py 10 1234567891011121314151617181920212223242526272829303132333435363738#!/usr/bin/env python#coding:utf-8'''Author : ZZPMail : zhangzhaopeng@mail.nankai.edu.cnCreated Time : 2016-04-26 16:30:52Description : '''import sysimport timedef move_words(string): length=int(2*len(string)) dicc=&#123;&#125; for i in range(len(string)-1): dicc[i]=i+1 dicc[len(string)]=0 for i in range(Size): time.sleep(0.5) tmp="" ind=i%len(string) char=string[ind] while(len(tmp)!=length): tmp+=char char=string[(ind+1)%len(string)] ind+=1 print '\r%s' %(tmp), sys.stdout.flush() print if __name__ == '__main__': Size = int(sys.argv[1]) string = r" i love you " #'abcdefghijklmnopqrstuvwxyz' move_words(string)]]></content>
+      <categories>
+        <category>python</category>
+      </categories>
       <tags>
         <tag>python</tag>
       </tags>
@@ -567,10 +753,18 @@
     <title><![CDATA[kindle-kpw3-灰度图屏保]]></title>
     <url>%2F2016%2F04%2F25%2Fpython%2Fkindle-kpw3-%E7%81%B0%E5%BA%A6%E5%9B%BE%E5%B1%8F%E4%BF%9D%2F</url>
     <content type="text"><![CDATA[kpw3屏保，将图片处理为屏保, 即相应尺寸的灰度图 1234567891011121314151617181920212223242526272829303132333435363738394041424344#!/usr/bin/env python#coding:utf-8&apos;&apos;&apos;Author : ZZPMail : zhangzhaopeng@mail.nankai.edu.cnCreated Time : 2016-04-25 12:39:28Description : get Gray Scale Image using python-cv2 python this.py 123.png&apos;&apos;&apos;import cv2import sysimport globimport osdef gepic(pic_name): img=cv2.imread(pic_name) x=img.shape[0];y=img.shape[1] for i in range(x): for j in range(y): (r,g,b)=img[i,j] gray=r*0.3+g*0.59+b*0.11 #gray=(r*76+g*151+b*28)&gt;&gt;8 #gray=(r+g+b)/3 #gray=g img[i,j]=[gray,gray,gray] img2=cv2.resize(img,(1072,1448)) newname=os.path.join(&quot;kpw3&quot;,os.path.basename(pic_name)+&quot;.png&quot;) print newname cv2.imwrite(newname,img2) cv2.destroyAllWindows() if __name__ == &apos;__main__&apos;: if(not os.path.exists(&quot;./pic&quot;)): os.makedirs(&quot;pic&quot;) if(not os.path.exists(&quot;./kpw3&quot;)): os.makedirs(&quot;kpw3&quot;) for filename in glob.glob(&quot;./pic/*&quot;): gepic(filename)]]></content>
+      <categories>
+        <category>python</category>
+      </categories>
       <tags>
         <tag>python</tag>
         <tag>image</tag>
       </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[categories]]></title>
+    <url>%2Fcategories%2Findex.html</url>
+    <content type="text"></content>
   </entry>
   <entry>
     <title><![CDATA[tags]]></title>
