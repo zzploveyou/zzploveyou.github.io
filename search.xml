@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[gist id of atom and vscode settings]]></title>
+    <url>%2F2018%2F09%2F12%2Flinux%2Fgithub-gist-sync-settings%2F</url>
+    <content type="text"><![CDATA[Please enter the password to read the blog. Decrypt U2FsdGVkX184LO/dOCyMrEJ7zV1CZX0qKouyB+RDUgXwWtlfgq6BN0pY/C7LWEvMffGAA7UVt8KgjqQ0ZY6Rawzq7pmKsYr9rMA1iWVRptoH2yIsxspqe2LL/oC2DPMnPqsPSyLelQ9EhCLGUpmjgJrcxzDmYN+/C5IlY7ESnjcUkddXXzV/KyPlbe+OUJWBxR1kOuWs7qtZKpw1tdZq7WCL/qF3gEQ/wolpAxP8YmAWNMRuzn0EXBM33dlbGWQIi/9RjlPBjC1j0uEJgKdqJSrWC+UTns/mcuOzoKfJJnHSOvwNpKPX1YOOJyQK2l37icZuVUL634CXcYdXU98GiqeDjibJLGOfGk5EK4rclRAJhAIF7xrO19YOuO6zfHNSSwL5Qw7o89LohsKIRbhPNw9o9aLcqrQ+1EfLiRy/lCOY/sYOtZMUJrTA9Cn0mr9OqRA3oR20AvRLCh1px5uqejwyMypm929EyZlLVHGp1ztXsmoxAZLsPF69fn09lk07yZU/SZMMLjBU02iS6SJgii/aoo9L6iZTBw6p+ikIc2/3d0wOIOs7wMp5pvBudAXZvm43VBvBjib0pfIAxMLtDt5ApoDun/8DqYVH3R5iRMZPM+k7YBNvf5XBuXui7NhRpWSa0e5d5HY2uNBP9t5N/MmPmsndC70eKFEJJvWzw8WPZuX6AvC0KEWwztMr3gnm+YFDe1DBV8rUwv4fa68INjOMQDmHXwR2QQ8QbPuSp7xinGPYEZwGVAXSVZW7oqmri+1Sh5hzjH89s1dmymUPAhZMNpHbdkEWE0QZof2x86/yt5hJr30/m9Utt2bKL8PG8DeL3u4uzeiBCWg06vIzOIb64thVstXLNSkNWhgHkYeUY9SCai/062e+sCA3eMozyX1TV4xq97326/JURusiDksAMB76vXZUpODskcJ2HJrEhZc4zOekQTt0U4Nipe/SQDONehLDfBNht0dzzhkHuwWbuzAVlSqqRp6n7DV1LqjsN9kz8qlJK6q2lyAHhoBNZWAsC295K/B0pYxCOFpJ8vPQRb5uyKqf2Sh96m8VEvFkwBHB2OcemKby2zzGL508aMG0OIy8cgRWA2fseu7fVAit3el68b1qi1WI4MmVuGprpUx/yzlxxhEZbevfsspPb4cLv+pqw5NVYSFC+XD/PRC8W3FwDaouAOciqFsm8NmtN+B1oUZRshuwN05A/L7Aq9/l5Rob3AZZn5WmM6/UU63S9+JijhtNorwsW2CxS/7rcYyepVp0CbxW6tbUs4oOxL5qbIOqOzmR4VxRRCqBwshxQU3d/RxJOHC9t5eGlAXKA1u39UfOIMURYal51bOdVb8+0z/tkAFfwaAiTU3VvAqCtIjMoHZEyR1xcJcefHOxXt2nGoTvjomfNuHTm3TRKAwVCVdFvwkGLDzVw0CWRN1rqEebxcVPO3524EnDB8E3ZNOe9l2ygruHA5mRQiTXe8TEMkjltSjqdzMgbpouW0mYwm36CTZhYfIVw/Ie6FCC37GSXpNlm0WzY+mSevuMGeUiDyKspuPv5PYIf4jKQSeZvBesEw2pQyC0JkQUQtJJWAmdJgOkZ21soPfoNKBaVvUh171CtvErorAtnGQq6riLYskGJEH30Vj8lHRTD/o0GiiKM6N8oxOOQiTuNpGJpQ7X+gmCWtGj0RUyBGNhaa1EdIeInhCwJfPuwQU7UyZG/ZSdGkahNF6s6MMxSf2sSYhGXXsOUQMyNSG3eXC4eWwD99vO3rwDTelwLL44ieTcLl4pK1QDqjF0ACspMA/ldDN9lMJPZ/CH1gXa53dG+5ulIKWYRiyC/a3Im1IE0YUrP7j60IoCFayiViI5b/qZIw4Zl2AYQxvZw9y2Rs9PrNZmolsvwBTGXXA96FyLoUE=]]></content>
+      <tags>
+        <tag>config</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[linux tools]]></title>
     <url>%2F2018%2F09%2F12%2Flinux%2Fefficient-tools%2F</url>
     <content type="text"><![CDATA[trash-cli1sudo apt install trash-cli Usage123456#alias rm!="/bin/rm -vi"#alias rm=trashalias t=trashalias lt=trash-listalias rt=restore-trashalias et=trash-empty 命令 用途 trash-put/trash 文件或目录移入回收站 trash-empty 清空回收站 trash-list 列出回收站中的文件 restore-trash 还原回收站中的文件 trash-rm 删除回收站中的单个文件 递归搜索文件内容-agggreer/the_silver_searcher: A code-searching tool similar to ack, but faster. 123sudo apt install silversearcher-agag def lib/ 字符模式下交互查看git项目-tigjonas/tig: Text-mode interface for git mysql客户端-mycli类似于ipython的mysql客户端，支持语法高亮和命令补全 C++手册查询-cppman1cppman std::thread 多线程下载工具axel1axel -n 20 URL 终端会话录制-script/scriptreplay12345script -t 2&gt;time.txt session.typescript# your commandexitscriptreplay -t time.txt session.typescript 媒体下载工具 you-getyoutube, google+, 优酷，腾讯视频，秒拍等12# socks5(pip install pysocks)you-get &apos;https://www.youtube.com/watch?v=jNQXAC9IVRw&apos; -s 127.0.0.1:12345 网络流量分析 iptraf-ng123sudo apt install iptrafiptraf-ng w实时网速查看 bwm-ng1sudo apt install bwm-ng terminal录屏 asciinema查询天气1234curl wttr.in/:helpcurl "wttr.in/Beijing?lang=zh"curl "wttr.in/Beijing?pq&amp;lang=zh"curl "wttr.in/Beijing?0pq&amp;lang=zh" sudoku1sudoku cmatrix12cmatrix figlet — 字符串在终端上显示1figlet i love you xdotool — 控制鼠标点击123456789101112131415161718显示鼠标当前位置xdotool getmouselocationxdotool mousemove x yxdotool click 1xdotool click 2xdotool click 3xdotool key ctrl +1xdotool click --repeat 10 --delay 500 1间隔0.5s一次，重复10次左键 qrencode –字符串转为终端像素点二维码nitrogen – 多显示屏设置不同壁纸1: install dconf-editor and nitrogen 1234sudo apt-get install dconf-editorsudo apt-get install nitrogen 2: Open dconf-editor 3: In dconf-editor, explore to /org/gnome/desktop/background/ 4: Unmark the show-desktop-icons option. 5: Open nitrogen 这样之后桌面文件夹不显示 xeyesfortune名句 fortune-zh唐诗 cowsay123456789101112cowsay -l查看所有动物/usr/share/cowsay/cows/*cowsay -f turtle指定动物fortune-zh | cowsay -f turtle动物说话 equalxlatex公式编辑器1sudo apt install equalx ffmpeg1ffmpeg -i '123.avi' -ac 2 -b:v 2000k -c:a aac -c:v libx264 -b:a 160k -vprofile high -bf 0 -strict experimental -f mp4 '123.mp4' 12-b:v 2000k-b:v 1000k 文件清晰度，大小 convmv更改文件名编码方式的一个工具 1convmv -f gbk -t utf-8 -r –-notest /home 就是将/home目录下原来文件名是gbk编码方式的全部改为utf-8格式的。这里 -f 后面为原来的编码方式，-t 后面是要更改为的编码方式， 12-r 表示这个目录下面的所有文件， –notest 表示马上执行，而不是仅仅测试而已。 iconv更改文件编码方式的一个工具 1iconv -f gbk -t utf-8 -o outfile infile -f为原来的编码方式，-t 为输出文件的编码方式， -o表示输出文件名，这利用outfile表示，最后跟上要更改编码方式的文件名sourcefile]]></content>
@@ -8,14 +16,6 @@
         <tag>tool</tag>
         <tag>linux</tag>
         <tag>trick</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[gist id of atom and vscode settings]]></title>
-    <url>%2F2018%2F09%2F12%2Flinux%2Fgithub-gist-sync-settings%2F</url>
-    <content type="text"><![CDATA[Please enter the password to read the blog. Decrypt U2FsdGVkX189fgtOozVx5EpkDD+qrYXyZtws57SGIyelU/q2DlPWSdSsTEoL3rIdIEkaHPy3p4SAgP6aZGB6IKsvopjjIzxjqrL1NFETxwcFf4K4k4cz7WKzNLJAK671YCxLpGKXWAIc9Je41d85Pufy/mFmeVG3PbxqY5QdtpHGeycAKYmfZeWVG8XfK99GTzImDWkj51/W/NOsRCbvEwBo23Z6Xfw+0R6nYU5qqTP4zy5WHzXWjMlKneXL1QF28u9w2oIjsmQ36IbCSWYFOWHni/+JXbG9a8TbOKafvL4+mr/ql5ba54Kgt2zQilQaBMDQlFd+6qi+wv7O2LUuJCdgOf1+SPdc+wguxgNouNWuZb9SWxxgscOdrtH1XltEsQQpczzn5s9Zn5q6P7OmoyPtEcuYX1/Z1/GQKN6IsUzyFZWu9xTyzNjipuXSRSEeEcVe/GXf+yxcURT82hUu5+JUE8wmcj/MoGhzcsH/G87kLA88qVBaGL/vXTTyyni5xQnmlXy9rY2nXx4whTvXb+93L//7b5yPovF43m3rZ62WLQEzBev8SwEzMF2bJ0yS6+Locr5lh+xI2dAZylesY8pQGtv0lTt95tDuN+QftT4HX+ovYXCgKhE8XuFTJ9dNb1CyPWQWiWZdWXeVabjjWJpP4uZHCY2bvFXUMq9KoCyp5QsXl96WIPwGq4+yQ83VHVIi3qUOjmV/o2FBK7QeWb3SLWixNLNcitcjDdWx+jEFALVfD9fBg0uSzu6TbXHQ9yylcKRWpc+5v+kfeiVduFMWxjoBTaiDT6FLPpovzIsqRzNXUMv6umeRDhsfP2yrrN9GvHjD8iGC/XIr/U7XeJbPK7JnAyCaXmT74XyoEKYV3qKKkQX1k/gEedv/JfwmcNOilNBOAGK69r8OtXex2gV622KNI8QgTNX7u7/yDBpY7Oz2kBoUszbT4OtoYN2Fwsr4wJpN222LsFbnJkhEEYf8h4Xv3ZUTL1FkTogQ2oEk8zdgJP8xcKBSfvZXxweypAv+BMxvhL9Fq9n+e063M/YA7mg+Aqmw5yD53uBrTCL4bzSYDTNWluhjd0dBsplEhYtb6VYhDETWOVtQU1sONrwLDzEsAtXISS4GRaLz/X21xEPSAhsHRRIyBFLxbvhlIcKwC95v1dhgTXfp1dPFEmOXPPRkd+eOvXgorOe4u1rfNCAjsK6fa+HIoV8qB2a21m5hJmz6wgtkDVxmtWTAbIAb2YQyrW9fNzM668+L7LB9rR0O1fdZXfx4fMK2qbenba40ZNxii0OCS6khADD5h/v/tFbVFCJnPs17FZEB4SZkTYmVdXqfnBPAifUPnalj+tAyDHJkWwBIBX2T1ul0TsbCvMHqsvmdAlXJpveSjrszfafR8dv7/keQkm7Lp3hqMtQSiuQ7dSYmmTxzIfvW3cL8wvqVc7DzTszSmTLZ1SsdPuHe3XtBOh0Hi0459C8a+KslNEQyaCdHS54qdi97YpiOI/RDGsf3uaiqzdpIHO6cfJhgEAc/i+eG/tZL9Eu3uTKYIuBE4hrVBU8sewF/rH2goDiZyXAAFLfg2NPuPzsSXku6/v+MA/eKW+F+U3NOkp3XR3jE4gJhwG6CB/5rTYx943W711ykOIJ6WGyQvO37xRSMFPYSozFr5FSCvYb2kMn+F11ViPc6g0gF9fDmiFZjJCLkBjPeumyRqAT9b9b3JKF3daTzgv49TjdUfOeOH1mHXIta+kat0ul8z9q3mjXhHljIkci5huHtXmk6cfvmjz0LMbJQavUHvva66x1urNvBuhlQoHANaKwNfJ4Q8v/iCqfOSurmOwbx5+WAM0O+2WMNpNvmP6fdqssho3bOZza2VYQzRf3ZSnGqImt+QYnQGbcXdzSPUx8pUBAYX6k=]]></content>
-      <tags>
-        <tag>config</tag>
       </tags>
   </entry>
   <entry>
@@ -336,21 +336,21 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[vim registers 寄存器]]></title>
-    <url>%2F2017%2F12%2F14%2Fvim%2Fvim-registers%2F</url>
-    <content type="text"><![CDATA[常见文本编辑器都会提供剪切板来支持复制粘贴，Vim也不例外。 不同的是Vim提供了10类共48个寄存器，提供无与伦比的寄存功能。 最常用的y操作将会拷贝到默认的匿名寄存器中，我们也可以指定具体拷贝到哪个寄存器中。 一般来讲，可以用用```"&#123;register&#125;p```来粘贴```&#123;register&#125;```中的内容。例如： "ayy可以拷贝当前行到寄存器a中，而"ap则可以粘贴寄存器a中的内容。12345678910111213141516171819202122232425262728除了a-z26个命名寄存器，Vim还提供了很多特殊寄存器。合理地使用可以极大地提高效率。例如：* ```&quot;+p```可以粘贴剪切板的内容，* ```&quot;:p```可以粘贴上一个Vim命令（比如你刚刚费力拼写的正则表达式），* ```&quot;/p```可以粘贴上一次搜索关键词（你猜的没错，正是normal模式下的/foo搜索命令）。在Vim中可通过```:reg```来查看每个寄存器当前的值。寄存器分类Vim提供了10类寄存器，可在Vim中通过:help registers查看帮助。1. 匿名寄存器 &quot;&quot;2. 编号寄存器 &quot;0 到 &quot;93. 小删除寄存器 &quot;-4. 26个命名寄存器 &quot;a 到 &quot;z5. 3个只读寄存器 &quot;:, &quot;., &quot;%6. Buffer交替文件寄存器 &quot;#7. 表达式寄存器 &quot;=8. 选区和拖放寄存器 &quot;*, &quot;+, &quot;~9. 黑洞寄存器 &quot;_10. 搜索模式寄存器 &quot;/# 1. 匿名寄存器使用d, c, s, x等会删除字符的命令时，被删除字符会进入匿名寄存器&quot;&quot;。 你可以认为&quot;&quot;寄存器是一个指针，指向刚才被存到的寄存器。在如何用Vim搭建IDE？一文中提到，Mac下可通过下列设置来让Vim共享系统剪切板， 就是这个原理：所有删除和拷贝操作默认都会到匿名寄存器。 set clipboard=unnamed1234567891011121314使用y命令未指定寄存器会存到&quot;0寄存器中，同时&quot;&quot;会与该寄存器保有同样的值。 这意味着你使用p和&quot;p总会得到同样的结果。# 2. 编号寄存器编号寄存器从&quot;0到&quot;9共10个，其中&quot;0保存着拷贝来的字符串，&quot;1到&quot;9保存着删除掉的字符串。 删除操作符包括s, c, d, x。 删除掉的字符串会被存到&quot;1中，上次删除的则会被存到&quot;2中。以此类推，Vim会保存你最近的9次删除。* 只有整行整行的删除，和通过段落级别的移动指令（包括%,(,),/,`,?,n,N,&#123;,&#125;） 的删除才会被放到&quot;1中。* 当用户指定拷贝操作的寄存器时（如&quot;ap），&quot;0不会被写入；但删除操作一定会被写入到&quot;1中。&gt; &quot;0寄存器很有用，比如我们copy了一段文本然后用它替换另一段文本。 这时默认寄存器&quot;&quot;中的值就变成了被替换文本，如果还需要用copy的文本继续替换的话就需要&quot;0p了。# 3. 小删除寄存器不足一行的小删除则会被放到小删除寄存器中（&quot;-），起作用的删除操作符也包括s, c, d, x。 例如： dw # 删除一个词d9l # 删除9个字符cb # 向前更改一个词1234与&quot;0寄存器类似，当用户指定寄存器并进行删除时，&quot;-不会被写入。# 4. 命名寄存器命名寄存器有&quot;a到&quot;z共26个，这些寄存器只有当我们指定时才会被使用。 其实我们在录制宏时，所有键盘操作会以字符串的形式存到寄存器中。 例如录制一个宏存到&quot;a寄存器中，内容为更改当前行cc，改为foo字符串： qaccfoo1234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950然后执行:reg来查看寄存器，可以发现a寄存器的值是ccfoo。 小技巧：当使用小写字母进行操作时会覆盖当前寄存器内容，当使用大写字母进行操作时，会追加当前寄存器内容。# 5. 只读寄存器只读寄存器共3个，它们的值是由Vim提供的，不允许改变： &quot;.：上次insert模式中插入的字符串。还记得吗？.命令可以重复上次操作，而&quot;.存储了上次插入。 &quot;%：当前文件名，不是全路径，也不是纯文件名，而是从当前Vim的工作目录到该文件的路径。例如此时Harttle的Vim中，&quot;%p的结果为_drafts/vim-registers.md。 &quot;:：上次命令模式下键入的命令。正如@a可以执行&quot;a寄存器中的宏一样，&quot;:可以执行上次命令。# 6. 交替文件寄存器交替文件寄存器&quot;#存储着当前Vim窗口（Window）的交替文件。交替文件（alternate file）是指 Buffer中的上一个文件，可通过Ctrl+^来切换交替文件与当前文件。 Window和Buffer有什么区别？参见Vim 多文件编辑：窗口一文。# 7. 表达式寄存器表达式寄存器&quot;=主要用于计算Vim脚本的返回值，并插入到文本中。 当我们键入&quot;=后光标会移动到命令行，此时我们可以输入任何Vim脚本的表达式。 例如3+2，按下回车并且p则会得到5。这在我们调试Vim脚本时非常有用，比如调用一个函数看它是否有正确的返回值。# 8. 选择和拖放寄存器选择和拖放寄存器包括&quot;*, &quot;+, 和&quot;~，这三个寄存器的行为是和GUI相关的。&quot;*和&quot;+在Mac和Windows中，都是指系统剪切板（clipboard），例如&quot;*yy即可复制当前行到剪切板。 以供其他程序中粘贴。其他程序中复制的内容也会被存储到这两个寄存器中。 在X11系统中（绝大多数带有桌面环境的Linux发行版），二者是有区别的： &quot;*指X11中的PRIMARY选区，即鼠标选中区域。在桌面系统中可按鼠标中键粘贴。 &quot;+指X11中的CLIPBOARD选区，即系统剪切板。在桌面系统中可按Ctrl+V粘贴。 上文所述的Mac下set clipboard=unnamed会使得系统剪切板寄存器&quot;*和Vim默认的匿名寄存器&quot;&quot;始终保有同样的值，即Vim和系统共用剪切板。有文本拖拽到Vim时，被拖拽的文本被存储在&quot;~中。Vim默认的行为是将&quot;~中内容插入到光标所在位置。 当然你可以给&lt;DROP&gt;做键盘映射。# 9. 黑洞寄存器黑洞寄存器&quot;_，所有删除或拷贝到黑洞寄存器的文本将会消失。 这是为了在删除文本的同时不影响任何寄存器的值，&quot;_通常用于Vim脚本中。# 10. 搜索寄存器搜索寄存器&quot;/用于存储上一次搜索的关键词。Vim中如何进行搜索呢？ 在normal模式下按下/即进入search模式，输入关键字并按下回车即可。该寄存器是可写的，例如:let @/ = &quot;harttle&quot;将会把&quot;harttle&quot;写入该寄存器。 下次搜索时不输入搜索词直接回车便会搜索&quot;harttle&quot;。命令行模式拷贝值得一提的时，任何寄存器中的值都是可以拷贝到命令模式下的。比如对于寄存器&quot;a中的值，在normal模式下可以通过&quot;ap来粘贴；在command-line模式下通过&lt;Ctrl-R&gt;a来粘贴。这一操作存在风险，因为寄存器中的值可能是从网页中拷贝来的。如果寄存器中的字符串存在&lt;Esc&gt;字符或&lt;CR&gt;字符，则会时Vim回到normal模式， 并继续执行寄存器中的命令。为了防范剪切板劫持，可以添加下列的Vim配置： inoremap + u&lt;C->“+gP` 该命令的解释请移步：http://vim.wikia.com/wiki/Pasting_registers]]></content>
-      <tags>
-        <tag>trick</tag>
-        <tag>vim</tag>
-      </tags>
-  </entry>
-  <entry>
     <title><![CDATA[rst转换为md]]></title>
     <url>%2F2017%2F12%2F14%2Flinux%2Fpandoc-rst2md%2F</url>
     <content type="text"><![CDATA[1sudo apt install pandoc 1234567FILES=*.rstfor f in $FILESdo filename="$&#123;f%.*&#125;" echo "Converting $f to $filename.md" `pandoc $f -f rst -t markdown -o $filename.md`done]]></content>
       <tags>
         <tag>linux</tag>
         <tag>trick</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[vim registers 寄存器]]></title>
+    <url>%2F2017%2F12%2F14%2Fvim%2Fvim-registers%2F</url>
+    <content type="text"><![CDATA[常见文本编辑器都会提供剪切板来支持复制粘贴，Vim也不例外。 不同的是Vim提供了10类共48个寄存器，提供无与伦比的寄存功能。 最常用的y操作将会拷贝到默认的匿名寄存器中，我们也可以指定具体拷贝到哪个寄存器中。 一般来讲，可以用用```"&#123;register&#125;p```来粘贴```&#123;register&#125;```中的内容。例如： "ayy可以拷贝当前行到寄存器a中，而"ap则可以粘贴寄存器a中的内容。12345678910111213141516171819202122232425262728除了a-z26个命名寄存器，Vim还提供了很多特殊寄存器。合理地使用可以极大地提高效率。例如：* ```&quot;+p```可以粘贴剪切板的内容，* ```&quot;:p```可以粘贴上一个Vim命令（比如你刚刚费力拼写的正则表达式），* ```&quot;/p```可以粘贴上一次搜索关键词（你猜的没错，正是normal模式下的/foo搜索命令）。在Vim中可通过```:reg```来查看每个寄存器当前的值。寄存器分类Vim提供了10类寄存器，可在Vim中通过:help registers查看帮助。1. 匿名寄存器 &quot;&quot;2. 编号寄存器 &quot;0 到 &quot;93. 小删除寄存器 &quot;-4. 26个命名寄存器 &quot;a 到 &quot;z5. 3个只读寄存器 &quot;:, &quot;., &quot;%6. Buffer交替文件寄存器 &quot;#7. 表达式寄存器 &quot;=8. 选区和拖放寄存器 &quot;*, &quot;+, &quot;~9. 黑洞寄存器 &quot;_10. 搜索模式寄存器 &quot;/# 1. 匿名寄存器使用d, c, s, x等会删除字符的命令时，被删除字符会进入匿名寄存器&quot;&quot;。 你可以认为&quot;&quot;寄存器是一个指针，指向刚才被存到的寄存器。在如何用Vim搭建IDE？一文中提到，Mac下可通过下列设置来让Vim共享系统剪切板， 就是这个原理：所有删除和拷贝操作默认都会到匿名寄存器。 set clipboard=unnamed1234567891011121314使用y命令未指定寄存器会存到&quot;0寄存器中，同时&quot;&quot;会与该寄存器保有同样的值。 这意味着你使用p和&quot;p总会得到同样的结果。# 2. 编号寄存器编号寄存器从&quot;0到&quot;9共10个，其中&quot;0保存着拷贝来的字符串，&quot;1到&quot;9保存着删除掉的字符串。 删除操作符包括s, c, d, x。 删除掉的字符串会被存到&quot;1中，上次删除的则会被存到&quot;2中。以此类推，Vim会保存你最近的9次删除。* 只有整行整行的删除，和通过段落级别的移动指令（包括%,(,),/,`,?,n,N,&#123;,&#125;） 的删除才会被放到&quot;1中。* 当用户指定拷贝操作的寄存器时（如&quot;ap），&quot;0不会被写入；但删除操作一定会被写入到&quot;1中。&gt; &quot;0寄存器很有用，比如我们copy了一段文本然后用它替换另一段文本。 这时默认寄存器&quot;&quot;中的值就变成了被替换文本，如果还需要用copy的文本继续替换的话就需要&quot;0p了。# 3. 小删除寄存器不足一行的小删除则会被放到小删除寄存器中（&quot;-），起作用的删除操作符也包括s, c, d, x。 例如： dw # 删除一个词d9l # 删除9个字符cb # 向前更改一个词1234与&quot;0寄存器类似，当用户指定寄存器并进行删除时，&quot;-不会被写入。# 4. 命名寄存器命名寄存器有&quot;a到&quot;z共26个，这些寄存器只有当我们指定时才会被使用。 其实我们在录制宏时，所有键盘操作会以字符串的形式存到寄存器中。 例如录制一个宏存到&quot;a寄存器中，内容为更改当前行cc，改为foo字符串： qaccfoo1234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950然后执行:reg来查看寄存器，可以发现a寄存器的值是ccfoo。 小技巧：当使用小写字母进行操作时会覆盖当前寄存器内容，当使用大写字母进行操作时，会追加当前寄存器内容。# 5. 只读寄存器只读寄存器共3个，它们的值是由Vim提供的，不允许改变： &quot;.：上次insert模式中插入的字符串。还记得吗？.命令可以重复上次操作，而&quot;.存储了上次插入。 &quot;%：当前文件名，不是全路径，也不是纯文件名，而是从当前Vim的工作目录到该文件的路径。例如此时Harttle的Vim中，&quot;%p的结果为_drafts/vim-registers.md。 &quot;:：上次命令模式下键入的命令。正如@a可以执行&quot;a寄存器中的宏一样，&quot;:可以执行上次命令。# 6. 交替文件寄存器交替文件寄存器&quot;#存储着当前Vim窗口（Window）的交替文件。交替文件（alternate file）是指 Buffer中的上一个文件，可通过Ctrl+^来切换交替文件与当前文件。 Window和Buffer有什么区别？参见Vim 多文件编辑：窗口一文。# 7. 表达式寄存器表达式寄存器&quot;=主要用于计算Vim脚本的返回值，并插入到文本中。 当我们键入&quot;=后光标会移动到命令行，此时我们可以输入任何Vim脚本的表达式。 例如3+2，按下回车并且p则会得到5。这在我们调试Vim脚本时非常有用，比如调用一个函数看它是否有正确的返回值。# 8. 选择和拖放寄存器选择和拖放寄存器包括&quot;*, &quot;+, 和&quot;~，这三个寄存器的行为是和GUI相关的。&quot;*和&quot;+在Mac和Windows中，都是指系统剪切板（clipboard），例如&quot;*yy即可复制当前行到剪切板。 以供其他程序中粘贴。其他程序中复制的内容也会被存储到这两个寄存器中。 在X11系统中（绝大多数带有桌面环境的Linux发行版），二者是有区别的： &quot;*指X11中的PRIMARY选区，即鼠标选中区域。在桌面系统中可按鼠标中键粘贴。 &quot;+指X11中的CLIPBOARD选区，即系统剪切板。在桌面系统中可按Ctrl+V粘贴。 上文所述的Mac下set clipboard=unnamed会使得系统剪切板寄存器&quot;*和Vim默认的匿名寄存器&quot;&quot;始终保有同样的值，即Vim和系统共用剪切板。有文本拖拽到Vim时，被拖拽的文本被存储在&quot;~中。Vim默认的行为是将&quot;~中内容插入到光标所在位置。 当然你可以给&lt;DROP&gt;做键盘映射。# 9. 黑洞寄存器黑洞寄存器&quot;_，所有删除或拷贝到黑洞寄存器的文本将会消失。 这是为了在删除文本的同时不影响任何寄存器的值，&quot;_通常用于Vim脚本中。# 10. 搜索寄存器搜索寄存器&quot;/用于存储上一次搜索的关键词。Vim中如何进行搜索呢？ 在normal模式下按下/即进入search模式，输入关键字并按下回车即可。该寄存器是可写的，例如:let @/ = &quot;harttle&quot;将会把&quot;harttle&quot;写入该寄存器。 下次搜索时不输入搜索词直接回车便会搜索&quot;harttle&quot;。命令行模式拷贝值得一提的时，任何寄存器中的值都是可以拷贝到命令模式下的。比如对于寄存器&quot;a中的值，在normal模式下可以通过&quot;ap来粘贴；在command-line模式下通过&lt;Ctrl-R&gt;a来粘贴。这一操作存在风险，因为寄存器中的值可能是从网页中拷贝来的。如果寄存器中的字符串存在&lt;Esc&gt;字符或&lt;CR&gt;字符，则会时Vim回到normal模式， 并继续执行寄存器中的命令。为了防范剪切板劫持，可以添加下列的Vim配置： inoremap + u&lt;C->“+gP` 该命令的解释请移步：http://vim.wikia.com/wiki/Pasting_registers]]></content>
+      <tags>
+        <tag>trick</tag>
+        <tag>vim</tag>
       </tags>
   </entry>
   <entry>
@@ -390,17 +390,17 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[python判断字符编码]]></title>
-    <url>%2F2017%2F09%2F16%2Fpython%2F%E5%AD%97%E7%AC%A6%E7%BC%96%E7%A0%81%E5%88%A4%E6%96%AD%2F</url>
-    <content type="text"><![CDATA[1234import sysreload(sys)sys.setdefaultencoding(&apos;utf-8&apos;) Python 字符编码判断 法一12345678#判断是否为一般字符串isinstance(s, str)#用来判断是否为unicodeisinstance(s, unicode) 或 12if type(str).__name__ != &quot;unicode&quot;: str=unicode(str, &quot;utf-8&quot;) 法二：Python chardet 字符编码判断使用 chardet 可以很方便的实现字符串/文件的编码检测。尤其是中文网页，有的页面使用GBK/GB2312，有的使用UTF8，如果你需要去爬一些页面，知道网页编码很重要的，虽然HTML页面有charset标签，但是有些时候是不对的。那么chardet就能帮我们大忙了。123456import urllibimport chardetrawdata = urllib.urlopen(&apos;http://www.google.cn/&apos;).read()chardet.detect(rawdata) Results: 12&#123;&apos;confidence&apos;: 0.98999999999999999, &apos;encoding&apos;: &apos;GB2312&apos;&#125; chardet可以直接用detect函数来检测所给字符的编码。 函数返回值为字典，有2个元数，一个是检测的可信度，另外一个就是检测到的编码。]]></content>
+    <title><![CDATA[python: operator]]></title>
+    <url>%2F2017%2F09%2F16%2Fpython%2Fpython-operator%2F</url>
+    <content type="text"><![CDATA[12345678910111213141516171819202122#!/usr/bin/env python3&quot;&quot;&quot;This program lets you create a simple command line calculator without usingthe &apos;if..else&apos; construct. It uses built-in &apos;operator&apos; module to accomplish thesameCreated with help of an answer on stackoverflow. Don&apos;t have the exact link.&quot;&quot;&quot;import operatorops = &#123; &quot;+&quot;: operator.add, &quot;-&quot;: operator.sub, &quot;/&quot;: operator.truediv, &quot;*&quot;: operator.mul&#125;x = input(&quot;Enter an operator [OPTIONS: +, -, *, /]: &quot;)y = int(input(&quot;Enter number: &quot;))z = int(input(&quot;Enter number: &quot;))print (ops[x](y, z))]]></content>
       <tags>
         <tag>python</tag>
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[python: operator]]></title>
-    <url>%2F2017%2F09%2F16%2Fpython%2Fpython-operator%2F</url>
-    <content type="text"><![CDATA[12345678910111213141516171819202122#!/usr/bin/env python3&quot;&quot;&quot;This program lets you create a simple command line calculator without usingthe &apos;if..else&apos; construct. It uses built-in &apos;operator&apos; module to accomplish thesameCreated with help of an answer on stackoverflow. Don&apos;t have the exact link.&quot;&quot;&quot;import operatorops = &#123; &quot;+&quot;: operator.add, &quot;-&quot;: operator.sub, &quot;/&quot;: operator.truediv, &quot;*&quot;: operator.mul&#125;x = input(&quot;Enter an operator [OPTIONS: +, -, *, /]: &quot;)y = int(input(&quot;Enter number: &quot;))z = int(input(&quot;Enter number: &quot;))print (ops[x](y, z))]]></content>
+    <title><![CDATA[python判断字符编码]]></title>
+    <url>%2F2017%2F09%2F16%2Fpython%2F%E5%AD%97%E7%AC%A6%E7%BC%96%E7%A0%81%E5%88%A4%E6%96%AD%2F</url>
+    <content type="text"><![CDATA[1234import sysreload(sys)sys.setdefaultencoding(&apos;utf-8&apos;) Python 字符编码判断 法一12345678#判断是否为一般字符串isinstance(s, str)#用来判断是否为unicodeisinstance(s, unicode) 或 12if type(str).__name__ != &quot;unicode&quot;: str=unicode(str, &quot;utf-8&quot;) 法二：Python chardet 字符编码判断使用 chardet 可以很方便的实现字符串/文件的编码检测。尤其是中文网页，有的页面使用GBK/GB2312，有的使用UTF8，如果你需要去爬一些页面，知道网页编码很重要的，虽然HTML页面有charset标签，但是有些时候是不对的。那么chardet就能帮我们大忙了。123456import urllibimport chardetrawdata = urllib.urlopen(&apos;http://www.google.cn/&apos;).read()chardet.detect(rawdata) Results: 12&#123;&apos;confidence&apos;: 0.98999999999999999, &apos;encoding&apos;: &apos;GB2312&apos;&#125; chardet可以直接用detect函数来检测所给字符的编码。 函数返回值为字典，有2个元数，一个是检测的可信度，另外一个就是检测到的编码。]]></content>
       <tags>
         <tag>python</tag>
       </tags>
@@ -441,12 +441,12 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[shadowsocks配置，运行]]></title>
-    <url>%2F2017%2F01%2F04%2Flinux%2Fshadowsocks-proxy%2F</url>
-    <content type="text"><![CDATA[Home · shadowsocks/shadowsocks Wiki sudo pip install shadowsocks 在远程服务器上：12345678后台运行ss：sudo ssserver -p 14321 -k your_password -d start停止：sudo ssserver -d stop检查日志：sudo less /var/log/shadowsocks.log 本地linux1sslocal -s 服务器地址 -p 服务器端口 -l 本地端端口 -k 密码 -m 加密方法 或者ssh端口转发12ssh -fND 127.0.0.1:1234 zzp@10.2.0.4 -p 9920ssh -L 12369:localhost:12369 -R 12369:localhost:12370 -ND localhost:12345 root@138.69.29.65]]></content>
+    <title><![CDATA[python: struct模块处理二进制数据]]></title>
+    <url>%2F2017%2F01%2F04%2Fpython%2Fpython-struct-binary-data%2F</url>
+    <content type="text"><![CDATA[struct模块中最重要的三个函数是pack(), unpack(), calcsize() #pack(fmt, v1, v2, …) 按照给定的格式(fmt)，把数据封装成字符串(实际上是类似于c结构体的字节流) #unpack(fmt, string)按照给定的格式(fmt)解析字节流string，返回解析出来的tuple #calcsize(fmt)计算给定的格式(fmt)占用多少字节的内存 struct中支持的格式如下表： Format C Type Python 字节数 x|pad byte|no value|1c|char|string of length 1|1b|signed char|integer|1B|unsigned char|integer|1?|_Bool|bool|1h|short|integer|2H|unsigned short|integer|2i|int|integer|4I|unsigned int|integer or long|4l|long|integer|4L|unsigned long|long|4q|long long|long|8Q|unsigned long long|long|8f|float|float|4d|double|float|8s|char[]|string|1p|char[]|string|1P|void *|long|]]></content>
       <tags>
-        <tag>tool</tag>
-        <tag>internet</tag>
+        <tag>python</tag>
+        <tag>binary</tag>
       </tags>
   </entry>
   <entry>
@@ -456,15 +456,6 @@
       <tags>
         <tag>linux</tag>
         <tag>command</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[python: struct模块处理二进制数据]]></title>
-    <url>%2F2017%2F01%2F04%2Fpython%2Fpython-struct-binary-data%2F</url>
-    <content type="text"><![CDATA[struct模块中最重要的三个函数是pack(), unpack(), calcsize() #pack(fmt, v1, v2, …) 按照给定的格式(fmt)，把数据封装成字符串(实际上是类似于c结构体的字节流) #unpack(fmt, string)按照给定的格式(fmt)解析字节流string，返回解析出来的tuple #calcsize(fmt)计算给定的格式(fmt)占用多少字节的内存 struct中支持的格式如下表： Format C Type Python 字节数 x|pad byte|no value|1c|char|string of length 1|1b|signed char|integer|1B|unsigned char|integer|1?|_Bool|bool|1h|short|integer|2H|unsigned short|integer|2i|int|integer|4I|unsigned int|integer or long|4l|long|integer|4L|unsigned long|long|4q|long long|long|8Q|unsigned long long|long|8f|float|float|4d|double|float|8s|char[]|string|1p|char[]|string|1P|void *|long|]]></content>
-      <tags>
-        <tag>python</tag>
-        <tag>binary</tag>
       </tags>
   </entry>
   <entry>
@@ -478,6 +469,15 @@
       </tags>
   </entry>
   <entry>
+    <title><![CDATA[shadowsocks配置，运行]]></title>
+    <url>%2F2017%2F01%2F04%2Flinux%2Fshadowsocks-proxy%2F</url>
+    <content type="text"><![CDATA[Home · shadowsocks/shadowsocks Wiki sudo pip install shadowsocks 在远程服务器上：12345678后台运行ss：sudo ssserver -p 14321 -k your_password -d start停止：sudo ssserver -d stop检查日志：sudo less /var/log/shadowsocks.log 本地linux1sslocal -s 服务器地址 -p 服务器端口 -l 本地端端口 -k 密码 -m 加密方法 或者ssh端口转发12ssh -fND 127.0.0.1:1234 zzp@10.2.0.4 -p 9920ssh -L 12369:localhost:12369 -R 12369:localhost:12370 -ND localhost:12345 root@138.69.29.65]]></content>
+      <tags>
+        <tag>tool</tag>
+        <tag>internet</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[windows-tricks]]></title>
     <url>%2F2017%2F01%2F03%2Ftricks%2Fwindows-tricks%2F</url>
     <content type="text"><![CDATA[使用windows系统的小技巧，2015年之前整理。 SoftwareAutoHotkey 键位映射AutoHotkey config file format. 12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152;;ctrl ^;;shift +;;windows #;;alt !#n::run,notepad^!A::run,&quot;C:\GreenPrograms\FSCapture\FSCapture.exe&quot;#f::run,&quot;C:\Program Files\Mozilla Firefox\firefox.exe&quot;#g::run,&quot;E:\win10\regedit.vbs&quot;#c::run,&quot;C:\GreenPrograms\cleaner\kcleaner.exe&quot;^!t::run,&quot;C:\Windows\System32\bash.exe&quot;#PrintScreen::&#123; KeyWait PrintScreen KeyWait LWin ;释放左Win键才激活下面的命令 SendMessage,0x112,0xF170,2,,Program Manager ;关闭显示器。0x112:WM_SYSCOMMAND，0xF170:SC_MONITORPOWER。2：关闭，-1：开启显示器 Return&#125;;双击鼠标右键在窗口最大化与正常状态之间切换 WinStatus:=0 RButton:: &#123; KeyWait, RButton ;松开鼠标右键后才继续执行下面的代码 keyWait, RButton, D T0.15 ;在 100 毫秒内等待再次按下鼠标右键，可以设置一个自己觉得适合的等待时间。 If ErrorLevel Click, Right Else &#123; if WinStatus=0 &#123; WinMaximize , A WinStatus:=1 &#125; else &#123; WinRestore ,A WinStatus:=0 &#125; &#125; Return&#125;;置顶窗口F7::winset,AlwaysOnTop,, A ;;A表示当前窗口标题return dos 命令查看计算机启动时间1net statistics workstation 文件夹及文件名中的点 dos命令 usage md d..\ 创建d..文件夹 rd d..\ 删除d..文件夹 md .f 创建.f文件夹 ren 3 .3 将文件3改名为.3 使用vbs脚本使得bat无黑框1.bat12@echo offshutdown -s -t 3600 1.vbs12Set ws = CreateObject(&quot;Wscript.Shell&quot;) ws.run &quot;cmd /c *.bat&quot;,vbhide 强制删除bat脚本del.bat123DEL /F /A /Q \\?\%1RD /S /Q \\?\%1pause bat脚本传入参数12345传入参数：%1，%2……脚本所在路径：%~dp0脚本所在路径短路径：%~sdp0脚本所在盘符：%~d0环境当前目录：%cd% dos命令显示日期时间#%date% 和 %time% 2007-08-08 23:13 1234567C:/&gt;echo %date%2007-08-08 星期三C:/&gt;echo %date:~0,4%2007 盘符:/&gt;输出 %date%是一个参数 但是他后面带的这些就是取值范围，说说后面的数值 第一个0代表从头开始 后面的4代表共取4个字符1234C:/&gt;echo %date:~-3%星期三 这里面的负数代表倒数,也就取最后3个字符1234C:/&gt;echo %date:~-3,-1%星期 这里的-1是不输出最后1个字符-2当然是2个类推 time也类似1234echo %time%23:12:49.05 dos切换编码切换utf-81chcp 65001 切换gbk 1chcp 936 建立windows特殊文件夹(zzp..)Command 窗口输入 md zzp..\ 普通文件夹是一个“ . ” 复制文件进入： copy 文件名 c:\zzp..\ 打开文件夹： 进行中输入完整的路径和文件夹的名称 删除文件夹： Command 中输入 rd c:\zzp..\ 之前得清空文件夹！ 复制文件到专业文件夹1copy 文件路径 %systemroot%\tasks 伪造文件夹新建文件夹名称为：12## 合并复制隐藏文件 copy d:\ab.jpg /b +d:\abc.txt abcd.jpg12## love bat @echo offset all=zn echo %all% %all%%all% %all% %all% %all%%all%%all%%all%%all%echo %all% %all% %all% %all% %all% %all%echo %all% %all% %all% %all% %all% %all%echo %all% %all% %all% %all% %all% %all%%all%%all%%all%%all%echo %all% %all% %all% %all% %all% %all%echo %all% %all% %all% %all% %all% %all%echo %all% %all% %all% %all% %all% %all%echo %all% %all%%all% %all%%all% %all%%all%%all%%all%%all% pause&gt;nul12345# 注册表相关## 添加右键获取权限 Windows Registry Editor Version 5.00[HKEY_CLASSES_ROOT*\shell\runas]@=”获取权限”“NoWorkingDirectory”=””[HKEY_CLASSES_ROOT*\shell\runas\command]@=”cmd.exe /c takeown /f \”%1\” &amp;&amp; icacls \”%1\” /grant administrators:F”“IsolatedCommand”=”cmd.exe /c takeown /f \”%1\” &amp;&amp; icacls \”%1\” /grant administrators:F”[HKEY_CLASSES_ROOT\Directory\shell\runas]@=”获取权限”“NoWorkingDirectory”=””[HKEY_CLASSES_ROOT\Directory\shell\runas\command]@=”cmd.exe /c takeown /f \”%1\” /r /d y &amp;&amp; icacls \”%1\” /grant administrators:F /t”“IsolatedCommand”=”cmd.exe /c takeown /f \”%1\” /r /d y &amp;&amp; icacls \”%1\” /grant administrators:F /t”12## 隐藏文件 @ECHO OFFMD E:\RECYCLED\UDrives.{25336920-03F9-11CF-8FD0-00AA00686F13}&gt;NULIF EXIST o:\NUL GOTO DELETESUBST o: E:\RECYCLED\UDrives.{25336920-03F9-11CF-8FD0-00AA00686F13}START o:\echo 请把文件移动到打开的窗口中，但请妥善保留该文件，此批处理文件可用来存取隐藏文件！pausesubst /d o:12## 打开剪切板里路径的注册表 ‘ Created by Sergey TkachenkoDim objHTADim cClipBoardDim WshShellset objHTA=createobject(“htmlfile”)cClipBoard=objHTA.parentwindow.clipboarddata.getdata(“text”)Set WshShell = WScript.CreateObject(“WScript.Shell”)WshShell.RegWrite “HKCU\Software\Microsoft\Windows\CurrentVersion\Applets\Regedit\LastKey”, cClipBoard, “REG_SZ”WshShell.Run “regedit.exe -m”Set objHTA = nothingSet WshShell = nothing12## cmd更换字体 Windows Registry Editor Version 5.00[HKEY_CURRENT_USER\Console\%SystemRoot%_system32_cmd.exe]“WindowSize”=dword:00170058“ScreenBufferSize”=dword:01900119“WindowPosition”=dword:0079004b“ColorTable01”=dword:00235600“FontSize”=dword:00150000“FontWeight”=dword:00000190“FaceName”=”Consolas”“FontFamily”=dword:0000003612## 注册表添加程序自启动 开始-运行-输入regeditHKeyLocalMochine\SOFTWARE\Microsoft\Windows\CurrenVersion\Run`]]></content>
@@ -487,11 +487,30 @@
       </tags>
   </entry>
   <entry>
+    <title><![CDATA[Linux: todo]]></title>
+    <url>%2F2017%2F01%2F03%2Flinux%2Fdevtodo%2F</url>
+    <content type="text"><![CDATA[安装1sudo apt install devtodo 用法12345678910111213141516todo # 显示 todo listtda # 添加一项 todo，也可以用 todo -a 命令tde &lt;index&gt; # 修改第 index 条 todotdd &lt;index&gt; # 标记第 index 条 todo 已经完成tdr &lt;index&gt; # 删除第 index 条 todotodo -A # 显示所有的 todo 条目，包括完成的以及未完成的todo -Ac &lt;index&gt; #显示第index条todo的commenttodo --purge #删除已完成的todotodo -R 1,2 #将1变成2的子任务todo -R 1.1 #将1的子任务1变为根节点todo -G # ~/.todo_global aliases123456alias td=&quot;todo -G&quot;alias todo=&quot;todo -G&quot;alias tda=&quot;tda -G&quot;alias tdd=&quot;tdd -G&quot;alias tde=&quot;tde -G&quot;alias tdr=&quot;tdr -G&quot;]]></content>
+      <tags>
+        <tag>tool</tag>
+        <tag>linux</tag>
+        <tag>terminal</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[python 判断字符串内容类型]]></title>
     <url>%2F2017%2F01%2F03%2Fpython%2F%E5%88%A4%E6%96%AD%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%86%85%E5%AE%B9%E7%B1%BB%E5%9E%8B%2F</url>
     <content type="text"><![CDATA[字符串函数 返回True的情况 s.isalnum 只含字母数字且非空 s.isalpha 只含有字母且非空 s.isdigit 只含有数字且非空 s.islower 没有大写字母且非空 s.isupper 没有小写字母且非空 s.isspace 只含有空白字符且非空 s.istitle 每个英文单词首字母都大写且非空]]></content>
       <tags>
         <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[rar and tar]]></title>
+    <url>%2F2017%2F01%2F03%2Flinux%2Frar-tar%2F</url>
+    <content type="text"><![CDATA[rar，tar为linux上最常用的压缩解压打包工具。 rar12345678910111213#将文件log.py, grades.py，文件夹dir1压缩到log.rarrar a log.rar log.py grades.py dir1#将log.rar解压至temp文件夹（需新建）rar x log.rar ./temp#列出压缩包内文件rar l log.rar tar123456789101112131415161718192021222324# 压缩文件tar zcvf sth.tar.gz file1 file2 dir1#解压到当前目录tar zxvf sth.tar.gz#解压到指定目录tar zxvf sth.tar.gz -C ./temp#列出压缩包内文件tar tvf sth.tar.gz# 不压缩，只打包tar cvf sth.tar file1 dir1-c, --create 创建一个新归档-z 通过gzip压缩( tar本身不是压缩命令，)]]></content>
+      <tags>
+        <tag>tool</tag>
+        <tag>linux</tag>
       </tags>
   </entry>
   <entry>
@@ -511,15 +530,6 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[sklearn: kmeans]]></title>
-    <url>%2F2017%2F01%2F03%2Fai%2Fsklearn-kmeans%2F</url>
-    <content type="text"><![CDATA[12345678910111213141516171819202122232425262728293031323334353637383940# -*- coding: utf-8 -*-from sklearn.cluster import KMeansfrom sklearn.externals import joblibfinal = open(&apos;c:/test/final.dat&apos; , &apos;r&apos;)data = [line.strip().split(&apos;\t&apos;) for line in final]feature = [[float(x) for x in row[3:]] for row in data]#调用kmeans类clf = KMeans(n_clusters=9)s = clf.fit(feature)print s#9个中心print clf.cluster_centers_#每个样本所属的簇print clf.labels_#用来评估簇的个数是否合适，距离越小说明簇分的越好，选取临界点的簇个数print clf.inertia_#进行预测print clf.predict(feature)#保存模型joblib.dump(clf , &apos;c:/km.pkl&apos;)#载入保存的模型clf = joblib.load(&apos;c:/km.pkl&apos;)&apos;&apos;&apos;#用来评估簇的个数是否合适，距离越小说明簇分的越好，选取临界点的簇个数for i in range(5,30,1): clf = KMeans(n_clusters=i) s = clf.fit(feature) print i , clf.inertia_&apos;&apos;&apos; 来源：http://blog.itpub.net/12199764/viewspace-1479320/]]></content>
-      <tags>
-        <tag>python</tag>
-        <tag>sklearn</tag>
-      </tags>
-  </entry>
-  <entry>
     <title><![CDATA[patchelf 修改动态链接库]]></title>
     <url>%2F2017%2F01%2F03%2Flinux%2Fpatchelf%2F</url>
     <content type="text"><![CDATA[12patchelf --set-rpath $&#123;HOME&#125;/temp/demo/lib subscriber]]></content>
@@ -529,22 +539,12 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[Linux: todo]]></title>
-    <url>%2F2017%2F01%2F03%2Flinux%2Fdevtodo%2F</url>
-    <content type="text"><![CDATA[安装1sudo apt install devtodo 用法12345678910111213141516todo # 显示 todo listtda # 添加一项 todo，也可以用 todo -a 命令tde &lt;index&gt; # 修改第 index 条 todotdd &lt;index&gt; # 标记第 index 条 todo 已经完成tdr &lt;index&gt; # 删除第 index 条 todotodo -A # 显示所有的 todo 条目，包括完成的以及未完成的todo -Ac &lt;index&gt; #显示第index条todo的commenttodo --purge #删除已完成的todotodo -R 1,2 #将1变成2的子任务todo -R 1.1 #将1的子任务1变为根节点todo -G # ~/.todo_global aliases123456alias td=&quot;todo -G&quot;alias todo=&quot;todo -G&quot;alias tda=&quot;tda -G&quot;alias tdd=&quot;tdd -G&quot;alias tde=&quot;tde -G&quot;alias tdr=&quot;tdr -G&quot;]]></content>
+    <title><![CDATA[sklearn: kmeans]]></title>
+    <url>%2F2017%2F01%2F03%2Fai%2Fsklearn-kmeans%2F</url>
+    <content type="text"><![CDATA[12345678910111213141516171819202122232425262728293031323334353637383940# -*- coding: utf-8 -*-from sklearn.cluster import KMeansfrom sklearn.externals import joblibfinal = open(&apos;c:/test/final.dat&apos; , &apos;r&apos;)data = [line.strip().split(&apos;\t&apos;) for line in final]feature = [[float(x) for x in row[3:]] for row in data]#调用kmeans类clf = KMeans(n_clusters=9)s = clf.fit(feature)print s#9个中心print clf.cluster_centers_#每个样本所属的簇print clf.labels_#用来评估簇的个数是否合适，距离越小说明簇分的越好，选取临界点的簇个数print clf.inertia_#进行预测print clf.predict(feature)#保存模型joblib.dump(clf , &apos;c:/km.pkl&apos;)#载入保存的模型clf = joblib.load(&apos;c:/km.pkl&apos;)&apos;&apos;&apos;#用来评估簇的个数是否合适，距离越小说明簇分的越好，选取临界点的簇个数for i in range(5,30,1): clf = KMeans(n_clusters=i) s = clf.fit(feature) print i , clf.inertia_&apos;&apos;&apos; 来源：http://blog.itpub.net/12199764/viewspace-1479320/]]></content>
       <tags>
-        <tag>tool</tag>
-        <tag>linux</tag>
-        <tag>terminal</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[rar and tar]]></title>
-    <url>%2F2017%2F01%2F03%2Flinux%2Frar-tar%2F</url>
-    <content type="text"><![CDATA[rar，tar为linux上最常用的压缩解压打包工具。 rar12345678910111213#将文件log.py, grades.py，文件夹dir1压缩到log.rarrar a log.rar log.py grades.py dir1#将log.rar解压至temp文件夹（需新建）rar x log.rar ./temp#列出压缩包内文件rar l log.rar tar123456789101112131415161718192021222324# 压缩文件tar zcvf sth.tar.gz file1 file2 dir1#解压到当前目录tar zxvf sth.tar.gz#解压到指定目录tar zxvf sth.tar.gz -C ./temp#列出压缩包内文件tar tvf sth.tar.gz# 不压缩，只打包tar cvf sth.tar file1 dir1-c, --create 创建一个新归档-z 通过gzip压缩( tar本身不是压缩命令，)]]></content>
-      <tags>
-        <tag>tool</tag>
-        <tag>linux</tag>
+        <tag>python</tag>
+        <tag>sklearn</tag>
       </tags>
   </entry>
   <entry>
