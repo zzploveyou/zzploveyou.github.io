@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[test]]></title>
+    <url>%2F2018%2F09%2F14%2Ftest%2F</url>
+    <content type="text"><![CDATA[hello选项卡 2选项卡 3这是选项卡 1 呵呵哈哈哈哈哈哈哈哈呵呵哈哈哈哈哈哈哈哈呵呵哈哈哈哈哈哈哈哈呵呵哈哈哈哈哈哈哈哈呵呵哈哈哈哈哈哈哈哈呵呵哈哈哈哈哈哈哈哈…… 这是选项卡 2 这是选项卡 3 哇，你找到我了！φ(≧ω≦*)♪～]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[linux tools]]></title>
     <url>%2F2018%2F09%2F12%2Flinux%2Fefficient-tools%2F</url>
     <content type="text"><![CDATA[trash-cli1sudo apt install trash-cli Usage123456#alias rm!="/bin/rm -vi"#alias rm=trashalias t=trashalias lt=trash-listalias rt=restore-trashalias et=trash-empty 命令 用途 trash-put/trash 文件或目录移入回收站 trash-empty 清空回收站 trash-list 列出回收站中的文件 restore-trash 还原回收站中的文件 trash-rm 删除回收站中的单个文件 递归搜索文件内容-agggreer/the_silver_searcher: A code-searching tool similar to ack, but faster. 123sudo apt install silversearcher-agag def lib/ 字符模式下交互查看git项目-tigjonas/tig: Text-mode interface for git mysql客户端-mycli类似于ipython的mysql客户端，支持语法高亮和命令补全 C++手册查询-cppman1cppman std::thread 多线程下载工具axel1axel -n 20 URL 终端会话录制-script/scriptreplay12345script -t 2&gt;time.txt session.typescript# your commandexitscriptreplay -t time.txt session.typescript 媒体下载工具 you-getyoutube, google+, 优酷，腾讯视频，秒拍等12# socks5(pip install pysocks)you-get &apos;https://www.youtube.com/watch?v=jNQXAC9IVRw&apos; -s 127.0.0.1:12345 网络流量分析 iptraf-ng123sudo apt install iptrafiptraf-ng w实时网速查看 bwm-ng1sudo apt install bwm-ng terminal录屏 asciinema查询天气1234curl wttr.in/:helpcurl "wttr.in/Beijing?lang=zh"curl "wttr.in/Beijing?pq&amp;lang=zh"curl "wttr.in/Beijing?0pq&amp;lang=zh" sudoku1sudoku cmatrix12cmatrix figlet — 字符串在终端上显示1figlet i love you xdotool — 控制鼠标点击123456789101112131415161718显示鼠标当前位置xdotool getmouselocationxdotool mousemove x yxdotool click 1xdotool click 2xdotool click 3xdotool key ctrl +1xdotool click --repeat 10 --delay 500 1间隔0.5s一次，重复10次左键 qrencode –字符串转为终端像素点二维码nitrogen – 多显示屏设置不同壁纸1: install dconf-editor and nitrogen 1234sudo apt-get install dconf-editorsudo apt-get install nitrogen 2: Open dconf-editor 3: In dconf-editor, explore to /org/gnome/desktop/background/ 4: Unmark the show-desktop-icons option. 5: Open nitrogen 这样之后桌面文件夹不显示 xeyesfortune名句 fortune-zh唐诗 cowsay123456789101112cowsay -l查看所有动物/usr/share/cowsay/cows/*cowsay -f turtle指定动物fortune-zh | cowsay -f turtle动物说话 equalxlatex公式编辑器1sudo apt install equalx ffmpeg1ffmpeg -i '123.avi' -ac 2 -b:v 2000k -c:a aac -c:v libx264 -b:a 160k -vprofile high -bf 0 -strict experimental -f mp4 '123.mp4' 12-b:v 2000k-b:v 1000k 文件清晰度，大小 convmv更改文件名编码方式的一个工具 1convmv -f gbk -t utf-8 -r –-notest /home 就是将/home目录下原来文件名是gbk编码方式的全部改为utf-8格式的。这里 -f 后面为原来的编码方式，-t 后面是要更改为的编码方式， 12-r 表示这个目录下面的所有文件， –notest 表示马上执行，而不是仅仅测试而已。 iconv更改文件编码方式的一个工具 1iconv -f gbk -t utf-8 -o outfile infile -f为原来的编码方式，-t 为输出文件的编码方式， -o表示输出文件名，这利用outfile表示，最后跟上要更改编码方式的文件名sourcefile]]></content>
@@ -13,7 +18,7 @@
   <entry>
     <title><![CDATA[gist id of atom and vscode settings]]></title>
     <url>%2F2018%2F09%2F12%2Flinux%2Fgithub-gist-sync-settings%2F</url>
-    <content type="text"><![CDATA[Please enter the password to read the blog. Decrypt U2FsdGVkX1+6gqV/xrIkyOVgEFNMbEmL/6xCZx9GmZjt7dSdCc9yik+O2CTMZdOUoGhzpvioGmpOLbBnU+B6ghMkHPrwwaWXPGAhUS2yr8EyqFelQcPjcGfcIF5SEZow7AdtRk4J3BHZp1oLaOLxEP+vDddy2pV0jEMHG5fKT2GrIXooz/Y4y6YQgYR4RCF6V26GiFNAthaJ1hUAAvgHtam9/mFJTcMrmpu40Aw9/hE3zg7jGxplxaahcJZy4qgusHdI+LLKzE0VhlhYv+4zRAU6uR/bpeDoSjDEl0yfu3ivosPK3xTni1W7pwdJGbAh91vcdMbsRf+l1IhnKib1VChg7oi10BUkCH5m3N0DAGnBn3/U/NKAEOA+/wuGFedUe9yj3OhRZkjBl/CLgzMzXPSH1sm+eJDZdHWWdyASerzkKreYspT/dxth4LZf/qDG/40Mm34Zj9WpJ8/2TWkvH/2eGtZq0xyOFZowy3IMvS4/kp48WLIUTNNuE5PNsryjRbSnWKRTyf3dacykjaKk3Pk66/eJmJNCBDsnPHjLbx61MbKnUAgYNuiJDN4RQ5CF9IVK+35Tzij0/bE4eVl+im4rTwG2/8qEpeLKOUzoDxkcElfJFqHWuM1UfxwPKhaWhNOKgiGTeGBw5TOxrGNsquGHPWHgsBAOM3qRC+b3Pd+MBoL9gyCugNHl5HpI9P+BM1eV4LO7Whb/M8p06wWZE4YkcnGfpJ2d2y865J/IXs9zIXVUVnkAOyDOXKQ/2B3wmI1KB/CwOa/T4Mb+KxR5r5/6uQsIsu3RH+zVoqje6hDfB8h+PomDSCLLHWjDOilRVDNfDE0gYBDkckDg4+xc/z8du/Uzo0gTxM1xHf+cs46Mz1g2C78dxV6OVPoUFM/NuYeOB5nFS9Y6ZOAhPVk+XGwsETBvJhVwTWyMF+x5FgxnVlrb5eL85G468vksQ4OaZu4gtZLhX955EPAnfoCqa1Dtiz75ePBtG7tXmtA8AKXfdKgKIwRhpEvlN/2k7JCiUMuXjl8PhXe+9buj1Vn/oRluL6ck6NTzsF+tBgNOepHM9UDnvYFJ2z+W9OFVp/VCq/Be81xcBdxR/vnVpCzLBIX/a3N3I308dkZIcX27NhnAzMeK0tpakvPKMl/zOTX5DXwK8Ay4CjjVbBCd9UrQT/VItA2zyc4hm6guj5JXiMUOIfptXMojb2d4en9foF4/c9Ju3ujVQbE0g8zHxtBo/VglYjGu0l76Dvor5IqVCP4hNuLI3z8SXFxuvmJChoMnZGmQNvqByG70NCw6b4kLSoNCaoJQXptcykzYq/BC5V0sFWKV884cgRE+q4rHXCRs5Eebfzi4fbBwVJrV6dM7lpi65/cJpZWGCsgRBdB8SrsgCfD/G9Njy4bm+h9AHNlwRkbEkNar1kY9de+sJ9yo6ubfG+70T93cVHdF3F7kmi2crbmTQvseq6SB3zILFU3tMI755q9IUeWhLK7r1R8M010hBi1x0wDrMgqVjXUElv4NzH7QQz1FLBn6iU85M2U/WrKK0mwOPi46Vtqjhe70fwCXcYN3So9Rz3ysuBWPT9NkTbf/60MSfCk62qkQp2wMRvQivs0CCVOLQdg8DYiH9G7emsUPbZ8Dol8UbRoVI2ItD9kDufouONW4VdGxd0O5TMRNk0H+sST8aitUaOjfvjRV5ylQCzA94krse2gnPJcTMUjNU9PngzZq6nKqn2B8B3Z/GVkQzCOKnHkD3oMMSJO8CAnATaFshmvwHf/L1dpQEg8ecKtUEcyOBukkA/HEKDEnsLjwWnScgLSLnDA6NuscmXXpaZ31MgJxBZ7JJgeeAzKuuwJXWnEleWXiPwchefzuIYe1exDx3ZZ3RMx7/91oU7MV1sRLkRTAei/hP6g=]]></content>
+    <content type="text"><![CDATA[Please enter the password to read the blog. Decrypt U2FsdGVkX19rOZ8EcN0LdnLRm1k9VfW9NHpnnAsNFaAvojmS4HLnT5yFgblXf9HkKdGHDN9eKrigIRspEVaEhi9xCBakLYtDwk0EYDmnbiF7DhwVBUbKcwcbmokw6bYZ4xZE40dSOPU3AsJGrwY4ebWJ2vIl5YrdiOYXelnrj1c3oNdGjSFnmu9s/bxrlSkUYeovR/dZS466e1g9svqI54br2eYZ17urDcIGEkbNHcLsW4YKnfLt+DGj8J5DjMP8B9Xykp+ePxbxU7aqQ9v30pwY2a3M1tu/VxetQRygm3AM6yO0mZEuGyoAo9yGP5hhikyuXsipM0V2n+mzn4Nv92aNS7zfkgJJ7oo6I3r0HDs64ofdcLNrL6Yp+L46WRomELSPOm7E9CcwxeBuGvtlC6lwjgPXwQPBdV2TKAyIFsdgPyvqFVjaH+rrdfndai3FbY1j/LthsiRRTE0kKem5Kx/ZDNedtJ4ExqCioBOan4sFD81yajklNkhTy8oHT97Yplmvr+/mnLYdRbw7aVkvXre7KkfXXWec96rncFodmyOrFix62k2nMlz2inMEWyCWsS0+R+dZkjYYcBG6UXwvk1Xrs+RamSOOigQ29DTkNt6bxKmIQZYtZN4MPGenvE0HwdyBp8XQj+9pM1NedoPExJuI2JiLl6AwgRlyPT26Joy2Xyo2qWD57JFsI57dz0OrqoWYqN8O+FTSdbCYddROcMB2sBU1sUCaQzwpVxWeW1QsJ5XJeOrwvl5EHkV+t2ECGMTJcNzKeqycZCGT6huijDeBu6rn4f9bn89EUmIty1n8GiM8u0kEQ8XZo/3rDji/p3l59/lwYvB2Mt2lO6/J4YJ/CsmBRnKOeQVjoUtJhYb1K63Lr+xv1jQHcMxiqFv2zHnBEIsAFvmWHilQV1gDMh1JJV/iCPLukeTDnQdHIBfQeuJNC0kny0mDB4nFN86eiy6U3BGSulHhs3H0IOuqdfSNJlJdOVMtbhyA9+d+0JasyVlPlaarqtxHh4NYbYV8qYal7ncBmtLvvnn9jaTRaDfN5+goQy1vWwrtpP70RlwRDYVOIdXmOT3OgExKpaueB2y4QopsAvlnYK955bpg45JJiFqIue2yNrmx6ug4xsqCQkpYIJ0OwemW6jUuzji+n3D4inVlgvrBls0K2CUKrQi9bC8ELHjWYfSqN1pBnl5hR1In+TFj/5m4+dvUv59Tw+e94KPYg7On4Uks5NjkCQ3SdzAT4WBvRRuTh2Q98V0bWdTOa/THK6debD7CEC5ObCqbVFvO7YnW8jG9PUDaNsIpNdtQj5niU81wXwof5t40PLSnn3U3vtkXyY8WNSGT0UkfyAdueQgmDRiSKbxmM29Nrvd0dwae6okwsydWF2uFy7w7Z/pCHNwxt/R49Rj2Ka+53V4Ay4nS6dk2NgI9HWZggLLkzBB9ryQWggYJlpzHTBMwDDoJZjDk1/9KGO4Azol1qmkLyBcBv9RXUbJ4GJArNxn9xRNK19qIv+pZ0uvWKE+4ro0YX0k+mNiBRA8yBhgJ9Dw+QHLUfE7MuzxBvEsxkxPcDKBZVfHx1bNogWxNLEYo9EwrrtdxaQDA9D9rpUnPGn7sv+WA3vAbOSPjHyT29AJWL1bftjY8SWbPdkE5NwYCPpB/7wuBq0HBrlDkJ+XLgBlmo0wsT0DL/0/J0XNI6xSV01zF2n7UHVHsf4JLNkvbYvItwtWg6g1b/sF9Zo1T2p5Mj9iuy+UHKvEcDDBIT+U0APdnWvWZ0s01H7C+hCZ2b4SS2i6JyrxnSYs5uoCHLTi8R9SwXJEADvCWWxdRzBVupfg1+FeRe9ChV+QOsbFKvwAACGnO7LA3aFlM8X/46MJZdNcnYRxdtWUzZImWZUkBAXgAkJVQvYRS+ko=]]></content>
       <tags>
         <tag>config</tag>
       </tags>
@@ -46,7 +51,7 @@
   <entry>
     <title><![CDATA[hexo-scripts]]></title>
     <url>%2F2018%2F09%2F08%2Ftricks%2Fhexo-scripts%2F</url>
-    <content type="text"><![CDATA[针对hexo-next搭建的博客，写了几个方便操作的脚本： new.sh: 任意目录新建带模板的md文件 post.sh: 任意目录post+deploy backup.sh: 备份博客，以便日后迁移 new.sh1alias new=your_path/new.sh 任意目录下new 123-456 会生成123-456.md文件并mv到当前目录下。 12345678#!/bin/bashblog_PATH=/home/zzp/work/blogCURRENT=$PWDcd $blog_PATH# echo "Usage: new.sh title"hexo n $1echo "[+] mv $1.md to current directory ..."mv $blog_PATH/source/_posts/$1.md $CURRENT posh.sh运行参数12345678910# 将文件post到hexo博客source/_post下./post.sh [file]# deploy your website../post.sh -d# local server./post.sh -p 9920# post + deploy./post.sh -d [file]# post + local server./post.sh -p 9920 [file] 脚本内容123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263#!/bin/bashblog_PATH=/home/zzp/work/blogpost_PATH=$blog_PATH/source/_posts# update to web if DEPLOY=1DEPLOY=0PORT=0if [ "$1" == "-h" ]||[ "$1" == "--help" ]||[ $# -eq 0 ];then echo "Usage: `basename $0` mdfile1 mdfile2 ..." echo "Options:" echo "-d, --deploy: deploy your website." echo "-p PORT: port of local server." exit 0fiPOSITIONAL=()while [[ $# -gt 0 ]]dokey="$1"case $key in -d|--develop) DEPLOY=1 shift # past argument ;; -p|--port) PORT="$2" shift # past argument shift # past value ;; *) # unknown option POSITIONAL+=("$1") # save it in an array for later shift # past argument ;;esacdoneset -- "$&#123;POSITIONAL[@]&#125;" # restore positional parametersfor i in $@; do if [ -f $i ];then mv $i $post_PATH echo "[+] move $i into blog source ..." fidonecd $blog_PATH# hexo clean and generate.if [ $DEPLOY == 1 ]||[ $PORT != 0 ];then # hexo clean hexo gfi# hexo deploy your website.if [ $DEPLOY == 1 ];then hexo delse # local server port. if [ $PORT != 0 ];then hexo s -p $PORT fifi backup.sh打包hexo博客项目内需要备份的文件 12345#!/bin/bashblog_PATH=/home/zzp/work/blogcd $blog_PATH# backuptar zcvf "blogsource.`date +%Y%m%d`.tar.gz" scaffolds/ source/ themes/ .gitignore _config.yml package.json *.sh backup]]></content>
+    <content type="text"><![CDATA[针对hexo-next搭建的博客，写了几个方便操作的脚本： new.sh: 任意目录新建带模板的md文件 post.sh: 任意目录post+deploy backup.sh: 备份博客，以便日后迁移 new.shpost.shbackup.sh1alias new=your_path/new.sh 任意目录下new 123-456 会生成123-456.md文件并mv到当前目录下。 12345678#!/bin/bashblog_PATH=/home/zzp/work/blogCURRENT=$PWDcd $blog_PATH# echo “Usage: new.sh title”hexo n $1echo “[+] mv $1.md to current directory …”mv $blog_PATH/source/_posts/$1.md $CURRENT posh.sh运行参数12345678910# 将文件post到hexo博客source/_post下./post.sh [file]# deploy your website../post.sh -d# local server./post.sh -p 9920# post + deploy./post.sh -d [file]# post + local server./post.sh -p 9920 [file] 脚本内容123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263#!/bin/bashblog_PATH=/home/zzp/work/blogpost_PATH=$blog_PATH/source/_posts# update to web if DEPLOY=1DEPLOY=0PORT=0if [ “$1“ == “-h” ]||[ “$1“ == “–help” ]||[ $# -eq 0 ];then echo “Usage: basename &lt;span class=&quot;variable&quot;&gt;$0&lt;/span&gt; mdfile1 mdfile2 …” echo “Options:” echo “-d, –deploy: deploy your website.” echo “-p PORT: port of local server.” exit 0fiPOSITIONAL=()while [[ $# -gt 0 ]]dokey=“$1“case $key in -d|–develop) DEPLOY=1 shift # past argument ;; -p|–port) PORT=“$2“ shift # past argument shift # past value ;; *) # unknown option POSITIONAL+=(“$1“) # save it in an array for later shift # past argument ;;esacdoneset – “$&#123;POSITIONAL[@]&#125;“ # restore positional parametersfor i in $@; do if [ -f $i ];then mv $i $post_PATH echo “[+] move $i into blog source …” fidonecd $blog_PATH# hexo clean and generate.if [ $DEPLOY == 1 ]||[ $PORT != 0 ];then # hexo clean hexo gfi# hexo deploy your website.if [ $DEPLOY == 1 ];then hexo delse # local server port. if [ $PORT != 0 ];then hexo s -p $PORT fifi backup.sh打包hexo博客项目内需要备份的文件 12345#!/bin/bashblog_PATH=/home/zzp/work/blogcd $blog_PATH# backuptar zcvf “blogsource.date +%Y%m%d.tar.gz” scaffolds/ source/ themes/ .gitignore _config.yml package.json *.sh backup]]></content>
       <tags>
         <tag>linux</tag>
         <tag>shell</tag>
@@ -198,9 +203,9 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[LeetCode: add two numbers]]></title>
-    <url>%2F2018%2F04%2F12%2Falgorithms%2Fadd-two-number%2F</url>
-    <content type="text"><![CDATA[123456789101112131415161718192021222324252627282930313233343536373839404142"""https://leetcode-cn.com/problems/add-two-numbers/description/copy codes."""class ListNode: def __init__(self, x): self.val = x self.next = Noneclass Solution(object): def addTwoNumbers(self, l1, l2): """ :type l1: ListNode :type l2: ListNode :rtype: ListNode """ dummy = ListNode(0) current, carry = dummy, 0 while l1 or l2: val = carry if l1: val += l1.val l1 = l1.next if l2: val += l2.val l2 = l2.next carry, val = divmod(val, 10) current.next = ListNode(val) current = current.next if carry == 1: current.next = ListNode(1) return dummy.nextif __name__ == '__main__': a, a.next, a.next.next = ListNode(2), ListNode(4), ListNode(3) b, b.next, b.next.next = ListNode(5), ListNode(6), ListNode(4) result = Solution().addTwoNumbers(a, b) print("&#123;0&#125; -&gt; &#123;1&#125; -&gt; &#123;2&#125;".format(result.val, result.next.val, result.next.next.val))]]></content>
+    <title><![CDATA[LeetCode:longest substring without repeating characters]]></title>
+    <url>%2F2018%2F04%2F12%2Falgorithms%2Flongest-substring-without-repeating-characters%2F</url>
+    <content type="text"><![CDATA[“””https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/description/无重复字符的最长子串“”” class Solution(object): def lengthOfLongestSubstring(self, s): “”” :type s: str :rtype: int &gt;&gt;&gt; s = Solution() &gt;&gt;&gt; s.lengthOfLongestSubstring(“aab”) 2 &gt;&gt;&gt; s.lengthOfLongestSubstring(“dvdf”) 3 &gt;&gt;&gt; s.lengthOfLongestSubstring(“abcabcbb”) 3 &gt;&gt;&gt; s.lengthOfLongestSubstring(“abcabcbb”) 3 &gt;&gt;&gt; s.lengthOfLongestSubstring(“abba”) 2 &gt;&gt;&gt; s.lengthOfLongestSubstring(“aaaaaaa”) 1 &gt;&gt;&gt; s.lengthOfLongestSubstring(“a”) 1 &gt;&gt;&gt; s.lengthOfLongestSubstring(“”) 0 “”” if s == “”: return 0 if len(s) == 1: return 1 # 记录字符到index的映射 dic = {} L, start_ind = 0, 0 for idx, i in enumerate(s): # 第idx个字符在dic中且是超过start_ind的字符 if i in dic and start_ind &lt;= dic[i]: L = max(idx - start_ind, L) start_ind = dic[i] + 1 dic[i] = idx L = max(idx + 1 - start_ind, L) return L]]></content>
       <tags>
         <tag>python</tag>
         <tag>LeetCode</tag>
@@ -208,9 +213,9 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[LeetCode:longest substring without repeating characters]]></title>
-    <url>%2F2018%2F04%2F12%2Falgorithms%2Flongest-substring-without-repeating-characters%2F</url>
-    <content type="text"><![CDATA[“””https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/description/无重复字符的最长子串“”” class Solution(object): def lengthOfLongestSubstring(self, s): “”” :type s: str :rtype: int &gt;&gt;&gt; s = Solution() &gt;&gt;&gt; s.lengthOfLongestSubstring(“aab”) 2 &gt;&gt;&gt; s.lengthOfLongestSubstring(“dvdf”) 3 &gt;&gt;&gt; s.lengthOfLongestSubstring(“abcabcbb”) 3 &gt;&gt;&gt; s.lengthOfLongestSubstring(“abcabcbb”) 3 &gt;&gt;&gt; s.lengthOfLongestSubstring(“abba”) 2 &gt;&gt;&gt; s.lengthOfLongestSubstring(“aaaaaaa”) 1 &gt;&gt;&gt; s.lengthOfLongestSubstring(“a”) 1 &gt;&gt;&gt; s.lengthOfLongestSubstring(“”) 0 “”” if s == “”: return 0 if len(s) == 1: return 1 # 记录字符到index的映射 dic = {} L, start_ind = 0, 0 for idx, i in enumerate(s): # 第idx个字符在dic中且是超过start_ind的字符 if i in dic and start_ind &lt;= dic[i]: L = max(idx - start_ind, L) start_ind = dic[i] + 1 dic[i] = idx L = max(idx + 1 - start_ind, L) return L]]></content>
+    <title><![CDATA[LeetCode: add two numbers]]></title>
+    <url>%2F2018%2F04%2F12%2Falgorithms%2Fadd-two-number%2F</url>
+    <content type="text"><![CDATA[123456789101112131415161718192021222324252627282930313233343536373839404142"""https://leetcode-cn.com/problems/add-two-numbers/description/copy codes."""class ListNode: def __init__(self, x): self.val = x self.next = Noneclass Solution(object): def addTwoNumbers(self, l1, l2): """ :type l1: ListNode :type l2: ListNode :rtype: ListNode """ dummy = ListNode(0) current, carry = dummy, 0 while l1 or l2: val = carry if l1: val += l1.val l1 = l1.next if l2: val += l2.val l2 = l2.next carry, val = divmod(val, 10) current.next = ListNode(val) current = current.next if carry == 1: current.next = ListNode(1) return dummy.nextif __name__ == '__main__': a, a.next, a.next.next = ListNode(2), ListNode(4), ListNode(3) b, b.next, b.next.next = ListNode(5), ListNode(6), ListNode(4) result = Solution().addTwoNumbers(a, b) print("&#123;0&#125; -&gt; &#123;1&#125; -&gt; &#123;2&#125;".format(result.val, result.next.val, result.next.next.val))]]></content>
       <tags>
         <tag>python</tag>
         <tag>LeetCode</tag>
@@ -336,21 +341,21 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[vundle插件安装器， nerdcommenter注释插件]]></title>
-    <url>%2F2017%2F12%2F14%2Fvim%2Fvundle-vim%2F</url>
-    <content type="text"><![CDATA[vundle vim 使用命令 1234&quot; :PluginList - 列出所有已配置的插件&quot; :PluginInstall - 安装插件, 加 `!` 用以更新或使用 :PluginUpdate&quot; :PluginSearch foo - 搜索 foo ;追加 `!` 清除本地缓存&quot; :PluginClean - 清除未使用插件,需要确认; 追加 `!` nerdcommenterUsage Doc 12345678910111213141516 n\cc : 为光标以下 n 行添加注释 n\cu : 为光标以下 n 行取消注释 n\cm : 为光标以下 n 行添加块注释for python:单行：注释: \cs取消注释：\cu多行：ctrl + v 块选中后：注释: \cs取消注释：\cu\ci 为Inverts the commented state of each selected line.]]></content>
-      <tags>
-        <tag>config</tag>
-        <tag>vim</tag>
-      </tags>
-  </entry>
-  <entry>
     <title><![CDATA[rst转换为md]]></title>
     <url>%2F2017%2F12%2F14%2Flinux%2Fpandoc-rst2md%2F</url>
     <content type="text"><![CDATA[1sudo apt install pandoc 1234567FILES=*.rstfor f in $FILESdo filename="$&#123;f%.*&#125;" echo "Converting $f to $filename.md" `pandoc $f -f rst -t markdown -o $filename.md`done]]></content>
       <tags>
         <tag>linux</tag>
         <tag>trick</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[vundle插件安装器， nerdcommenter注释插件]]></title>
+    <url>%2F2017%2F12%2F14%2Fvim%2Fvundle-vim%2F</url>
+    <content type="text"><![CDATA[vundle vim 使用命令 1234&quot; :PluginList - 列出所有已配置的插件&quot; :PluginInstall - 安装插件, 加 `!` 用以更新或使用 :PluginUpdate&quot; :PluginSearch foo - 搜索 foo ;追加 `!` 清除本地缓存&quot; :PluginClean - 清除未使用插件,需要确认; 追加 `!` nerdcommenterUsage Doc 12345678910111213141516 n\cc : 为光标以下 n 行添加注释 n\cu : 为光标以下 n 行取消注释 n\cm : 为光标以下 n 行添加块注释for python:单行：注释: \cs取消注释：\cu多行：ctrl + v 块选中后：注释: \cs取消注释：\cu\ci 为Inverts the commented state of each selected line.]]></content>
+      <tags>
+        <tag>config</tag>
+        <tag>vim</tag>
       </tags>
   </entry>
   <entry>
@@ -441,21 +446,13 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[shadowsocks配置，运行]]></title>
-    <url>%2F2017%2F01%2F04%2Flinux%2Fshadowsocks-proxy%2F</url>
-    <content type="text"><![CDATA[Home · shadowsocks/shadowsocks Wiki sudo pip install shadowsocks 在远程服务器上：12345678后台运行ss：sudo ssserver -p 14321 -k your_password -d start停止：sudo ssserver -d stop检查日志：sudo less /var/log/shadowsocks.log 本地linux1sslocal -s 服务器地址 -p 服务器端口 -l 本地端端口 -k 密码 -m 加密方法 或者ssh端口转发12ssh -fND 127.0.0.1:1234 zzp@10.2.0.4 -p 9920ssh -L 12369:localhost:12369 -R 12369:localhost:12370 -ND localhost:12345 root@138.69.29.65]]></content>
-      <tags>
-        <tag>tool</tag>
-        <tag>internet</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[rsync同步命令]]></title>
-    <url>%2F2017%2F01%2F04%2Flinux%2Frsync%E5%91%BD%E4%BB%A4%2F</url>
-    <content type="text"><![CDATA[rsync最常用的操作同步远程zzp主机下note文件夹到本地文件夹note(以前者为准,后者的更改都会被抹除) 1rsync -urv --delete "zzp:/home/zzp/note/" note/ rsync的命令格式1234567rsync [OPTION]... SRC DESTrsync [OPTION]... SRC [USER@]HOST:DESTrsync [OPTION]... [USER@]HOST:SRC DESTrsync [OPTION]... [USER@]HOST::SRC DESTrsync [OPTION]... SRC [USER@]HOST::DESTrsync [OPTION]... rsync://[USER@]HOST[:PORT]/SRC [DEST] 对应于以上六种命令格式，rsync有六种不同的工作模式： 拷贝本地文件。当SRC和DES路径信息都不包含有单个冒号”:”分隔符时就启动这种工作模式。如：-a/backup```122. 使用一个远程shell程序(如rsh、ssh)来实现将本地机器的内容拷贝到远程机器。当DST路径地址包含单个冒号&quot;:&quot;分隔符时启动该模式。如：```rsync -avz *.c foo:src 使用一个远程shell程序(如rsh、ssh)来实现将远程机器的内容拷贝到本地机器。当SRC地址路径包含单个冒号”:”分隔符时启动该模式。如：-avz foo:src/barlink124. 从远程rsync服务器中拷贝文件到本地机。当SRC路径信息包含&quot;::&quot;分隔符时启动该模式。如：```rsync -av root@172.16.78.192::www /databack 从本地机器拷贝文件到远程rsync服务器中。当DST路径信息包含”::”分隔符时启动该模式。如：-avroot@172.16.78.192::www```126. 列远程机的文件列表。这类似于rsync传输，不过只要在命令中省略掉本地机信息即可。如：```rsync -v rsync://172.16.78.192/www rsync参数12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061-v, --verbose 详细模式输出-q, --quiet 精简输出模式-c, --checksum 打开校验开关，强制对文件传输进行校验-a, --archive 归档模式，表示以递归方式传输文件，并保持所有文件属性，等于-rlptgoD-r, --recursive 对子目录以递归模式处理-R, --relative 使用相对路径信息-b, --backup 创建备份，也就是对于目的已经存在有同样的文件名时，将老的文件重新命名为~filename。可以使用--suffix选项来指定不同的备份文件前缀。--backup-dir 将备份文件(如~filename)存放在在目录下。-suffix=SUFFIX 定义备份文件前缀-u, --update 仅仅进行更新，也就是跳过所有已经存在于DST，并且文件时间晚于要备份的文件。(不覆盖更新的文件)-l, --links 保留软链结-L, --copy-links 想对待常规文件一样处理软链结--copy-unsafe-links 仅仅拷贝指向SRC路径目录树以外的链结--safe-links 忽略指向SRC路径目录树以外的链结-H, --hard-links 保留硬链结-p, --perms 保持文件权限-o, --owner 保持文件属主信息-g, --group 保持文件属组信息-D, --devices 保持设备文件信息-t, --times 保持文件时间信息-S, --sparse 对稀疏文件进行特殊处理以节省DST的空间-n, --dry-run现实哪些文件将被传输-W, --whole-file 拷贝文件，不进行增量检测-x, --one-file-system 不要跨越文件系统边界-B, --block-size=SIZE 检验算法使用的块尺寸，默认是700字节-e, --rsh=COMMAND 指定使用rsh、ssh方式进行数据同步--rsync-path=PATH 指定远程服务器上的rsync命令所在路径信息-C, --cvs-exclude 使用和CVS一样的方法自动忽略文件，用来排除那些不希望传输的文件--existing 仅仅更新那些已经存在于DST的文件，而不备份那些新创建的文件--delete 删除那些DST中SRC没有的文件--delete-excluded 同样删除接收端那些被该选项指定排除的文件--delete-after 传输结束以后再删除--ignore-errors 及时出现IO错误也进行删除--max-delete=NUM 最多删除NUM个文件--partial 保留那些因故没有完全传输的文件，以是加快随后的再次传输--force 强制删除目录，即使不为空--numeric-ids 不将数字的用户和组ID匹配为用户名和组名--timeout=TIME IP超时时间，单位为秒-I, --ignore-times 不跳过那些有同样的时间和长度的文件--size-only 当决定是否要备份文件时，仅仅察看文件大小而不考虑文件时间--modify-window=NUM 决定文件是否时间相同时使用的时间戳窗口，默认为0-T --temp-dir=DIR 在DIR中创建临时文件--compare-dest=DIR 同样比较DIR中的文件来决定是否需要备份-P 等同于 --partial--progress 显示备份过程-z, --compress 对备份的文件在传输时进行压缩处理--exclude=PATTERN 指定排除不需要传输的文件模式--include=PATTERN 指定不排除而需要传输的文件模式--exclude-from=FILE 排除FILE中指定模式的文件--include-from=FILE 不排除FILE指定模式匹配的文件--version 打印版本信息--address 绑定到特定的地址--config=FILE 指定其他的配置文件，不使用默认的rsyncd.conf文件--port=PORT 指定其他的rsync服务端口--blocking-io 对远程shell使用阻塞IO-stats 给出某些文件的传输状态--progress 在传输时现实传输过程--log-format=formAT 指定日志文件格式--password-file=FILE 从FILE中得到密码--bwlimit=KBPS 限制I/O带宽，KBytes per second-h, --help 显示帮助信息]]></content>
+    <title><![CDATA[ubuntu配置初始化]]></title>
+    <url>%2F2017%2F01%2F04%2Flinux%2Fubuntu-config%2F</url>
+    <content type="text"><![CDATA[fcitx 输入法12sudo apt-get install fcitx fcitx-config-gtk fcitx-sunpinyin fcitx-googlepinyin fcitx-module-cloudpinyin im-configsudo im-config -s fcitx -z default 取消默认文件夹设置123456789# ~/.config/user-dirs.dirsxdg-user-dirs-update --set DESKTOP $HOME/xdg-user-dirs-update --set DOWNLOAD $HOME/xdg-user-dirs-update --set TEMPLATES $HOME/xdg-user-dirs-update --set PUBLICSHARE $HOME/xdg-user-dirs-update --set DOCUMENTS $HOME/xdg-user-dirs-update --set MUSIC $HOME/xdg-user-dirs-update --set PICTURES $HOME/xdg-user-dirs-update --set VIDEOS $HOME/ 卸载软件列表1sudo apt purge deja-dup gnome-sudoku webbrowser-app cheese gnome-mines gnome-mahjongg simple-scan empathy thunderbird rhythmbox libreoffice-common unity-webapps-common aisleriot transmission-common transmission-gtk remmina ubuntu-web-launchers 必备软件列表1234sudo apt-get install curl vim exuberant-ctags git ack-grepsudo pip install pep8 flake8 pyflakes isort yapfsudo apt install tmux zsh htop rar vim terminator ipython3 python3-pip openssh-server devtodo tree chsh -s /bin/zsh 可选安装软件列表123sudo apt install flashplugin-installer folder-color ubuntu-gnome-desktop moc kdeconnect gnome-tweak-toolsudo apt install graphviz virtualbox masterpdfeditor4sudo apt install gtk-recordmydesktop recordmydesktop 其余软件列表123nitrogen okular vlc screenfetchunison unison-gtk qrencode figlet xdotool cmatrix fortune fortune-zh cowsay vscode wps vimconfig zsh]]></content>
       <tags>
         <tag>linux</tag>
-        <tag>command</tag>
+        <tag>config</tag>
+        <tag>ubuntu</tag>
       </tags>
   </entry>
   <entry>
@@ -468,13 +465,21 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[ubuntu配置初始化]]></title>
-    <url>%2F2017%2F01%2F04%2Flinux%2Fubuntu-config%2F</url>
-    <content type="text"><![CDATA[fcitx 输入法12sudo apt-get install fcitx fcitx-config-gtk fcitx-sunpinyin fcitx-googlepinyin fcitx-module-cloudpinyin im-configsudo im-config -s fcitx -z default 取消默认文件夹设置123456789# ~/.config/user-dirs.dirsxdg-user-dirs-update --set DESKTOP $HOME/xdg-user-dirs-update --set DOWNLOAD $HOME/xdg-user-dirs-update --set TEMPLATES $HOME/xdg-user-dirs-update --set PUBLICSHARE $HOME/xdg-user-dirs-update --set DOCUMENTS $HOME/xdg-user-dirs-update --set MUSIC $HOME/xdg-user-dirs-update --set PICTURES $HOME/xdg-user-dirs-update --set VIDEOS $HOME/ 卸载软件列表1sudo apt purge deja-dup gnome-sudoku webbrowser-app cheese gnome-mines gnome-mahjongg simple-scan empathy thunderbird rhythmbox libreoffice-common unity-webapps-common aisleriot transmission-common transmission-gtk remmina ubuntu-web-launchers 必备软件列表1234sudo apt-get install curl vim exuberant-ctags git ack-grepsudo pip install pep8 flake8 pyflakes isort yapfsudo apt install tmux zsh htop rar vim terminator ipython3 python3-pip openssh-server devtodo tree chsh -s /bin/zsh 可选安装软件列表123sudo apt install flashplugin-installer folder-color ubuntu-gnome-desktop moc kdeconnect gnome-tweak-toolsudo apt install graphviz virtualbox masterpdfeditor4sudo apt install gtk-recordmydesktop recordmydesktop 其余软件列表123nitrogen okular vlc screenfetchunison unison-gtk qrencode figlet xdotool cmatrix fortune fortune-zh cowsay vscode wps vimconfig zsh]]></content>
+    <title><![CDATA[rsync同步命令]]></title>
+    <url>%2F2017%2F01%2F04%2Flinux%2Frsync%E5%91%BD%E4%BB%A4%2F</url>
+    <content type="text"><![CDATA[rsync最常用的操作同步远程zzp主机下note文件夹到本地文件夹note(以前者为准,后者的更改都会被抹除) 1rsync -urv --delete "zzp:/home/zzp/note/" note/ rsync的命令格式1234567rsync [OPTION]... SRC DESTrsync [OPTION]... SRC [USER@]HOST:DESTrsync [OPTION]... [USER@]HOST:SRC DESTrsync [OPTION]... [USER@]HOST::SRC DESTrsync [OPTION]... SRC [USER@]HOST::DESTrsync [OPTION]... rsync://[USER@]HOST[:PORT]/SRC [DEST] 对应于以上六种命令格式，rsync有六种不同的工作模式： 拷贝本地文件。当SRC和DES路径信息都不包含有单个冒号”:”分隔符时就启动这种工作模式。如：-a/backup```122. 使用一个远程shell程序(如rsh、ssh)来实现将本地机器的内容拷贝到远程机器。当DST路径地址包含单个冒号&quot;:&quot;分隔符时启动该模式。如：```rsync -avz *.c foo:src 使用一个远程shell程序(如rsh、ssh)来实现将远程机器的内容拷贝到本地机器。当SRC地址路径包含单个冒号”:”分隔符时启动该模式。如：-avz foo:src/barlink124. 从远程rsync服务器中拷贝文件到本地机。当SRC路径信息包含&quot;::&quot;分隔符时启动该模式。如：```rsync -av root@172.16.78.192::www /databack 从本地机器拷贝文件到远程rsync服务器中。当DST路径信息包含”::”分隔符时启动该模式。如：-avroot@172.16.78.192::www```126. 列远程机的文件列表。这类似于rsync传输，不过只要在命令中省略掉本地机信息即可。如：```rsync -v rsync://172.16.78.192/www rsync参数12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061-v, --verbose 详细模式输出-q, --quiet 精简输出模式-c, --checksum 打开校验开关，强制对文件传输进行校验-a, --archive 归档模式，表示以递归方式传输文件，并保持所有文件属性，等于-rlptgoD-r, --recursive 对子目录以递归模式处理-R, --relative 使用相对路径信息-b, --backup 创建备份，也就是对于目的已经存在有同样的文件名时，将老的文件重新命名为~filename。可以使用--suffix选项来指定不同的备份文件前缀。--backup-dir 将备份文件(如~filename)存放在在目录下。-suffix=SUFFIX 定义备份文件前缀-u, --update 仅仅进行更新，也就是跳过所有已经存在于DST，并且文件时间晚于要备份的文件。(不覆盖更新的文件)-l, --links 保留软链结-L, --copy-links 想对待常规文件一样处理软链结--copy-unsafe-links 仅仅拷贝指向SRC路径目录树以外的链结--safe-links 忽略指向SRC路径目录树以外的链结-H, --hard-links 保留硬链结-p, --perms 保持文件权限-o, --owner 保持文件属主信息-g, --group 保持文件属组信息-D, --devices 保持设备文件信息-t, --times 保持文件时间信息-S, --sparse 对稀疏文件进行特殊处理以节省DST的空间-n, --dry-run现实哪些文件将被传输-W, --whole-file 拷贝文件，不进行增量检测-x, --one-file-system 不要跨越文件系统边界-B, --block-size=SIZE 检验算法使用的块尺寸，默认是700字节-e, --rsh=COMMAND 指定使用rsh、ssh方式进行数据同步--rsync-path=PATH 指定远程服务器上的rsync命令所在路径信息-C, --cvs-exclude 使用和CVS一样的方法自动忽略文件，用来排除那些不希望传输的文件--existing 仅仅更新那些已经存在于DST的文件，而不备份那些新创建的文件--delete 删除那些DST中SRC没有的文件--delete-excluded 同样删除接收端那些被该选项指定排除的文件--delete-after 传输结束以后再删除--ignore-errors 及时出现IO错误也进行删除--max-delete=NUM 最多删除NUM个文件--partial 保留那些因故没有完全传输的文件，以是加快随后的再次传输--force 强制删除目录，即使不为空--numeric-ids 不将数字的用户和组ID匹配为用户名和组名--timeout=TIME IP超时时间，单位为秒-I, --ignore-times 不跳过那些有同样的时间和长度的文件--size-only 当决定是否要备份文件时，仅仅察看文件大小而不考虑文件时间--modify-window=NUM 决定文件是否时间相同时使用的时间戳窗口，默认为0-T --temp-dir=DIR 在DIR中创建临时文件--compare-dest=DIR 同样比较DIR中的文件来决定是否需要备份-P 等同于 --partial--progress 显示备份过程-z, --compress 对备份的文件在传输时进行压缩处理--exclude=PATTERN 指定排除不需要传输的文件模式--include=PATTERN 指定不排除而需要传输的文件模式--exclude-from=FILE 排除FILE中指定模式的文件--include-from=FILE 不排除FILE指定模式匹配的文件--version 打印版本信息--address 绑定到特定的地址--config=FILE 指定其他的配置文件，不使用默认的rsyncd.conf文件--port=PORT 指定其他的rsync服务端口--blocking-io 对远程shell使用阻塞IO-stats 给出某些文件的传输状态--progress 在传输时现实传输过程--log-format=formAT 指定日志文件格式--password-file=FILE 从FILE中得到密码--bwlimit=KBPS 限制I/O带宽，KBytes per second-h, --help 显示帮助信息]]></content>
       <tags>
         <tag>linux</tag>
-        <tag>config</tag>
-        <tag>ubuntu</tag>
+        <tag>command</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[shadowsocks配置，运行]]></title>
+    <url>%2F2017%2F01%2F04%2Flinux%2Fshadowsocks-proxy%2F</url>
+    <content type="text"><![CDATA[Home · shadowsocks/shadowsocks Wiki sudo pip install shadowsocks 在远程服务器上：12345678后台运行ss：sudo ssserver -p 14321 -k your_password -d start停止：sudo ssserver -d stop检查日志：sudo less /var/log/shadowsocks.log 本地linux1sslocal -s 服务器地址 -p 服务器端口 -l 本地端端口 -k 密码 -m 加密方法 或者ssh端口转发12ssh -fND 127.0.0.1:1234 zzp@10.2.0.4 -p 9920ssh -L 12369:localhost:12369 -R 12369:localhost:12370 -ND localhost:12345 root@138.69.29.65]]></content>
+      <tags>
+        <tag>tool</tag>
+        <tag>internet</tag>
       </tags>
   </entry>
   <entry>
@@ -487,19 +492,31 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[python 判断字符串内容类型]]></title>
-    <url>%2F2017%2F01%2F03%2Fpython%2F%E5%88%A4%E6%96%AD%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%86%85%E5%AE%B9%E7%B1%BB%E5%9E%8B%2F</url>
-    <content type="text"><![CDATA[字符串函数 返回True的情况 s.isalnum 只含字母数字且非空 s.isalpha 只含有字母且非空 s.isdigit 只含有数字且非空 s.islower 没有大写字母且非空 s.isupper 没有小写字母且非空 s.isspace 只含有空白字符且非空 s.istitle 每个英文单词首字母都大写且非空]]></content>
+    <title><![CDATA[Linux: todo]]></title>
+    <url>%2F2017%2F01%2F03%2Flinux%2Fdevtodo%2F</url>
+    <content type="text"><![CDATA[安装1sudo apt install devtodo 用法12345678910111213141516todo # 显示 todo listtda # 添加一项 todo，也可以用 todo -a 命令tde &lt;index&gt; # 修改第 index 条 todotdd &lt;index&gt; # 标记第 index 条 todo 已经完成tdr &lt;index&gt; # 删除第 index 条 todotodo -A # 显示所有的 todo 条目，包括完成的以及未完成的todo -Ac &lt;index&gt; #显示第index条todo的commenttodo --purge #删除已完成的todotodo -R 1,2 #将1变成2的子任务todo -R 1.1 #将1的子任务1变为根节点todo -G # ~/.todo_global aliases123456alias td=&quot;todo -G&quot;alias todo=&quot;todo -G&quot;alias tda=&quot;tda -G&quot;alias tdd=&quot;tdd -G&quot;alias tde=&quot;tde -G&quot;alias tdr=&quot;tdr -G&quot;]]></content>
       <tags>
-        <tag>python</tag>
+        <tag>tool</tag>
+        <tag>linux</tag>
+        <tag>terminal</tag>
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[python生成pdf文件]]></title>
-    <url>%2F2017%2F01%2F03%2Fpython%2Fpython-pdf%2F</url>
-    <content type="text"><![CDATA[添加语句，添加图片，定义字体 123456789from reportlab.pdfgen import canvasc=canvas.Canvas(&quot;hello.pdf&quot;)c.drawString(100,700,&quot;hello&quot;)c.drawImage(&quot;123.jpg&quot;,1*inch,1*inch,width=8*inch,height=9*inch)c.save()from reportlab.pdfbase.cidfonts import UnicodeCIDFontpdfmetrics.registerFont(UnicodeCIDFont(&apos;STSong-Light&apos;))c.setFont(&quot;STSong-Light&quot;,12)]]></content>
+    <title><![CDATA[rar and tar]]></title>
+    <url>%2F2017%2F01%2F03%2Flinux%2Frar-tar%2F</url>
+    <content type="text"><![CDATA[rar，tar为linux上最常用的压缩解压打包工具。 rar12345678910111213#将文件log.py, grades.py，文件夹dir1压缩到log.rarrar a log.rar log.py grades.py dir1#将log.rar解压至temp文件夹（需新建）rar x log.rar ./temp#列出压缩包内文件rar l log.rar tar123456789101112131415161718192021222324# 压缩文件tar zcvf sth.tar.gz file1 file2 dir1#解压到当前目录tar zxvf sth.tar.gz#解压到指定目录tar zxvf sth.tar.gz -C ./temp#列出压缩包内文件tar tvf sth.tar.gz# 不压缩，只打包tar cvf sth.tar file1 dir1-c, --create 创建一个新归档-z 通过gzip压缩( tar本身不是压缩命令，)]]></content>
       <tags>
-        <tag>python</tag>
+        <tag>tool</tag>
+        <tag>linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[patchelf 修改动态链接库]]></title>
+    <url>%2F2017%2F01%2F03%2Flinux%2Fpatchelf%2F</url>
+    <content type="text"><![CDATA[12patchelf --set-rpath $&#123;HOME&#125;/temp/demo/lib subscriber]]></content>
+      <tags>
+        <tag>tool</tag>
+        <tag>linux</tag>
       </tags>
   </entry>
   <entry>
@@ -520,31 +537,19 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[patchelf 修改动态链接库]]></title>
-    <url>%2F2017%2F01%2F03%2Flinux%2Fpatchelf%2F</url>
-    <content type="text"><![CDATA[12patchelf --set-rpath $&#123;HOME&#125;/temp/demo/lib subscriber]]></content>
+    <title><![CDATA[python 判断字符串内容类型]]></title>
+    <url>%2F2017%2F01%2F03%2Fpython%2F%E5%88%A4%E6%96%AD%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%86%85%E5%AE%B9%E7%B1%BB%E5%9E%8B%2F</url>
+    <content type="text"><![CDATA[字符串函数 返回True的情况 s.isalnum 只含字母数字且非空 s.isalpha 只含有字母且非空 s.isdigit 只含有数字且非空 s.islower 没有大写字母且非空 s.isupper 没有小写字母且非空 s.isspace 只含有空白字符且非空 s.istitle 每个英文单词首字母都大写且非空]]></content>
       <tags>
-        <tag>tool</tag>
-        <tag>linux</tag>
+        <tag>python</tag>
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[Linux: todo]]></title>
-    <url>%2F2017%2F01%2F03%2Flinux%2Fdevtodo%2F</url>
-    <content type="text"><![CDATA[安装1sudo apt install devtodo 用法12345678910111213141516todo # 显示 todo listtda # 添加一项 todo，也可以用 todo -a 命令tde &lt;index&gt; # 修改第 index 条 todotdd &lt;index&gt; # 标记第 index 条 todo 已经完成tdr &lt;index&gt; # 删除第 index 条 todotodo -A # 显示所有的 todo 条目，包括完成的以及未完成的todo -Ac &lt;index&gt; #显示第index条todo的commenttodo --purge #删除已完成的todotodo -R 1,2 #将1变成2的子任务todo -R 1.1 #将1的子任务1变为根节点todo -G # ~/.todo_global aliases123456alias td=&quot;todo -G&quot;alias todo=&quot;todo -G&quot;alias tda=&quot;tda -G&quot;alias tdd=&quot;tdd -G&quot;alias tde=&quot;tde -G&quot;alias tdr=&quot;tdr -G&quot;]]></content>
+    <title><![CDATA[python生成pdf文件]]></title>
+    <url>%2F2017%2F01%2F03%2Fpython%2Fpython-pdf%2F</url>
+    <content type="text"><![CDATA[添加语句，添加图片，定义字体 123456789from reportlab.pdfgen import canvasc=canvas.Canvas(&quot;hello.pdf&quot;)c.drawString(100,700,&quot;hello&quot;)c.drawImage(&quot;123.jpg&quot;,1*inch,1*inch,width=8*inch,height=9*inch)c.save()from reportlab.pdfbase.cidfonts import UnicodeCIDFontpdfmetrics.registerFont(UnicodeCIDFont(&apos;STSong-Light&apos;))c.setFont(&quot;STSong-Light&quot;,12)]]></content>
       <tags>
-        <tag>tool</tag>
-        <tag>linux</tag>
-        <tag>terminal</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[rar and tar]]></title>
-    <url>%2F2017%2F01%2F03%2Flinux%2Frar-tar%2F</url>
-    <content type="text"><![CDATA[rar，tar为linux上最常用的压缩解压打包工具。 rar12345678910111213#将文件log.py, grades.py，文件夹dir1压缩到log.rarrar a log.rar log.py grades.py dir1#将log.rar解压至temp文件夹（需新建）rar x log.rar ./temp#列出压缩包内文件rar l log.rar tar123456789101112131415161718192021222324# 压缩文件tar zcvf sth.tar.gz file1 file2 dir1#解压到当前目录tar zxvf sth.tar.gz#解压到指定目录tar zxvf sth.tar.gz -C ./temp#列出压缩包内文件tar tvf sth.tar.gz# 不压缩，只打包tar cvf sth.tar file1 dir1-c, --create 创建一个新归档-z 通过gzip压缩( tar本身不是压缩命令，)]]></content>
-      <tags>
-        <tag>tool</tag>
-        <tag>linux</tag>
+        <tag>python</tag>
       </tags>
   </entry>
   <entry>
