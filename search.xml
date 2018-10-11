@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title><![CDATA[linux利用split命令分割压缩文件]]></title>
-    <url>%2F2018%2F10%2F11%2Ftar-split%2F</url>
+    <url>%2F2018%2F10%2F11%2Flinux%2Ftar-split%2F</url>
     <content type="text"><![CDATA[分割压缩文件12# 以10M大小分割文件split -b 10m filename.tar.gz filename.tar.gz. 会生成子文件如下 filename.tar.gz.aa filename.tar.gz.ab filename.tar.gz.ac… 合并压缩文件12cat filename.tar.gz.a* &gt; filename.tar.gzcat filename.tar.gz.a* | tar zxvf]]></content>
       <tags>
         <tag>linux</tag>
@@ -17,8 +17,19 @@
         <category>python</category>
       </categories>
       <tags>
-        <tag>trick</tag>
         <tag>python</tag>
+        <tag>trick</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[gist id of atom and vscode settings]]></title>
+    <url>%2F2018%2F09%2F12%2Flinux%2Fgithub-gist-sync-settings%2F</url>
+    <content type="text"><![CDATA[Please enter the password to read the blog. Decrypt U2FsdGVkX18zdtfXp4s6R+tl99FU3D8FoQ96AIX5S4+SyytvSv0tkrfCCVb6yHz0Vrq89dIzUbgL7EzHSpyMNn+Kx0VwywhJkW+U1PqAjMC859m1RpyV9yxbSRpHyF83Txtbao5yvYnhB5GnYilCWkJilAjwKFEJ0zi5Ne/rEJSXYZUt37Wxt7kp0ANqBnI3otxvZ8sGSK/RF7gP/1Gm1zJe9pZuEYMN/a+PrvzAa7uJBPQZwHf0wuU4FMNFvmVF5xbE8r7r9d39MSqk14h4UKBpCHCYNoDIvInNeBXjxNASqKxJ8kYhi5Aw7X9vuMbTXgYM0+CqobwZtoT2su/zUb/3znJp80bbX58bEUFMZ11v7DsxBLV+7pD7Duo/BnZa4NG7KgubjfLv1HYcEGlUqN39g17CV8kH7twwv3ff3DbcKpiS1/ywgE1vaoYJOdwkFSgJqe0GGwEu9MzP7EeB9taPahMpFMzwcEHYSVf8Zx3IJvhToprNu7Ad19dzzvWHuIW0dOdR7apEoWF60UE436radgQ2VHA37j1QLmToaUPbzIyV1av8cqsBSIADRpWjUXj+vdV99NKeFFVJX7VWTc9oo08sr+O1RHRlfDA8wf7BgrtZqkQgLarSZw86TxofNXjsTZku8RspGQYzWGHJ+/atm3xZRY38cAGHo8LqssUt+56J90Nxuz5hvUDS9sE87jPcngdbtrSMrNkEfrA14o1FOHzS3ieR6SsL//IkmAylj9KBYnfsdp+ND/YlW/OOxs/+JaSFyTfsXzCEB11kK/UlpPRa/IPm/3ZvTsJLpx5ZgjHcZq56kXYMfOlnw1RIlptmqtgeI/RQ3kNCuktNsBpg3QZ0yO1PS7Y983lEBha5gyUTCyZpxXXzh9oa9zMTkAUgGNHw6cEYBa2rW0my/QfECP6rcUPQBqcIXQw7vIuAAQ73Pn4+7IhZPdLuuqYIQeS2Re71WAmgsQt7Vu/hb2hG6zbCz2uA9EKEskyg8HTFSBjVTEHvp62TJtMRlDJrFukhnNs/DryQGJ4SFJF0d3dauviT+LWu1SWhKefYzqtEAnETKHS+1gCrDqF8MjHAfa4sAGo+khnvqdhU9+ICprtu0m9h3ygA7bq96b0/4e3zjtn84vzG9OdQs4MmGSK1jlilHLAHt9Mk0k1UWwdtiPVSt2Vi5Xe5qlQ9FQv14V1246awBvsAi9CAC1GQu7uA3ok2QiqgpAX/cKgXqJef9ZDm5qsduIDBW3PCMZ7HZyYNNoErezEb1g2ZqginE0xW0yVNZG6yiy1WU4T0xN3LF3ZJGiZiOF7AJsas2yLrAuDVXINmRnF4FydKJU4TLbboaPjQ6+EyzQDlVZXDz36BpkLnjQnWn0hWwP1PdyoT+m8iunw2qkNnL5T6fm/1bKktYtxin46woSEzY7WL57ilhLRGM4Jov4Bihjh+3MWkj7AuYgE2ae7laSRhL4M1qw1zfihGjcXUJ5BtNqQm+oP56liAsINIw+CM/8Y42XVLFuexLj1/x9WsnLSwZQVIzelEwYqCKavon320vUH2YdStj65I3pr0gZGnL+BllVzSEIx24+Jf2PNURZrKIE6+rKZx4u/c/aRwsIfujHca5M5hQz3pmE+S4ntr5Iw36GCkRfTtqlq5fbS4e6WepvsVrfZ9fTGwiQtmLG0nCI3QPjcPts1qG8SbeCcrxUbIZCKlkkVoCGY2t0VSC36hN7gOT5r9l1Rfqe0r0C1id5PLTrZoDMZf2S0h1O76ITV8WIR0QvuMhzr5xEaCGugBHzvxEBMjQh/xYo27NO6cKGb4I2kzyAWvaFtZEdOAKoOtA//XFMRQH41v211iIO5xG02Tl/L7pGKhRJ7Z7ZLFNqeuVVSYbSITLFBBicD8EktkuEauVG0=]]></content>
+      <categories>
+        <category>linux</category>
+      </categories>
+      <tags>
+        <tag>config</tag>
       </tags>
   </entry>
   <entry>
@@ -29,20 +40,9 @@
         <category>linux</category>
       </categories>
       <tags>
+        <tag>tool</tag>
         <tag>linux</tag>
         <tag>trick</tag>
-        <tag>tool</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[gist id of atom and vscode settings]]></title>
-    <url>%2F2018%2F09%2F12%2Flinux%2Fgithub-gist-sync-settings%2F</url>
-    <content type="text"><![CDATA[Please enter the password to read the blog. Decrypt U2FsdGVkX1+xyeBzxyy2bHxm6BNIYxiD0YjGOoTXs0vyhvFB+6xwWiSDiHKAFra98S7JpcxaylCTciYhulCvzkE4qnbj+KtHDFxqOQBBK3McjMsDa93X8eW4wam63SNzcDxXZA85YIr9RobbFXIs1pgRQRmVqQFdl+jfDti31SJQ28AL4F9Jc6ewwAXAglp5E8jhI0+kqbdu8tiH6a3/vJc1FrEmWcZj9rAS5bRH9DLSMHCE3qfwkBa2ZRoKHxm60Nik2vl4249z832DzjICGJCAzgHy9+CUGfQ3vfmO55tisw9NIgLbz99giG78un8yj1w4tUephC8ZEF4C4u9CQT/eHoZDzOmYJ7FaJ3f2GwHbfrvXFKcq42sThBIAzmOx+qgXQ76VoJXoq1lVmRYYuqy+oDya7nZ8lJx1LodF+ARPuWPLWbPVeGjsWRrox4dAHJSRPRgA+iccbzEFnZZ9vUTxOs9yWneFq7Tkci+MtsGTAi+kxCcpQ84j/WieFC5bXStBGLstqYbWC6+B6JM6i1WesU+9yieQdL5zxq36d2hvQTlmHu5RNA7bzeNpsrKQa4VGrQQ3hiH2kEB206SMeFyDCPutlA2/SlAvVrY7G1LDms5rPdmFHokatekLIVDDf/n8FFHTcI6TShTtS2t+pj0CyngRrTfflZAZsrJDEAuWCes5ezzBQwFtCPUPq4Q3YcGz5oQF67yybLQ6a+5b0zxol/mLRgUTvReYvQ4Q6gWfn5iAoiLKzuiWw/i6nV4OPvo3UxIth4oF61XkKjqt0bKqkrwI3w5SodeWbHGPac5fD18YqLK/fQ+EQqyNzLDZBFR2mCbjiVM5+cDDArVIPTzV3Q7tA1h7vjt7rGrFwfAU7GjnZZsGe0bs0aYC6TlGifvTFgugDaslv0hdxc8Je6km3PKT/O+NCcDQE/XCaEg9ehoqgw0pwUZqTik6a+PItTCcmXog4ZCf4rHzgRMonMzsAWou1z8qLr8x/kXP5xawjyV2SLxugFcSAH6fC2vcTvKNTRirlj3ZtMlFFZFwKKKdUb37TokXdlKRJ+r+AtVJfg907T/Vdt5a8fhv1u9T7k4aV+ODzGqHX7gVpjpuhQeC4PYvdkWCxlzJ71wMXjQfVq7YNHe0eVyeKs0Yg/N4GDqP7nTvKyuWkP+6+B1ud7p3CfkhsKnqHxU3GFWPYMDBrhdA+1ETTMwxLw1VQzfS2aGZ1U0XwTDL4vIQdVFHeacgEmgNtW1ixIf5uemwL++G2/96sg7z4oY2fQDgJjxKE19fg1Ja0AZI/SS6h4pdbM/fhhfsvmlL+lIR9eCnZQ1HpTbIRMNsLypgDMOFnPOzEbddmXkBe5beYXfdOtbmgsXtmd5Pkrjp9lpcmwow6lnihsAo4IYR07xIBCD8zhpsuRl9Hwzju9H1IBqw7/3hmOGhansmpky23niExtsBV+G81io6npeEoyrU9UYDYex27gXFj8IECscwld55uTqfBhQQTi69w4xZO340KHBiHeN1mzWGGZfoNplMF2ltZto/xjzPAN/KA/udA6CYSnbciG/py89QbbnSbY2X1Mm3ld2xjV1iSTAbDsLMkvIRbcyAcK78SZKD+zkfIyGkt+iqoMOA8g4vhC4foBD92+8Wr/vJHqDdhmth+2AfSifcSgbAnelJeohSd04LeXLDVvzjDdSliKm8sq4jvEjkEl8P20SYM/2t/Uvez/iz6TUenXP4X0Wyn3Ir33kr2mz2XzPcPf7BX4xJOCe2TPTza9aJGFbUuxMa2hflO+lQuJqZmEKRkpC2kGv35tJScMIm4QgKOGmXNgYe2EpFEs1y5/zjiUFN62R6OUetXPRGiyWEqN1+5dlHvDzSEe8YL3bK1TUQ6lqOkmEjvEIXuGJZFutllTw=]]></content>
-      <categories>
-        <category>linux</category>
-      </categories>
-      <tags>
-        <tag>config</tag>
       </tags>
   </entry>
   <entry>
@@ -100,8 +100,8 @@
         <category>linux</category>
       </categories>
       <tags>
-        <tag>linux</tag>
         <tag>tool</tag>
+        <tag>linux</tag>
         <tag>web</tag>
       </tags>
   </entry>
@@ -125,8 +125,8 @@
         <category>linux</category>
       </categories>
       <tags>
-        <tag>linux</tag>
         <tag>tool</tag>
+        <tag>linux</tag>
       </tags>
   </entry>
   <entry>
@@ -138,8 +138,8 @@
       </categories>
       <tags>
         <tag>linux</tag>
-        <tag>trick</tag>
         <tag>github</tag>
+        <tag>trick</tag>
       </tags>
   </entry>
   <entry>
@@ -174,8 +174,8 @@
         <category>linux</category>
       </categories>
       <tags>
-        <tag>linux</tag>
         <tag>tool</tag>
+        <tag>linux</tag>
         <tag>command</tag>
       </tags>
   </entry>
@@ -195,7 +195,7 @@
     <url>%2F2018%2F04%2F30%2Falgorithm%2Fplus-one%2F</url>
     <content type="text"><![CDATA[1234567891011121314151617181920212223242526272829303132"""https://leetcode.com/problems/plus-one/description/"""class Solution(object): def plusOne(self, digits): """ :type digits: List[int] :rtype: List[int] &gt;&gt;&gt; s = Solution() &gt;&gt;&gt; s.plusOne([1, 2, 3]) [1, 2, 4] &gt;&gt;&gt; s.plusOne([4, 3, 2 ,1]) [4, 3, 2, 2] &gt;&gt;&gt; s.plusOne([1, 9, 9]) [2, 0, 0] &gt;&gt;&gt; s.plusOne([9, 9, 9]) [1, 0, 0, 0] """ if digits == [0]: return [1] idx = len(digits) - 1 while True: digits[idx] += 1 if digits[idx] != 10: return digits else: digits[idx] = 0 idx -= 1 if idx == -1: return [1] + digits]]></content>
       <categories>
-        <category>algorithms</category>
+        <category>algorithm</category>
       </categories>
       <tags>
         <tag>python</tag>
@@ -208,7 +208,7 @@
     <url>%2F2018%2F04%2F26%2Falgorithm%2Fvalid-number%2F</url>
     <content type="text"><![CDATA[12345678910111213141516"""https://leetcode.com/problems/valid-number/description/"""class Solution(object): def isNumber(self, s): """ :type s: str :rtype: bool """ try: float(s.strip()) return True except Exception: return False]]></content>
       <categories>
-        <category>algorithms</category>
+        <category>algorithm</category>
       </categories>
       <tags>
         <tag>python</tag>
@@ -221,7 +221,7 @@
     <url>%2F2018%2F04%2F23%2Falgorithm%2Fsqrtx%2F</url>
     <content type="text"><![CDATA[12345678910111213141516171819202122232425262728293031323334"""https://leetcode.com/problems/sqrtx/description/"""class Solution(object): def mySqrt(self, x): """ :type x: int :rtype: int &gt;&gt;&gt; s = Solution() &gt;&gt;&gt; s.mySqrt(4) 2 &gt;&gt;&gt; s.mySqrt(0) 0 &gt;&gt;&gt; s.mySqrt(8) 2 &gt;&gt;&gt; s.mySqrt(1) 1 &gt;&gt;&gt; s.mySqrt(2147395600) 46340 """ if 0 &lt;= x &lt; 1: return 0 elif x == 1: return 1 else: # how to choose the init value ? x0 = x // 2 while True: # x**2/4 &gt; x if x0**2 &lt;= x: return x0 x0 = int((x0 + x / x0) / 2)]]></content>
       <categories>
-        <category>algorithms</category>
+        <category>algorithm</category>
       </categories>
       <tags>
         <tag>python</tag>
@@ -234,7 +234,7 @@
     <url>%2F2018%2F04%2F20%2Falgorithm%2Fsearch-for-a-range%2F</url>
     <content type="text"><![CDATA[123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566"""https://leetcode.com/problems/search-for-a-range/description/"""class Solution(object): def searchRange(self, nums, target): """ :type nums: List[int] :type target: int :rtype: List[int] &gt;&gt;&gt; s = Solution() &gt;&gt;&gt; s.searchRange([5, 7, 7, 8, 8, 10], 8) [3, 4] &gt;&gt;&gt; s.searchRange([5, 7, 7, 8, 8, 10], 6) [-1, -1] &gt;&gt;&gt; s.searchRange([], 0) [-1, -1] &gt;&gt;&gt; s.searchRange([1], 1) [0, 0] &gt;&gt;&gt; s.searchRange([1, 3], 1) [0, 0] &gt;&gt;&gt; s.searchRange([1, 4], 4) [1, 1] &gt;&gt;&gt; s.searchRange([2, 2], 2) [0, 1] """ start = 0 end = len(nums) if end == 0: return [-1, -1] ex = -1 while True: if end - start == 1: if nums[start] == target: ex = start break mid_ind = (start+end)//2 mid = nums[mid_ind] if mid &gt; target: end = mid_ind elif mid &lt; target: start = mid_ind else: ex = mid_ind break # cannot find target in nums. if ex == -1: return [-1, -1] start = ex end = ex # extend to the end. for idx in range(ex+1, len(nums)): if nums[idx] == target: end = idx else: break # extend to the start. for idx in range(ex-1, -1, -1): if nums[idx] == target: start = idx else: break return [start, end]]]></content>
       <categories>
-        <category>algorithms</category>
+        <category>algorithm</category>
       </categories>
       <tags>
         <tag>python</tag>
@@ -247,7 +247,7 @@
     <url>%2F2018%2F04%2F20%2Falgorithm%2Fstring-to-integer-atoi%2F</url>
     <content type="text"><![CDATA[123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990"""https://leetcode.com/problems/string-to-integer-atoi/description/"""class Solution(object): def myAtoi(self, st): """ :type str: str :rtype: int &gt;&gt;&gt; s = Solution() &gt;&gt;&gt; s.myAtoi("42") 42 &gt;&gt;&gt; s.myAtoi(" -42") -42 &gt;&gt;&gt; s.myAtoi("4193 with words") 4193 &gt;&gt;&gt; s.myAtoi("words and 987") 0 &gt;&gt;&gt; s.myAtoi("-91283472332") -2147483648 &gt;&gt;&gt; s.myAtoi(" -12-45") -12 &gt;&gt;&gt; s.myAtoi("-") 0 &gt;&gt;&gt; s.myAtoi("- 1") 0 &gt;&gt;&gt; s.myAtoi("- 1") 0 &gt;&gt;&gt; s.myAtoi("- -1") 0 &gt;&gt;&gt; s.myAtoi("+1") 1 &gt;&gt;&gt; s.myAtoi("123 456") 123 """ INT_MAX = 2**31 - 1 INT_MIN = -2**31 start, end = -1, -1 if st == "": return 0 for idx, i in enumerate(st): if i == " ": if start != -1: end = idx break elif i in set(&#123;"-", "+"&#125;): if start == -1: start = idx else: end = idx break elif i in set(&#123;"0", "1", "2", "3", "4", "5", "6", "7", "8", "9"&#125;): if start == -1: start = idx else: if start == -1: return 0 else: end = idx break try: if end == -1: value = int(st[start:]) else: value = int(st[start:end]) except ValueError: return 0 if value &gt; INT_MAX: return INT_MAX if value &lt; INT_MIN: return INT_MIN return value def myAtoi2(self, st): """ :type str: str :rtype: int """ import re st = st.strip() try: res = re.search('(^[\+\-]?\d+)', st).group() res = int(res) res = res if res &lt;= 2147483647 else 2147483647 res = res if res &gt;= -2147483648 else -2147483648 except: res = 0 return res]]></content>
       <categories>
-        <category>algorithms</category>
+        <category>algorithm</category>
       </categories>
       <tags>
         <tag>python</tag>
@@ -260,7 +260,7 @@
     <url>%2F2018%2F04%2F13%2Falgorithm%2Fpowx-n%2F</url>
     <content type="text"><![CDATA[1234567891011121314151617181920212223242526272829303132333435363738394041class Solution(object): def myPow(self, x, n): """ :type x: float :type n: int :rtype: float &gt;&gt;&gt; s = Solution() &gt;&gt;&gt; s.myPow(2.00000, 10) 1024.00000 &gt;&gt;&gt; s.myPow(2.10000, 3) 9.26100 """ # change n to position, check whether x is 1 or -1 if n == 0: return 1 elif n &gt; 0: pass else: n = -n x = 1 / x if x == 1: return 1 if x == -1: return 1 if n % 2 == 0 else -1 return self.pow(x, n) def pow(self, x, n): # n is positive if n == 0: return 1 if n == 1: return x if n % 2 == 0: return self.pow(x, n/2)**2 else: return x*self.pow(x, n/2)**2if __name__ == '__main__': s = Solution() print(s.myPow(0.000001, 2111121))]]></content>
       <categories>
-        <category>algorithms</category>
+        <category>algorithm</category>
       </categories>
       <tags>
         <tag>python</tag>
@@ -273,20 +273,7 @@
     <url>%2F2018%2F04%2F13%2Falgorithm%2Freverse-integer%2F</url>
     <content type="text"><![CDATA[123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051"""https://leetcode.com/problems/reverse-integer/description/"""class Solution(object): def reverse(self, x): """ :type x: int :rtype: int &gt;&gt;&gt; s = Solution() &gt;&gt;&gt; s.reverse(123) 321 &gt;&gt;&gt; s.reverse(0) 0 &gt;&gt;&gt; s.reverse(-123) -321 &gt;&gt;&gt; s.reverse(2**31) 0 &gt;&gt;&gt; s.reverse(1563847412) 0 """ if x == 0: return x if x &lt; 0: sig = -1 else: sig = 1 s = int((str(abs(x))[::-1])) if sig &lt; 0: if s &gt; 2**31: return 0 else: if s &gt; 2**31 - 1: return 0 if sig == -1: s = -s return sdef test(): s = Solution() s.reverse(123) s.reverse(0) s.reverse(-123) s.reverse(2**31) s.reverse(1563847412)if __name__ == '__main__': import timeit print(timeit.timeit("test()", number=100000, setup="from __main__ import test"))]]></content>
       <categories>
-        <category>algorithms</category>
-      </categories>
-      <tags>
-        <tag>python</tag>
-        <tag>LeetCode</tag>
-        <tag>algorithms</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[LeetCode: add two numbers]]></title>
-    <url>%2F2018%2F04%2F12%2Falgorithm%2Fadd-two-number%2F</url>
-    <content type="text"><![CDATA[123456789101112131415161718192021222324252627282930313233343536373839404142"""https://leetcode-cn.com/problems/add-two-numbers/description/copy codes."""class ListNode: def __init__(self, x): self.val = x self.next = Noneclass Solution(object): def addTwoNumbers(self, l1, l2): """ :type l1: ListNode :type l2: ListNode :rtype: ListNode """ dummy = ListNode(0) current, carry = dummy, 0 while l1 or l2: val = carry if l1: val += l1.val l1 = l1.next if l2: val += l2.val l2 = l2.next carry, val = divmod(val, 10) current.next = ListNode(val) current = current.next if carry == 1: current.next = ListNode(1) return dummy.nextif __name__ == '__main__': a, a.next, a.next.next = ListNode(2), ListNode(4), ListNode(3) b, b.next, b.next.next = ListNode(5), ListNode(6), ListNode(4) result = Solution().addTwoNumbers(a, b) print("&#123;0&#125; -&gt; &#123;1&#125; -&gt; &#123;2&#125;".format(result.val, result.next.val, result.next.next.val))]]></content>
-      <categories>
-        <category>algorithms</category>
+        <category>algorithm</category>
       </categories>
       <tags>
         <tag>python</tag>
@@ -299,7 +286,20 @@
     <url>%2F2018%2F04%2F12%2Falgorithm%2Flongest-substring-without-repeating-characters%2F</url>
     <content type="text"><![CDATA[“””https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/description/无重复字符的最长子串“”” class Solution(object): def lengthOfLongestSubstring(self, s): “”” :type s: str :rtype: int &gt;&gt;&gt; s = Solution() &gt;&gt;&gt; s.lengthOfLongestSubstring(“aab”) 2 &gt;&gt;&gt; s.lengthOfLongestSubstring(“dvdf”) 3 &gt;&gt;&gt; s.lengthOfLongestSubstring(“abcabcbb”) 3 &gt;&gt;&gt; s.lengthOfLongestSubstring(“abcabcbb”) 3 &gt;&gt;&gt; s.lengthOfLongestSubstring(“abba”) 2 &gt;&gt;&gt; s.lengthOfLongestSubstring(“aaaaaaa”) 1 &gt;&gt;&gt; s.lengthOfLongestSubstring(“a”) 1 &gt;&gt;&gt; s.lengthOfLongestSubstring(“”) 0 “”” if s == “”: return 0 if len(s) == 1: return 1 # 记录字符到index的映射 dic = {} L, start_ind = 0, 0 for idx, i in enumerate(s): # 第idx个字符在dic中且是超过start_ind的字符 if i in dic and start_ind &lt;= dic[i]: L = max(idx - start_ind, L) start_ind = dic[i] + 1 dic[i] = idx L = max(idx + 1 - start_ind, L) return L]]></content>
       <categories>
-        <category>algorithms</category>
+        <category>algorithm</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+        <tag>LeetCode</tag>
+        <tag>algorithms</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[LeetCode: add two numbers]]></title>
+    <url>%2F2018%2F04%2F12%2Falgorithm%2Fadd-two-number%2F</url>
+    <content type="text"><![CDATA[123456789101112131415161718192021222324252627282930313233343536373839404142"""https://leetcode-cn.com/problems/add-two-numbers/description/copy codes."""class ListNode: def __init__(self, x): self.val = x self.next = Noneclass Solution(object): def addTwoNumbers(self, l1, l2): """ :type l1: ListNode :type l2: ListNode :rtype: ListNode """ dummy = ListNode(0) current, carry = dummy, 0 while l1 or l2: val = carry if l1: val += l1.val l1 = l1.next if l2: val += l2.val l2 = l2.next carry, val = divmod(val, 10) current.next = ListNode(val) current = current.next if carry == 1: current.next = ListNode(1) return dummy.nextif __name__ == '__main__': a, a.next, a.next.next = ListNode(2), ListNode(4), ListNode(3) b, b.next, b.next.next = ListNode(5), ListNode(6), ListNode(4) result = Solution().addTwoNumbers(a, b) print("&#123;0&#125; -&gt; &#123;1&#125; -&gt; &#123;2&#125;".format(result.val, result.next.val, result.next.next.val))]]></content>
+      <categories>
+        <category>algorithm</category>
       </categories>
       <tags>
         <tag>python</tag>
@@ -312,7 +312,7 @@
     <url>%2F2018%2F04%2F11%2Falgorithm%2Ftwosum%2F</url>
     <content type="text"><![CDATA[1234567891011121314151617181920212223242526272829"""https://leetcode-cn.com/problems/two-sum/description/"""class Solution(object): def twoSum(self, nums, target): """ :type nums: List[int] :type target: int :rtype: List[int] &gt;&gt;&gt; s = Solution() &gt;&gt;&gt; nums = [3, 2, 4] &gt;&gt;&gt; target = 6 &gt;&gt;&gt; s.twoSum(nums, target) [1, 2] """ # tmp = [target - i for i in nums] # for idx, i in enumerate(tmp): # try: # idx2 = nums.index(i) # if idx2 != idx: # return [idx, idx2] # except ValueError: # pass dic = &#123;&#125; for idx, num in enumerate(nums): if target - num in dic: return [dic[target-num], idx] dic[num] = idx]]></content>
       <categories>
-        <category>algorithms</category>
+        <category>algorithm</category>
       </categories>
       <tags>
         <tag>python</tag>
@@ -325,7 +325,7 @@
     <url>%2F2018%2F04%2F10%2Falgorithm%2Fmax_subarray_leetcode%2F</url>
     <content type="text"><![CDATA[123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899100101102103104105106107108109110111112113114115116117118119120121122123124125126127128129130131132133134135136137138139140141142143144145146147148149150151152153154155156157158159160"""MSP(max sub-array problem)wiki(https://en.wikipedia.org/wiki/Maximum_subarray_problem).1-D: kadene's algorithm time complexity: O(n)2-D: ~=O(n^3)"""import numpy as npfrom itertools import combinations, accumulatedef msp_1D(A): """ 1D array MSP. Parameters ---------- A: list or np.ndarray Returns ------- max_so_far: max sum of subarraies. &gt;&gt;&gt; A = np.array([1, 2, 3, 0, -1, -2, 3, 4, 1, -2, 0]) &gt;&gt;&gt; max_so_far = msp_1D(A) &gt;&gt;&gt; max_so_far == 11 True """ max_ending_here = max_so_far = 0 for x in A: max_ending_here = max(0, max_ending_here + x) max_so_far = max(max_so_far, max_ending_here) return max_so_fardef msp_1D_with_index(A): """ solve 1D max sub-array problem. Parameters ---------- A: list or np.ndarray Returns ------- start_ind: int end_ind: int max_so_far: max sum of subarraies. That is to say: &gt;&gt;&gt; A = np.array([1, 2, 3, 0, -1, -2, 3, 4, 1, -2, 0]) &gt;&gt;&gt; start_ind, end_ind, max_so_far = msp_1D_with_index(A) &gt;&gt;&gt; start_ind, end_ind, max_so_far (0, 8, 11) &gt;&gt;&gt; sum(A[start_ind:end_ind+1]) == max_so_far True """ start_ind, end_ind = 0, 0 max_ending_here, max_so_far = 0, 0 for idx, x in enumerate(A): max_ending_here1 = max_ending_here + x if max_ending_here1 &gt; 0: max_ending_here = max_ending_here1 else: # start with this idx. start_ind = idx + 1 max_ending_here = 0 if max_so_far &lt; max_ending_here: # end with this idx. end_ind = idx max_so_far = max_ending_here return start_ind, end_ind, max_so_fardef msp_2D(A): """ 2D array MSP. Parameters ---------- A: np.ndarray Returns ------- start_ind: int end_ind: int max_so_far: max sum of subarraies. Steps ----- 1. caculate acc matrix(accumulate of A). 2. for all indexes i, j pairs(i&lt;j), calculating sum of block for a k column(using acc matrix). do 1-d MSP(get a max sum block under i, j) 3. return the max. &gt;&gt;&gt; A = np.array([\ [0, -2, -7, 0],\ [9, 2, -6, 2],\ [-4, 1, -4, 1],\ [-1, 8, 0, -2]]) &gt;&gt;&gt; m = msp_2D(A) &gt;&gt;&gt; m == 15 True """ A = np.array(A) acc = np.array([*accumulate(A)]) m = 0 for i, j in combinations(range(A.shape[0]), 2): m_tmp = msp_1D([ acc[j, k] - acc[i - 1, k] if i != 0 else acc[j, k] for k in range(A.shape[1]) ]) if m_tmp &gt; m: m = m_tmp return mdef msp_2D_with_index(A): """ 2D array MSP. Parameters ---------- A: np.ndarray Returns ------- start_ind: tuple max sum block left-top position. end_ind: tuple max sum block right-bottom position. max_so_far: max sum of subarraies. That is to say: &gt;&gt;&gt; A = np.array([\ [0, -2, -7, 0],\ [9, 2, -6, 2],\ [-4, 1, -4, 1],\ [-1, 8, 0, -2]]) &gt;&gt;&gt; start_ind, end_ind, m = msp_2D_with_index(A) &gt;&gt;&gt; A[start_ind[0]:end_ind[0]+1, start_ind[1]:end_ind[1]+1].sum() == m True """ A = np.array(A) acc = np.array([*accumulate(A)]) start_ind, end_ind, m = None, None, 0 for i, j in combinations(range(A.shape[0]), 2): sind, eind, m_tmp = msp_1D_with_index([ acc[j, k] - acc[i - 1, k] if i != 0 else acc[j, k] for k in range(A.shape[1]) ]) if m_tmp &gt; m: m = m_tmp start_ind = (i, sind) end_ind = (j, eind) return start_ind, end_ind, m]]></content>
       <categories>
-        <category>algorithms</category>
+        <category>algorithm</category>
       </categories>
       <tags>
         <tag>python</tag>
@@ -341,8 +341,8 @@
         <category>linux</category>
       </categories>
       <tags>
-        <tag>linux</tag>
         <tag>tool</tag>
+        <tag>linux</tag>
       </tags>
   </entry>
   <entry>
@@ -400,8 +400,8 @@
         <category>linux</category>
       </categories>
       <tags>
-        <tag>linux</tag>
         <tag>tool</tag>
+        <tag>linux</tag>
       </tags>
   </entry>
   <entry>
@@ -444,7 +444,7 @@
     <url>%2F2017%2F12%2F26%2Falgorithm%2Fsampling-uniform%2F</url>
     <content type="text"><![CDATA[123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899100101102103104105106107108109110111112113114115116117118119120121122123# coding:utf-8import osimport randomimport sys'''不知道采样个数n时，想要均匀采样k个的方法！(只有k个存储空间限制的情况下)若sample各不相同，则最终被选取的概率应为k/n假设:1. k&lt;=n2. 第i次的sample，最终接受它的概率为p(i)3. 若已经有k个samples采用，则随机选一个剔除然后接受新的sample采样方法:1. i&lt;=k, approve2. i&gt;k, approve with the probability of k/i证明：对于前k个sample中任意一个sample，最终approved的概率为：k/n = [1-p(k+1)/k] * [1-p(k+2)/k] ... * [1-p(n)/k] ... (1)注： p(i)*((k-1)/k)+1-p(i) 化简得 1-p(i)/k对于i&gt;k的任意一个sample，最终approved的概率为：k/n = p(i) * [1-p(i+1)/k] * ... * [1-p(n)/k] ... (2)连立(1),(2),得p(k+1)=k/(k+1)...p(n)=k/n第i次的sample，最终接受它的概率为: p(i) = k/i决定了p(i),则无论采样个数多少，则最终采用的'''class Sampling(object): def __init__(self, k): self.samples = [] self.k = k self.tick = 0 def sampling(self): return self.samples def read(self, sample): # processing self.processing(sample) assert len(self.samples) &lt;= self.k, "Overflow" def approve(self, sample): idx = random.randint(0, self.k - 1) self.samples[idx] = sample def processing(self, sample): self.tick += 1 if len(self.samples) &lt; self.k: self.samples.append(sample) elif random.randint(1, self.tick) &lt;= self.k: self.approve(sample) else: passclass Stat(object): def __init__(self, T, N, k): """ Repeat T trials, each trial will read N characters and return k samples """ self.T = T self.N = N assert 1 &lt;= k &lt;= 25 assert k &lt;= N self.k = k self.source = &#123;&#125; def stream(self): sampler = Sampling(self.k) for i in range(self.N): delta = random.randint(0, 10) c = chr(ord('A') + delta) if c not in self.source: self.source[c] = 1 else: self.source[c] += 1 sampler.read(c) return sampler def count(self): cnt = &#123;&#125; for t in range(self.T): sampler = self.stream() samples = sampler.sampling() for s in samples: if s in cnt: cnt[s] += 1 else: cnt[s] = 1 return cnt def statistic(self): cnt = self.count() total = sum(cnt.values()) print "total: ", total for k, v in sorted(cnt.items()): print "%c %d %0.3f" % (k, v, float(v) / total) total = sum(self.source.values()) print "source total: ", total for k, v in sorted(self.source.items()): print "%c %d %0.3f" % (k, v, float(v) / total)if __name__ == '__main__': stat_char = Stat(100000, 10, 5) stat_char.statistic()]]></content>
       <categories>
-        <category>algorithms</category>
+        <category>algorithm</category>
       </categories>
       <tags>
         <tag>python</tag>
@@ -496,8 +496,8 @@
         <category>linux</category>
       </categories>
       <tags>
-        <tag>linux</tag>
         <tag>tool</tag>
+        <tag>linux</tag>
       </tags>
   </entry>
   <entry>
@@ -505,7 +505,7 @@
     <url>%2F2017%2F11%2F10%2Falgorithm%2Fmax_squre_submatrix%2F</url>
     <content type="text"><![CDATA[输入0-1矩阵，返回最大边长的全为1的子矩阵的边长，及在原始矩阵中的位置 1234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556# coding:utf-8"""0-1 matrix.find max squre 1 submatrix."""import numpy as npdef max_squre(matrix): # 输入0-1矩阵，返回最大边长的全为1的子矩阵的边长，及在原始矩阵中的位置 # ms矩阵中i，j处元素： # 若不为0, 则代表该处能作为右下角的子矩阵的边长 w, h = matrix.shape ms = np.zeros(shape=(w, h), dtype=np.int8) for i in range(w): for j in range(h): if i == 0 or j == 0: ms[i, j] = matrix[i, j] else: if matrix[i, j] == 1: ms[i, j] = min(ms[i-1, j], ms[i, j-1], ms[i-1, j-1]) + 1 else: ms[i, j] = 0 return ms.max(), (ms.argmax()/h, ms.argmax()%h)def modify(matrix, ms, x, y): if matrix[x-ms+1:x+1, y-ms+1:y+1].all(): # 若子矩阵全为1, 则替换为-1, 显示出来 matrix[x-ms+1:x+1, y-ms+1:y+1] = -1 return matrixdef test(): from random import choice n = 15 for k in range(1): matrix = np.zeros(shape=(n, n), dtype=np.int8) for (idx, idy), d in np.ndenumerate(matrix): matrix[idx, idy] = choice([0, 1]) ms, (x, y) = max_squre(matrix) matrix = modify(matrix, ms, x, y) print matrixif __name__ == "__main__": matrix = np.array([ [0, 0, 1, 1, 1, 0], [1, 0, 1, 1, 1, 1], [1, 1, 1, 1, 1, 0], [0, 1, 1, 0, 1, 1], [1, 0, 1, 1, 1, 1], [0, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1], [0, 0, 1, 1, 1, 1], [1, 0, 1, 1, 0, 1] ]) ms, (x, y) = max_squre(matrix) print ms, x, y print modify(matrix, ms, x, y)]]></content>
       <categories>
-        <category>algorithms</category>
+        <category>algorithm</category>
       </categories>
       <tags>
         <tag>python</tag>
@@ -520,8 +520,8 @@
         <category>linux</category>
       </categories>
       <tags>
-        <tag>linux</tag>
         <tag>tool</tag>
+        <tag>linux</tag>
       </tags>
   </entry>
   <entry>
@@ -537,9 +537,9 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[python判断字符编码]]></title>
-    <url>%2F2017%2F09%2F16%2Fpython%2F%E5%AD%97%E7%AC%A6%E7%BC%96%E7%A0%81%E5%88%A4%E6%96%AD%2F</url>
-    <content type="text"><![CDATA[1234import sysreload(sys)sys.setdefaultencoding(&apos;utf-8&apos;) Python 字符编码判断 法一12345678#判断是否为一般字符串isinstance(s, str)#用来判断是否为unicodeisinstance(s, unicode) 或 12if type(str).__name__ != &quot;unicode&quot;: str=unicode(str, &quot;utf-8&quot;) 法二：Python chardet 字符编码判断使用 chardet 可以很方便的实现字符串/文件的编码检测。尤其是中文网页，有的页面使用GBK/GB2312，有的使用UTF8，如果你需要去爬一些页面，知道网页编码很重要的，虽然HTML页面有charset标签，但是有些时候是不对的。那么chardet就能帮我们大忙了。123456import urllibimport chardetrawdata = urllib.urlopen(&apos;http://www.google.cn/&apos;).read()chardet.detect(rawdata) Results: 12&#123;&apos;confidence&apos;: 0.98999999999999999, &apos;encoding&apos;: &apos;GB2312&apos;&#125; chardet可以直接用detect函数来检测所给字符的编码。 函数返回值为字典，有2个元数，一个是检测的可信度，另外一个就是检测到的编码。]]></content>
+    <title><![CDATA[python: operator]]></title>
+    <url>%2F2017%2F09%2F16%2Fpython%2Fpython-operator%2F</url>
+    <content type="text"><![CDATA[12345678910111213141516171819202122#!/usr/bin/env python3&quot;&quot;&quot;This program lets you create a simple command line calculator without usingthe &apos;if..else&apos; construct. It uses built-in &apos;operator&apos; module to accomplish thesameCreated with help of an answer on stackoverflow. Don&apos;t have the exact link.&quot;&quot;&quot;import operatorops = &#123; &quot;+&quot;: operator.add, &quot;-&quot;: operator.sub, &quot;/&quot;: operator.truediv, &quot;*&quot;: operator.mul&#125;x = input(&quot;Enter an operator [OPTIONS: +, -, *, /]: &quot;)y = int(input(&quot;Enter number: &quot;))z = int(input(&quot;Enter number: &quot;))print (ops[x](y, z))]]></content>
       <categories>
         <category>python</category>
       </categories>
@@ -548,9 +548,9 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[python: operator]]></title>
-    <url>%2F2017%2F09%2F16%2Fpython%2Fpython-operator%2F</url>
-    <content type="text"><![CDATA[12345678910111213141516171819202122#!/usr/bin/env python3&quot;&quot;&quot;This program lets you create a simple command line calculator without usingthe &apos;if..else&apos; construct. It uses built-in &apos;operator&apos; module to accomplish thesameCreated with help of an answer on stackoverflow. Don&apos;t have the exact link.&quot;&quot;&quot;import operatorops = &#123; &quot;+&quot;: operator.add, &quot;-&quot;: operator.sub, &quot;/&quot;: operator.truediv, &quot;*&quot;: operator.mul&#125;x = input(&quot;Enter an operator [OPTIONS: +, -, *, /]: &quot;)y = int(input(&quot;Enter number: &quot;))z = int(input(&quot;Enter number: &quot;))print (ops[x](y, z))]]></content>
+    <title><![CDATA[python判断字符编码]]></title>
+    <url>%2F2017%2F09%2F16%2Fpython%2F%E5%AD%97%E7%AC%A6%E7%BC%96%E7%A0%81%E5%88%A4%E6%96%AD%2F</url>
+    <content type="text"><![CDATA[1234import sysreload(sys)sys.setdefaultencoding(&apos;utf-8&apos;) Python 字符编码判断 法一12345678#判断是否为一般字符串isinstance(s, str)#用来判断是否为unicodeisinstance(s, unicode) 或 12if type(str).__name__ != &quot;unicode&quot;: str=unicode(str, &quot;utf-8&quot;) 法二：Python chardet 字符编码判断使用 chardet 可以很方便的实现字符串/文件的编码检测。尤其是中文网页，有的页面使用GBK/GB2312，有的使用UTF8，如果你需要去爬一些页面，知道网页编码很重要的，虽然HTML页面有charset标签，但是有些时候是不对的。那么chardet就能帮我们大忙了。123456import urllibimport chardetrawdata = urllib.urlopen(&apos;http://www.google.cn/&apos;).read()chardet.detect(rawdata) Results: 12&#123;&apos;confidence&apos;: 0.98999999999999999, &apos;encoding&apos;: &apos;GB2312&apos;&#125; chardet可以直接用detect函数来检测所给字符的编码。 函数返回值为字典，有2个元数，一个是检测的可信度，另外一个就是检测到的编码。]]></content>
       <categories>
         <category>python</category>
       </categories>
@@ -606,19 +606,6 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[ubuntu配置初始化]]></title>
-    <url>%2F2017%2F01%2F04%2Flinux%2Fubuntu-config%2F</url>
-    <content type="text"><![CDATA[fcitx 输入法12sudo apt-get install fcitx fcitx-config-gtk fcitx-sunpinyin fcitx-googlepinyin fcitx-module-cloudpinyin im-configsudo im-config -s fcitx -z default 取消默认文件夹设置123456789# ~/.config/user-dirs.dirsxdg-user-dirs-update --set DESKTOP $HOME/xdg-user-dirs-update --set DOWNLOAD $HOME/xdg-user-dirs-update --set TEMPLATES $HOME/xdg-user-dirs-update --set PUBLICSHARE $HOME/xdg-user-dirs-update --set DOCUMENTS $HOME/xdg-user-dirs-update --set MUSIC $HOME/xdg-user-dirs-update --set PICTURES $HOME/xdg-user-dirs-update --set VIDEOS $HOME/ 卸载软件列表1sudo apt purge deja-dup gnome-sudoku webbrowser-app cheese gnome-mines gnome-mahjongg simple-scan empathy thunderbird rhythmbox libreoffice-common unity-webapps-common aisleriot transmission-common transmission-gtk remmina ubuntu-web-launchers 必备软件列表1234sudo apt-get install curl vim exuberant-ctags git ack-grepsudo pip install pep8 flake8 pyflakes isort yapfsudo apt install tmux zsh htop rar vim terminator ipython3 python3-pip openssh-server devtodo tree chsh -s /bin/zsh 可选安装软件列表123sudo apt install flashplugin-installer folder-color ubuntu-gnome-desktop moc kdeconnect gnome-tweak-toolsudo apt install graphviz virtualbox masterpdfeditor4sudo apt install gtk-recordmydesktop recordmydesktop 其余软件列表123nitrogen okular vlc screenfetchunison unison-gtk qrencode figlet xdotool cmatrix fortune fortune-zh cowsay vscode wps vimconfig zsh]]></content>
-      <categories>
-        <category>linux</category>
-      </categories>
-      <tags>
-        <tag>linux</tag>
-        <tag>config</tag>
-        <tag>ubuntu</tag>
-      </tags>
-  </entry>
-  <entry>
     <title><![CDATA[python: struct模块处理二进制数据]]></title>
     <url>%2F2017%2F01%2F04%2Fpython%2Fpython-struct-binary-data%2F</url>
     <content type="text"><![CDATA[struct模块中最重要的三个函数是pack(), unpack(), calcsize() #pack(fmt, v1, v2, …) 按照给定的格式(fmt)，把数据封装成字符串(实际上是类似于c结构体的字节流) #unpack(fmt, string)按照给定的格式(fmt)解析字节流string，返回解析出来的tuple #calcsize(fmt)计算给定的格式(fmt)占用多少字节的内存 struct中支持的格式如下表： Format C Type Python 字节数 x|pad byte|no value|1c|char|string of length 1|1b|signed char|integer|1B|unsigned char|integer|1?|_Bool|bool|1h|short|integer|2H|unsigned short|integer|2i|int|integer|4I|unsigned int|integer or long|4l|long|integer|4L|unsigned long|long|4q|long long|long|8Q|unsigned long long|long|8f|float|float|4d|double|float|8s|char[]|string|1p|char[]|string|1P|void *|long|]]></content>
@@ -655,6 +642,19 @@
       </tags>
   </entry>
   <entry>
+    <title><![CDATA[ubuntu配置初始化]]></title>
+    <url>%2F2017%2F01%2F04%2Flinux%2Fubuntu-config%2F</url>
+    <content type="text"><![CDATA[fcitx 输入法12sudo apt-get install fcitx fcitx-config-gtk fcitx-sunpinyin fcitx-googlepinyin fcitx-module-cloudpinyin im-configsudo im-config -s fcitx -z default 取消默认文件夹设置123456789# ~/.config/user-dirs.dirsxdg-user-dirs-update --set DESKTOP $HOME/xdg-user-dirs-update --set DOWNLOAD $HOME/xdg-user-dirs-update --set TEMPLATES $HOME/xdg-user-dirs-update --set PUBLICSHARE $HOME/xdg-user-dirs-update --set DOCUMENTS $HOME/xdg-user-dirs-update --set MUSIC $HOME/xdg-user-dirs-update --set PICTURES $HOME/xdg-user-dirs-update --set VIDEOS $HOME/ 卸载软件列表1sudo apt purge deja-dup gnome-sudoku webbrowser-app cheese gnome-mines gnome-mahjongg simple-scan empathy thunderbird rhythmbox libreoffice-common unity-webapps-common aisleriot transmission-common transmission-gtk remmina ubuntu-web-launchers 必备软件列表1234sudo apt-get install curl vim exuberant-ctags git ack-grepsudo pip install pep8 flake8 pyflakes isort yapfsudo apt install tmux zsh htop rar vim terminator ipython3 python3-pip openssh-server devtodo tree chsh -s /bin/zsh 可选安装软件列表123sudo apt install flashplugin-installer folder-color ubuntu-gnome-desktop moc kdeconnect gnome-tweak-toolsudo apt install graphviz virtualbox masterpdfeditor4sudo apt install gtk-recordmydesktop recordmydesktop 其余软件列表123nitrogen okular vlc screenfetchunison unison-gtk qrencode figlet xdotool cmatrix fortune fortune-zh cowsay vscode wps vimconfig zsh]]></content>
+      <categories>
+        <category>linux</category>
+      </categories>
+      <tags>
+        <tag>linux</tag>
+        <tag>config</tag>
+        <tag>ubuntu</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[windows-tricks]]></title>
     <url>%2F2017%2F01%2F03%2Ftrick%2Fwindows-tricks%2F</url>
     <content type="text"><![CDATA[使用windows系统的小技巧，2015年之前整理。 SoftwareAutoHotkey 键位映射AutoHotkey config file format. 12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152;;ctrl ^;;shift +;;windows #;;alt !#n::run,notepad^!A::run,&quot;C:\GreenPrograms\FSCapture\FSCapture.exe&quot;#f::run,&quot;C:\Program Files\Mozilla Firefox\firefox.exe&quot;#g::run,&quot;E:\win10\regedit.vbs&quot;#c::run,&quot;C:\GreenPrograms\cleaner\kcleaner.exe&quot;^!t::run,&quot;C:\Windows\System32\bash.exe&quot;#PrintScreen::&#123; KeyWait PrintScreen KeyWait LWin ;释放左Win键才激活下面的命令 SendMessage,0x112,0xF170,2,,Program Manager ;关闭显示器。0x112:WM_SYSCOMMAND，0xF170:SC_MONITORPOWER。2：关闭，-1：开启显示器 Return&#125;;双击鼠标右键在窗口最大化与正常状态之间切换 WinStatus:=0 RButton:: &#123; KeyWait, RButton ;松开鼠标右键后才继续执行下面的代码 keyWait, RButton, D T0.15 ;在 100 毫秒内等待再次按下鼠标右键，可以设置一个自己觉得适合的等待时间。 If ErrorLevel Click, Right Else &#123; if WinStatus=0 &#123; WinMaximize , A WinStatus:=1 &#125; else &#123; WinRestore ,A WinStatus:=0 &#125; &#125; Return&#125;;置顶窗口F7::winset,AlwaysOnTop,, A ;;A表示当前窗口标题return dos 命令查看计算机启动时间1net statistics workstation 文件夹及文件名中的点 dos命令 usage md d..\ 创建d..文件夹 rd d..\ 删除d..文件夹 md .f 创建.f文件夹 ren 3 .3 将文件3改名为.3 使用vbs脚本使得bat无黑框1.bat12@echo offshutdown -s -t 3600 1.vbs12Set ws = CreateObject(&quot;Wscript.Shell&quot;) ws.run &quot;cmd /c *.bat&quot;,vbhide 强制删除bat脚本del.bat123DEL /F /A /Q \\?\%1RD /S /Q \\?\%1pause bat脚本传入参数12345传入参数：%1，%2……脚本所在路径：%~dp0脚本所在路径短路径：%~sdp0脚本所在盘符：%~d0环境当前目录：%cd% dos命令显示日期时间#%date% 和 %time% 2007-08-08 23:13 1234567C:/&gt;echo %date%2007-08-08 星期三C:/&gt;echo %date:~0,4%2007 盘符:/&gt;输出 %date%是一个参数 但是他后面带的这些就是取值范围，说说后面的数值 第一个0代表从头开始 后面的4代表共取4个字符1234C:/&gt;echo %date:~-3%星期三 这里面的负数代表倒数,也就取最后3个字符1234C:/&gt;echo %date:~-3,-1%星期 这里的-1是不输出最后1个字符-2当然是2个类推 time也类似1234echo %time%23:12:49.05 dos切换编码切换utf-81chcp 65001 切换gbk 1chcp 936 建立windows特殊文件夹(zzp..)Command 窗口输入 md zzp..\ 普通文件夹是一个“ . ” 复制文件进入： copy 文件名 c:\zzp..\ 打开文件夹： 进行中输入完整的路径和文件夹的名称 删除文件夹： Command 中输入 rd c:\zzp..\ 之前得清空文件夹！ 复制文件到专业文件夹1copy 文件路径 %systemroot%\tasks 伪造文件夹新建文件夹名称为：12## 合并复制隐藏文件 copy d:\ab.jpg /b +d:\abc.txt abcd.jpg12## love bat @echo offset all=zn echo %all% %all%%all% %all% %all% %all%%all%%all%%all%%all%echo %all% %all% %all% %all% %all% %all%echo %all% %all% %all% %all% %all% %all%echo %all% %all% %all% %all% %all% %all%%all%%all%%all%%all%echo %all% %all% %all% %all% %all% %all%echo %all% %all% %all% %all% %all% %all%echo %all% %all% %all% %all% %all% %all%echo %all% %all%%all% %all%%all% %all%%all%%all%%all%%all% pause&gt;nul12345# 注册表相关## 添加右键获取权限 Windows Registry Editor Version 5.00[HKEY_CLASSES_ROOT*\shell\runas]@=”获取权限”“NoWorkingDirectory”=””[HKEY_CLASSES_ROOT*\shell\runas\command]@=”cmd.exe /c takeown /f \”%1\” &amp;&amp; icacls \”%1\” /grant administrators:F”“IsolatedCommand”=”cmd.exe /c takeown /f \”%1\” &amp;&amp; icacls \”%1\” /grant administrators:F”[HKEY_CLASSES_ROOT\Directory\shell\runas]@=”获取权限”“NoWorkingDirectory”=””[HKEY_CLASSES_ROOT\Directory\shell\runas\command]@=”cmd.exe /c takeown /f \”%1\” /r /d y &amp;&amp; icacls \”%1\” /grant administrators:F /t”“IsolatedCommand”=”cmd.exe /c takeown /f \”%1\” /r /d y &amp;&amp; icacls \”%1\” /grant administrators:F /t”12## 隐藏文件 @ECHO OFFMD E:\RECYCLED\UDrives.{25336920-03F9-11CF-8FD0-00AA00686F13}&gt;NULIF EXIST o:\NUL GOTO DELETESUBST o: E:\RECYCLED\UDrives.{25336920-03F9-11CF-8FD0-00AA00686F13}START o:\echo 请把文件移动到打开的窗口中，但请妥善保留该文件，此批处理文件可用来存取隐藏文件！pausesubst /d o:12## 打开剪切板里路径的注册表 ‘ Created by Sergey TkachenkoDim objHTADim cClipBoardDim WshShellset objHTA=createobject(“htmlfile”)cClipBoard=objHTA.parentwindow.clipboarddata.getdata(“text”)Set WshShell = WScript.CreateObject(“WScript.Shell”)WshShell.RegWrite “HKCU\Software\Microsoft\Windows\CurrentVersion\Applets\Regedit\LastKey”, cClipBoard, “REG_SZ”WshShell.Run “regedit.exe -m”Set objHTA = nothingSet WshShell = nothing12## cmd更换字体 Windows Registry Editor Version 5.00[HKEY_CURRENT_USER\Console\%SystemRoot%_system32_cmd.exe]“WindowSize”=dword:00170058“ScreenBufferSize”=dword:01900119“WindowPosition”=dword:0079004b“ColorTable01”=dword:00235600“FontSize”=dword:00150000“FontWeight”=dword:00000190“FaceName”=”Consolas”“FontFamily”=dword:0000003612## 注册表添加程序自启动 开始-运行-输入regeditHKeyLocalMochine\SOFTWARE\Microsoft\Windows\CurrenVersion\Run`]]></content>
@@ -664,29 +664,6 @@
       <tags>
         <tag>trick</tag>
         <tag>windows</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[python 判断字符串内容类型]]></title>
-    <url>%2F2017%2F01%2F03%2Fpython%2F%E5%88%A4%E6%96%AD%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%86%85%E5%AE%B9%E7%B1%BB%E5%9E%8B%2F</url>
-    <content type="text"><![CDATA[字符串函数 返回True的情况 s.isalnum 只含字母数字且非空 s.isalpha 只含有字母且非空 s.isdigit 只含有数字且非空 s.islower 没有大写字母且非空 s.isupper 没有小写字母且非空 s.isspace 只含有空白字符且非空 s.istitle 每个英文单词首字母都大写且非空]]></content>
-      <categories>
-        <category>python</category>
-      </categories>
-      <tags>
-        <tag>python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[rar and tar]]></title>
-    <url>%2F2017%2F01%2F03%2Flinux%2Frar-tar%2F</url>
-    <content type="text"><![CDATA[rar，tar为linux上最常用的压缩解压打包工具。 rar12345678910111213#将文件log.py, grades.py，文件夹dir1压缩到log.rarrar a log.rar log.py grades.py dir1#将log.rar解压至temp文件夹（需新建）rar x log.rar ./temp#列出压缩包内文件rar l log.rar tar123456789101112131415161718192021222324# 压缩文件tar zcvf sth.tar.gz file1 file2 dir1#解压到当前目录tar zxvf sth.tar.gz#解压到指定目录tar zxvf sth.tar.gz -C ./temp#列出压缩包内文件tar tvf sth.tar.gz# 不压缩，只打包tar cvf sth.tar file1 dir1-c, --create 创建一个新归档-z 通过gzip压缩( tar本身不是压缩命令，)]]></content>
-      <categories>
-        <category>linux</category>
-      </categories>
-      <tags>
-        <tag>linux</tag>
-        <tag>tool</tag>
       </tags>
   </entry>
   <entry>
@@ -712,15 +689,38 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[patchelf 修改动态链接库]]></title>
-    <url>%2F2017%2F01%2F03%2Flinux%2Fpatchelf%2F</url>
-    <content type="text"><![CDATA[12patchelf --set-rpath $&#123;HOME&#125;/temp/demo/lib subscriber]]></content>
+    <title><![CDATA[sklearn: kmeans]]></title>
+    <url>%2F2017%2F01%2F03%2Fai%2Fsklearn-kmeans%2F</url>
+    <content type="text"><![CDATA[12345678910111213141516171819202122232425262728293031323334353637383940# -*- coding: utf-8 -*-from sklearn.cluster import KMeansfrom sklearn.externals import joblibfinal = open(&apos;c:/test/final.dat&apos; , &apos;r&apos;)data = [line.strip().split(&apos;\t&apos;) for line in final]feature = [[float(x) for x in row[3:]] for row in data]#调用kmeans类clf = KMeans(n_clusters=9)s = clf.fit(feature)print s#9个中心print clf.cluster_centers_#每个样本所属的簇print clf.labels_#用来评估簇的个数是否合适，距离越小说明簇分的越好，选取临界点的簇个数print clf.inertia_#进行预测print clf.predict(feature)#保存模型joblib.dump(clf , &apos;c:/km.pkl&apos;)#载入保存的模型clf = joblib.load(&apos;c:/km.pkl&apos;)&apos;&apos;&apos;#用来评估簇的个数是否合适，距离越小说明簇分的越好，选取临界点的簇个数for i in range(5,30,1): clf = KMeans(n_clusters=i) s = clf.fit(feature) print i , clf.inertia_&apos;&apos;&apos; 来源：http://blog.itpub.net/12199764/viewspace-1479320/]]></content>
+      <categories>
+        <category>ai</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+        <tag>sklearn</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[rar and tar]]></title>
+    <url>%2F2017%2F01%2F03%2Flinux%2Frar-tar%2F</url>
+    <content type="text"><![CDATA[rar，tar为linux上最常用的压缩解压打包工具。 rar12345678910111213#将文件log.py, grades.py，文件夹dir1压缩到log.rarrar a log.rar log.py grades.py dir1#将log.rar解压至temp文件夹（需新建）rar x log.rar ./temp#列出压缩包内文件rar l log.rar tar123456789101112131415161718192021222324# 压缩文件tar zcvf sth.tar.gz file1 file2 dir1#解压到当前目录tar zxvf sth.tar.gz#解压到指定目录tar zxvf sth.tar.gz -C ./temp#列出压缩包内文件tar tvf sth.tar.gz# 不压缩，只打包tar cvf sth.tar file1 dir1-c, --create 创建一个新归档-z 通过gzip压缩( tar本身不是压缩命令，)]]></content>
       <categories>
         <category>linux</category>
       </categories>
       <tags>
-        <tag>linux</tag>
         <tag>tool</tag>
+        <tag>linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[python 判断字符串内容类型]]></title>
+    <url>%2F2017%2F01%2F03%2Fpython%2F%E5%88%A4%E6%96%AD%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%86%85%E5%AE%B9%E7%B1%BB%E5%9E%8B%2F</url>
+    <content type="text"><![CDATA[字符串函数 返回True的情况 s.isalnum 只含字母数字且非空 s.isalpha 只含有字母且非空 s.isdigit 只含有数字且非空 s.islower 没有大写字母且非空 s.isupper 没有小写字母且非空 s.isspace 只含有空白字符且非空 s.istitle 每个英文单词首字母都大写且非空]]></content>
+      <categories>
+        <category>python</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
       </tags>
   </entry>
   <entry>
@@ -731,21 +731,21 @@
         <category>linux</category>
       </categories>
       <tags>
-        <tag>linux</tag>
         <tag>tool</tag>
+        <tag>linux</tag>
         <tag>terminal</tag>
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[sklearn: kmeans]]></title>
-    <url>%2F2017%2F01%2F03%2Fai%2Fsklearn-kmeans%2F</url>
-    <content type="text"><![CDATA[12345678910111213141516171819202122232425262728293031323334353637383940# -*- coding: utf-8 -*-from sklearn.cluster import KMeansfrom sklearn.externals import joblibfinal = open(&apos;c:/test/final.dat&apos; , &apos;r&apos;)data = [line.strip().split(&apos;\t&apos;) for line in final]feature = [[float(x) for x in row[3:]] for row in data]#调用kmeans类clf = KMeans(n_clusters=9)s = clf.fit(feature)print s#9个中心print clf.cluster_centers_#每个样本所属的簇print clf.labels_#用来评估簇的个数是否合适，距离越小说明簇分的越好，选取临界点的簇个数print clf.inertia_#进行预测print clf.predict(feature)#保存模型joblib.dump(clf , &apos;c:/km.pkl&apos;)#载入保存的模型clf = joblib.load(&apos;c:/km.pkl&apos;)&apos;&apos;&apos;#用来评估簇的个数是否合适，距离越小说明簇分的越好，选取临界点的簇个数for i in range(5,30,1): clf = KMeans(n_clusters=i) s = clf.fit(feature) print i , clf.inertia_&apos;&apos;&apos; 来源：http://blog.itpub.net/12199764/viewspace-1479320/]]></content>
+    <title><![CDATA[patchelf 修改动态链接库]]></title>
+    <url>%2F2017%2F01%2F03%2Flinux%2Fpatchelf%2F</url>
+    <content type="text"><![CDATA[12patchelf --set-rpath $&#123;HOME&#125;/temp/demo/lib subscriber]]></content>
       <categories>
-        <category>ai</category>
+        <category>linux</category>
       </categories>
       <tags>
-        <tag>python</tag>
-        <tag>sklearn</tag>
+        <tag>tool</tag>
+        <tag>linux</tag>
       </tags>
   </entry>
   <entry>
