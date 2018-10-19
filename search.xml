@@ -25,6 +25,17 @@
       </tags>
   </entry>
   <entry>
+    <title><![CDATA[gist id of atom and vscode settings]]></title>
+    <url>%2Flinux%2Fgithub-gist-sync-settings%2F</url>
+    <content type="text"><![CDATA[Please enter the password to read the blog. Decrypt U2FsdGVkX1/BMLF0qcfvGn60Tvd1F2jwMpghn11J9H+Kaql5tmtYk9VM3iSsecGhLbYNp/NY0D3VZwTiqdEKsO/EAlpdo5wkjgHEYrt2XZ1FfwToeNR1Un2WZtidXuArfWi9/5XDJiqGtJZFr+MPlAWZWcBApxqV0f1Nm2/Oga0u6YfNUAtPnk5PKFY6hOzx0wJ0tPz2JPYubLTjJXhDpDDE+ZLjYsuJnziAcEBObYdfuPY2ZdKV3ruMrBvD6Gno4TqCV9KZms8Z8Bu0odJugP6HUuCHv+hvQ1bJxD/+v8s9axrfMNQZ/5uD1UiSEW+9Br8WQOWKhSKOUL4rKXiMsoi4pZ5/ujAdgCPFI6Kr5RTHYvURAniRkxx8N13es63/yzFxwnQVwoMxQOBjWYLiuuxspoZ59EwsSMny6l2hh9IGIcrRDpdySRvByY3IYcjNM3XL6YXh/yFEcBvkRYCp3H+rmx6F83d1kr/t4LlKtkAN71f1yJUpOiT7t6jW1q0t3rCnhr21VLchZW5/RZHlDyWMXuaQrcRZHwM5Huq7Onx4bYk5SfQbChUkpWlwdNIRYdybepn5gxK1hBlW/RC7BoI/fwRENVYArjgSHzJGXDF4PzplRZAE2wWZq96cXYZmsXuUmv/zt39QV7QiKOCkQ2cSceFW8DeI7GLLBDgdsbiDoJbp6Q8nqbL9ZkRTYQYDRGtIvDot6yAUy+UrAiZ3eg5wWtR+gckdacZmmWgeECBYOwqvpVehLadtxgpwk+BxadU7zW8Hsq+RDTzjy7SBaJTN1uuTsPtc7oOXI0Pn/fnzyykecqCBew3ulUOwXmo8yDB+SyPaNJJAmIS8ncYwHLmjY0zPubUQn/gLLcGPpOmHlFCp3KKM9pEirFIQPG5OrWrBrX0PCEv1zKHqZ2GqpZBNrJf29kIVgouU6YJZ5qiAeyfXOxC/CYjZeLeJG40fYnI7+azE0eqc3K71TRMWXWleSx/1o5dFgk7Gk2JCnshKEwUVfKFhxHWqdIxwyc7VwGV/VWPv8AwS2KHWnnopRpfiTw3g+LyY7M6JIuLxF+xqkMOcPtCaxMor8VrMzBFTNpkS3dwmCtv2T3ugoNeIqDtEMJ6vrW4kMy4M+GFGT04AooVjHCZmIUenro0il2tf6KbkrOQcGhrvxIWLNRbEDpbnv3090UbR6lNw2VpPnP8a7fdjKfw1Y/01rd9oUJlMkD/Fo0u4a7pg6Pd9aujjoQ0veD0ALSPPdz3DzMDABgEmBGNBO2LDr8qxBa8Btq4AzzKDWH41tfffsJI+sa2TX3bq++89eiYMJ9j4zIJAPYA9Hi5FC0Z1i6Nql/or+A/In98TZj0Z6DaKQ7cWcKp/AIlQj1sHOtAvKrK4X+dWf3iyF7Fxd5N+RxEzUcjcwr+FZWX3VNMVQdnOeG9zerCxrQBr+cDlvBtYrl+f2KpSAipIH5oH0GPEFRIjLTEcdNB1O0Oih1teUkPibRFejFiH7svGK4D01HQsUOAWchBzNg21lNGftQVLvQBxNWuxCebpUSombWkc+MJfjZZ3SjkoaTEm4sMogdpFP0IVF0chBg2cTj/WD1UuWIe8YFcLgFqa9eDQMlFhYf+G4m55T+SL2ri8EiS0MbRxDH6eOWQagDYJUMQWuXa/yekHsqgCkZ9NaeKMmwnWmo9OoaI/DjJkvzo3yqGUN3RcKRMOAiUG8cztMUGxztAaKnC9Kqv0D6rzNdjjTvuvHotXchTWexQDgFAGLLQGqdR8CL1o0uyCWaAcHUiZ8D+cxRsPiUHj0VLHfLvwiXAAaVobE9u7zrNAreyQPZ27u2ivF34ZQA62OdjypzHmXt3dIn4ARLwrCM+iZ+mK6zfgiwuKLEWOE96tyK7coDq98MNhymkGqPl+rXY=]]></content>
+      <categories>
+        <category>linux</category>
+      </categories>
+      <tags>
+        <tag>config</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[linux tools]]></title>
     <url>%2Flinux%2Fefficient-tools%2F</url>
     <content type="text"><![CDATA[trash-cli1sudo apt install trash-cli Usage123456#alias rm!="/bin/rm -vi"#alias rm=trashalias t=trashalias lt=trash-listalias rt=restore-trashalias et=trash-empty 命令 用途 trash-put/trash 文件或目录移入回收站 trash-empty 清空回收站 trash-list 列出回收站中的文件 restore-trash 还原回收站中的文件 trash-rm 删除回收站中的单个文件 递归搜索文件内容-agggreer/the_silver_searcher: A code-searching tool similar to ack, but faster. 123sudo apt install silversearcher-agag def lib/ 字符模式下交互查看git项目-tigjonas/tig: Text-mode interface for git mysql客户端-mycli类似于ipython的mysql客户端，支持语法高亮和命令补全 C++手册查询-cppman1cppman std::thread 多线程下载工具axel1axel -n 20 URL 终端会话录制-script/scriptreplay12345script -t 2&gt;time.txt session.typescript# your commandexitscriptreplay -t time.txt session.typescript 媒体下载工具 you-getyoutube, google+, 优酷，腾讯视频，秒拍等12# socks5(pip install pysocks)you-get &apos;https://www.youtube.com/watch?v=jNQXAC9IVRw&apos; -s 127.0.0.1:12345 网络流量分析 iptraf-ng123sudo apt install iptrafiptraf-ng w实时网速查看 bwm-ng1sudo apt install bwm-ng terminal录屏 asciinema查询天气1234curl wttr.in/:helpcurl "wttr.in/Beijing?lang=zh"curl "wttr.in/Beijing?pq&amp;lang=zh"curl "wttr.in/Beijing?0pq&amp;lang=zh" sudoku1sudoku cmatrix12cmatrix figlet — 字符串在终端上显示1figlet i love you xdotool — 控制鼠标点击123456789101112131415161718显示鼠标当前位置xdotool getmouselocationxdotool mousemove x yxdotool click 1xdotool click 2xdotool click 3xdotool key ctrl +1xdotool click --repeat 10 --delay 500 1间隔0.5s一次，重复10次左键 qrencode –字符串转为终端像素点二维码nitrogen – 多显示屏设置不同壁纸1: install dconf-editor and nitrogen 1234sudo apt-get install dconf-editorsudo apt-get install nitrogen 2: Open dconf-editor 3: In dconf-editor, explore to /org/gnome/desktop/background/ 4: Unmark the show-desktop-icons option. 5: Open nitrogen 这样之后桌面文件夹不显示 xeyesfortune名句 fortune-zh唐诗 cowsay123456789101112cowsay -l查看所有动物/usr/share/cowsay/cows/*cowsay -f turtle指定动物fortune-zh | cowsay -f turtle动物说话 equalxlatex公式编辑器1sudo apt install equalx ffmpeg1ffmpeg -i '123.avi' -ac 2 -b:v 2000k -c:a aac -c:v libx264 -b:a 160k -vprofile high -bf 0 -strict experimental -f mp4 '123.mp4' 12-b:v 2000k-b:v 1000k 文件清晰度，大小 convmv更改文件名编码方式的一个工具 1convmv -f gbk -t utf-8 -r –-notest /home 就是将/home目录下原来文件名是gbk编码方式的全部改为utf-8格式的。这里 -f 后面为原来的编码方式，-t 后面是要更改为的编码方式， 12-r 表示这个目录下面的所有文件， –notest 表示马上执行，而不是仅仅测试而已。 iconv更改文件编码方式的一个工具 1iconv -f gbk -t utf-8 -o outfile infile -f为原来的编码方式，-t 为输出文件的编码方式， -o表示输出文件名，这利用outfile表示，最后跟上要更改编码方式的文件名sourcefile]]></content>
@@ -35,17 +46,6 @@
         <tag>tool</tag>
         <tag>linux</tag>
         <tag>trick</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[gist id of atom and vscode settings]]></title>
-    <url>%2Flinux%2Fgithub-gist-sync-settings%2F</url>
-    <content type="text"><![CDATA[Please enter the password to read the blog. Decrypt U2FsdGVkX1/Rh5xVN3v7oMSuHEQxFhNy48mPXMchhiR227JOpMEjDBgeFirIhI5h0ztTpOXUZFAzchWWzvxjP0cUuphKiokvz+GgYEGTQ5zm48LjOWVmeOKAdTRIPLDajDY2mE5d6Xp9HGyN7020LqxySwplhI8SKjALcRwuyAIm3LIzhediuZSwkyuekJIeDncaTOL03E8MXkezw9hcXXtfUN6snQNjjEC6LEHpd7yhjLjpGi/VRwBik7ioBR6wePhDUzEbcuuUFQLN7/efgeI7Kq3kPF+TDCcvs7CdkGB0fV4pdDKeelP+2lL2n0t4wGN4NqwFzgPJQNsu7iNsXFoBN/fKhzH2fBFXy1QOHLBJLvnUr/cGYIfl4S+mFBqFTd5Qd7sbp1XTe5klrtGoEfpRuCUzWIpt/R6D5tcbgkiI5TK9sIUC5YJbzl/iiihuWotf9+trA77gTPJ2ni13DU4az1cg0liHnuTp+R6t7oLQhQjaom8L9bMqLmq1KWoP34eBFix8tMbMehxXQG9txykt9ZADVTm7HYpvDpPTy1t8WcCaf7mUKBIDD3ypGBMMttPiz+EEc9BJCls5DFpIkUZmWwFyiuTWcKZsyrVIpd8Ohwu4B+A4yQImz6ndk52mFyAZHjaXuKQ6BDZUO2+PMHV4SqKRFaD70fVZn2nfRey++QsqGxSTW1zFQMYLNSAX0YvziSIqJEHhCM0TNHV9H0VolvR/F7W6/w0UFkbSi3MC/D+MDYFnLW+E1304Fk+Dq7EaXi7BpF9ZIZLqC0047Wp4wpbbaebvmC6hZcfpRPiA7qJ5N6e26cqHdQnv2yBmHYneMrIeKvMuWlEQ5J03cs7iUR/fj64hZbn6VVlldCwrvCjotrWoKGr2boUlvLKHgjcstm08J6g3xnk+ImKXXeSSkTH3uKXxRXFEiFqN0YpusyNyFQEy4NoQ3q3+EuUgxWLBFPKP+PYdI94dPXxkSY75IWTqanw9u9ohMyG5XajXhlpZgEn4y/nZ3F1qFLT066PdBWhPXaSDtD97yCKDTvvtS/cbKVo+3oFoj0XEICR5F912CmtHs5AmUatKXTeOXyJGwfZeCIbvH22HZOJ/ftGVKkcfbfNNqKD+R53Vf7NZWdl/5bsYVrsnPe3VZ+wsnmXKbMNSjJZ1P7TKG/0YavDI6tEhyOUr8bZ/Kxyn7GT7o33cOf4VW8O57El9qKVKkyiSdh74TdU/zV1o/hC3b2FAKDoXf/ZdOxIInXqGVXvhDFf+cIn15WFd2LFQr+h5DUNzcxvIQhBqkDtKHrrLwjds+MiG0EvPInHUSeQcZ1YplUmrwbp3hNEFwhbhsMou2xu44OTMCKfeJxbTlD0fwlYIIMRW9p+xLGFXNNZpBrKpjej+8O0LOdkyh2gdhQ0rY0olzsD5lYjyDPS8hkv1uiWVLySs1pIUwujuuwNzZ3P4ZMVLILorjSuLStzX6EEKWoBXps8MRsz/dQjMyLuwGF+7jR5sm4T839FwVVYl3N4WRcIxVds95+gSXbhR/pPf3t37uo0QDVZ+sut8lqTs0bo8a2oyhF5YLqbNXaBbIRMSi+2aZRtEDi3wT2j1l9AyAUX70k0fXXivaZxartpX8+cO+YCuQw9dMU9THteZD+PChfTjmzMxHHsy+3rXJt3LugvYjj6WPNnNZD7dVtUrHgh4PVhnmNt3ceOIQ8Us9X7irXA5P7XTWcpWlIvYklw6VzqTq/vlcBqw9laOvlaLGOp7/OtRxDPEhuPj5w1R3Pf9VASBRysa8esNKkS1QiuIiDjgJ+mA0U114ceIT0DCgWTSoigOsUqQpU4JQ8A8YJl2OIoHBO8tvW8eUCHyov5Yk+FvjsONVuJWTUTzWqbWbFr9cGvGwI19GmwLa9rgYVY=]]></content>
-      <categories>
-        <category>linux</category>
-      </categories>
-      <tags>
-        <tag>config</tag>
       </tags>
   </entry>
   <entry>
@@ -85,7 +85,7 @@
   <entry>
     <title><![CDATA[hexo-scripts]]></title>
     <url>%2Ftrick%2Fhexo-scripts%2F</url>
-    <content type="text"><![CDATA[针对hexo-next搭建的博客，写了几个方便操作的脚本： new.sh: 任意目录新建带模板的md文件 post.sh: 任意目录post+deploy backup.sh: 备份博客，以便日后迁移 new.shpost.shbackup.sh1alias new=your_path/new.sh 任意目录下new 123-456 会生成123-456.md文件并mv到当前目录下。 12345678#!/bin/bashblog_PATH=/home/zzp/work/blogCURRENT=$PWDcd $blog_PATH# echo “Usage: new.sh title”hexo n $1echo “[+] mv $1.md to current directory …”mv $blog_PATH/source/_posts/$1.md $CURRENT posh.sh运行参数12345678910# 将文件post到hexo博客source/_post下./post.sh [file]# deploy your website../post.sh -d# local server./post.sh -p 9920# post + deploy./post.sh -d [file]# post + local server./post.sh -p 9920 [file] 脚本内容123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263#!/bin/bashblog_PATH=/home/zzp/work/blogpost_PATH=$blog_PATH/source/_posts# update to web if DEPLOY=1DEPLOY=0PORT=0if [ “$1“ == “-h” ]||[ “$1“ == “–help” ]||[ $# -eq 0 ];then echo “Usage: basename &lt;span class=&quot;variable&quot;&gt;$0&lt;/span&gt; mdfile1 mdfile2 …” echo “Options:” echo “-d, –deploy: deploy your website.” echo “-p PORT: port of local server.” exit 0fiPOSITIONAL=()while [[ $# -gt 0 ]]dokey=“$1“case $key in -d|–deploy) DEPLOY=1 shift # past argument ;; -p|–port) PORT=“$2“ shift # past argument shift # past value ;; *) # unknown option POSITIONAL+=(“$1“) # save it in an array for later shift # past argument ;;esacdoneset – “$&#123;POSITIONAL[@]&#125;“ # restore positional parametersfor i in $@; do if [ -f $i ];then mv $i $post_PATH echo “[+] move $i into blog source …” fidonecd $blog_PATH# hexo clean and generate.if [ $DEPLOY == 1 ]||[ $PORT != 0 ];then # hexo clean hexo gfi# hexo deploy your website.if [ $DEPLOY == 1 ];then hexo delse # local server port. if [ $PORT != 0 ];then hexo s -p $PORT fifi backup.sh打包hexo博客项目内需要备份的文件 12345#!/bin/bashblog_PATH=/home/zzp/work/blogcd $blog_PATH# backuptar zcvf “blogsource.date +%Y%m%d.tar.gz” scaffolds/ source/ themes/ .gitignore _config.yml package.json *.sh backup]]></content>
+    <content type="text"><![CDATA[针对hexo-next搭建的博客，写了几个方便操作的脚本： new.sh: 任意目录新建带模板的md文件 post.sh: 任意目录post+deploy backup.sh: 备份博客，以便日后迁移 new.shpost.shbackup.sh1alias new=your_path/new.sh 任意目录下new 123-456 会生成123-456.md文件并mv到当前目录下。 12345678#!/bin/bashblog_PATH=/home/zzp/work/blogCURRENT=$PWDcd $blog_PATH# echo “Usage: new.sh title”hexo n $1echo “[+] mv $1.md to current directory …”mv $blog_PATH/source/_posts/$1.md $CURRENT 1alias post=your_path/post.sh 运行参数12345678910# 将文件post到hexo博客source/_post下./post.sh [file]# deploy your website../post.sh -d# local server./post.sh -p 9920# post + deploy./post.sh -d [file]# post + local server./post.sh -p 9920 [file] 脚本内容123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263#!/bin/bashblog_PATH=/home/zzp/work/blogpost_PATH=$blog_PATH/source/_posts# update to web if DEPLOY=1DEPLOY=0PORT=0if [ “$1“ == “-h” ]||[ “$1“ == “–help” ]||[ $# -eq 0 ];then echo “Usage: basename &lt;span class=&quot;variable&quot;&gt;$0&lt;/span&gt; mdfile1 mdfile2 …” echo “Options:” echo “-d, –deploy: deploy your website.” echo “-p PORT: port of local server.” exit 0fiPOSITIONAL=()while [[ $# -gt 0 ]]dokey=“$1“case $key in -d|–deploy) DEPLOY=1 shift # past argument ;; -p|–port) PORT=“$2“ shift # past argument shift # past value ;; *) # unknown option POSITIONAL+=(“$1“) # save it in an array for later shift # past argument ;;esacdoneset – “$&#123;POSITIONAL[@]&#125;“ # restore positional parametersfor i in $@; do if [ -f $i ];then mv $i $post_PATH echo “[+] move $i into blog source …” fidonecd $blog_PATH# hexo clean and generate.if [ $DEPLOY == 1 ]||[ $PORT != 0 ];then # hexo clean hexo gfi# hexo deploy your website.if [ $DEPLOY == 1 ];then hexo delse # local server port. if [ $PORT != 0 ];then hexo s -p $PORT fifi 打包hexo博客项目内需要备份的文件 12345#!/bin/bashblog_PATH=/home/zzp/work/blogcd $blog_PATH# backuptar zcvf “blogsource.date +%Y%m%d.tar.gz” scaffolds/ source/ themes/ .gitignore _config.yml package.json *.sh backup]]></content>
       <categories>
         <category>trick</category>
       </categories>
@@ -285,9 +285,9 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[LeetCode: add two numbers]]></title>
-    <url>%2Falgorithm%2Fadd-two-number%2F</url>
-    <content type="text"><![CDATA[123456789101112131415161718192021222324252627282930313233343536373839404142"""https://leetcode-cn.com/problems/add-two-numbers/description/copy codes."""class ListNode: def __init__(self, x): self.val = x self.next = Noneclass Solution(object): def addTwoNumbers(self, l1, l2): """ :type l1: ListNode :type l2: ListNode :rtype: ListNode """ dummy = ListNode(0) current, carry = dummy, 0 while l1 or l2: val = carry if l1: val += l1.val l1 = l1.next if l2: val += l2.val l2 = l2.next carry, val = divmod(val, 10) current.next = ListNode(val) current = current.next if carry == 1: current.next = ListNode(1) return dummy.nextif __name__ == '__main__': a, a.next, a.next.next = ListNode(2), ListNode(4), ListNode(3) b, b.next, b.next.next = ListNode(5), ListNode(6), ListNode(4) result = Solution().addTwoNumbers(a, b) print("&#123;0&#125; -&gt; &#123;1&#125; -&gt; &#123;2&#125;".format(result.val, result.next.val, result.next.next.val))]]></content>
+    <title><![CDATA[LeetCode:longest substring without repeating characters]]></title>
+    <url>%2Falgorithm%2Flongest-substring-without-repeating-characters%2F</url>
+    <content type="text"><![CDATA[“””https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/description/无重复字符的最长子串“”” class Solution(object): def lengthOfLongestSubstring(self, s): “”” :type s: str :rtype: int &gt;&gt;&gt; s = Solution() &gt;&gt;&gt; s.lengthOfLongestSubstring(“aab”) 2 &gt;&gt;&gt; s.lengthOfLongestSubstring(“dvdf”) 3 &gt;&gt;&gt; s.lengthOfLongestSubstring(“abcabcbb”) 3 &gt;&gt;&gt; s.lengthOfLongestSubstring(“abcabcbb”) 3 &gt;&gt;&gt; s.lengthOfLongestSubstring(“abba”) 2 &gt;&gt;&gt; s.lengthOfLongestSubstring(“aaaaaaa”) 1 &gt;&gt;&gt; s.lengthOfLongestSubstring(“a”) 1 &gt;&gt;&gt; s.lengthOfLongestSubstring(“”) 0 “”” if s == “”: return 0 if len(s) == 1: return 1 # 记录字符到index的映射 dic = {} L, start_ind = 0, 0 for idx, i in enumerate(s): # 第idx个字符在dic中且是超过start_ind的字符 if i in dic and start_ind &lt;= dic[i]: L = max(idx - start_ind, L) start_ind = dic[i] + 1 dic[i] = idx L = max(idx + 1 - start_ind, L) return L]]></content>
       <categories>
         <category>algorithm</category>
       </categories>
@@ -298,9 +298,9 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[LeetCode:longest substring without repeating characters]]></title>
-    <url>%2Falgorithm%2Flongest-substring-without-repeating-characters%2F</url>
-    <content type="text"><![CDATA[“””https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/description/无重复字符的最长子串“”” class Solution(object): def lengthOfLongestSubstring(self, s): “”” :type s: str :rtype: int &gt;&gt;&gt; s = Solution() &gt;&gt;&gt; s.lengthOfLongestSubstring(“aab”) 2 &gt;&gt;&gt; s.lengthOfLongestSubstring(“dvdf”) 3 &gt;&gt;&gt; s.lengthOfLongestSubstring(“abcabcbb”) 3 &gt;&gt;&gt; s.lengthOfLongestSubstring(“abcabcbb”) 3 &gt;&gt;&gt; s.lengthOfLongestSubstring(“abba”) 2 &gt;&gt;&gt; s.lengthOfLongestSubstring(“aaaaaaa”) 1 &gt;&gt;&gt; s.lengthOfLongestSubstring(“a”) 1 &gt;&gt;&gt; s.lengthOfLongestSubstring(“”) 0 “”” if s == “”: return 0 if len(s) == 1: return 1 # 记录字符到index的映射 dic = {} L, start_ind = 0, 0 for idx, i in enumerate(s): # 第idx个字符在dic中且是超过start_ind的字符 if i in dic and start_ind &lt;= dic[i]: L = max(idx - start_ind, L) start_ind = dic[i] + 1 dic[i] = idx L = max(idx + 1 - start_ind, L) return L]]></content>
+    <title><![CDATA[LeetCode: add two numbers]]></title>
+    <url>%2Falgorithm%2Fadd-two-number%2F</url>
+    <content type="text"><![CDATA[123456789101112131415161718192021222324252627282930313233343536373839404142"""https://leetcode-cn.com/problems/add-two-numbers/description/copy codes."""class ListNode: def __init__(self, x): self.val = x self.next = Noneclass Solution(object): def addTwoNumbers(self, l1, l2): """ :type l1: ListNode :type l2: ListNode :rtype: ListNode """ dummy = ListNode(0) current, carry = dummy, 0 while l1 or l2: val = carry if l1: val += l1.val l1 = l1.next if l2: val += l2.val l2 = l2.next carry, val = divmod(val, 10) current.next = ListNode(val) current = current.next if carry == 1: current.next = ListNode(1) return dummy.nextif __name__ == '__main__': a, a.next, a.next.next = ListNode(2), ListNode(4), ListNode(3) b, b.next, b.next.next = ListNode(5), ListNode(6), ListNode(4) result = Solution().addTwoNumbers(a, b) print("&#123;0&#125; -&gt; &#123;1&#125; -&gt; &#123;2&#125;".format(result.val, result.next.val, result.next.next.val))]]></content>
       <categories>
         <category>algorithm</category>
       </categories>
@@ -456,18 +456,6 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[rst转换为md]]></title>
-    <url>%2Flinux%2Fpandoc-rst2md%2F</url>
-    <content type="text"><![CDATA[1sudo apt install pandoc 1234567FILES=*.rstfor f in $FILESdo filename="$&#123;f%.*&#125;" echo "Converting $f to $filename.md" `pandoc $f -f rst -t markdown -o $filename.md`done]]></content>
-      <categories>
-        <category>linux</category>
-      </categories>
-      <tags>
-        <tag>linux</tag>
-        <tag>trick</tag>
-      </tags>
-  </entry>
-  <entry>
     <title><![CDATA[vundle插件安装器， nerdcommenter注释插件]]></title>
     <url>%2Fvim%2Fvundle-vim%2F</url>
     <content type="text"><![CDATA[vundle vim 使用命令 1234&quot; :PluginList - 列出所有已配置的插件&quot; :PluginInstall - 安装插件, 加 `!` 用以更新或使用 :PluginUpdate&quot; :PluginSearch foo - 搜索 foo ;追加 `!` 清除本地缓存&quot; :PluginClean - 清除未使用插件,需要确认; 追加 `!` nerdcommenterUsage Doc 12345678910111213141516 n\cc : 为光标以下 n 行添加注释 n\cu : 为光标以下 n 行取消注释 n\cm : 为光标以下 n 行添加块注释for python:单行：注释: \cs取消注释：\cu多行：ctrl + v 块选中后：注释: \cs取消注释：\cu\ci 为Inverts the commented state of each selected line.]]></content>
@@ -477,6 +465,18 @@
       <tags>
         <tag>config</tag>
         <tag>vim</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[rst转换为md]]></title>
+    <url>%2Flinux%2Fpandoc-rst2md%2F</url>
+    <content type="text"><![CDATA[1sudo apt install pandoc 1234567FILES=*.rstfor f in $FILESdo filename="$&#123;f%.*&#125;" echo "Converting $f to $filename.md" `pandoc $f -f rst -t markdown -o $filename.md`done]]></content>
+      <categories>
+        <category>linux</category>
+      </categories>
+      <tags>
+        <tag>linux</tag>
+        <tag>trick</tag>
       </tags>
   </entry>
   <entry>
@@ -609,6 +609,19 @@
       </tags>
   </entry>
   <entry>
+    <title><![CDATA[ubuntu配置初始化]]></title>
+    <url>%2Flinux%2Fubuntu-config%2F</url>
+    <content type="text"><![CDATA[fcitx 输入法12sudo apt-get install fcitx fcitx-config-gtk fcitx-sunpinyin fcitx-googlepinyin fcitx-module-cloudpinyin im-configsudo im-config -s fcitx -z default 取消默认文件夹设置123456789# ~/.config/user-dirs.dirsxdg-user-dirs-update --set DESKTOP $HOME/xdg-user-dirs-update --set DOWNLOAD $HOME/xdg-user-dirs-update --set TEMPLATES $HOME/xdg-user-dirs-update --set PUBLICSHARE $HOME/xdg-user-dirs-update --set DOCUMENTS $HOME/xdg-user-dirs-update --set MUSIC $HOME/xdg-user-dirs-update --set PICTURES $HOME/xdg-user-dirs-update --set VIDEOS $HOME/ 卸载软件列表1sudo apt purge deja-dup gnome-sudoku webbrowser-app cheese gnome-mines gnome-mahjongg simple-scan empathy thunderbird rhythmbox libreoffice-common unity-webapps-common aisleriot transmission-common transmission-gtk remmina ubuntu-web-launchers 必备软件列表1234sudo apt-get install curl vim exuberant-ctags git ack-grepsudo pip install pep8 flake8 pyflakes isort yapfsudo apt install tmux zsh htop rar vim terminator ipython3 python3-pip openssh-server devtodo tree chsh -s /bin/zsh 可选安装软件列表123sudo apt install flashplugin-installer folder-color ubuntu-gnome-desktop moc kdeconnect gnome-tweak-toolsudo apt install graphviz virtualbox masterpdfeditor4sudo apt install gtk-recordmydesktop recordmydesktop 其余软件列表123nitrogen okular vlc screenfetchunison unison-gtk qrencode figlet xdotool cmatrix fortune fortune-zh cowsay vscode wps vimconfig zsh]]></content>
+      <categories>
+        <category>linux</category>
+      </categories>
+      <tags>
+        <tag>linux</tag>
+        <tag>config</tag>
+        <tag>ubuntu</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[python: struct模块处理二进制数据]]></title>
     <url>%2Fpython%2Fpython-struct-binary-data%2F</url>
     <content type="text"><![CDATA[struct模块中最重要的三个函数是pack(), unpack(), calcsize() #pack(fmt, v1, v2, …) 按照给定的格式(fmt)，把数据封装成字符串(实际上是类似于c结构体的字节流) #unpack(fmt, string)按照给定的格式(fmt)解析字节流string，返回解析出来的tuple #calcsize(fmt)计算给定的格式(fmt)占用多少字节的内存 struct中支持的格式如下表： Format C Type Python 字节数 x|pad byte|no value|1c|char|string of length 1|1b|signed char|integer|1B|unsigned char|integer|1?|_Bool|bool|1h|short|integer|2H|unsigned short|integer|2i|int|integer|4I|unsigned int|integer or long|4l|long|integer|4L|unsigned long|long|4q|long long|long|8Q|unsigned long long|long|8f|float|float|4d|double|float|8s|char[]|string|1p|char[]|string|1P|void *|long|]]></content>
@@ -630,19 +643,6 @@
       <tags>
         <tag>tool</tag>
         <tag>internet</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[ubuntu配置初始化]]></title>
-    <url>%2Flinux%2Fubuntu-config%2F</url>
-    <content type="text"><![CDATA[fcitx 输入法12sudo apt-get install fcitx fcitx-config-gtk fcitx-sunpinyin fcitx-googlepinyin fcitx-module-cloudpinyin im-configsudo im-config -s fcitx -z default 取消默认文件夹设置123456789# ~/.config/user-dirs.dirsxdg-user-dirs-update --set DESKTOP $HOME/xdg-user-dirs-update --set DOWNLOAD $HOME/xdg-user-dirs-update --set TEMPLATES $HOME/xdg-user-dirs-update --set PUBLICSHARE $HOME/xdg-user-dirs-update --set DOCUMENTS $HOME/xdg-user-dirs-update --set MUSIC $HOME/xdg-user-dirs-update --set PICTURES $HOME/xdg-user-dirs-update --set VIDEOS $HOME/ 卸载软件列表1sudo apt purge deja-dup gnome-sudoku webbrowser-app cheese gnome-mines gnome-mahjongg simple-scan empathy thunderbird rhythmbox libreoffice-common unity-webapps-common aisleriot transmission-common transmission-gtk remmina ubuntu-web-launchers 必备软件列表1234sudo apt-get install curl vim exuberant-ctags git ack-grepsudo pip install pep8 flake8 pyflakes isort yapfsudo apt install tmux zsh htop rar vim terminator ipython3 python3-pip openssh-server devtodo tree chsh -s /bin/zsh 可选安装软件列表123sudo apt install flashplugin-installer folder-color ubuntu-gnome-desktop moc kdeconnect gnome-tweak-toolsudo apt install graphviz virtualbox masterpdfeditor4sudo apt install gtk-recordmydesktop recordmydesktop 其余软件列表123nitrogen okular vlc screenfetchunison unison-gtk qrencode figlet xdotool cmatrix fortune fortune-zh cowsay vscode wps vimconfig zsh]]></content>
-      <categories>
-        <category>linux</category>
-      </categories>
-      <tags>
-        <tag>linux</tag>
-        <tag>config</tag>
-        <tag>ubuntu</tag>
       </tags>
   </entry>
   <entry>
@@ -670,9 +670,57 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[python qrcode 二维码]]></title>
-    <url>%2Fpython%2Fpython-qrcode%2F</url>
-    <content type="text"><![CDATA[用qrcode包做的生成字符串的二维码的脚本 ps: ubuntu下有个可以终端显示二维码像素点的软件：qrencode 输入qrencode -o - -t UTF8，输入字符串，然后ctrl+D结束 123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899100101102103104105106107108109110111112113114115116117118#coding:utf-8import qrcodefrom PIL import Imageimport osdef openpic(filename): os.system(&quot;eog &quot; + filename)# 生成二维码图片def make_qr(string, pic_name): qr = qrcode.QRCode( version = 4, # 生成二维码尺寸的大小 1-40 1:21*21（21+(n-1)*4） error_correction = qrcode.constants.ERROR_CORRECT_M, #L:7% M:15% Q:25% H:30% box_size = 10, # 每个格子的像素大小 border = 2, # 边框的格子宽度大小 ) qr.add_data(string) qr.make(fit = True) img = qr.make_image() img.save(pic_name) openpic(pic_name) # 生成带logo的二维码图片def make_logo_qr(string, logo, pic_name): # 参数配置 qr = qrcode.QRCode( version = 4, error_correction = qrcode.constants.ERROR_CORRECT_Q, box_size = 8, border = 2 ) # 添加转换内容 qr.add_data(string) # qr.make(fit = True) # 生成二维码 img=qr.make_image() # img=img.convert(&quot;RGBA&quot;) # 添加logo if logo and os.path.exists(logo): icon = Image.open(logo) # 获取二维码图片的大小 img_w, img_h = img.size factor = 4 size_w = int(img_w/factor) size_h = int(img_h/factor) # logo图片的大小不能超过二维码图片的1/4 icon_w, icon_h = icon.size if icon_w &gt; size_w: icon_w = size_w if icon_h &gt; size_h: icon_h = size_h icon = icon.resize((icon_w, icon_h), Image.ANTIALIAS) # 计算logo在二维码图中的位置 w = int((img_w - icon_w) / 2) h = int((img_h - icon_h) / 2) icon = icon.convert(&quot;RGBA&quot;) img.paste(icon, (w, h), icon) # 保存处理后图片 img.save(pic_name) openpic(pic_name) if __name__==&apos;__main__&apos;: print print &quot;usage: input text, then input empty line to stop input&quot; print &quot; or input q or nothing to stop the script!&quot; print path = os.path.dirname(os.path.realpath(__file__)) qrcode_pic = os.path.join(path, &apos;theqrcode.png&apos;) #生成后的保存文件 logo = os.path.join(path, &apos;logo.png&apos;) #logo图片 string = &quot;start&quot; stop_strings = [&quot;q&quot;, &quot;exit&quot;, &quot;&quot;] while(1): string = raw_input(&quot;input:\n&quot;) if(string.strip() in stop_strings): break # 输入内容允许有空格 while True: line = raw_input() if(line == &apos;&apos;): break else: string = string + &quot;\n&quot; + line #make_qr(string, qrcode_pic) make_logo_qr(string, logo, qrcode_pic)]]></content>
+    <title><![CDATA[python 判断字符串内容类型]]></title>
+    <url>%2Fpython%2F%E5%88%A4%E6%96%AD%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%86%85%E5%AE%B9%E7%B1%BB%E5%9E%8B%2F</url>
+    <content type="text"><![CDATA[字符串函数 返回True的情况 s.isalnum 只含字母数字且非空 s.isalpha 只含有字母且非空 s.isdigit 只含有数字且非空 s.islower 没有大写字母且非空 s.isupper 没有小写字母且非空 s.isspace 只含有空白字符且非空 s.istitle 每个英文单词首字母都大写且非空]]></content>
+      <categories>
+        <category>python</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[patchelf 修改动态链接库]]></title>
+    <url>%2Flinux%2Fpatchelf%2F</url>
+    <content type="text"><![CDATA[12patchelf --set-rpath $&#123;HOME&#125;/temp/demo/lib subscriber]]></content>
+      <categories>
+        <category>linux</category>
+      </categories>
+      <tags>
+        <tag>tool</tag>
+        <tag>linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[rar and tar]]></title>
+    <url>%2Flinux%2Frar-tar%2F</url>
+    <content type="text"><![CDATA[rar，tar为linux上最常用的压缩解压打包工具。 rar12345678910111213#将文件log.py, grades.py，文件夹dir1压缩到log.rarrar a log.rar log.py grades.py dir1#将log.rar解压至temp文件夹（需新建）rar x log.rar ./temp#列出压缩包内文件rar l log.rar tar123456789101112131415161718192021222324# 压缩文件tar zcvf sth.tar.gz file1 file2 dir1#解压到当前目录tar zxvf sth.tar.gz#解压到指定目录tar zxvf sth.tar.gz -C ./temp#列出压缩包内文件tar tvf sth.tar.gz# 不压缩，只打包tar cvf sth.tar file1 dir1-c, --create 创建一个新归档-z 通过gzip压缩( tar本身不是压缩命令，)]]></content>
+      <categories>
+        <category>linux</category>
+      </categories>
+      <tags>
+        <tag>tool</tag>
+        <tag>linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Linux: todo]]></title>
+    <url>%2Flinux%2Fdevtodo%2F</url>
+    <content type="text"><![CDATA[安装1sudo apt install devtodo 用法12345678910111213141516todo # 显示 todo listtda # 添加一项 todo，也可以用 todo -a 命令tde &lt;index&gt; # 修改第 index 条 todotdd &lt;index&gt; # 标记第 index 条 todo 已经完成tdr &lt;index&gt; # 删除第 index 条 todotodo -A # 显示所有的 todo 条目，包括完成的以及未完成的todo -Ac &lt;index&gt; #显示第index条todo的commenttodo --purge #删除已完成的todotodo -R 1,2 #将1变成2的子任务todo -R 1.1 #将1的子任务1变为根节点todo -G # ~/.todo_global aliases123456alias td=&quot;todo -G&quot;alias todo=&quot;todo -G&quot;alias tda=&quot;tda -G&quot;alias tdd=&quot;tdd -G&quot;alias tde=&quot;tde -G&quot;alias tdr=&quot;tdr -G&quot;]]></content>
+      <categories>
+        <category>linux</category>
+      </categories>
+      <tags>
+        <tag>tool</tag>
+        <tag>linux</tag>
+        <tag>terminal</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[python生成pdf文件]]></title>
+    <url>%2Fpython%2Fpython-pdf%2F</url>
+    <content type="text"><![CDATA[添加语句，添加图片，定义字体 123456789from reportlab.pdfgen import canvasc=canvas.Canvas(&quot;hello.pdf&quot;)c.drawString(100,700,&quot;hello&quot;)c.drawImage(&quot;123.jpg&quot;,1*inch,1*inch,width=8*inch,height=9*inch)c.save()from reportlab.pdfbase.cidfonts import UnicodeCIDFontpdfmetrics.registerFont(UnicodeCIDFont(&apos;STSong-Light&apos;))c.setFont(&quot;STSong-Light&quot;,12)]]></content>
       <categories>
         <category>python</category>
       </categories>
@@ -693,62 +741,14 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[python生成pdf文件]]></title>
-    <url>%2Fpython%2Fpython-pdf%2F</url>
-    <content type="text"><![CDATA[添加语句，添加图片，定义字体 123456789from reportlab.pdfgen import canvasc=canvas.Canvas(&quot;hello.pdf&quot;)c.drawString(100,700,&quot;hello&quot;)c.drawImage(&quot;123.jpg&quot;,1*inch,1*inch,width=8*inch,height=9*inch)c.save()from reportlab.pdfbase.cidfonts import UnicodeCIDFontpdfmetrics.registerFont(UnicodeCIDFont(&apos;STSong-Light&apos;))c.setFont(&quot;STSong-Light&quot;,12)]]></content>
+    <title><![CDATA[python qrcode 二维码]]></title>
+    <url>%2Fpython%2Fpython-qrcode%2F</url>
+    <content type="text"><![CDATA[用qrcode包做的生成字符串的二维码的脚本 ps: ubuntu下有个可以终端显示二维码像素点的软件：qrencode 输入qrencode -o - -t UTF8，输入字符串，然后ctrl+D结束 123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899100101102103104105106107108109110111112113114115116117118#coding:utf-8import qrcodefrom PIL import Imageimport osdef openpic(filename): os.system(&quot;eog &quot; + filename)# 生成二维码图片def make_qr(string, pic_name): qr = qrcode.QRCode( version = 4, # 生成二维码尺寸的大小 1-40 1:21*21（21+(n-1)*4） error_correction = qrcode.constants.ERROR_CORRECT_M, #L:7% M:15% Q:25% H:30% box_size = 10, # 每个格子的像素大小 border = 2, # 边框的格子宽度大小 ) qr.add_data(string) qr.make(fit = True) img = qr.make_image() img.save(pic_name) openpic(pic_name) # 生成带logo的二维码图片def make_logo_qr(string, logo, pic_name): # 参数配置 qr = qrcode.QRCode( version = 4, error_correction = qrcode.constants.ERROR_CORRECT_Q, box_size = 8, border = 2 ) # 添加转换内容 qr.add_data(string) # qr.make(fit = True) # 生成二维码 img=qr.make_image() # img=img.convert(&quot;RGBA&quot;) # 添加logo if logo and os.path.exists(logo): icon = Image.open(logo) # 获取二维码图片的大小 img_w, img_h = img.size factor = 4 size_w = int(img_w/factor) size_h = int(img_h/factor) # logo图片的大小不能超过二维码图片的1/4 icon_w, icon_h = icon.size if icon_w &gt; size_w: icon_w = size_w if icon_h &gt; size_h: icon_h = size_h icon = icon.resize((icon_w, icon_h), Image.ANTIALIAS) # 计算logo在二维码图中的位置 w = int((img_w - icon_w) / 2) h = int((img_h - icon_h) / 2) icon = icon.convert(&quot;RGBA&quot;) img.paste(icon, (w, h), icon) # 保存处理后图片 img.save(pic_name) openpic(pic_name) if __name__==&apos;__main__&apos;: print print &quot;usage: input text, then input empty line to stop input&quot; print &quot; or input q or nothing to stop the script!&quot; print path = os.path.dirname(os.path.realpath(__file__)) qrcode_pic = os.path.join(path, &apos;theqrcode.png&apos;) #生成后的保存文件 logo = os.path.join(path, &apos;logo.png&apos;) #logo图片 string = &quot;start&quot; stop_strings = [&quot;q&quot;, &quot;exit&quot;, &quot;&quot;] while(1): string = raw_input(&quot;input:\n&quot;) if(string.strip() in stop_strings): break # 输入内容允许有空格 while True: line = raw_input() if(line == &apos;&apos;): break else: string = string + &quot;\n&quot; + line #make_qr(string, qrcode_pic) make_logo_qr(string, logo, qrcode_pic)]]></content>
       <categories>
         <category>python</category>
       </categories>
       <tags>
         <tag>python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[rar and tar]]></title>
-    <url>%2Flinux%2Frar-tar%2F</url>
-    <content type="text"><![CDATA[rar，tar为linux上最常用的压缩解压打包工具。 rar12345678910111213#将文件log.py, grades.py，文件夹dir1压缩到log.rarrar a log.rar log.py grades.py dir1#将log.rar解压至temp文件夹（需新建）rar x log.rar ./temp#列出压缩包内文件rar l log.rar tar123456789101112131415161718192021222324# 压缩文件tar zcvf sth.tar.gz file1 file2 dir1#解压到当前目录tar zxvf sth.tar.gz#解压到指定目录tar zxvf sth.tar.gz -C ./temp#列出压缩包内文件tar tvf sth.tar.gz# 不压缩，只打包tar cvf sth.tar file1 dir1-c, --create 创建一个新归档-z 通过gzip压缩( tar本身不是压缩命令，)]]></content>
-      <categories>
-        <category>linux</category>
-      </categories>
-      <tags>
-        <tag>tool</tag>
-        <tag>linux</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[python 判断字符串内容类型]]></title>
-    <url>%2Fpython%2F%E5%88%A4%E6%96%AD%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%86%85%E5%AE%B9%E7%B1%BB%E5%9E%8B%2F</url>
-    <content type="text"><![CDATA[字符串函数 返回True的情况 s.isalnum 只含字母数字且非空 s.isalpha 只含有字母且非空 s.isdigit 只含有数字且非空 s.islower 没有大写字母且非空 s.isupper 没有小写字母且非空 s.isspace 只含有空白字符且非空 s.istitle 每个英文单词首字母都大写且非空]]></content>
-      <categories>
-        <category>python</category>
-      </categories>
-      <tags>
-        <tag>python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[Linux: todo]]></title>
-    <url>%2Flinux%2Fdevtodo%2F</url>
-    <content type="text"><![CDATA[安装1sudo apt install devtodo 用法12345678910111213141516todo # 显示 todo listtda # 添加一项 todo，也可以用 todo -a 命令tde &lt;index&gt; # 修改第 index 条 todotdd &lt;index&gt; # 标记第 index 条 todo 已经完成tdr &lt;index&gt; # 删除第 index 条 todotodo -A # 显示所有的 todo 条目，包括完成的以及未完成的todo -Ac &lt;index&gt; #显示第index条todo的commenttodo --purge #删除已完成的todotodo -R 1,2 #将1变成2的子任务todo -R 1.1 #将1的子任务1变为根节点todo -G # ~/.todo_global aliases123456alias td=&quot;todo -G&quot;alias todo=&quot;todo -G&quot;alias tda=&quot;tda -G&quot;alias tdd=&quot;tdd -G&quot;alias tde=&quot;tde -G&quot;alias tdr=&quot;tdr -G&quot;]]></content>
-      <categories>
-        <category>linux</category>
-      </categories>
-      <tags>
-        <tag>tool</tag>
-        <tag>linux</tag>
-        <tag>terminal</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[patchelf 修改动态链接库]]></title>
-    <url>%2Flinux%2Fpatchelf%2F</url>
-    <content type="text"><![CDATA[12patchelf --set-rpath $&#123;HOME&#125;/temp/demo/lib subscriber]]></content>
-      <categories>
-        <category>linux</category>
-      </categories>
-      <tags>
-        <tag>tool</tag>
-        <tag>linux</tag>
       </tags>
   </entry>
   <entry>
