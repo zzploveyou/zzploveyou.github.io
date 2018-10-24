@@ -25,17 +25,6 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[gist id of atom and vscode settings]]></title>
-    <url>%2Flinux%2Fgithub-gist-sync-settings%2F</url>
-    <content type="text"><![CDATA[Please enter the password to read the blog. Decrypt U2FsdGVkX1/BMLF0qcfvGn60Tvd1F2jwMpghn11J9H+Kaql5tmtYk9VM3iSsecGhLbYNp/NY0D3VZwTiqdEKsO/EAlpdo5wkjgHEYrt2XZ1FfwToeNR1Un2WZtidXuArfWi9/5XDJiqGtJZFr+MPlAWZWcBApxqV0f1Nm2/Oga0u6YfNUAtPnk5PKFY6hOzx0wJ0tPz2JPYubLTjJXhDpDDE+ZLjYsuJnziAcEBObYdfuPY2ZdKV3ruMrBvD6Gno4TqCV9KZms8Z8Bu0odJugP6HUuCHv+hvQ1bJxD/+v8s9axrfMNQZ/5uD1UiSEW+9Br8WQOWKhSKOUL4rKXiMsoi4pZ5/ujAdgCPFI6Kr5RTHYvURAniRkxx8N13es63/yzFxwnQVwoMxQOBjWYLiuuxspoZ59EwsSMny6l2hh9IGIcrRDpdySRvByY3IYcjNM3XL6YXh/yFEcBvkRYCp3H+rmx6F83d1kr/t4LlKtkAN71f1yJUpOiT7t6jW1q0t3rCnhr21VLchZW5/RZHlDyWMXuaQrcRZHwM5Huq7Onx4bYk5SfQbChUkpWlwdNIRYdybepn5gxK1hBlW/RC7BoI/fwRENVYArjgSHzJGXDF4PzplRZAE2wWZq96cXYZmsXuUmv/zt39QV7QiKOCkQ2cSceFW8DeI7GLLBDgdsbiDoJbp6Q8nqbL9ZkRTYQYDRGtIvDot6yAUy+UrAiZ3eg5wWtR+gckdacZmmWgeECBYOwqvpVehLadtxgpwk+BxadU7zW8Hsq+RDTzjy7SBaJTN1uuTsPtc7oOXI0Pn/fnzyykecqCBew3ulUOwXmo8yDB+SyPaNJJAmIS8ncYwHLmjY0zPubUQn/gLLcGPpOmHlFCp3KKM9pEirFIQPG5OrWrBrX0PCEv1zKHqZ2GqpZBNrJf29kIVgouU6YJZ5qiAeyfXOxC/CYjZeLeJG40fYnI7+azE0eqc3K71TRMWXWleSx/1o5dFgk7Gk2JCnshKEwUVfKFhxHWqdIxwyc7VwGV/VWPv8AwS2KHWnnopRpfiTw3g+LyY7M6JIuLxF+xqkMOcPtCaxMor8VrMzBFTNpkS3dwmCtv2T3ugoNeIqDtEMJ6vrW4kMy4M+GFGT04AooVjHCZmIUenro0il2tf6KbkrOQcGhrvxIWLNRbEDpbnv3090UbR6lNw2VpPnP8a7fdjKfw1Y/01rd9oUJlMkD/Fo0u4a7pg6Pd9aujjoQ0veD0ALSPPdz3DzMDABgEmBGNBO2LDr8qxBa8Btq4AzzKDWH41tfffsJI+sa2TX3bq++89eiYMJ9j4zIJAPYA9Hi5FC0Z1i6Nql/or+A/In98TZj0Z6DaKQ7cWcKp/AIlQj1sHOtAvKrK4X+dWf3iyF7Fxd5N+RxEzUcjcwr+FZWX3VNMVQdnOeG9zerCxrQBr+cDlvBtYrl+f2KpSAipIH5oH0GPEFRIjLTEcdNB1O0Oih1teUkPibRFejFiH7svGK4D01HQsUOAWchBzNg21lNGftQVLvQBxNWuxCebpUSombWkc+MJfjZZ3SjkoaTEm4sMogdpFP0IVF0chBg2cTj/WD1UuWIe8YFcLgFqa9eDQMlFhYf+G4m55T+SL2ri8EiS0MbRxDH6eOWQagDYJUMQWuXa/yekHsqgCkZ9NaeKMmwnWmo9OoaI/DjJkvzo3yqGUN3RcKRMOAiUG8cztMUGxztAaKnC9Kqv0D6rzNdjjTvuvHotXchTWexQDgFAGLLQGqdR8CL1o0uyCWaAcHUiZ8D+cxRsPiUHj0VLHfLvwiXAAaVobE9u7zrNAreyQPZ27u2ivF34ZQA62OdjypzHmXt3dIn4ARLwrCM+iZ+mK6zfgiwuKLEWOE96tyK7coDq98MNhymkGqPl+rXY=]]></content>
-      <categories>
-        <category>linux</category>
-      </categories>
-      <tags>
-        <tag>config</tag>
-      </tags>
-  </entry>
-  <entry>
     <title><![CDATA[linux tools]]></title>
     <url>%2Flinux%2Fefficient-tools%2F</url>
     <content type="text"><![CDATA[trash-cli1sudo apt install trash-cli Usage123456#alias rm!="/bin/rm -vi"#alias rm=trashalias t=trashalias lt=trash-listalias rt=restore-trashalias et=trash-empty 命令 用途 trash-put/trash 文件或目录移入回收站 trash-empty 清空回收站 trash-list 列出回收站中的文件 restore-trash 还原回收站中的文件 trash-rm 删除回收站中的单个文件 递归搜索文件内容-agggreer/the_silver_searcher: A code-searching tool similar to ack, but faster. 123sudo apt install silversearcher-agag def lib/ 字符模式下交互查看git项目-tigjonas/tig: Text-mode interface for git mysql客户端-mycli类似于ipython的mysql客户端，支持语法高亮和命令补全 C++手册查询-cppman1cppman std::thread 多线程下载工具axel1axel -n 20 URL 终端会话录制-script/scriptreplay12345script -t 2&gt;time.txt session.typescript# your commandexitscriptreplay -t time.txt session.typescript 媒体下载工具 you-getyoutube, google+, 优酷，腾讯视频，秒拍等12# socks5(pip install pysocks)you-get &apos;https://www.youtube.com/watch?v=jNQXAC9IVRw&apos; -s 127.0.0.1:12345 网络流量分析 iptraf-ng123sudo apt install iptrafiptraf-ng w实时网速查看 bwm-ng1sudo apt install bwm-ng terminal录屏 asciinema查询天气1234curl wttr.in/:helpcurl "wttr.in/Beijing?lang=zh"curl "wttr.in/Beijing?pq&amp;lang=zh"curl "wttr.in/Beijing?0pq&amp;lang=zh" sudoku1sudoku cmatrix12cmatrix figlet — 字符串在终端上显示1figlet i love you xdotool — 控制鼠标点击123456789101112131415161718显示鼠标当前位置xdotool getmouselocationxdotool mousemove x yxdotool click 1xdotool click 2xdotool click 3xdotool key ctrl +1xdotool click --repeat 10 --delay 500 1间隔0.5s一次，重复10次左键 qrencode –字符串转为终端像素点二维码nitrogen – 多显示屏设置不同壁纸1: install dconf-editor and nitrogen 1234sudo apt-get install dconf-editorsudo apt-get install nitrogen 2: Open dconf-editor 3: In dconf-editor, explore to /org/gnome/desktop/background/ 4: Unmark the show-desktop-icons option. 5: Open nitrogen 这样之后桌面文件夹不显示 xeyesfortune名句 fortune-zh唐诗 cowsay123456789101112cowsay -l查看所有动物/usr/share/cowsay/cows/*cowsay -f turtle指定动物fortune-zh | cowsay -f turtle动物说话 equalxlatex公式编辑器1sudo apt install equalx ffmpeg1ffmpeg -i '123.avi' -ac 2 -b:v 2000k -c:a aac -c:v libx264 -b:a 160k -vprofile high -bf 0 -strict experimental -f mp4 '123.mp4' 12-b:v 2000k-b:v 1000k 文件清晰度，大小 convmv更改文件名编码方式的一个工具 1convmv -f gbk -t utf-8 -r –-notest /home 就是将/home目录下原来文件名是gbk编码方式的全部改为utf-8格式的。这里 -f 后面为原来的编码方式，-t 后面是要更改为的编码方式， 12-r 表示这个目录下面的所有文件， –notest 表示马上执行，而不是仅仅测试而已。 iconv更改文件编码方式的一个工具 1iconv -f gbk -t utf-8 -o outfile infile -f为原来的编码方式，-t 为输出文件的编码方式， -o表示输出文件名，这利用outfile表示，最后跟上要更改编码方式的文件名sourcefile]]></content>
@@ -43,9 +32,20 @@
         <category>linux</category>
       </categories>
       <tags>
-        <tag>tool</tag>
         <tag>linux</tag>
+        <tag>tool</tag>
         <tag>trick</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[gist id of atom and vscode settings]]></title>
+    <url>%2Flinux%2Fgithub-gist-sync-settings%2F</url>
+    <content type="text"><![CDATA[Please enter the password to read the blog. Decrypt U2FsdGVkX19p1+pAoDEVg27v78w1rQYKs1p3u1/OzLgNU8XEH0QgOZbGZ4mhumU3WM0srn3rYl9zBydOQaXicr/M0MYT8IG67EveZ6YhRdgHJ/wI7yKeqzCk3tnsK93BWFet2sC8Qv13mZWD9Pnr0Zvrd1QFKWSiRMrVBT7WY5BKru7X6vK2KLBG6WhhgiHKEVeHN1jC9bnnepTcj33C3NYBP/nIi0LLWr+GgQYbQwjtxlrZtJop+dbMYiak4EcgR12b5oZI0woeGLCyUiNLU0w9khhcMTvKjI5dparEM2pLcbWae73kfZ5d3k/uXDzTaB8Vvfd0e8zn4hupXSMuOMMrq4+UKwrqU7187XyBeFbKdL1faOaouCLHK+8Ip2hs5ROsxclGbYUlNLj430o1qXr7/NFTaLwbodqo7NjkRroN1i15D2jvs4k8DHsJ7CAnZGMqDf3gefxXvU9ICfJSC96RRKWAbw6PWYHg22QqmxQSE0O6QWFU/gJ+hJDdza+JWKOU1RDjiVnAoe02V5vD2gf1sEji5tFTxNXGb1Yq97Q3w4Qywvqy9uuL7ljdRAcKoKisTTNniUK/6ciY/11lPARwWHJtAXeUH3ydAGXD0Zixq4idb4K5Wx8NZ4PjetZB2AVTRjOrOykOwO680c/5Ea7LHAo5v4Ww2/xfT3/WEEMTFm1M7lrRNjoyzgeEY3DJSy1YYC1eevK7gv2v/uvlj7RTdG3vvKECxlqEJTHunoe4Hl2CPXGRvfo++Op9pv604OFIdAzlmQU2J+AZI7rDJXZNoK7cLeV2MlnHCnF4nJmkAXeZ1eVGaNtJjU9vXK195kJHpjm9MvP7hTLf6npbo0lclpgmKqqQzZ8vZv0zuduajw+XkWAxKhevW/p9M5Vdp+MAm4KP3GuwXrH1jIKXVsLm9UkroTlA4cMD2CjQ0JFG3knS8vTAwpl26m23zNJmdgS9Vu3m7tiQXG6Q6Qm3BO60NQDpk5syjLzSiCqDo08mhmr/vHpBvPDhvb7p+O9/vMS0qzpqJoKr/46iRrzrwgEkPe0nmZbBuLBzUMFagk2K8uWRmiA18Bau/Ao9Jqt7a94+U2jKBHPoYwWJTRTCX7K2LOHxQ4aiqxcNEBx137evddKah64NCrIJ2UAmp+AGxVLH/UWv/rUHz4gkatAC2pBdV/DZf4BxK8q/v1dDoY8v5iio6PUSEKy60zEDKL0//5JsUv4xkcH/rNh3tQ/uzMg5YrrQ7jvlAtuIPCkBjoqvneN4sgRSun4iLTdwtSw1gSPP+vKbKMB2A7Mu1CgJKQUoVLMVTAqnNhi3l0010BMEpAxZIvSYi2rj1yOffIVHZVfje1V2xwV395RkeTNZnYzuIldKfBKEdIE06gBqBJYWGkhSN5+RAn+zClw/uaFvkeegTtZK7Mey6z4RtT8+1wflY4l0b98Wz8O+5j91973AfVJdCSyxq9jSvlxoKyX/PFTOqpcuCetKJOLFarRm3ZOAyWDgDdI2PLDoDl+2y/yD8XHM1097kLm7ds5Ht0ydAZvrQYzkK/8OL4twvopG1JlmrnWqQ5NuWDsUoIpC9hy56aFG90oG6CvMEfOu2nYJhlWcCOPO4F1d/f6ad6WnYC3JzznGvLEFcZY/wvJXt5kc6qlUTr7n/2AL7wUyOPuOf3KEnPAFB3RbICAJO47ck679Ps8m6GV+1Lt6J6rfVcKgjCCnvKgOgHy7vKV98zQ3/sd2iQMUyN3SmS7cdOw/+R/WTLDRo2fv6+f2vm2hVeM+N0WyKGW6hH7uXXsgr+cqLeXwiCv79yFsUs4Evk3YQIpditVBGJWFplNcEwS64EJzQoah33aH8fRtd7wfaFOQHe+3+AMITSoQ7j4JGVQYYPB8a3wFlMGYL3L/VHriyHE=]]></content>
+      <categories>
+        <category>linux</category>
+      </categories>
+      <tags>
+        <tag>config</tag>
       </tags>
   </entry>
   <entry>
@@ -103,8 +103,8 @@
         <category>linux</category>
       </categories>
       <tags>
-        <tag>tool</tag>
         <tag>linux</tag>
+        <tag>tool</tag>
         <tag>web</tag>
       </tags>
   </entry>
@@ -128,8 +128,8 @@
         <category>linux</category>
       </categories>
       <tags>
-        <tag>tool</tag>
         <tag>linux</tag>
+        <tag>tool</tag>
       </tags>
   </entry>
   <entry>
@@ -177,8 +177,8 @@
         <category>linux</category>
       </categories>
       <tags>
-        <tag>tool</tag>
         <tag>linux</tag>
+        <tag>tool</tag>
         <tag>command</tag>
       </tags>
   </entry>
@@ -285,9 +285,9 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[LeetCode:longest substring without repeating characters]]></title>
-    <url>%2Falgorithm%2Flongest-substring-without-repeating-characters%2F</url>
-    <content type="text"><![CDATA[“””https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/description/无重复字符的最长子串“”” class Solution(object): def lengthOfLongestSubstring(self, s): “”” :type s: str :rtype: int &gt;&gt;&gt; s = Solution() &gt;&gt;&gt; s.lengthOfLongestSubstring(“aab”) 2 &gt;&gt;&gt; s.lengthOfLongestSubstring(“dvdf”) 3 &gt;&gt;&gt; s.lengthOfLongestSubstring(“abcabcbb”) 3 &gt;&gt;&gt; s.lengthOfLongestSubstring(“abcabcbb”) 3 &gt;&gt;&gt; s.lengthOfLongestSubstring(“abba”) 2 &gt;&gt;&gt; s.lengthOfLongestSubstring(“aaaaaaa”) 1 &gt;&gt;&gt; s.lengthOfLongestSubstring(“a”) 1 &gt;&gt;&gt; s.lengthOfLongestSubstring(“”) 0 “”” if s == “”: return 0 if len(s) == 1: return 1 # 记录字符到index的映射 dic = {} L, start_ind = 0, 0 for idx, i in enumerate(s): # 第idx个字符在dic中且是超过start_ind的字符 if i in dic and start_ind &lt;= dic[i]: L = max(idx - start_ind, L) start_ind = dic[i] + 1 dic[i] = idx L = max(idx + 1 - start_ind, L) return L]]></content>
+    <title><![CDATA[LeetCode: add two numbers]]></title>
+    <url>%2Falgorithm%2Fadd-two-number%2F</url>
+    <content type="text"><![CDATA[123456789101112131415161718192021222324252627282930313233343536373839404142"""https://leetcode-cn.com/problems/add-two-numbers/description/copy codes."""class ListNode: def __init__(self, x): self.val = x self.next = Noneclass Solution(object): def addTwoNumbers(self, l1, l2): """ :type l1: ListNode :type l2: ListNode :rtype: ListNode """ dummy = ListNode(0) current, carry = dummy, 0 while l1 or l2: val = carry if l1: val += l1.val l1 = l1.next if l2: val += l2.val l2 = l2.next carry, val = divmod(val, 10) current.next = ListNode(val) current = current.next if carry == 1: current.next = ListNode(1) return dummy.nextif __name__ == '__main__': a, a.next, a.next.next = ListNode(2), ListNode(4), ListNode(3) b, b.next, b.next.next = ListNode(5), ListNode(6), ListNode(4) result = Solution().addTwoNumbers(a, b) print("&#123;0&#125; -&gt; &#123;1&#125; -&gt; &#123;2&#125;".format(result.val, result.next.val, result.next.next.val))]]></content>
       <categories>
         <category>algorithm</category>
       </categories>
@@ -298,9 +298,9 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[LeetCode: add two numbers]]></title>
-    <url>%2Falgorithm%2Fadd-two-number%2F</url>
-    <content type="text"><![CDATA[123456789101112131415161718192021222324252627282930313233343536373839404142"""https://leetcode-cn.com/problems/add-two-numbers/description/copy codes."""class ListNode: def __init__(self, x): self.val = x self.next = Noneclass Solution(object): def addTwoNumbers(self, l1, l2): """ :type l1: ListNode :type l2: ListNode :rtype: ListNode """ dummy = ListNode(0) current, carry = dummy, 0 while l1 or l2: val = carry if l1: val += l1.val l1 = l1.next if l2: val += l2.val l2 = l2.next carry, val = divmod(val, 10) current.next = ListNode(val) current = current.next if carry == 1: current.next = ListNode(1) return dummy.nextif __name__ == '__main__': a, a.next, a.next.next = ListNode(2), ListNode(4), ListNode(3) b, b.next, b.next.next = ListNode(5), ListNode(6), ListNode(4) result = Solution().addTwoNumbers(a, b) print("&#123;0&#125; -&gt; &#123;1&#125; -&gt; &#123;2&#125;".format(result.val, result.next.val, result.next.next.val))]]></content>
+    <title><![CDATA[LeetCode:longest substring without repeating characters]]></title>
+    <url>%2Falgorithm%2Flongest-substring-without-repeating-characters%2F</url>
+    <content type="text"><![CDATA[“””https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/description/无重复字符的最长子串“”” class Solution(object): def lengthOfLongestSubstring(self, s): “”” :type s: str :rtype: int &gt;&gt;&gt; s = Solution() &gt;&gt;&gt; s.lengthOfLongestSubstring(“aab”) 2 &gt;&gt;&gt; s.lengthOfLongestSubstring(“dvdf”) 3 &gt;&gt;&gt; s.lengthOfLongestSubstring(“abcabcbb”) 3 &gt;&gt;&gt; s.lengthOfLongestSubstring(“abcabcbb”) 3 &gt;&gt;&gt; s.lengthOfLongestSubstring(“abba”) 2 &gt;&gt;&gt; s.lengthOfLongestSubstring(“aaaaaaa”) 1 &gt;&gt;&gt; s.lengthOfLongestSubstring(“a”) 1 &gt;&gt;&gt; s.lengthOfLongestSubstring(“”) 0 “”” if s == “”: return 0 if len(s) == 1: return 1 # 记录字符到index的映射 dic = {} L, start_ind = 0, 0 for idx, i in enumerate(s): # 第idx个字符在dic中且是超过start_ind的字符 if i in dic and start_ind &lt;= dic[i]: L = max(idx - start_ind, L) start_ind = dic[i] + 1 dic[i] = idx L = max(idx + 1 - start_ind, L) return L]]></content>
       <categories>
         <category>algorithm</category>
       </categories>
@@ -344,8 +344,8 @@
         <category>linux</category>
       </categories>
       <tags>
-        <tag>tool</tag>
         <tag>linux</tag>
+        <tag>tool</tag>
       </tags>
   </entry>
   <entry>
@@ -403,8 +403,8 @@
         <category>linux</category>
       </categories>
       <tags>
-        <tag>tool</tag>
         <tag>linux</tag>
+        <tag>tool</tag>
       </tags>
   </entry>
   <entry>
@@ -456,6 +456,18 @@
       </tags>
   </entry>
   <entry>
+    <title><![CDATA[vim registers 寄存器]]></title>
+    <url>%2Fvim%2Fvim-registers%2F</url>
+    <content type="text"><![CDATA[常见文本编辑器都会提供剪切板来支持复制粘贴，Vim也不例外。 不同的是Vim提供了10类共48个寄存器，提供无与伦比的寄存功能。 最常用的y操作将会拷贝到默认的匿名寄存器中，我们也可以指定具体拷贝到哪个寄存器中。 一般来讲，可以用用```"&#123;register&#125;p```来粘贴```&#123;register&#125;```中的内容。例如： "ayy可以拷贝当前行到寄存器a中，而"ap则可以粘贴寄存器a中的内容。12345678910111213141516171819202122232425262728除了a-z26个命名寄存器，Vim还提供了很多特殊寄存器。合理地使用可以极大地提高效率。例如：* ```&quot;+p```可以粘贴剪切板的内容，* ```&quot;:p```可以粘贴上一个Vim命令（比如你刚刚费力拼写的正则表达式），* ```&quot;/p```可以粘贴上一次搜索关键词（你猜的没错，正是normal模式下的/foo搜索命令）。在Vim中可通过```:reg```来查看每个寄存器当前的值。寄存器分类Vim提供了10类寄存器，可在Vim中通过:help registers查看帮助。1. 匿名寄存器 &quot;&quot;2. 编号寄存器 &quot;0 到 &quot;93. 小删除寄存器 &quot;-4. 26个命名寄存器 &quot;a 到 &quot;z5. 3个只读寄存器 &quot;:, &quot;., &quot;%6. Buffer交替文件寄存器 &quot;#7. 表达式寄存器 &quot;=8. 选区和拖放寄存器 &quot;*, &quot;+, &quot;~9. 黑洞寄存器 &quot;_10. 搜索模式寄存器 &quot;/# 1. 匿名寄存器使用d, c, s, x等会删除字符的命令时，被删除字符会进入匿名寄存器&quot;&quot;。 你可以认为&quot;&quot;寄存器是一个指针，指向刚才被存到的寄存器。在如何用Vim搭建IDE？一文中提到，Mac下可通过下列设置来让Vim共享系统剪切板， 就是这个原理：所有删除和拷贝操作默认都会到匿名寄存器。 set clipboard=unnamed1234567891011121314使用y命令未指定寄存器会存到&quot;0寄存器中，同时&quot;&quot;会与该寄存器保有同样的值。 这意味着你使用p和&quot;p总会得到同样的结果。# 2. 编号寄存器编号寄存器从&quot;0到&quot;9共10个，其中&quot;0保存着拷贝来的字符串，&quot;1到&quot;9保存着删除掉的字符串。 删除操作符包括s, c, d, x。 删除掉的字符串会被存到&quot;1中，上次删除的则会被存到&quot;2中。以此类推，Vim会保存你最近的9次删除。* 只有整行整行的删除，和通过段落级别的移动指令（包括%,(,),/,`,?,n,N,&#123;,&#125;） 的删除才会被放到&quot;1中。* 当用户指定拷贝操作的寄存器时（如&quot;ap），&quot;0不会被写入；但删除操作一定会被写入到&quot;1中。&gt; &quot;0寄存器很有用，比如我们copy了一段文本然后用它替换另一段文本。 这时默认寄存器&quot;&quot;中的值就变成了被替换文本，如果还需要用copy的文本继续替换的话就需要&quot;0p了。# 3. 小删除寄存器不足一行的小删除则会被放到小删除寄存器中（&quot;-），起作用的删除操作符也包括s, c, d, x。 例如： dw # 删除一个词d9l # 删除9个字符cb # 向前更改一个词1234与&quot;0寄存器类似，当用户指定寄存器并进行删除时，&quot;-不会被写入。# 4. 命名寄存器命名寄存器有&quot;a到&quot;z共26个，这些寄存器只有当我们指定时才会被使用。 其实我们在录制宏时，所有键盘操作会以字符串的形式存到寄存器中。 例如录制一个宏存到&quot;a寄存器中，内容为更改当前行cc，改为foo字符串： qaccfoo1234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950然后执行:reg来查看寄存器，可以发现a寄存器的值是ccfoo。 小技巧：当使用小写字母进行操作时会覆盖当前寄存器内容，当使用大写字母进行操作时，会追加当前寄存器内容。# 5. 只读寄存器只读寄存器共3个，它们的值是由Vim提供的，不允许改变： &quot;.：上次insert模式中插入的字符串。还记得吗？.命令可以重复上次操作，而&quot;.存储了上次插入。 &quot;%：当前文件名，不是全路径，也不是纯文件名，而是从当前Vim的工作目录到该文件的路径。例如此时Harttle的Vim中，&quot;%p的结果为_drafts/vim-registers.md。 &quot;:：上次命令模式下键入的命令。正如@a可以执行&quot;a寄存器中的宏一样，&quot;:可以执行上次命令。# 6. 交替文件寄存器交替文件寄存器&quot;#存储着当前Vim窗口（Window）的交替文件。交替文件（alternate file）是指 Buffer中的上一个文件，可通过Ctrl+^来切换交替文件与当前文件。 Window和Buffer有什么区别？参见Vim 多文件编辑：窗口一文。# 7. 表达式寄存器表达式寄存器&quot;=主要用于计算Vim脚本的返回值，并插入到文本中。 当我们键入&quot;=后光标会移动到命令行，此时我们可以输入任何Vim脚本的表达式。 例如3+2，按下回车并且p则会得到5。这在我们调试Vim脚本时非常有用，比如调用一个函数看它是否有正确的返回值。# 8. 选择和拖放寄存器选择和拖放寄存器包括&quot;*, &quot;+, 和&quot;~，这三个寄存器的行为是和GUI相关的。&quot;*和&quot;+在Mac和Windows中，都是指系统剪切板（clipboard），例如&quot;*yy即可复制当前行到剪切板。 以供其他程序中粘贴。其他程序中复制的内容也会被存储到这两个寄存器中。 在X11系统中（绝大多数带有桌面环境的Linux发行版），二者是有区别的： &quot;*指X11中的PRIMARY选区，即鼠标选中区域。在桌面系统中可按鼠标中键粘贴。 &quot;+指X11中的CLIPBOARD选区，即系统剪切板。在桌面系统中可按Ctrl+V粘贴。 上文所述的Mac下set clipboard=unnamed会使得系统剪切板寄存器&quot;*和Vim默认的匿名寄存器&quot;&quot;始终保有同样的值，即Vim和系统共用剪切板。有文本拖拽到Vim时，被拖拽的文本被存储在&quot;~中。Vim默认的行为是将&quot;~中内容插入到光标所在位置。 当然你可以给&lt;DROP&gt;做键盘映射。# 9. 黑洞寄存器黑洞寄存器&quot;_，所有删除或拷贝到黑洞寄存器的文本将会消失。 这是为了在删除文本的同时不影响任何寄存器的值，&quot;_通常用于Vim脚本中。# 10. 搜索寄存器搜索寄存器&quot;/用于存储上一次搜索的关键词。Vim中如何进行搜索呢？ 在normal模式下按下/即进入search模式，输入关键字并按下回车即可。该寄存器是可写的，例如:let @/ = &quot;harttle&quot;将会把&quot;harttle&quot;写入该寄存器。 下次搜索时不输入搜索词直接回车便会搜索&quot;harttle&quot;。命令行模式拷贝值得一提的时，任何寄存器中的值都是可以拷贝到命令模式下的。比如对于寄存器&quot;a中的值，在normal模式下可以通过&quot;ap来粘贴；在command-line模式下通过&lt;Ctrl-R&gt;a来粘贴。这一操作存在风险，因为寄存器中的值可能是从网页中拷贝来的。如果寄存器中的字符串存在&lt;Esc&gt;字符或&lt;CR&gt;字符，则会时Vim回到normal模式， 并继续执行寄存器中的命令。为了防范剪切板劫持，可以添加下列的Vim配置： inoremap + u&lt;C->“+gP` 该命令的解释请移步：http://vim.wikia.com/wiki/Pasting_registers]]></content>
+      <categories>
+        <category>vim</category>
+      </categories>
+      <tags>
+        <tag>trick</tag>
+        <tag>vim</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[vundle插件安装器， nerdcommenter注释插件]]></title>
     <url>%2Fvim%2Fvundle-vim%2F</url>
     <content type="text"><![CDATA[vundle vim 使用命令 1234&quot; :PluginList - 列出所有已配置的插件&quot; :PluginInstall - 安装插件, 加 `!` 用以更新或使用 :PluginUpdate&quot; :PluginSearch foo - 搜索 foo ;追加 `!` 清除本地缓存&quot; :PluginClean - 清除未使用插件,需要确认; 追加 `!` nerdcommenterUsage Doc 12345678910111213141516 n\cc : 为光标以下 n 行添加注释 n\cu : 为光标以下 n 行取消注释 n\cm : 为光标以下 n 行添加块注释for python:单行：注释: \cs取消注释：\cu多行：ctrl + v 块选中后：注释: \cs取消注释：\cu\ci 为Inverts the commented state of each selected line.]]></content>
@@ -480,18 +492,6 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[vim registers 寄存器]]></title>
-    <url>%2Fvim%2Fvim-registers%2F</url>
-    <content type="text"><![CDATA[常见文本编辑器都会提供剪切板来支持复制粘贴，Vim也不例外。 不同的是Vim提供了10类共48个寄存器，提供无与伦比的寄存功能。 最常用的y操作将会拷贝到默认的匿名寄存器中，我们也可以指定具体拷贝到哪个寄存器中。 一般来讲，可以用用```"&#123;register&#125;p```来粘贴```&#123;register&#125;```中的内容。例如： "ayy可以拷贝当前行到寄存器a中，而"ap则可以粘贴寄存器a中的内容。12345678910111213141516171819202122232425262728除了a-z26个命名寄存器，Vim还提供了很多特殊寄存器。合理地使用可以极大地提高效率。例如：* ```&quot;+p```可以粘贴剪切板的内容，* ```&quot;:p```可以粘贴上一个Vim命令（比如你刚刚费力拼写的正则表达式），* ```&quot;/p```可以粘贴上一次搜索关键词（你猜的没错，正是normal模式下的/foo搜索命令）。在Vim中可通过```:reg```来查看每个寄存器当前的值。寄存器分类Vim提供了10类寄存器，可在Vim中通过:help registers查看帮助。1. 匿名寄存器 &quot;&quot;2. 编号寄存器 &quot;0 到 &quot;93. 小删除寄存器 &quot;-4. 26个命名寄存器 &quot;a 到 &quot;z5. 3个只读寄存器 &quot;:, &quot;., &quot;%6. Buffer交替文件寄存器 &quot;#7. 表达式寄存器 &quot;=8. 选区和拖放寄存器 &quot;*, &quot;+, &quot;~9. 黑洞寄存器 &quot;_10. 搜索模式寄存器 &quot;/# 1. 匿名寄存器使用d, c, s, x等会删除字符的命令时，被删除字符会进入匿名寄存器&quot;&quot;。 你可以认为&quot;&quot;寄存器是一个指针，指向刚才被存到的寄存器。在如何用Vim搭建IDE？一文中提到，Mac下可通过下列设置来让Vim共享系统剪切板， 就是这个原理：所有删除和拷贝操作默认都会到匿名寄存器。 set clipboard=unnamed1234567891011121314使用y命令未指定寄存器会存到&quot;0寄存器中，同时&quot;&quot;会与该寄存器保有同样的值。 这意味着你使用p和&quot;p总会得到同样的结果。# 2. 编号寄存器编号寄存器从&quot;0到&quot;9共10个，其中&quot;0保存着拷贝来的字符串，&quot;1到&quot;9保存着删除掉的字符串。 删除操作符包括s, c, d, x。 删除掉的字符串会被存到&quot;1中，上次删除的则会被存到&quot;2中。以此类推，Vim会保存你最近的9次删除。* 只有整行整行的删除，和通过段落级别的移动指令（包括%,(,),/,`,?,n,N,&#123;,&#125;） 的删除才会被放到&quot;1中。* 当用户指定拷贝操作的寄存器时（如&quot;ap），&quot;0不会被写入；但删除操作一定会被写入到&quot;1中。&gt; &quot;0寄存器很有用，比如我们copy了一段文本然后用它替换另一段文本。 这时默认寄存器&quot;&quot;中的值就变成了被替换文本，如果还需要用copy的文本继续替换的话就需要&quot;0p了。# 3. 小删除寄存器不足一行的小删除则会被放到小删除寄存器中（&quot;-），起作用的删除操作符也包括s, c, d, x。 例如： dw # 删除一个词d9l # 删除9个字符cb # 向前更改一个词1234与&quot;0寄存器类似，当用户指定寄存器并进行删除时，&quot;-不会被写入。# 4. 命名寄存器命名寄存器有&quot;a到&quot;z共26个，这些寄存器只有当我们指定时才会被使用。 其实我们在录制宏时，所有键盘操作会以字符串的形式存到寄存器中。 例如录制一个宏存到&quot;a寄存器中，内容为更改当前行cc，改为foo字符串： qaccfoo1234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950然后执行:reg来查看寄存器，可以发现a寄存器的值是ccfoo。 小技巧：当使用小写字母进行操作时会覆盖当前寄存器内容，当使用大写字母进行操作时，会追加当前寄存器内容。# 5. 只读寄存器只读寄存器共3个，它们的值是由Vim提供的，不允许改变： &quot;.：上次insert模式中插入的字符串。还记得吗？.命令可以重复上次操作，而&quot;.存储了上次插入。 &quot;%：当前文件名，不是全路径，也不是纯文件名，而是从当前Vim的工作目录到该文件的路径。例如此时Harttle的Vim中，&quot;%p的结果为_drafts/vim-registers.md。 &quot;:：上次命令模式下键入的命令。正如@a可以执行&quot;a寄存器中的宏一样，&quot;:可以执行上次命令。# 6. 交替文件寄存器交替文件寄存器&quot;#存储着当前Vim窗口（Window）的交替文件。交替文件（alternate file）是指 Buffer中的上一个文件，可通过Ctrl+^来切换交替文件与当前文件。 Window和Buffer有什么区别？参见Vim 多文件编辑：窗口一文。# 7. 表达式寄存器表达式寄存器&quot;=主要用于计算Vim脚本的返回值，并插入到文本中。 当我们键入&quot;=后光标会移动到命令行，此时我们可以输入任何Vim脚本的表达式。 例如3+2，按下回车并且p则会得到5。这在我们调试Vim脚本时非常有用，比如调用一个函数看它是否有正确的返回值。# 8. 选择和拖放寄存器选择和拖放寄存器包括&quot;*, &quot;+, 和&quot;~，这三个寄存器的行为是和GUI相关的。&quot;*和&quot;+在Mac和Windows中，都是指系统剪切板（clipboard），例如&quot;*yy即可复制当前行到剪切板。 以供其他程序中粘贴。其他程序中复制的内容也会被存储到这两个寄存器中。 在X11系统中（绝大多数带有桌面环境的Linux发行版），二者是有区别的： &quot;*指X11中的PRIMARY选区，即鼠标选中区域。在桌面系统中可按鼠标中键粘贴。 &quot;+指X11中的CLIPBOARD选区，即系统剪切板。在桌面系统中可按Ctrl+V粘贴。 上文所述的Mac下set clipboard=unnamed会使得系统剪切板寄存器&quot;*和Vim默认的匿名寄存器&quot;&quot;始终保有同样的值，即Vim和系统共用剪切板。有文本拖拽到Vim时，被拖拽的文本被存储在&quot;~中。Vim默认的行为是将&quot;~中内容插入到光标所在位置。 当然你可以给&lt;DROP&gt;做键盘映射。# 9. 黑洞寄存器黑洞寄存器&quot;_，所有删除或拷贝到黑洞寄存器的文本将会消失。 这是为了在删除文本的同时不影响任何寄存器的值，&quot;_通常用于Vim脚本中。# 10. 搜索寄存器搜索寄存器&quot;/用于存储上一次搜索的关键词。Vim中如何进行搜索呢？ 在normal模式下按下/即进入search模式，输入关键字并按下回车即可。该寄存器是可写的，例如:let @/ = &quot;harttle&quot;将会把&quot;harttle&quot;写入该寄存器。 下次搜索时不输入搜索词直接回车便会搜索&quot;harttle&quot;。命令行模式拷贝值得一提的时，任何寄存器中的值都是可以拷贝到命令模式下的。比如对于寄存器&quot;a中的值，在normal模式下可以通过&quot;ap来粘贴；在command-line模式下通过&lt;Ctrl-R&gt;a来粘贴。这一操作存在风险，因为寄存器中的值可能是从网页中拷贝来的。如果寄存器中的字符串存在&lt;Esc&gt;字符或&lt;CR&gt;字符，则会时Vim回到normal模式， 并继续执行寄存器中的命令。为了防范剪切板劫持，可以添加下列的Vim配置： inoremap + u&lt;C->“+gP` 该命令的解释请移步：http://vim.wikia.com/wiki/Pasting_registers]]></content>
-      <categories>
-        <category>vim</category>
-      </categories>
-      <tags>
-        <tag>trick</tag>
-        <tag>vim</tag>
-      </tags>
-  </entry>
-  <entry>
     <title><![CDATA[parallel命令：并行处理]]></title>
     <url>%2Flinux%2Fparallel%2F</url>
     <content type="text"><![CDATA[1ls | parallel -j 8 "python dic.py -f &#123;&#125;" How can I use GNU Parallel to run a lot of commands in parallel | Minnesota Supercomputing Institute GNU Parallel tutorial]]></content>
@@ -499,8 +499,8 @@
         <category>linux</category>
       </categories>
       <tags>
-        <tag>tool</tag>
         <tag>linux</tag>
+        <tag>tool</tag>
       </tags>
   </entry>
   <entry>
@@ -523,8 +523,8 @@
         <category>linux</category>
       </categories>
       <tags>
-        <tag>tool</tag>
         <tag>linux</tag>
+        <tag>tool</tag>
       </tags>
   </entry>
   <entry>
@@ -604,8 +604,8 @@
         <category>linux</category>
       </categories>
       <tags>
-        <tag>linux</tag>
         <tag>ssh</tag>
+        <tag>linux</tag>
       </tags>
   </entry>
   <entry>
@@ -622,18 +622,6 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[python: struct模块处理二进制数据]]></title>
-    <url>%2Fpython%2Fpython-struct-binary-data%2F</url>
-    <content type="text"><![CDATA[struct模块中最重要的三个函数是pack(), unpack(), calcsize() #pack(fmt, v1, v2, …) 按照给定的格式(fmt)，把数据封装成字符串(实际上是类似于c结构体的字节流) #unpack(fmt, string)按照给定的格式(fmt)解析字节流string，返回解析出来的tuple #calcsize(fmt)计算给定的格式(fmt)占用多少字节的内存 struct中支持的格式如下表： Format C Type Python 字节数 x|pad byte|no value|1c|char|string of length 1|1b|signed char|integer|1B|unsigned char|integer|1?|_Bool|bool|1h|short|integer|2H|unsigned short|integer|2i|int|integer|4I|unsigned int|integer or long|4l|long|integer|4L|unsigned long|long|4q|long long|long|8Q|unsigned long long|long|8f|float|float|4d|double|float|8s|char[]|string|1p|char[]|string|1P|void *|long|]]></content>
-      <categories>
-        <category>python</category>
-      </categories>
-      <tags>
-        <tag>python</tag>
-        <tag>binary</tag>
-      </tags>
-  </entry>
-  <entry>
     <title><![CDATA[shadowsocks配置，运行]]></title>
     <url>%2Flinux%2Fshadowsocks-proxy%2F</url>
     <content type="text"><![CDATA[Home · shadowsocks/shadowsocks Wiki sudo pip install shadowsocks 在远程服务器上：12345678后台运行ss：sudo ssserver -p 14321 -k your_password -d start停止：sudo ssserver -d stop检查日志：sudo less /var/log/shadowsocks.log 本地linux1sslocal -s 服务器地址 -p 服务器端口 -l 本地端端口 -k 密码 -m 加密方法 或者ssh端口转发12ssh -fND 127.0.0.1:1234 zzp@10.2.0.4 -p 9920ssh -L 12369:localhost:12369 -R 12369:localhost:12370 -ND localhost:12345 root@138.69.29.65]]></content>
@@ -643,6 +631,18 @@
       <tags>
         <tag>tool</tag>
         <tag>internet</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[python: struct模块处理二进制数据]]></title>
+    <url>%2Fpython%2Fpython-struct-binary-data%2F</url>
+    <content type="text"><![CDATA[struct模块中最重要的三个函数是pack(), unpack(), calcsize() #pack(fmt, v1, v2, …) 按照给定的格式(fmt)，把数据封装成字符串(实际上是类似于c结构体的字节流) #unpack(fmt, string)按照给定的格式(fmt)解析字节流string，返回解析出来的tuple #calcsize(fmt)计算给定的格式(fmt)占用多少字节的内存 struct中支持的格式如下表： Format C Type Python 字节数 x|pad byte|no value|1c|char|string of length 1|1b|signed char|integer|1B|unsigned char|integer|1?|_Bool|bool|1h|short|integer|2H|unsigned short|integer|2i|int|integer|4I|unsigned int|integer or long|4l|long|integer|4L|unsigned long|long|4q|long long|long|8Q|unsigned long long|long|8f|float|float|4d|double|float|8s|char[]|string|1p|char[]|string|1P|void *|long|]]></content>
+      <categories>
+        <category>python</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+        <tag>binary</tag>
       </tags>
   </entry>
   <entry>
@@ -670,6 +670,29 @@
       </tags>
   </entry>
   <entry>
+    <title><![CDATA[python qrcode 二维码]]></title>
+    <url>%2Fpython%2Fpython-qrcode%2F</url>
+    <content type="text"><![CDATA[用qrcode包做的生成字符串的二维码的脚本 ps: ubuntu下有个可以终端显示二维码像素点的软件：qrencode 输入qrencode -o - -t UTF8，输入字符串，然后ctrl+D结束 123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899100101102103104105106107108109110111112113114115116117118#coding:utf-8import qrcodefrom PIL import Imageimport osdef openpic(filename): os.system(&quot;eog &quot; + filename)# 生成二维码图片def make_qr(string, pic_name): qr = qrcode.QRCode( version = 4, # 生成二维码尺寸的大小 1-40 1:21*21（21+(n-1)*4） error_correction = qrcode.constants.ERROR_CORRECT_M, #L:7% M:15% Q:25% H:30% box_size = 10, # 每个格子的像素大小 border = 2, # 边框的格子宽度大小 ) qr.add_data(string) qr.make(fit = True) img = qr.make_image() img.save(pic_name) openpic(pic_name) # 生成带logo的二维码图片def make_logo_qr(string, logo, pic_name): # 参数配置 qr = qrcode.QRCode( version = 4, error_correction = qrcode.constants.ERROR_CORRECT_Q, box_size = 8, border = 2 ) # 添加转换内容 qr.add_data(string) # qr.make(fit = True) # 生成二维码 img=qr.make_image() # img=img.convert(&quot;RGBA&quot;) # 添加logo if logo and os.path.exists(logo): icon = Image.open(logo) # 获取二维码图片的大小 img_w, img_h = img.size factor = 4 size_w = int(img_w/factor) size_h = int(img_h/factor) # logo图片的大小不能超过二维码图片的1/4 icon_w, icon_h = icon.size if icon_w &gt; size_w: icon_w = size_w if icon_h &gt; size_h: icon_h = size_h icon = icon.resize((icon_w, icon_h), Image.ANTIALIAS) # 计算logo在二维码图中的位置 w = int((img_w - icon_w) / 2) h = int((img_h - icon_h) / 2) icon = icon.convert(&quot;RGBA&quot;) img.paste(icon, (w, h), icon) # 保存处理后图片 img.save(pic_name) openpic(pic_name) if __name__==&apos;__main__&apos;: print print &quot;usage: input text, then input empty line to stop input&quot; print &quot; or input q or nothing to stop the script!&quot; print path = os.path.dirname(os.path.realpath(__file__)) qrcode_pic = os.path.join(path, &apos;theqrcode.png&apos;) #生成后的保存文件 logo = os.path.join(path, &apos;logo.png&apos;) #logo图片 string = &quot;start&quot; stop_strings = [&quot;q&quot;, &quot;exit&quot;, &quot;&quot;] while(1): string = raw_input(&quot;input:\n&quot;) if(string.strip() in stop_strings): break # 输入内容允许有空格 while True: line = raw_input() if(line == &apos;&apos;): break else: string = string + &quot;\n&quot; + line #make_qr(string, qrcode_pic) make_logo_qr(string, logo, qrcode_pic)]]></content>
+      <categories>
+        <category>python</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[rar and tar]]></title>
+    <url>%2Flinux%2Frar-tar%2F</url>
+    <content type="text"><![CDATA[rar，tar为linux上最常用的压缩解压打包工具。 rar12345678910111213#将文件log.py, grades.py，文件夹dir1压缩到log.rarrar a log.rar log.py grades.py dir1#将log.rar解压至temp文件夹（需新建）rar x log.rar ./temp#列出压缩包内文件rar l log.rar tar123456789101112131415161718192021222324# 压缩文件tar zcvf sth.tar.gz file1 file2 dir1#解压到当前目录tar zxvf sth.tar.gz#解压到指定目录tar zxvf sth.tar.gz -C ./temp#列出压缩包内文件tar tvf sth.tar.gz# 不压缩，只打包tar cvf sth.tar file1 dir1-c, --create 创建一个新归档-z 通过gzip压缩( tar本身不是压缩命令，)]]></content>
+      <categories>
+        <category>linux</category>
+      </categories>
+      <tags>
+        <tag>linux</tag>
+        <tag>tool</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[python 判断字符串内容类型]]></title>
     <url>%2Fpython%2F%E5%88%A4%E6%96%AD%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%86%85%E5%AE%B9%E7%B1%BB%E5%9E%8B%2F</url>
     <content type="text"><![CDATA[字符串函数 返回True的情况 s.isalnum 只含字母数字且非空 s.isalpha 只含有字母且非空 s.isdigit 只含有数字且非空 s.islower 没有大写字母且非空 s.isupper 没有小写字母且非空 s.isspace 只含有空白字符且非空 s.istitle 每个英文单词首字母都大写且非空]]></content>
@@ -681,30 +704,6 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[patchelf 修改动态链接库]]></title>
-    <url>%2Flinux%2Fpatchelf%2F</url>
-    <content type="text"><![CDATA[12patchelf --set-rpath $&#123;HOME&#125;/temp/demo/lib subscriber]]></content>
-      <categories>
-        <category>linux</category>
-      </categories>
-      <tags>
-        <tag>tool</tag>
-        <tag>linux</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[rar and tar]]></title>
-    <url>%2Flinux%2Frar-tar%2F</url>
-    <content type="text"><![CDATA[rar，tar为linux上最常用的压缩解压打包工具。 rar12345678910111213#将文件log.py, grades.py，文件夹dir1压缩到log.rarrar a log.rar log.py grades.py dir1#将log.rar解压至temp文件夹（需新建）rar x log.rar ./temp#列出压缩包内文件rar l log.rar tar123456789101112131415161718192021222324# 压缩文件tar zcvf sth.tar.gz file1 file2 dir1#解压到当前目录tar zxvf sth.tar.gz#解压到指定目录tar zxvf sth.tar.gz -C ./temp#列出压缩包内文件tar tvf sth.tar.gz# 不压缩，只打包tar cvf sth.tar file1 dir1-c, --create 创建一个新归档-z 通过gzip压缩( tar本身不是压缩命令，)]]></content>
-      <categories>
-        <category>linux</category>
-      </categories>
-      <tags>
-        <tag>tool</tag>
-        <tag>linux</tag>
-      </tags>
-  </entry>
-  <entry>
     <title><![CDATA[Linux: todo]]></title>
     <url>%2Flinux%2Fdevtodo%2F</url>
     <content type="text"><![CDATA[安装1sudo apt install devtodo 用法12345678910111213141516todo # 显示 todo listtda # 添加一项 todo，也可以用 todo -a 命令tde &lt;index&gt; # 修改第 index 条 todotdd &lt;index&gt; # 标记第 index 条 todo 已经完成tdr &lt;index&gt; # 删除第 index 条 todotodo -A # 显示所有的 todo 条目，包括完成的以及未完成的todo -Ac &lt;index&gt; #显示第index条todo的commenttodo --purge #删除已完成的todotodo -R 1,2 #将1变成2的子任务todo -R 1.1 #将1的子任务1变为根节点todo -G # ~/.todo_global aliases123456alias td=&quot;todo -G&quot;alias todo=&quot;todo -G&quot;alias tda=&quot;tda -G&quot;alias tdd=&quot;tdd -G&quot;alias tde=&quot;tde -G&quot;alias tdr=&quot;tdr -G&quot;]]></content>
@@ -712,8 +711,8 @@
         <category>linux</category>
       </categories>
       <tags>
-        <tag>tool</tag>
         <tag>linux</tag>
+        <tag>tool</tag>
         <tag>terminal</tag>
       </tags>
   </entry>
@@ -741,14 +740,15 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[python qrcode 二维码]]></title>
-    <url>%2Fpython%2Fpython-qrcode%2F</url>
-    <content type="text"><![CDATA[用qrcode包做的生成字符串的二维码的脚本 ps: ubuntu下有个可以终端显示二维码像素点的软件：qrencode 输入qrencode -o - -t UTF8，输入字符串，然后ctrl+D结束 123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899100101102103104105106107108109110111112113114115116117118#coding:utf-8import qrcodefrom PIL import Imageimport osdef openpic(filename): os.system(&quot;eog &quot; + filename)# 生成二维码图片def make_qr(string, pic_name): qr = qrcode.QRCode( version = 4, # 生成二维码尺寸的大小 1-40 1:21*21（21+(n-1)*4） error_correction = qrcode.constants.ERROR_CORRECT_M, #L:7% M:15% Q:25% H:30% box_size = 10, # 每个格子的像素大小 border = 2, # 边框的格子宽度大小 ) qr.add_data(string) qr.make(fit = True) img = qr.make_image() img.save(pic_name) openpic(pic_name) # 生成带logo的二维码图片def make_logo_qr(string, logo, pic_name): # 参数配置 qr = qrcode.QRCode( version = 4, error_correction = qrcode.constants.ERROR_CORRECT_Q, box_size = 8, border = 2 ) # 添加转换内容 qr.add_data(string) # qr.make(fit = True) # 生成二维码 img=qr.make_image() # img=img.convert(&quot;RGBA&quot;) # 添加logo if logo and os.path.exists(logo): icon = Image.open(logo) # 获取二维码图片的大小 img_w, img_h = img.size factor = 4 size_w = int(img_w/factor) size_h = int(img_h/factor) # logo图片的大小不能超过二维码图片的1/4 icon_w, icon_h = icon.size if icon_w &gt; size_w: icon_w = size_w if icon_h &gt; size_h: icon_h = size_h icon = icon.resize((icon_w, icon_h), Image.ANTIALIAS) # 计算logo在二维码图中的位置 w = int((img_w - icon_w) / 2) h = int((img_h - icon_h) / 2) icon = icon.convert(&quot;RGBA&quot;) img.paste(icon, (w, h), icon) # 保存处理后图片 img.save(pic_name) openpic(pic_name) if __name__==&apos;__main__&apos;: print print &quot;usage: input text, then input empty line to stop input&quot; print &quot; or input q or nothing to stop the script!&quot; print path = os.path.dirname(os.path.realpath(__file__)) qrcode_pic = os.path.join(path, &apos;theqrcode.png&apos;) #生成后的保存文件 logo = os.path.join(path, &apos;logo.png&apos;) #logo图片 string = &quot;start&quot; stop_strings = [&quot;q&quot;, &quot;exit&quot;, &quot;&quot;] while(1): string = raw_input(&quot;input:\n&quot;) if(string.strip() in stop_strings): break # 输入内容允许有空格 while True: line = raw_input() if(line == &apos;&apos;): break else: string = string + &quot;\n&quot; + line #make_qr(string, qrcode_pic) make_logo_qr(string, logo, qrcode_pic)]]></content>
+    <title><![CDATA[patchelf 修改动态链接库]]></title>
+    <url>%2Flinux%2Fpatchelf%2F</url>
+    <content type="text"><![CDATA[12patchelf --set-rpath $&#123;HOME&#125;/temp/demo/lib subscriber]]></content>
       <categories>
-        <category>python</category>
+        <category>linux</category>
       </categories>
       <tags>
-        <tag>python</tag>
+        <tag>linux</tag>
+        <tag>tool</tag>
       </tags>
   </entry>
   <entry>
@@ -786,18 +786,23 @@
       </tags>
   </entry>
   <entry>
+    <title></title>
+    <url>%2Fgoogle612cbb6c34c00f40.html</url>
+    <content type="text"><![CDATA[google-site-verification: google612cbb6c34c00f40.html]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[about]]></title>
     <url>%2Fabout%2Findex.html</url>
     <content type="text"></content>
   </entry>
   <entry>
-    <title><![CDATA[categories]]></title>
-    <url>%2Fcategories%2Findex.html</url>
+    <title><![CDATA[tags]]></title>
+    <url>%2Ftags%2Findex.html</url>
     <content type="text"></content>
   </entry>
   <entry>
-    <title><![CDATA[tags]]></title>
-    <url>%2Ftags%2Findex.html</url>
+    <title><![CDATA[categories]]></title>
+    <url>%2Fcategories%2Findex.html</url>
     <content type="text"></content>
   </entry>
 </search>
