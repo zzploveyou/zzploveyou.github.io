@@ -302,6 +302,351 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://zzploveyou.github.io/2018/09/10/python/scipy-tricks/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="ningning">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/doggod.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="zzp's blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/09/10/python/scipy-tricks/" itemprop="url">scipy tricks</a></h1>
+        
+
+        <div class="post-meta">
+            
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-09-10T00:00:00+08:00">
+                2018-09-10
+              </time>
+            
+
+            
+              <span class="post-meta-divider">|</span>
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">更新于</span>
+              
+              <time title="更新于" itemprop="dateModified" datetime="2018-12-25T11:07:13+08:00">
+                2018-12-25
+              </time>
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/python/" itemprop="url" rel="index">
+                    <span itemprop="name">python</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/2018/09/10/python/scipy-tricks/" class="leancloud_visitors" data-flag-title="scipy tricks">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数 </span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <a id="more"></a>
+<h1 id="排列组合数"><a href="#排列组合数" class="headerlink" title="排列组合数"></a>排列组合数</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">from scipy.misc import comb</span><br><span class="line">comb(N, k, exact=False, repetition=False)</span><br></pre></td></tr></table></figure>
+<h1 id="最优化相关"><a href="#最优化相关" class="headerlink" title="最优化相关"></a>最优化相关</h1><p>﻿<a href="https://docs.scipy.org/doc/scipy-0.18.1/reference/optimize.html" target="_blank" rel="noopener">Optimization and root finding (scipy.optimize) — SciPy v0.18.1 Reference Guide</a></p>
+<h2 id="from-scipy-optimize-import-leastsq"><a href="#from-scipy-optimize-import-leastsq" class="headerlink" title="from scipy.optimize import leastsq"></a>from scipy.optimize import leastsq</h2><blockquote>
+<p>Minimize the sum of squares of a set of equations.</p>
+</blockquote>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">###最小二乘法试验###</span></span><br><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"><span class="keyword">from</span> scipy.optimize <span class="keyword">import</span> leastsq</span><br><span class="line"></span><br><span class="line"><span class="comment">###采样点(Xi,Yi)###</span></span><br><span class="line">Xi=np.array([<span class="number">8.19</span>,<span class="number">2.72</span>,<span class="number">6.39</span>,<span class="number">8.71</span>,<span class="number">4.7</span>,<span class="number">2.66</span>,<span class="number">3.78</span>])</span><br><span class="line">Yi=np.array([<span class="number">7.01</span>,<span class="number">2.78</span>,<span class="number">6.47</span>,<span class="number">6.71</span>,<span class="number">4.1</span>,<span class="number">4.23</span>,<span class="number">4.05</span>])</span><br><span class="line"></span><br><span class="line"><span class="comment">###需要拟合的函数func及误差error###</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">func</span><span class="params">(p,x)</span>:</span></span><br><span class="line">    k,b=p</span><br><span class="line">    <span class="keyword">return</span> k*x+b</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">error</span><span class="params">(p,x,y,s)</span>:</span></span><br><span class="line">    <span class="keyword">print</span> s</span><br><span class="line">    <span class="keyword">return</span> func(p,x)-y <span class="comment">#x、y都是列表，故返回值也是个列表</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#TEST</span></span><br><span class="line">p0=[<span class="number">100</span>,<span class="number">2</span>]</span><br><span class="line"><span class="comment">#print( error(p0,Xi,Yi) )</span></span><br><span class="line"></span><br><span class="line"><span class="comment">###主函数从此开始###</span></span><br><span class="line">s=<span class="string">"Test the number of iteration"</span> <span class="comment">#试验最小二乘法函数leastsq得调用几次error函数才能找到使得均方误差之和最小的k、b</span></span><br><span class="line">Para=leastsq(error,p0,args=(Xi,Yi,s)) <span class="comment">#把error函数中除了p以外的参数打包到args中</span></span><br><span class="line">k,b=Para[<span class="number">0</span>]</span><br><span class="line"><span class="keyword">print</span><span class="string">"k="</span>,k,<span class="string">'\n'</span>,<span class="string">"b="</span>,b</span><br><span class="line"></span><br><span class="line"><span class="comment">###绘图，看拟合效果###</span></span><br><span class="line"><span class="keyword">import</span> matplotlib.pyplot <span class="keyword">as</span> plt</span><br><span class="line"></span><br><span class="line">plt.figure(figsize=(<span class="number">8</span>,<span class="number">6</span>))</span><br><span class="line">plt.scatter(Xi,Yi,color=<span class="string">"red"</span>,label=<span class="string">"Sample Point"</span>,linewidth=<span class="number">3</span>) <span class="comment">#画样本点</span></span><br><span class="line">x=np.linspace(<span class="number">0</span>,<span class="number">10</span>,<span class="number">1000</span>)</span><br><span class="line">y=k*x+b</span><br><span class="line">plt.plot(x,y,color=<span class="string">"orange"</span>,label=<span class="string">"Fitting Line"</span>,linewidth=<span class="number">2</span>) <span class="comment">#画拟合直线</span></span><br><span class="line">plt.legend()</span><br><span class="line">plt.show()</span><br></pre></td></tr></table></figure>
+<h2 id="from-scipy-optimize-import-linprog"><a href="#from-scipy-optimize-import-linprog" class="headerlink" title="from scipy.optimize import linprog"></a>from scipy.optimize import linprog</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">Minimize a linear objective function subject to linear equality and inequality constraints.</span><br><span class="line"></span><br><span class="line">Linear Programming is intended to solve the following problem form:</span><br><span class="line">Minimize: </span><br><span class="line">    c^T * x</span><br><span class="line">Subject to: </span><br><span class="line">    A_ub * x &lt;= b_ub</span><br><span class="line">    A_eq * x == b_eq</span><br></pre></td></tr></table></figure>
+<h2 id="from-scipy-optimize-import-minimize"><a href="#from-scipy-optimize-import-minimize" class="headerlink" title="from scipy.optimize import minimize"></a>from scipy.optimize import minimize</h2><p>Minimization of scalar function of one or more variables.</p>
+<p>In general, the optimization problems are of the form:</p>
+<p>minimize f(x) subject to<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">g_i(x) &gt;= 0,  i = 1,...,m</span><br><span class="line">h_j(x)  = 0,  j = 1,...,p</span><br></pre></td></tr></table></figure></p>
+<p>where x is a vector of one or more variables. g_i(x) are the inequality constraints. h_j(x) are the equality constrains.</p>
+<p>Optionally, the lower and upper bounds for each element in x can also be specified using the bounds argument.</p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://zzploveyou.github.io/2018/09/07/linux/wget/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="ningning">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/doggod.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="zzp's blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/09/07/linux/wget/" itemprop="url">wget 递归爬取网页</a></h1>
+        
+
+        <div class="post-meta">
+            
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-09-07T00:00:00+08:00">
+                2018-09-07
+              </time>
+            
+
+            
+              <span class="post-meta-divider">|</span>
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">更新于</span>
+              
+              <time title="更新于" itemprop="dateModified" datetime="2018-12-25T11:07:13+08:00">
+                2018-12-25
+              </time>
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/linux/" itemprop="url" rel="index">
+                    <span itemprop="name">linux</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/2018/09/07/linux/wget/" class="leancloud_visitors" data-flag-title="wget 递归爬取网页">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数 </span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>wget 递归爬取网站并存在本地</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">wget -L 仅跟踪相对链接</span><br><span class="line">wget -r -p -np -k</span><br><span class="line"></span><br><span class="line"><span class="comment"># exclude directories</span></span><br><span class="line">wget -c -r -p -np -k -X /class/cs224n/reports,/class/cs224n/archive http://web.stanford.edu/class/cs224n/syllabus.html</span><br><span class="line"></span><br><span class="line"><span class="comment"># reject-regex</span></span><br><span class="line"> wget -c -r -p -np -k --reject-regex=<span class="string">"/proj*"</span> http://cs229.stanford.edu/syllabus.html</span><br></pre></td></tr></table></figure>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="https://zzploveyou.github.io/2018/09/06/python/python-debugger-pdb/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -350,8 +695,8 @@
               
                 <span class="post-meta-item-text">更新于</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2018-10-26T10:50:05+08:00">
-                2018-10-26
+              <time title="更新于" itemprop="dateModified" datetime="2018-12-25T11:07:13+08:00">
+                2018-12-25
               </time>
             
           </span>
@@ -520,8 +865,8 @@
               
                 <span class="post-meta-item-text">更新于</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2018-10-26T10:50:05+08:00">
-                2018-10-26
+              <time title="更新于" itemprop="dateModified" datetime="2018-12-25T11:07:13+08:00">
+                2018-12-25
               </time>
             
           </span>
@@ -693,8 +1038,8 @@
               
                 <span class="post-meta-item-text">更新于</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2018-10-26T10:50:05+08:00">
-                2018-10-26
+              <time title="更新于" itemprop="dateModified" datetime="2018-12-25T11:07:13+08:00">
+                2018-12-25
               </time>
             
           </span>
@@ -862,8 +1207,8 @@
               
                 <span class="post-meta-item-text">更新于</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2018-10-26T10:50:05+08:00">
-                2018-10-26
+              <time title="更新于" itemprop="dateModified" datetime="2018-12-25T11:07:13+08:00">
+                2018-12-25
               </time>
             
           </span>
@@ -1027,8 +1372,8 @@
               
                 <span class="post-meta-item-text">更新于</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2018-10-26T10:50:05+08:00">
-                2018-10-26
+              <time title="更新于" itemprop="dateModified" datetime="2018-12-25T11:07:13+08:00">
+                2018-12-25
               </time>
             
           </span>
@@ -1199,8 +1544,8 @@
               
                 <span class="post-meta-item-text">更新于</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2018-10-26T10:50:05+08:00">
-                2018-10-26
+              <time title="更新于" itemprop="dateModified" datetime="2018-12-25T11:07:13+08:00">
+                2018-12-25
               </time>
             
           </span>
@@ -1372,8 +1717,8 @@
               
                 <span class="post-meta-item-text">更新于</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2018-10-26T10:50:05+08:00">
-                2018-10-26
+              <time title="更新于" itemprop="dateModified" datetime="2018-12-25T11:07:13+08:00">
+                2018-12-25
               </time>
             
           </span>
@@ -1542,8 +1887,8 @@
               
                 <span class="post-meta-item-text">更新于</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2018-10-26T10:50:05+08:00">
-                2018-10-26
+              <time title="更新于" itemprop="dateModified" datetime="2018-12-25T11:07:13+08:00">
+                2018-12-25
               </time>
             
           </span>
@@ -1647,338 +1992,6 @@
 
 
     
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://zzploveyou.github.io/2018/04/26/algorithm/valid-number/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="ningning">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/doggod.png">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="zzp's blog">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/04/26/algorithm/valid-number/" itemprop="url">LeetCode: valid number</a></h1>
-        
-
-        <div class="post-meta">
-            
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-04-26T09:50:00+08:00">
-                2018-04-26
-              </time>
-            
-
-            
-              <span class="post-meta-divider">|</span>
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-check-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">更新于</span>
-              
-              <time title="更新于" itemprop="dateModified" datetime="2018-10-26T10:50:05+08:00">
-                2018-10-26
-              </time>
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/algorithm/" itemprop="url" rel="index">
-                    <span itemprop="name">algorithm</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-             <span id="/2018/04/26/algorithm/valid-number/" class="leancloud_visitors" data-flag-title="LeetCode: valid number">
-               <span class="post-meta-divider">|</span>
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               
-                 <span class="post-meta-item-text">阅读次数 </span>
-               
-                 <span class="leancloud-visitors-count"></span>
-             </span>
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <a id="more"></a>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">"""</span></span><br><span class="line"><span class="string">https://leetcode.com/problems/valid-number/description/</span></span><br><span class="line"><span class="string">"""</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span><span class="params">(object)</span>:</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">isNumber</span><span class="params">(self, s)</span>:</span></span><br><span class="line">        <span class="string">"""</span></span><br><span class="line"><span class="string">        :type s: str</span></span><br><span class="line"><span class="string">        :rtype: bool</span></span><br><span class="line"><span class="string">        """</span></span><br><span class="line">        <span class="keyword">try</span>:</span><br><span class="line">            float(s.strip())</span><br><span class="line">            <span class="keyword">return</span> <span class="keyword">True</span></span><br><span class="line">        <span class="keyword">except</span> Exception:</span><br><span class="line">            <span class="keyword">return</span> <span class="keyword">False</span></span><br></pre></td></tr></table></figure>
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://zzploveyou.github.io/2018/04/23/algorithm/sqrtx/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="ningning">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/doggod.png">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="zzp's blog">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/04/23/algorithm/sqrtx/" itemprop="url">LeetCode: sqrtx</a></h1>
-        
-
-        <div class="post-meta">
-            
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-04-23T17:15:00+08:00">
-                2018-04-23
-              </time>
-            
-
-            
-              <span class="post-meta-divider">|</span>
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-check-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">更新于</span>
-              
-              <time title="更新于" itemprop="dateModified" datetime="2018-10-26T10:50:05+08:00">
-                2018-10-26
-              </time>
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/algorithm/" itemprop="url" rel="index">
-                    <span itemprop="name">algorithm</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-             <span id="/2018/04/23/algorithm/sqrtx/" class="leancloud_visitors" data-flag-title="LeetCode: sqrtx">
-               <span class="post-meta-divider">|</span>
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               
-                 <span class="post-meta-item-text">阅读次数 </span>
-               
-                 <span class="leancloud-visitors-count"></span>
-             </span>
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <a id="more"></a>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">"""</span></span><br><span class="line"><span class="string">https://leetcode.com/problems/sqrtx/description/</span></span><br><span class="line"><span class="string">"""</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span><span class="params">(object)</span>:</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">mySqrt</span><span class="params">(self, x)</span>:</span></span><br><span class="line">        <span class="string">"""</span></span><br><span class="line"><span class="string">        :type x: int</span></span><br><span class="line"><span class="string">        :rtype: int</span></span><br><span class="line"><span class="string">        &gt;&gt;&gt; s = Solution()</span></span><br><span class="line"><span class="string">        &gt;&gt;&gt; s.mySqrt(4)</span></span><br><span class="line"><span class="string">        2</span></span><br><span class="line"><span class="string">        &gt;&gt;&gt; s.mySqrt(0)</span></span><br><span class="line"><span class="string">        0</span></span><br><span class="line"><span class="string">        &gt;&gt;&gt; s.mySqrt(8)</span></span><br><span class="line"><span class="string">        2</span></span><br><span class="line"><span class="string">        &gt;&gt;&gt; s.mySqrt(1)</span></span><br><span class="line"><span class="string">        1</span></span><br><span class="line"><span class="string">        &gt;&gt;&gt; s.mySqrt(2147395600)</span></span><br><span class="line"><span class="string">        46340</span></span><br><span class="line"><span class="string">        """</span></span><br><span class="line">        <span class="keyword">if</span> <span class="number">0</span> &lt;= x &lt; <span class="number">1</span>:</span><br><span class="line">            <span class="keyword">return</span> <span class="number">0</span></span><br><span class="line">        <span class="keyword">elif</span> x == <span class="number">1</span>:</span><br><span class="line">            <span class="keyword">return</span> <span class="number">1</span></span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            <span class="comment"># how to choose the init value ?</span></span><br><span class="line">            x0 = x // <span class="number">2</span></span><br><span class="line">            <span class="keyword">while</span> <span class="keyword">True</span>:</span><br><span class="line">                <span class="comment"># x**2/4 &gt; x</span></span><br><span class="line">                <span class="keyword">if</span> x0**<span class="number">2</span> &lt;= x:</span><br><span class="line">                    <span class="keyword">return</span> x0</span><br><span class="line">                x0 = int((x0 + x / x0) / <span class="number">2</span>)</span><br></pre></td></tr></table></figure>
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
   </section>
 
   
@@ -2029,7 +2042,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives/">
-                <span class="site-state-item-count">66</span>
+                <span class="site-state-item-count">68</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
