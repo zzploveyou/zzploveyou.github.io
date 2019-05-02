@@ -83,6 +83,17 @@
       </tags>
   </entry>
   <entry>
+    <title><![CDATA[gist id of atom and vscode settings]]></title>
+    <url>%2F2018%2F09%2F12%2Flinux%2Fgithub-gist-sync-settings%2F</url>
+    <content type="text"><![CDATA[Please enter the password to read the blog. Decrypt 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]]></content>
+      <categories>
+        <category>linux</category>
+      </categories>
+      <tags>
+        <tag>config</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[linux tools]]></title>
     <url>%2F2018%2F09%2F12%2Flinux%2Fefficient-tools%2F</url>
     <content type="text"><![CDATA[trash-cli1sudo apt install trash-cli Usage123456#alias rm!="/bin/rm -vi"#alias rm=trashalias t=trashalias lt=trash-listalias rt=restore-trashalias et=trash-empty 命令 用途 trash-put/trash 文件或目录移入回收站 trash-empty 清空回收站 trash-list 列出回收站中的文件 restore-trash 还原回收站中的文件 trash-rm 删除回收站中的单个文件 递归搜索文件内容-agggreer/the_silver_searcher: A code-searching tool similar to ack, but faster. 123sudo apt install silversearcher-agag def lib/ 字符模式下交互查看git项目-tigjonas/tig: Text-mode interface for git mysql客户端-mycli类似于ipython的mysql客户端，支持语法高亮和命令补全 C++手册查询-cppman1cppman std::thread 多线程下载工具axel1axel -n 20 URL 终端会话录制-script/scriptreplay12345script -t 2&gt;time.txt session.typescript# your commandexitscriptreplay -t time.txt session.typescript 媒体下载工具 you-getyoutube, google+, 优酷，腾讯视频，秒拍等12# socks5(pip install pysocks)you-get &apos;https://www.youtube.com/watch?v=jNQXAC9IVRw&apos; -s 127.0.0.1:12345 网络流量分析 iptraf-ng123sudo apt install iptrafiptraf-ng w实时网速查看 bwm-ng1sudo apt install bwm-ng terminal录屏 asciinema查询天气1234curl wttr.in/:helpcurl "wttr.in/Beijing?lang=zh"curl "wttr.in/Beijing?pq&amp;lang=zh"curl "wttr.in/Beijing?0pq&amp;lang=zh" sudoku1sudoku cmatrix12cmatrix figlet — 字符串在终端上显示1figlet i love you xdotool — 控制鼠标点击123456789101112131415161718显示鼠标当前位置xdotool getmouselocationxdotool mousemove x yxdotool click 1xdotool click 2xdotool click 3xdotool key ctrl +1xdotool click --repeat 10 --delay 500 1间隔0.5s一次，重复10次左键 qrencode –字符串转为终端像素点二维码nitrogen – 多显示屏设置不同壁纸1: install dconf-editor and nitrogen 1234sudo apt-get install dconf-editorsudo apt-get install nitrogen 2: Open dconf-editor 3: In dconf-editor, explore to /org/gnome/desktop/background/ 4: Unmark the show-desktop-icons option. 5: Open nitrogen 这样之后桌面文件夹不显示 xeyesfortune名句 fortune-zh唐诗 cowsay123456789101112cowsay -l查看所有动物/usr/share/cowsay/cows/*cowsay -f turtle指定动物fortune-zh | cowsay -f turtle动物说话 equalxlatex公式编辑器1sudo apt install equalx ffmpeg1ffmpeg -i '123.avi' -ac 2 -b:v 2000k -c:a aac -c:v libx264 -b:a 160k -vprofile high -bf 0 -strict experimental -f mp4 '123.mp4' 12-b:v 2000k-b:v 1000k 文件清晰度，大小 convmv更改文件名编码方式的一个工具 1convmv -f gbk -t utf-8 -r –-notest /home 就是将/home目录下原来文件名是gbk编码方式的全部改为utf-8格式的。这里 -f 后面为原来的编码方式，-t 后面是要更改为的编码方式， 12-r 表示这个目录下面的所有文件， –notest 表示马上执行，而不是仅仅测试而已。 iconv更改文件编码方式的一个工具 1iconv -f gbk -t utf-8 -o outfile infile -f为原来的编码方式，-t 为输出文件的编码方式， -o表示输出文件名，这利用outfile表示，最后跟上要更改编码方式的文件名sourcefile zotero文献管理工具(同步有问题，且有存储限制300M), 已放弃使用 Zotero | Downloads zotero.desktop放到~/.local/share/applications/ simplescreenrecorder屏幕录制工具 apt-file搜索安装包1234567$ apt-file search bin/designerqt4-designer: /usr/bin/designer-qt4qt4-designer: /usr/lib/x86_64-linux-gnu/qt4/bin/designerqt4-designer: /usr/share/qt4/bin/designerqtchooser: /usr/bin/designerqttools5-dev-tools: /usr/lib/qt5/bin/designerqttools5-dev-tools: /usr/lib/x86_64-linux-gnu/qt5/bin/designer pgrep &amp; pkill查看匹配的进程信息:1pgrep -a -f "cpu 20" 杀掉匹配的进程信息12pkill -f "cpu20"# ps -ef | grep 'myProcessName' | grep -v grep | awk '&#123;print $2&#125;' | xargs -r kill -9]]></content>
@@ -93,17 +104,6 @@
         <tag>tool</tag>
         <tag>linux</tag>
         <tag>trick</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[gist id of atom and vscode settings]]></title>
-    <url>%2F2018%2F09%2F12%2Flinux%2Fgithub-gist-sync-settings%2F</url>
-    <content type="text"><![CDATA[Please enter the password to read the blog. Decrypt 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]]></content>
-      <categories>
-        <category>linux</category>
-      </categories>
-      <tags>
-        <tag>config</tag>
       </tags>
   </entry>
   <entry>
@@ -259,9 +259,9 @@
         <category>algorithm</category>
       </categories>
       <tags>
-        <tag>LeetCode</tag>
-        <tag>algorithms</tag>
         <tag>python</tag>
+        <tag>algorithms</tag>
+        <tag>LeetCode</tag>
       </tags>
   </entry>
   <entry>
@@ -272,9 +272,9 @@
         <category>algorithm</category>
       </categories>
       <tags>
-        <tag>LeetCode</tag>
-        <tag>algorithms</tag>
         <tag>python</tag>
+        <tag>algorithms</tag>
+        <tag>LeetCode</tag>
       </tags>
   </entry>
   <entry>
@@ -285,9 +285,9 @@
         <category>algorithm</category>
       </categories>
       <tags>
-        <tag>LeetCode</tag>
-        <tag>algorithms</tag>
         <tag>python</tag>
+        <tag>algorithms</tag>
+        <tag>LeetCode</tag>
       </tags>
   </entry>
   <entry>
@@ -298,9 +298,9 @@
         <category>algorithm</category>
       </categories>
       <tags>
-        <tag>LeetCode</tag>
-        <tag>algorithms</tag>
         <tag>python</tag>
+        <tag>algorithms</tag>
+        <tag>LeetCode</tag>
       </tags>
   </entry>
   <entry>
@@ -311,9 +311,9 @@
         <category>algorithm</category>
       </categories>
       <tags>
-        <tag>LeetCode</tag>
-        <tag>algorithms</tag>
         <tag>python</tag>
+        <tag>algorithms</tag>
+        <tag>LeetCode</tag>
       </tags>
   </entry>
   <entry>
@@ -324,9 +324,9 @@
         <category>algorithm</category>
       </categories>
       <tags>
-        <tag>LeetCode</tag>
-        <tag>algorithms</tag>
         <tag>python</tag>
+        <tag>algorithms</tag>
+        <tag>LeetCode</tag>
       </tags>
   </entry>
   <entry>
@@ -337,9 +337,9 @@
         <category>algorithm</category>
       </categories>
       <tags>
-        <tag>LeetCode</tag>
-        <tag>algorithms</tag>
         <tag>python</tag>
+        <tag>algorithms</tag>
+        <tag>LeetCode</tag>
       </tags>
   </entry>
   <entry>
@@ -350,9 +350,9 @@
         <category>algorithm</category>
       </categories>
       <tags>
-        <tag>LeetCode</tag>
-        <tag>algorithms</tag>
         <tag>python</tag>
+        <tag>algorithms</tag>
+        <tag>LeetCode</tag>
       </tags>
   </entry>
   <entry>
@@ -363,9 +363,9 @@
         <category>algorithm</category>
       </categories>
       <tags>
-        <tag>LeetCode</tag>
-        <tag>algorithms</tag>
         <tag>python</tag>
+        <tag>algorithms</tag>
+        <tag>LeetCode</tag>
       </tags>
   </entry>
   <entry>
@@ -376,9 +376,9 @@
         <category>algorithm</category>
       </categories>
       <tags>
-        <tag>LeetCode</tag>
-        <tag>algorithms</tag>
         <tag>python</tag>
+        <tag>algorithms</tag>
+        <tag>LeetCode</tag>
       </tags>
   </entry>
   <entry>
@@ -389,9 +389,9 @@
         <category>algorithm</category>
       </categories>
       <tags>
-        <tag>LeetCode</tag>
-        <tag>algorithms</tag>
         <tag>python</tag>
+        <tag>algorithms</tag>
+        <tag>LeetCode</tag>
       </tags>
   </entry>
   <entry>
@@ -508,9 +508,21 @@
         <category>algorithm</category>
       </categories>
       <tags>
-        <tag>algorithms</tag>
         <tag>python</tag>
+        <tag>algorithms</tag>
         <tag>math</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[rst转换为md]]></title>
+    <url>%2F2017%2F12%2F14%2Flinux%2Fpandoc-rst2md%2F</url>
+    <content type="text"><![CDATA[1sudo apt install pandoc 1234567FILES=*.rstfor f in $FILESdo filename="$&#123;f%.*&#125;" echo "Converting $f to $filename.md" `pandoc $f -f rst -t markdown -o $filename.md`done]]></content>
+      <categories>
+        <category>linux</category>
+      </categories>
+      <tags>
+        <tag>linux</tag>
+        <tag>trick</tag>
       </tags>
   </entry>
   <entry>
@@ -538,18 +550,6 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[rst转换为md]]></title>
-    <url>%2F2017%2F12%2F14%2Flinux%2Fpandoc-rst2md%2F</url>
-    <content type="text"><![CDATA[1sudo apt install pandoc 1234567FILES=*.rstfor f in $FILESdo filename="$&#123;f%.*&#125;" echo "Converting $f to $filename.md" `pandoc $f -f rst -t markdown -o $filename.md`done]]></content>
-      <categories>
-        <category>linux</category>
-      </categories>
-      <tags>
-        <tag>linux</tag>
-        <tag>trick</tag>
-      </tags>
-  </entry>
-  <entry>
     <title><![CDATA[parallel命令：并行处理]]></title>
     <url>%2F2017%2F12%2F01%2Flinux%2Fparallel%2F</url>
     <content type="text"><![CDATA[1ls | parallel -j 8 "python dic.py -f &#123;&#125;" How can I use GNU Parallel to run a lot of commands in parallel | Minnesota Supercomputing Institute GNU Parallel tutorial]]></content>
@@ -569,8 +569,8 @@
         <category>algorithm</category>
       </categories>
       <tags>
-        <tag>algorithms</tag>
         <tag>python</tag>
+        <tag>algorithms</tag>
       </tags>
   </entry>
   <entry>
@@ -638,8 +638,8 @@
         <category>python</category>
       </categories>
       <tags>
-        <tag>algorithms</tag>
         <tag>python</tag>
+        <tag>algorithms</tag>
       </tags>
   </entry>
   <entry>
@@ -667,18 +667,6 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[shadowsocks配置，运行]]></title>
-    <url>%2F2017%2F01%2F04%2Flinux%2Fshadowsocks-proxy%2F</url>
-    <content type="text"><![CDATA[Home · shadowsocks/shadowsocks Wiki sudo pip install shadowsocks 在远程服务器上：12345678后台运行ss：sudo ssserver -p 14321 -k your_password -d start停止：sudo ssserver -d stop检查日志：sudo less /var/log/shadowsocks.log 本地linux1sslocal -s 服务器地址 -p 服务器端口 -l 本地端端口 -k 密码 -m 加密方法 或者ssh端口转发12ssh -fND 127.0.0.1:1234 zzp@10.2.0.4 -p 9920ssh -L 12369:localhost:12369 -R 12369:localhost:12370 -ND localhost:12345 root@138.69.29.65 卡顿出错：123ssh sfo2 -vvv...debug1: expecting SSH2_MSG_KEX_ECDH_REPLY sudo ifconfig eno1 mtu 1454 服务器端：12 GSSAPIAuthentication noUseDNS no`]]></content>
-      <categories>
-        <category>linux</category>
-      </categories>
-      <tags>
-        <tag>tool</tag>
-        <tag>internet</tag>
-      </tags>
-  </entry>
-  <entry>
     <title><![CDATA[ubuntu配置初始化]]></title>
     <url>%2F2017%2F01%2F04%2Flinux%2Fubuntu-config%2F</url>
     <content type="text"><![CDATA[fcitx 输入法12sudo apt-get install fcitx fcitx-config-gtk fcitx-sunpinyin fcitx-googlepinyin fcitx-module-cloudpinyin im-configsudo im-config -s fcitx -z default 取消默认文件夹设置123456789# ~/.config/user-dirs.dirsxdg-user-dirs-update --set DESKTOP $HOME/xdg-user-dirs-update --set DOWNLOAD $HOME/xdg-user-dirs-update --set TEMPLATES $HOME/xdg-user-dirs-update --set PUBLICSHARE $HOME/xdg-user-dirs-update --set DOCUMENTS $HOME/xdg-user-dirs-update --set MUSIC $HOME/xdg-user-dirs-update --set PICTURES $HOME/xdg-user-dirs-update --set VIDEOS $HOME/ 卸载软件列表1sudo apt purge deja-dup gnome-sudoku webbrowser-app cheese gnome-mines gnome-mahjongg simple-scan empathy thunderbird rhythmbox libreoffice-common unity-webapps-common aisleriot transmission-common transmission-gtk remmina ubuntu-web-launchers 必备软件列表1234sudo apt-get install curl vim exuberant-ctags git ack-grepsudo pip install pep8 flake8 pyflakes isort yapfsudo apt install tmux zsh htop rar vim terminator ipython3 python3-pip openssh-server devtodo tree chsh -s /bin/zsh 可选安装软件列表123sudo apt install flashplugin-installer folder-color ubuntu-gnome-desktop moc kdeconnect gnome-tweak-toolsudo apt install graphviz virtualbox masterpdfeditor4sudo apt install gtk-recordmydesktop recordmydesktop 其余软件列表123nitrogen okular vlc screenfetchunison unison-gtk qrencode figlet xdotool cmatrix fortune fortune-zh cowsay vscode wps vimconfig zsh]]></content>
@@ -689,6 +677,18 @@
         <tag>linux</tag>
         <tag>config</tag>
         <tag>ubuntu</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[shadowsocks配置，运行]]></title>
+    <url>%2F2017%2F01%2F04%2Flinux%2Fshadowsocks-proxy%2F</url>
+    <content type="text"><![CDATA[Home · shadowsocks/shadowsocks Wiki sudo pip install shadowsocks 在远程服务器上：12345678后台运行ss：sudo ssserver -p 14321 -k your_password -d start停止：sudo ssserver -d stop检查日志：sudo less /var/log/shadowsocks.log 本地linux1sslocal -s 服务器地址 -p 服务器端口 -l 本地端端口 -k 密码 -m 加密方法 或者ssh端口转发12ssh -fND 127.0.0.1:1234 zzp@10.2.0.4 -p 9920ssh -L 12369:localhost:12369 -R 12369:localhost:12370 -ND localhost:12345 root@138.69.29.65 卡顿出错：123ssh sfo2 -vvv...debug1: expecting SSH2_MSG_KEX_ECDH_REPLY sudo ifconfig eno1 mtu 1454 服务器端：12 GSSAPIAuthentication noUseDNS no`]]></content>
+      <categories>
+        <category>linux</category>
+      </categories>
+      <tags>
+        <tag>tool</tag>
+        <tag>internet</tag>
       </tags>
   </entry>
   <entry>
@@ -728,33 +728,9 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[patchelf 修改动态链接库]]></title>
-    <url>%2F2017%2F01%2F03%2Flinux%2Fpatchelf%2F</url>
-    <content type="text"><![CDATA[12patchelf --set-rpath $&#123;HOME&#125;/temp/demo/lib subscriber]]></content>
-      <categories>
-        <category>linux</category>
-      </categories>
-      <tags>
-        <tag>tool</tag>
-        <tag>linux</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[rar and tar]]></title>
-    <url>%2F2017%2F01%2F03%2Flinux%2Frar-tar%2F</url>
-    <content type="text"><![CDATA[rar，tar为linux上最常用的压缩解压打包工具。 rar12345678910111213#将文件log.py, grades.py，文件夹dir1压缩到log.rarrar a log.rar log.py grades.py dir1#将log.rar解压至temp文件夹（需新建）rar x log.rar ./temp#列出压缩包内文件rar l log.rar tar123456789101112131415161718192021222324# 压缩文件tar zcvf sth.tar.gz file1 file2 dir1#解压到当前目录tar zxvf sth.tar.gz#解压到指定目录tar zxvf sth.tar.gz -C ./temp#列出压缩包内文件tar tvf sth.tar.gz# 不压缩，只打包tar cvf sth.tar file1 dir1-c, --create 创建一个新归档-z 通过gzip压缩( tar本身不是压缩命令，)]]></content>
-      <categories>
-        <category>linux</category>
-      </categories>
-      <tags>
-        <tag>tool</tag>
-        <tag>linux</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[python qrcode 二维码]]></title>
-    <url>%2F2017%2F01%2F03%2Fpython%2Fpython-qrcode%2F</url>
-    <content type="text"><![CDATA[用qrcode包做的生成字符串的二维码的脚本 ps: ubuntu下有个可以终端显示二维码像素点的软件：qrencode 输入qrencode -o - -t UTF8，输入字符串，然后ctrl+D结束 123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899100101102103104105106107108109110111112113114115116117118#coding:utf-8import qrcodefrom PIL import Imageimport osdef openpic(filename): os.system(&quot;eog &quot; + filename)# 生成二维码图片def make_qr(string, pic_name): qr = qrcode.QRCode( version = 4, # 生成二维码尺寸的大小 1-40 1:21*21（21+(n-1)*4） error_correction = qrcode.constants.ERROR_CORRECT_M, #L:7% M:15% Q:25% H:30% box_size = 10, # 每个格子的像素大小 border = 2, # 边框的格子宽度大小 ) qr.add_data(string) qr.make(fit = True) img = qr.make_image() img.save(pic_name) openpic(pic_name) # 生成带logo的二维码图片def make_logo_qr(string, logo, pic_name): # 参数配置 qr = qrcode.QRCode( version = 4, error_correction = qrcode.constants.ERROR_CORRECT_Q, box_size = 8, border = 2 ) # 添加转换内容 qr.add_data(string) # qr.make(fit = True) # 生成二维码 img=qr.make_image() # img=img.convert(&quot;RGBA&quot;) # 添加logo if logo and os.path.exists(logo): icon = Image.open(logo) # 获取二维码图片的大小 img_w, img_h = img.size factor = 4 size_w = int(img_w/factor) size_h = int(img_h/factor) # logo图片的大小不能超过二维码图片的1/4 icon_w, icon_h = icon.size if icon_w &gt; size_w: icon_w = size_w if icon_h &gt; size_h: icon_h = size_h icon = icon.resize((icon_w, icon_h), Image.ANTIALIAS) # 计算logo在二维码图中的位置 w = int((img_w - icon_w) / 2) h = int((img_h - icon_h) / 2) icon = icon.convert(&quot;RGBA&quot;) img.paste(icon, (w, h), icon) # 保存处理后图片 img.save(pic_name) openpic(pic_name) if __name__==&apos;__main__&apos;: print print &quot;usage: input text, then input empty line to stop input&quot; print &quot; or input q or nothing to stop the script!&quot; print path = os.path.dirname(os.path.realpath(__file__)) qrcode_pic = os.path.join(path, &apos;theqrcode.png&apos;) #生成后的保存文件 logo = os.path.join(path, &apos;logo.png&apos;) #logo图片 string = &quot;start&quot; stop_strings = [&quot;q&quot;, &quot;exit&quot;, &quot;&quot;] while(1): string = raw_input(&quot;input:\n&quot;) if(string.strip() in stop_strings): break # 输入内容允许有空格 while True: line = raw_input() if(line == &apos;&apos;): break else: string = string + &quot;\n&quot; + line #make_qr(string, qrcode_pic) make_logo_qr(string, logo, qrcode_pic)]]></content>
+    <title><![CDATA[python 判断字符串内容类型]]></title>
+    <url>%2F2017%2F01%2F03%2Fpython%2F%E5%88%A4%E6%96%AD%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%86%85%E5%AE%B9%E7%B1%BB%E5%9E%8B%2F</url>
+    <content type="text"><![CDATA[字符串函数 返回True的情况 s.isalnum 只含字母数字且非空 s.isalpha 只含有字母且非空 s.isdigit 只含有数字且非空 s.islower 没有大写字母且非空 s.isupper 没有小写字母且非空 s.isspace 只含有空白字符且非空 s.istitle 每个英文单词首字母都大写且非空]]></content>
       <categories>
         <category>python</category>
       </categories>
@@ -763,22 +739,9 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[Linux: todo]]></title>
-    <url>%2F2017%2F01%2F03%2Flinux%2Fdevtodo%2F</url>
-    <content type="text"><![CDATA[安装1sudo apt install devtodo 用法12345678910111213141516todo # 显示 todo listtda # 添加一项 todo，也可以用 todo -a 命令tde &lt;index&gt; # 修改第 index 条 todotdd &lt;index&gt; # 标记第 index 条 todo 已经完成tdr &lt;index&gt; # 删除第 index 条 todotodo -A # 显示所有的 todo 条目，包括完成的以及未完成的todo -Ac &lt;index&gt; #显示第index条todo的commenttodo --purge #删除已完成的todotodo -R 1,2 #将1变成2的子任务todo -R 1.1 #将1的子任务1变为根节点todo -G # ~/.todo_global aliases123456alias td=&quot;todo -G&quot;alias todo=&quot;todo -G&quot;alias tda=&quot;tda -G&quot;alias tdd=&quot;tdd -G&quot;alias tde=&quot;tde -G&quot;alias tdr=&quot;tdr -G&quot;]]></content>
-      <categories>
-        <category>linux</category>
-      </categories>
-      <tags>
-        <tag>tool</tag>
-        <tag>linux</tag>
-        <tag>terminal</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[python 判断字符串内容类型]]></title>
-    <url>%2F2017%2F01%2F03%2Fpython%2F%E5%88%A4%E6%96%AD%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%86%85%E5%AE%B9%E7%B1%BB%E5%9E%8B%2F</url>
-    <content type="text"><![CDATA[字符串函数 返回True的情况 s.isalnum 只含字母数字且非空 s.isalpha 只含有字母且非空 s.isdigit 只含有数字且非空 s.islower 没有大写字母且非空 s.isupper 没有小写字母且非空 s.isspace 只含有空白字符且非空 s.istitle 每个英文单词首字母都大写且非空]]></content>
+    <title><![CDATA[python qrcode 二维码]]></title>
+    <url>%2F2017%2F01%2F03%2Fpython%2Fpython-qrcode%2F</url>
+    <content type="text"><![CDATA[用qrcode包做的生成字符串的二维码的脚本 ps: ubuntu下有个可以终端显示二维码像素点的软件：qrencode 输入qrencode -o - -t UTF8，输入字符串，然后ctrl+D结束 123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899100101102103104105106107108109110111112113114115116117118#coding:utf-8import qrcodefrom PIL import Imageimport osdef openpic(filename): os.system(&quot;eog &quot; + filename)# 生成二维码图片def make_qr(string, pic_name): qr = qrcode.QRCode( version = 4, # 生成二维码尺寸的大小 1-40 1:21*21（21+(n-1)*4） error_correction = qrcode.constants.ERROR_CORRECT_M, #L:7% M:15% Q:25% H:30% box_size = 10, # 每个格子的像素大小 border = 2, # 边框的格子宽度大小 ) qr.add_data(string) qr.make(fit = True) img = qr.make_image() img.save(pic_name) openpic(pic_name) # 生成带logo的二维码图片def make_logo_qr(string, logo, pic_name): # 参数配置 qr = qrcode.QRCode( version = 4, error_correction = qrcode.constants.ERROR_CORRECT_Q, box_size = 8, border = 2 ) # 添加转换内容 qr.add_data(string) # qr.make(fit = True) # 生成二维码 img=qr.make_image() # img=img.convert(&quot;RGBA&quot;) # 添加logo if logo and os.path.exists(logo): icon = Image.open(logo) # 获取二维码图片的大小 img_w, img_h = img.size factor = 4 size_w = int(img_w/factor) size_h = int(img_h/factor) # logo图片的大小不能超过二维码图片的1/4 icon_w, icon_h = icon.size if icon_w &gt; size_w: icon_w = size_w if icon_h &gt; size_h: icon_h = size_h icon = icon.resize((icon_w, icon_h), Image.ANTIALIAS) # 计算logo在二维码图中的位置 w = int((img_w - icon_w) / 2) h = int((img_h - icon_h) / 2) icon = icon.convert(&quot;RGBA&quot;) img.paste(icon, (w, h), icon) # 保存处理后图片 img.save(pic_name) openpic(pic_name) if __name__==&apos;__main__&apos;: print print &quot;usage: input text, then input empty line to stop input&quot; print &quot; or input q or nothing to stop the script!&quot; print path = os.path.dirname(os.path.realpath(__file__)) qrcode_pic = os.path.join(path, &apos;theqrcode.png&apos;) #生成后的保存文件 logo = os.path.join(path, &apos;logo.png&apos;) #logo图片 string = &quot;start&quot; stop_strings = [&quot;q&quot;, &quot;exit&quot;, &quot;&quot;] while(1): string = raw_input(&quot;input:\n&quot;) if(string.strip() in stop_strings): break # 输入内容允许有空格 while True: line = raw_input() if(line == &apos;&apos;): break else: string = string + &quot;\n&quot; + line #make_qr(string, qrcode_pic) make_logo_qr(string, logo, qrcode_pic)]]></content>
       <categories>
         <category>python</category>
       </categories>
@@ -807,6 +770,43 @@
       <tags>
         <tag>python</tag>
         <tag>sklearn</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[patchelf 修改动态链接库]]></title>
+    <url>%2F2017%2F01%2F03%2Flinux%2Fpatchelf%2F</url>
+    <content type="text"><![CDATA[12patchelf --set-rpath $&#123;HOME&#125;/temp/demo/lib subscriber]]></content>
+      <categories>
+        <category>linux</category>
+      </categories>
+      <tags>
+        <tag>tool</tag>
+        <tag>linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[rar and tar]]></title>
+    <url>%2F2017%2F01%2F03%2Flinux%2Frar-tar%2F</url>
+    <content type="text"><![CDATA[rar，tar为linux上最常用的压缩解压打包工具。 rar12345678910111213#将文件log.py, grades.py，文件夹dir1压缩到log.rarrar a log.rar log.py grades.py dir1#将log.rar解压至temp文件夹（需新建）rar x log.rar ./temp#列出压缩包内文件rar l log.rar tar123456789101112131415161718192021222324# 压缩文件tar zcvf sth.tar.gz file1 file2 dir1#解压到当前目录tar zxvf sth.tar.gz#解压到指定目录tar zxvf sth.tar.gz -C ./temp#列出压缩包内文件tar tvf sth.tar.gz# 不压缩，只打包tar cvf sth.tar file1 dir1-c, --create 创建一个新归档-z 通过gzip压缩( tar本身不是压缩命令，)]]></content>
+      <categories>
+        <category>linux</category>
+      </categories>
+      <tags>
+        <tag>tool</tag>
+        <tag>linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Linux: todo]]></title>
+    <url>%2F2017%2F01%2F03%2Flinux%2Fdevtodo%2F</url>
+    <content type="text"><![CDATA[安装1sudo apt install devtodo 用法12345678910111213141516todo # 显示 todo listtda # 添加一项 todo，也可以用 todo -a 命令tde &lt;index&gt; # 修改第 index 条 todotdd &lt;index&gt; # 标记第 index 条 todo 已经完成tdr &lt;index&gt; # 删除第 index 条 todotodo -A # 显示所有的 todo 条目，包括完成的以及未完成的todo -Ac &lt;index&gt; #显示第index条todo的commenttodo --purge #删除已完成的todotodo -R 1,2 #将1变成2的子任务todo -R 1.1 #将1的子任务1变为根节点todo -G # ~/.todo_global aliases123456alias td=&quot;todo -G&quot;alias todo=&quot;todo -G&quot;alias tda=&quot;tda -G&quot;alias tdd=&quot;tdd -G&quot;alias tde=&quot;tde -G&quot;alias tdr=&quot;tdr -G&quot;]]></content>
+      <categories>
+        <category>linux</category>
+      </categories>
+      <tags>
+        <tag>tool</tag>
+        <tag>linux</tag>
+        <tag>terminal</tag>
       </tags>
   </entry>
   <entry>
