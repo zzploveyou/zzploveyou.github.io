@@ -100,7 +100,7 @@
 <meta property="og:site_name" content="zzp&#39;s blog">
 <meta property="og:description" content="使用windows系统的小技巧，2015年之前整理。">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-12-28T05:28:40.910Z">
+<meta property="og:updated_time" content="2019-03-29T09:42:57.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="windows-tricks">
 <meta name="twitter:description" content="使用windows系统的小技巧，2015年之前整理。">
@@ -351,8 +351,8 @@
               
                 <span class="post-meta-item-text">更新于</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2018-12-28T13:28:40+08:00">
-                2018-12-28
+              <time title="更新于" itemprop="dateModified" datetime="2019-03-29T17:42:57+08:00">
+                2019-03-29
               </time>
             
           </span>
@@ -485,7 +485,8 @@
 <p>@ECHO OFF<br>MD E:\RECYCLED\UDrives.{25336920-03F9-11CF-8FD0-00AA00686F13}&gt;NUL<br>IF EXIST o:\NUL GOTO DELETE<br>SUBST o: E:\RECYCLED\UDrives.{25336920-03F9-11CF-8FD0-00AA00686F13}<br>START o:\<br>echo 请把文件移动到打开的窗口中，但请妥善保留该文件，此批处理文件可用来存取隐藏文件！<br>pause<br>subst /d o:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">## 打开剪切板里路径的注册表</span><br></pre></td></tr></table></figure></p>
 <p>‘ Created by Sergey Tkachenko<br>Dim objHTA<br>Dim cClipBoard<br>Dim WshShell<br>set objHTA=createobject(“htmlfile”)<br>cClipBoard=objHTA.parentwindow.clipboarddata.getdata(“text”)<br>Set WshShell = WScript.CreateObject(“WScript.Shell”)<br>WshShell.RegWrite “HKCU\Software\Microsoft\Windows\CurrentVersion\Applets\Regedit\LastKey”, cClipBoard, “REG_SZ”<br>WshShell.Run “regedit.exe -m”<br>Set objHTA = nothing<br>Set WshShell = nothing<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">## cmd更换字体</span><br></pre></td></tr></table></figure></p>
 <p>Windows Registry Editor Version 5.00<br>[HKEY_CURRENT_USER\Console\%SystemRoot%_system32_cmd.exe]<br>“WindowSize”=dword:00170058<br>“ScreenBufferSize”=dword:01900119<br>“WindowPosition”=dword:0079004b<br>“ColorTable01”=dword:00235600<br>“FontSize”=dword:00150000<br>“FontWeight”=dword:00000190<br>“FaceName”=”Consolas”<br>“FontFamily”=dword:00000036<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">## 注册表添加程序自启动</span><br></pre></td></tr></table></figure></p>
-<h1 id="开始-运行-输入regedit"><a href="#开始-运行-输入regedit" class="headerlink" title="开始-运行-输入regedit"></a>开始-运行-输入regedit</h1><p>HKeyLocalMochine\SOFTWARE\Microsoft\Windows\CurrenVersion\Run<br><code>`</code></p>
+<h1 id="开始-运行-输入regedit"><a href="#开始-运行-输入regedit" class="headerlink" title="开始-运行-输入regedit"></a>开始-运行-输入regedit</h1><p>HKeyLocalMochine\SOFTWARE\Microsoft\Windows\CurrenVersion\Run<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">## 去除快捷方式字样</span><br></pre></td></tr></table></figure></p>
+<p>HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer<br>link改为00-00-00-00<br><code>`</code></p>
 
       
     </div>
@@ -547,8 +548,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2017/01/03/python/python-pdf/" rel="next" title="python生成pdf文件">
-                <i class="fa fa-chevron-left"></i> python生成pdf文件
+              <a href="/2017/01/03/linux/patchelf/" rel="next" title="patchelf 修改动态链接库">
+                <i class="fa fa-chevron-left"></i> patchelf 修改动态链接库
               </a>
             
           </div>
@@ -557,8 +558,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2017/01/04/linux/ubuntu-config/" rel="prev" title="ubuntu配置初始化">
-                ubuntu配置初始化 <i class="fa fa-chevron-right"></i>
+              <a href="/2017/01/04/linux/shadowsocks-proxy/" rel="prev" title="shadowsocks配置，运行">
+                shadowsocks配置，运行 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -638,7 +639,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives/">
-                <span class="site-state-item-count">68</span>
+                <span class="site-state-item-count">73</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
@@ -732,8 +733,8 @@
       <div class="footer-inner">
         <div class="copyright" >
   
-  &copy; 
-  <span itemprop="copyrightYear">2018</span>
+  &copy;  2018 - 
+  <span itemprop="copyrightYear">2019</span>
   <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>
