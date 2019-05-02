@@ -83,6 +83,17 @@
       </tags>
   </entry>
   <entry>
+    <title><![CDATA[gist id of atom and vscode settings]]></title>
+    <url>%2F2018%2F09%2F12%2Flinux%2Fgithub-gist-sync-settings%2F</url>
+    <content type="text"><![CDATA[Please enter the password to read the blog. Decrypt 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]]></content>
+      <categories>
+        <category>linux</category>
+      </categories>
+      <tags>
+        <tag>config</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[linux tools]]></title>
     <url>%2F2018%2F09%2F12%2Flinux%2Fefficient-tools%2F</url>
     <content type="text"><![CDATA[trash-cli1sudo apt install trash-cli Usage123456#alias rm!="/bin/rm -vi"#alias rm=trashalias t=trashalias lt=trash-listalias rt=restore-trashalias et=trash-empty 命令 用途 trash-put/trash 文件或目录移入回收站 trash-empty 清空回收站 trash-list 列出回收站中的文件 restore-trash 还原回收站中的文件 trash-rm 删除回收站中的单个文件 递归搜索文件内容-agggreer/the_silver_searcher: A code-searching tool similar to ack, but faster. 123sudo apt install silversearcher-agag def lib/ 字符模式下交互查看git项目-tigjonas/tig: Text-mode interface for git mysql客户端-mycli类似于ipython的mysql客户端，支持语法高亮和命令补全 C++手册查询-cppman1cppman std::thread 多线程下载工具axel1axel -n 20 URL 终端会话录制-script/scriptreplay12345script -t 2&gt;time.txt session.typescript# your commandexitscriptreplay -t time.txt session.typescript 媒体下载工具 you-getyoutube, google+, 优酷，腾讯视频，秒拍等12# socks5(pip install pysocks)you-get &apos;https://www.youtube.com/watch?v=jNQXAC9IVRw&apos; -s 127.0.0.1:12345 网络流量分析 iptraf-ng123sudo apt install iptrafiptraf-ng w实时网速查看 bwm-ng1sudo apt install bwm-ng terminal录屏 asciinema查询天气1234curl wttr.in/:helpcurl "wttr.in/Beijing?lang=zh"curl "wttr.in/Beijing?pq&amp;lang=zh"curl "wttr.in/Beijing?0pq&amp;lang=zh" sudoku1sudoku cmatrix12cmatrix figlet — 字符串在终端上显示1figlet i love you xdotool — 控制鼠标点击123456789101112131415161718显示鼠标当前位置xdotool getmouselocationxdotool mousemove x yxdotool click 1xdotool click 2xdotool click 3xdotool key ctrl +1xdotool click --repeat 10 --delay 500 1间隔0.5s一次，重复10次左键 qrencode –字符串转为终端像素点二维码nitrogen – 多显示屏设置不同壁纸1: install dconf-editor and nitrogen 1234sudo apt-get install dconf-editorsudo apt-get install nitrogen 2: Open dconf-editor 3: In dconf-editor, explore to /org/gnome/desktop/background/ 4: Unmark the show-desktop-icons option. 5: Open nitrogen 这样之后桌面文件夹不显示 xeyesfortune名句 fortune-zh唐诗 cowsay123456789101112cowsay -l查看所有动物/usr/share/cowsay/cows/*cowsay -f turtle指定动物fortune-zh | cowsay -f turtle动物说话 equalxlatex公式编辑器1sudo apt install equalx ffmpeg1ffmpeg -i '123.avi' -ac 2 -b:v 2000k -c:a aac -c:v libx264 -b:a 160k -vprofile high -bf 0 -strict experimental -f mp4 '123.mp4' 12-b:v 2000k-b:v 1000k 文件清晰度，大小 convmv更改文件名编码方式的一个工具 1convmv -f gbk -t utf-8 -r –-notest /home 就是将/home目录下原来文件名是gbk编码方式的全部改为utf-8格式的。这里 -f 后面为原来的编码方式，-t 后面是要更改为的编码方式， 12-r 表示这个目录下面的所有文件， –notest 表示马上执行，而不是仅仅测试而已。 iconv更改文件编码方式的一个工具 1iconv -f gbk -t utf-8 -o outfile infile -f为原来的编码方式，-t 为输出文件的编码方式， -o表示输出文件名，这利用outfile表示，最后跟上要更改编码方式的文件名sourcefile zotero文献管理工具(同步有问题，且有存储限制300M), 已放弃使用 Zotero | Downloads zotero.desktop放到~/.local/share/applications/ simplescreenrecorder屏幕录制工具 apt-file搜索安装包1234567$ apt-file search bin/designerqt4-designer: /usr/bin/designer-qt4qt4-designer: /usr/lib/x86_64-linux-gnu/qt4/bin/designerqt4-designer: /usr/share/qt4/bin/designerqtchooser: /usr/bin/designerqttools5-dev-tools: /usr/lib/qt5/bin/designerqttools5-dev-tools: /usr/lib/x86_64-linux-gnu/qt5/bin/designer pgrep &amp; pkill查看匹配的进程信息:1pgrep -a -f "cpu 20" 杀掉匹配的进程信息12pkill -f "cpu20"# ps -ef | grep 'myProcessName' | grep -v grep | awk '&#123;print $2&#125;' | xargs -r kill -9]]></content>
@@ -93,17 +104,6 @@
         <tag>trick</tag>
         <tag>linux</tag>
         <tag>tool</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[gist id of atom and vscode settings]]></title>
-    <url>%2F2018%2F09%2F12%2Flinux%2Fgithub-gist-sync-settings%2F</url>
-    <content type="text"><![CDATA[Please enter the password to read the blog. Decrypt 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]]></content>
-      <categories>
-        <category>linux</category>
-      </categories>
-      <tags>
-        <tag>config</tag>
       </tags>
   </entry>
   <entry>
@@ -259,9 +259,9 @@
         <category>algorithm</category>
       </categories>
       <tags>
-        <tag>LeetCode</tag>
-        <tag>algorithms</tag>
         <tag>python</tag>
+        <tag>algorithms</tag>
+        <tag>LeetCode</tag>
       </tags>
   </entry>
   <entry>
@@ -272,9 +272,9 @@
         <category>algorithm</category>
       </categories>
       <tags>
-        <tag>LeetCode</tag>
-        <tag>algorithms</tag>
         <tag>python</tag>
+        <tag>algorithms</tag>
+        <tag>LeetCode</tag>
       </tags>
   </entry>
   <entry>
@@ -285,9 +285,9 @@
         <category>algorithm</category>
       </categories>
       <tags>
-        <tag>LeetCode</tag>
-        <tag>algorithms</tag>
         <tag>python</tag>
+        <tag>algorithms</tag>
+        <tag>LeetCode</tag>
       </tags>
   </entry>
   <entry>
@@ -298,9 +298,9 @@
         <category>algorithm</category>
       </categories>
       <tags>
-        <tag>LeetCode</tag>
-        <tag>algorithms</tag>
         <tag>python</tag>
+        <tag>algorithms</tag>
+        <tag>LeetCode</tag>
       </tags>
   </entry>
   <entry>
@@ -311,9 +311,9 @@
         <category>algorithm</category>
       </categories>
       <tags>
-        <tag>LeetCode</tag>
-        <tag>algorithms</tag>
         <tag>python</tag>
+        <tag>algorithms</tag>
+        <tag>LeetCode</tag>
       </tags>
   </entry>
   <entry>
@@ -324,9 +324,9 @@
         <category>algorithm</category>
       </categories>
       <tags>
-        <tag>LeetCode</tag>
-        <tag>algorithms</tag>
         <tag>python</tag>
+        <tag>algorithms</tag>
+        <tag>LeetCode</tag>
       </tags>
   </entry>
   <entry>
@@ -337,9 +337,9 @@
         <category>algorithm</category>
       </categories>
       <tags>
-        <tag>LeetCode</tag>
-        <tag>algorithms</tag>
         <tag>python</tag>
+        <tag>algorithms</tag>
+        <tag>LeetCode</tag>
       </tags>
   </entry>
   <entry>
@@ -350,9 +350,9 @@
         <category>algorithm</category>
       </categories>
       <tags>
-        <tag>LeetCode</tag>
-        <tag>algorithms</tag>
         <tag>python</tag>
+        <tag>algorithms</tag>
+        <tag>LeetCode</tag>
       </tags>
   </entry>
   <entry>
@@ -363,9 +363,9 @@
         <category>algorithm</category>
       </categories>
       <tags>
-        <tag>LeetCode</tag>
-        <tag>algorithms</tag>
         <tag>python</tag>
+        <tag>algorithms</tag>
+        <tag>LeetCode</tag>
       </tags>
   </entry>
   <entry>
@@ -376,9 +376,9 @@
         <category>algorithm</category>
       </categories>
       <tags>
-        <tag>LeetCode</tag>
-        <tag>algorithms</tag>
         <tag>python</tag>
+        <tag>algorithms</tag>
+        <tag>LeetCode</tag>
       </tags>
   </entry>
   <entry>
@@ -389,9 +389,9 @@
         <category>algorithm</category>
       </categories>
       <tags>
-        <tag>LeetCode</tag>
-        <tag>algorithms</tag>
         <tag>python</tag>
+        <tag>algorithms</tag>
+        <tag>LeetCode</tag>
       </tags>
   </entry>
   <entry>
@@ -437,8 +437,8 @@
         <category>linux</category>
       </categories>
       <tags>
-        <tag>config</tag>
         <tag>linux</tag>
+        <tag>config</tag>
       </tags>
   </entry>
   <entry>
@@ -508,8 +508,8 @@
         <category>algorithm</category>
       </categories>
       <tags>
-        <tag>algorithms</tag>
         <tag>python</tag>
+        <tag>algorithms</tag>
         <tag>math</tag>
       </tags>
   </entry>
@@ -521,8 +521,8 @@
         <category>vim</category>
       </categories>
       <tags>
-        <tag>vim</tag>
         <tag>trick</tag>
+        <tag>vim</tag>
       </tags>
   </entry>
   <entry>
@@ -569,8 +569,8 @@
         <category>algorithm</category>
       </categories>
       <tags>
-        <tag>algorithms</tag>
         <tag>python</tag>
+        <tag>algorithms</tag>
       </tags>
   </entry>
   <entry>
@@ -638,8 +638,8 @@
         <category>python</category>
       </categories>
       <tags>
-        <tag>algorithms</tag>
         <tag>python</tag>
+        <tag>algorithms</tag>
       </tags>
   </entry>
   <entry>
@@ -667,6 +667,18 @@
       </tags>
   </entry>
   <entry>
+    <title><![CDATA[shadowsocks配置，运行]]></title>
+    <url>%2F2017%2F01%2F04%2Flinux%2Fshadowsocks-proxy%2F</url>
+    <content type="text"><![CDATA[Home · shadowsocks/shadowsocks Wiki sudo pip install shadowsocks 在远程服务器上：12345678后台运行ss：sudo ssserver -p 14321 -k your_password -d start停止：sudo ssserver -d stop检查日志：sudo less /var/log/shadowsocks.log 本地linux1sslocal -s 服务器地址 -p 服务器端口 -l 本地端端口 -k 密码 -m 加密方法 或者ssh端口转发12ssh -fND 127.0.0.1:1234 zzp@10.2.0.4 -p 9920ssh -L 12369:localhost:12369 -R 12369:localhost:12370 -ND localhost:12345 root@138.69.29.65 卡顿出错：123ssh sfo2 -vvv...debug1: expecting SSH2_MSG_KEX_ECDH_REPLY sudo ifconfig eno1 mtu 1454 服务器端：12 GSSAPIAuthentication noUseDNS no`]]></content>
+      <categories>
+        <category>linux</category>
+      </categories>
+      <tags>
+        <tag>tool</tag>
+        <tag>internet</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[rsync同步命令]]></title>
     <url>%2F2017%2F01%2F04%2Flinux%2Frsync%E5%91%BD%E4%BB%A4%2F</url>
     <content type="text"><![CDATA[rsync最常用的操作同步远程zzp主机下note文件夹到本地文件夹note(以前者为准,后者的更改都会被抹除) 1rsync -urv --delete "zzp:/home/zzp/note/" note/ rsync的命令格式1234567rsync [OPTION]... SRC DESTrsync [OPTION]... SRC [USER@]HOST:DESTrsync [OPTION]... [USER@]HOST:SRC DESTrsync [OPTION]... [USER@]HOST::SRC DESTrsync [OPTION]... SRC [USER@]HOST::DESTrsync [OPTION]... rsync://[USER@]HOST[:PORT]/SRC [DEST] 对应于以上六种命令格式，rsync有六种不同的工作模式： 拷贝本地文件。当SRC和DES路径信息都不包含有单个冒号”:”分隔符时就启动这种工作模式。如：-a/backup```122. 使用一个远程shell程序(如rsh、ssh)来实现将本地机器的内容拷贝到远程机器。当DST路径地址包含单个冒号&quot;:&quot;分隔符时启动该模式。如：```rsync -avz *.c foo:src 使用一个远程shell程序(如rsh、ssh)来实现将远程机器的内容拷贝到本地机器。当SRC地址路径包含单个冒号”:”分隔符时启动该模式。如：-avz foo:src/barlink124. 从远程rsync服务器中拷贝文件到本地机。当SRC路径信息包含&quot;::&quot;分隔符时启动该模式。如：```rsync -av root@172.16.78.192::www /databack 从本地机器拷贝文件到远程rsync服务器中。当DST路径信息包含”::”分隔符时启动该模式。如：-avroot@172.16.78.192::www```126. 列远程机的文件列表。这类似于rsync传输，不过只要在命令中省略掉本地机信息即可。如：```rsync -v rsync://172.16.78.192/www rsync参数12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061-v, --verbose 详细模式输出-q, --quiet 精简输出模式-c, --checksum 打开校验开关，强制对文件传输进行校验-a, --archive 归档模式，表示以递归方式传输文件，并保持所有文件属性，等于-rlptgoD-r, --recursive 对子目录以递归模式处理-R, --relative 使用相对路径信息-b, --backup 创建备份，也就是对于目的已经存在有同样的文件名时，将老的文件重新命名为~filename。可以使用--suffix选项来指定不同的备份文件前缀。--backup-dir 将备份文件(如~filename)存放在在目录下。-suffix=SUFFIX 定义备份文件前缀-u, --update 仅仅进行更新，也就是跳过所有已经存在于DST，并且文件时间晚于要备份的文件。(不覆盖更新的文件)-l, --links 保留软链结-L, --copy-links 想对待常规文件一样处理软链结--copy-unsafe-links 仅仅拷贝指向SRC路径目录树以外的链结--safe-links 忽略指向SRC路径目录树以外的链结-H, --hard-links 保留硬链结-p, --perms 保持文件权限-o, --owner 保持文件属主信息-g, --group 保持文件属组信息-D, --devices 保持设备文件信息-t, --times 保持文件时间信息-S, --sparse 对稀疏文件进行特殊处理以节省DST的空间-n, --dry-run现实哪些文件将被传输-W, --whole-file 拷贝文件，不进行增量检测-x, --one-file-system 不要跨越文件系统边界-B, --block-size=SIZE 检验算法使用的块尺寸，默认是700字节-e, --rsh=COMMAND 指定使用rsh、ssh方式进行数据同步--rsync-path=PATH 指定远程服务器上的rsync命令所在路径信息-C, --cvs-exclude 使用和CVS一样的方法自动忽略文件，用来排除那些不希望传输的文件--existing 仅仅更新那些已经存在于DST的文件，而不备份那些新创建的文件--delete 删除那些DST中SRC没有的文件--delete-excluded 同样删除接收端那些被该选项指定排除的文件--delete-after 传输结束以后再删除--ignore-errors 及时出现IO错误也进行删除--max-delete=NUM 最多删除NUM个文件--partial 保留那些因故没有完全传输的文件，以是加快随后的再次传输--force 强制删除目录，即使不为空--numeric-ids 不将数字的用户和组ID匹配为用户名和组名--timeout=TIME IP超时时间，单位为秒-I, --ignore-times 不跳过那些有同样的时间和长度的文件--size-only 当决定是否要备份文件时，仅仅察看文件大小而不考虑文件时间--modify-window=NUM 决定文件是否时间相同时使用的时间戳窗口，默认为0-T --temp-dir=DIR 在DIR中创建临时文件--compare-dest=DIR 同样比较DIR中的文件来决定是否需要备份-P 等同于 --partial--progress 显示备份过程-z, --compress 对备份的文件在传输时进行压缩处理--exclude=PATTERN 指定排除不需要传输的文件模式--include=PATTERN 指定不排除而需要传输的文件模式--exclude-from=FILE 排除FILE中指定模式的文件--include-from=FILE 不排除FILE指定模式匹配的文件--version 打印版本信息--address 绑定到特定的地址--config=FILE 指定其他的配置文件，不使用默认的rsyncd.conf文件--port=PORT 指定其他的rsync服务端口--blocking-io 对远程shell使用阻塞IO-stats 给出某些文件的传输状态--progress 在传输时现实传输过程--log-format=formAT 指定日志文件格式--password-file=FILE 从FILE中得到密码--bwlimit=KBPS 限制I/O带宽，KBytes per second-h, --help 显示帮助信息]]></content>
@@ -676,6 +688,19 @@
       <tags>
         <tag>linux</tag>
         <tag>command</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[ubuntu配置初始化]]></title>
+    <url>%2F2017%2F01%2F04%2Flinux%2Fubuntu-config%2F</url>
+    <content type="text"><![CDATA[fcitx 输入法12sudo apt-get install fcitx fcitx-config-gtk fcitx-sunpinyin fcitx-googlepinyin fcitx-module-cloudpinyin im-configsudo im-config -s fcitx -z default 取消默认文件夹设置123456789# ~/.config/user-dirs.dirsxdg-user-dirs-update --set DESKTOP $HOME/xdg-user-dirs-update --set DOWNLOAD $HOME/xdg-user-dirs-update --set TEMPLATES $HOME/xdg-user-dirs-update --set PUBLICSHARE $HOME/xdg-user-dirs-update --set DOCUMENTS $HOME/xdg-user-dirs-update --set MUSIC $HOME/xdg-user-dirs-update --set PICTURES $HOME/xdg-user-dirs-update --set VIDEOS $HOME/ 卸载软件列表1sudo apt purge deja-dup gnome-sudoku webbrowser-app cheese gnome-mines gnome-mahjongg simple-scan empathy thunderbird rhythmbox libreoffice-common unity-webapps-common aisleriot transmission-common transmission-gtk remmina ubuntu-web-launchers 必备软件列表1234sudo apt-get install curl vim exuberant-ctags git ack-grepsudo pip install pep8 flake8 pyflakes isort yapfsudo apt install tmux zsh htop rar vim terminator ipython3 python3-pip openssh-server devtodo tree chsh -s /bin/zsh 可选安装软件列表123sudo apt install flashplugin-installer folder-color ubuntu-gnome-desktop moc kdeconnect gnome-tweak-toolsudo apt install graphviz virtualbox masterpdfeditor4sudo apt install gtk-recordmydesktop recordmydesktop 其余软件列表123nitrogen okular vlc screenfetchunison unison-gtk qrencode figlet xdotool cmatrix fortune fortune-zh cowsay vscode wps vimconfig zsh]]></content>
+      <categories>
+        <category>linux</category>
+      </categories>
+      <tags>
+        <tag>linux</tag>
+        <tag>config</tag>
+        <tag>ubuntu</tag>
       </tags>
   </entry>
   <entry>
@@ -691,31 +716,6 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[ubuntu配置初始化]]></title>
-    <url>%2F2017%2F01%2F04%2Flinux%2Fubuntu-config%2F</url>
-    <content type="text"><![CDATA[fcitx 输入法12sudo apt-get install fcitx fcitx-config-gtk fcitx-sunpinyin fcitx-googlepinyin fcitx-module-cloudpinyin im-configsudo im-config -s fcitx -z default 取消默认文件夹设置123456789# ~/.config/user-dirs.dirsxdg-user-dirs-update --set DESKTOP $HOME/xdg-user-dirs-update --set DOWNLOAD $HOME/xdg-user-dirs-update --set TEMPLATES $HOME/xdg-user-dirs-update --set PUBLICSHARE $HOME/xdg-user-dirs-update --set DOCUMENTS $HOME/xdg-user-dirs-update --set MUSIC $HOME/xdg-user-dirs-update --set PICTURES $HOME/xdg-user-dirs-update --set VIDEOS $HOME/ 卸载软件列表1sudo apt purge deja-dup gnome-sudoku webbrowser-app cheese gnome-mines gnome-mahjongg simple-scan empathy thunderbird rhythmbox libreoffice-common unity-webapps-common aisleriot transmission-common transmission-gtk remmina ubuntu-web-launchers 必备软件列表1234sudo apt-get install curl vim exuberant-ctags git ack-grepsudo pip install pep8 flake8 pyflakes isort yapfsudo apt install tmux zsh htop rar vim terminator ipython3 python3-pip openssh-server devtodo tree chsh -s /bin/zsh 可选安装软件列表123sudo apt install flashplugin-installer folder-color ubuntu-gnome-desktop moc kdeconnect gnome-tweak-toolsudo apt install graphviz virtualbox masterpdfeditor4sudo apt install gtk-recordmydesktop recordmydesktop 其余软件列表123nitrogen okular vlc screenfetchunison unison-gtk qrencode figlet xdotool cmatrix fortune fortune-zh cowsay vscode wps vimconfig zsh]]></content>
-      <categories>
-        <category>linux</category>
-      </categories>
-      <tags>
-        <tag>config</tag>
-        <tag>linux</tag>
-        <tag>ubuntu</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[shadowsocks配置，运行]]></title>
-    <url>%2F2017%2F01%2F04%2Flinux%2Fshadowsocks-proxy%2F</url>
-    <content type="text"><![CDATA[Home · shadowsocks/shadowsocks Wiki sudo pip install shadowsocks 在远程服务器上：12345678后台运行ss：sudo ssserver -p 14321 -k your_password -d start停止：sudo ssserver -d stop检查日志：sudo less /var/log/shadowsocks.log 本地linux1sslocal -s 服务器地址 -p 服务器端口 -l 本地端端口 -k 密码 -m 加密方法 或者ssh端口转发12ssh -fND 127.0.0.1:1234 zzp@10.2.0.4 -p 9920ssh -L 12369:localhost:12369 -R 12369:localhost:12370 -ND localhost:12345 root@138.69.29.65 卡顿出错：123ssh sfo2 -vvv...debug1: expecting SSH2_MSG_KEX_ECDH_REPLY sudo ifconfig eno1 mtu 1454 服务器端：12 GSSAPIAuthentication noUseDNS no`]]></content>
-      <categories>
-        <category>linux</category>
-      </categories>
-      <tags>
-        <tag>tool</tag>
-        <tag>internet</tag>
-      </tags>
-  </entry>
-  <entry>
     <title><![CDATA[windows-tricks]]></title>
     <url>%2F2017%2F01%2F03%2Ftrick%2Fwindows-tricks%2F</url>
     <content type="text"><![CDATA[使用windows系统的小技巧，2015年之前整理。 SoftwareAutoHotkey 键位映射AutoHotkey config file format. 12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152;;ctrl ^;;shift +;;windows #;;alt !#n::run,notepad^!A::run,&quot;C:\GreenPrograms\FSCapture\FSCapture.exe&quot;#f::run,&quot;C:\Program Files\Mozilla Firefox\firefox.exe&quot;#g::run,&quot;E:\win10\regedit.vbs&quot;#c::run,&quot;C:\GreenPrograms\cleaner\kcleaner.exe&quot;^!t::run,&quot;C:\Windows\System32\bash.exe&quot;#PrintScreen::&#123; KeyWait PrintScreen KeyWait LWin ;释放左Win键才激活下面的命令 SendMessage,0x112,0xF170,2,,Program Manager ;关闭显示器。0x112:WM_SYSCOMMAND，0xF170:SC_MONITORPOWER。2：关闭，-1：开启显示器 Return&#125;;双击鼠标右键在窗口最大化与正常状态之间切换 WinStatus:=0 RButton:: &#123; KeyWait, RButton ;松开鼠标右键后才继续执行下面的代码 keyWait, RButton, D T0.15 ;在 100 毫秒内等待再次按下鼠标右键，可以设置一个自己觉得适合的等待时间。 If ErrorLevel Click, Right Else &#123; if WinStatus=0 &#123; WinMaximize , A WinStatus:=1 &#125; else &#123; WinRestore ,A WinStatus:=0 &#125; &#125; Return&#125;;置顶窗口F7::winset,AlwaysOnTop,, A ;;A表示当前窗口标题return dos 命令查看计算机启动时间1net statistics workstation 文件夹及文件名中的点 dos命令 usage md d..\ 创建d..文件夹 rd d..\ 删除d..文件夹 md .f 创建.f文件夹 ren 3 .3 将文件3改名为.3 使用vbs脚本使得bat无黑框1.bat12@echo offshutdown -s -t 3600 1.vbs12Set ws = CreateObject(&quot;Wscript.Shell&quot;) ws.run &quot;cmd /c *.bat&quot;,vbhide 强制删除bat脚本del.bat123DEL /F /A /Q \\?\%1RD /S /Q \\?\%1pause bat脚本传入参数12345传入参数：%1，%2……脚本所在路径：%~dp0脚本所在路径短路径：%~sdp0脚本所在盘符：%~d0环境当前目录：%cd% dos命令显示日期时间#%date% 和 %time% 2007-08-08 23:13 1234567C:/&gt;echo %date%2007-08-08 星期三C:/&gt;echo %date:~0,4%2007 盘符:/&gt;输出 %date%是一个参数 但是他后面带的这些就是取值范围，说说后面的数值 第一个0代表从头开始 后面的4代表共取4个字符1234C:/&gt;echo %date:~-3%星期三 这里面的负数代表倒数,也就取最后3个字符1234C:/&gt;echo %date:~-3,-1%星期 这里的-1是不输出最后1个字符-2当然是2个类推 time也类似1234echo %time%23:12:49.05 dos切换编码切换utf-81chcp 65001 切换gbk 1chcp 936 建立windows特殊文件夹(zzp..)Command 窗口输入 md zzp..\ 普通文件夹是一个“ . ” 复制文件进入： copy 文件名 c:\zzp..\ 打开文件夹： 进行中输入完整的路径和文件夹的名称 删除文件夹： Command 中输入 rd c:\zzp..\ 之前得清空文件夹！ 复制文件到专业文件夹1copy 文件路径 %systemroot%\tasks 伪造文件夹新建文件夹名称为：12## 合并复制隐藏文件 copy d:\ab.jpg /b +d:\abc.txt abcd.jpg12## love bat @echo offset all=zn echo %all% %all%%all% %all% %all% %all%%all%%all%%all%%all%echo %all% %all% %all% %all% %all% %all%echo %all% %all% %all% %all% %all% %all%echo %all% %all% %all% %all% %all% %all%%all%%all%%all%%all%echo %all% %all% %all% %all% %all% %all%echo %all% %all% %all% %all% %all% %all%echo %all% %all% %all% %all% %all% %all%echo %all% %all%%all% %all%%all% %all%%all%%all%%all%%all% pause&gt;nul12345# 注册表相关## 添加右键获取权限 Windows Registry Editor Version 5.00[HKEY_CLASSES_ROOT*\shell\runas]@=”获取权限”“NoWorkingDirectory”=””[HKEY_CLASSES_ROOT*\shell\runas\command]@=”cmd.exe /c takeown /f \”%1\” &amp;&amp; icacls \”%1\” /grant administrators:F”“IsolatedCommand”=”cmd.exe /c takeown /f \”%1\” &amp;&amp; icacls \”%1\” /grant administrators:F”[HKEY_CLASSES_ROOT\Directory\shell\runas]@=”获取权限”“NoWorkingDirectory”=””[HKEY_CLASSES_ROOT\Directory\shell\runas\command]@=”cmd.exe /c takeown /f \”%1\” /r /d y &amp;&amp; icacls \”%1\” /grant administrators:F /t”“IsolatedCommand”=”cmd.exe /c takeown /f \”%1\” /r /d y &amp;&amp; icacls \”%1\” /grant administrators:F /t”12## 隐藏文件 @ECHO OFFMD E:\RECYCLED\UDrives.{25336920-03F9-11CF-8FD0-00AA00686F13}&gt;NULIF EXIST o:\NUL GOTO DELETESUBST o: E:\RECYCLED\UDrives.{25336920-03F9-11CF-8FD0-00AA00686F13}START o:\echo 请把文件移动到打开的窗口中，但请妥善保留该文件，此批处理文件可用来存取隐藏文件！pausesubst /d o:12## 打开剪切板里路径的注册表 ‘ Created by Sergey TkachenkoDim objHTADim cClipBoardDim WshShellset objHTA=createobject(“htmlfile”)cClipBoard=objHTA.parentwindow.clipboarddata.getdata(“text”)Set WshShell = WScript.CreateObject(“WScript.Shell”)WshShell.RegWrite “HKCU\Software\Microsoft\Windows\CurrentVersion\Applets\Regedit\LastKey”, cClipBoard, “REG_SZ”WshShell.Run “regedit.exe -m”Set objHTA = nothingSet WshShell = nothing12## cmd更换字体 Windows Registry Editor Version 5.00[HKEY_CURRENT_USER\Console\%SystemRoot%_system32_cmd.exe]“WindowSize”=dword:00170058“ScreenBufferSize”=dword:01900119“WindowPosition”=dword:0079004b“ColorTable01”=dword:00235600“FontSize”=dword:00150000“FontWeight”=dword:00000190“FaceName”=”Consolas”“FontFamily”=dword:0000003612## 注册表添加程序自启动 开始-运行-输入regeditHKeyLocalMochine\SOFTWARE\Microsoft\Windows\CurrenVersion\Run12## 去除快捷方式字样 HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorerlink改为00-00-00-00`]]></content>
@@ -723,8 +723,31 @@
         <category>trick</category>
       </categories>
       <tags>
-        <tag>trick</tag>
         <tag>windows</tag>
+        <tag>trick</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[python qrcode 二维码]]></title>
+    <url>%2F2017%2F01%2F03%2Fpython%2Fpython-qrcode%2F</url>
+    <content type="text"><![CDATA[用qrcode包做的生成字符串的二维码的脚本 ps: ubuntu下有个可以终端显示二维码像素点的软件：qrencode 输入qrencode -o - -t UTF8，输入字符串，然后ctrl+D结束 123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899100101102103104105106107108109110111112113114115116117118#coding:utf-8import qrcodefrom PIL import Imageimport osdef openpic(filename): os.system(&quot;eog &quot; + filename)# 生成二维码图片def make_qr(string, pic_name): qr = qrcode.QRCode( version = 4, # 生成二维码尺寸的大小 1-40 1:21*21（21+(n-1)*4） error_correction = qrcode.constants.ERROR_CORRECT_M, #L:7% M:15% Q:25% H:30% box_size = 10, # 每个格子的像素大小 border = 2, # 边框的格子宽度大小 ) qr.add_data(string) qr.make(fit = True) img = qr.make_image() img.save(pic_name) openpic(pic_name) # 生成带logo的二维码图片def make_logo_qr(string, logo, pic_name): # 参数配置 qr = qrcode.QRCode( version = 4, error_correction = qrcode.constants.ERROR_CORRECT_Q, box_size = 8, border = 2 ) # 添加转换内容 qr.add_data(string) # qr.make(fit = True) # 生成二维码 img=qr.make_image() # img=img.convert(&quot;RGBA&quot;) # 添加logo if logo and os.path.exists(logo): icon = Image.open(logo) # 获取二维码图片的大小 img_w, img_h = img.size factor = 4 size_w = int(img_w/factor) size_h = int(img_h/factor) # logo图片的大小不能超过二维码图片的1/4 icon_w, icon_h = icon.size if icon_w &gt; size_w: icon_w = size_w if icon_h &gt; size_h: icon_h = size_h icon = icon.resize((icon_w, icon_h), Image.ANTIALIAS) # 计算logo在二维码图中的位置 w = int((img_w - icon_w) / 2) h = int((img_h - icon_h) / 2) icon = icon.convert(&quot;RGBA&quot;) img.paste(icon, (w, h), icon) # 保存处理后图片 img.save(pic_name) openpic(pic_name) if __name__==&apos;__main__&apos;: print print &quot;usage: input text, then input empty line to stop input&quot; print &quot; or input q or nothing to stop the script!&quot; print path = os.path.dirname(os.path.realpath(__file__)) qrcode_pic = os.path.join(path, &apos;theqrcode.png&apos;) #生成后的保存文件 logo = os.path.join(path, &apos;logo.png&apos;) #logo图片 string = &quot;start&quot; stop_strings = [&quot;q&quot;, &quot;exit&quot;, &quot;&quot;] while(1): string = raw_input(&quot;input:\n&quot;) if(string.strip() in stop_strings): break # 输入内容允许有空格 while True: line = raw_input() if(line == &apos;&apos;): break else: string = string + &quot;\n&quot; + line #make_qr(string, qrcode_pic) make_logo_qr(string, logo, qrcode_pic)]]></content>
+      <categories>
+        <category>python</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[sklearn: kmeans]]></title>
+    <url>%2F2017%2F01%2F03%2Fai%2Fsklearn-kmeans%2F</url>
+    <content type="text"><![CDATA[12345678910111213141516171819202122232425262728293031323334353637383940# -*- coding: utf-8 -*-from sklearn.cluster import KMeansfrom sklearn.externals import joblibfinal = open(&apos;c:/test/final.dat&apos; , &apos;r&apos;)data = [line.strip().split(&apos;\t&apos;) for line in final]feature = [[float(x) for x in row[3:]] for row in data]#调用kmeans类clf = KMeans(n_clusters=9)s = clf.fit(feature)print s#9个中心print clf.cluster_centers_#每个样本所属的簇print clf.labels_#用来评估簇的个数是否合适，距离越小说明簇分的越好，选取临界点的簇个数print clf.inertia_#进行预测print clf.predict(feature)#保存模型joblib.dump(clf , &apos;c:/km.pkl&apos;)#载入保存的模型clf = joblib.load(&apos;c:/km.pkl&apos;)&apos;&apos;&apos;#用来评估簇的个数是否合适，距离越小说明簇分的越好，选取临界点的簇个数for i in range(5,30,1): clf = KMeans(n_clusters=i) s = clf.fit(feature) print i , clf.inertia_&apos;&apos;&apos; 来源：http://blog.itpub.net/12199764/viewspace-1479320/]]></content>
+      <categories>
+        <category>ai</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+        <tag>sklearn</tag>
       </tags>
   </entry>
   <entry>
@@ -774,18 +797,6 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[sklearn: kmeans]]></title>
-    <url>%2F2017%2F01%2F03%2Fai%2Fsklearn-kmeans%2F</url>
-    <content type="text"><![CDATA[12345678910111213141516171819202122232425262728293031323334353637383940# -*- coding: utf-8 -*-from sklearn.cluster import KMeansfrom sklearn.externals import joblibfinal = open(&apos;c:/test/final.dat&apos; , &apos;r&apos;)data = [line.strip().split(&apos;\t&apos;) for line in final]feature = [[float(x) for x in row[3:]] for row in data]#调用kmeans类clf = KMeans(n_clusters=9)s = clf.fit(feature)print s#9个中心print clf.cluster_centers_#每个样本所属的簇print clf.labels_#用来评估簇的个数是否合适，距离越小说明簇分的越好，选取临界点的簇个数print clf.inertia_#进行预测print clf.predict(feature)#保存模型joblib.dump(clf , &apos;c:/km.pkl&apos;)#载入保存的模型clf = joblib.load(&apos;c:/km.pkl&apos;)&apos;&apos;&apos;#用来评估簇的个数是否合适，距离越小说明簇分的越好，选取临界点的簇个数for i in range(5,30,1): clf = KMeans(n_clusters=i) s = clf.fit(feature) print i , clf.inertia_&apos;&apos;&apos; 来源：http://blog.itpub.net/12199764/viewspace-1479320/]]></content>
-      <categories>
-        <category>ai</category>
-      </categories>
-      <tags>
-        <tag>python</tag>
-        <tag>sklearn</tag>
-      </tags>
-  </entry>
-  <entry>
     <title><![CDATA[Linux: todo]]></title>
     <url>%2F2017%2F01%2F03%2Flinux%2Fdevtodo%2F</url>
     <content type="text"><![CDATA[安装1sudo apt install devtodo 用法12345678910111213141516todo # 显示 todo listtda # 添加一项 todo，也可以用 todo -a 命令tde &lt;index&gt; # 修改第 index 条 todotdd &lt;index&gt; # 标记第 index 条 todo 已经完成tdr &lt;index&gt; # 删除第 index 条 todotodo -A # 显示所有的 todo 条目，包括完成的以及未完成的todo -Ac &lt;index&gt; #显示第index条todo的commenttodo --purge #删除已完成的todotodo -R 1,2 #将1变成2的子任务todo -R 1.1 #将1的子任务1变为根节点todo -G # ~/.todo_global aliases123456alias td=&quot;todo -G&quot;alias todo=&quot;todo -G&quot;alias tda=&quot;tda -G&quot;alias tdd=&quot;tdd -G&quot;alias tde=&quot;tde -G&quot;alias tdr=&quot;tdr -G&quot;]]></content>
@@ -796,17 +807,6 @@
         <tag>linux</tag>
         <tag>tool</tag>
         <tag>terminal</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[python qrcode 二维码]]></title>
-    <url>%2F2017%2F01%2F03%2Fpython%2Fpython-qrcode%2F</url>
-    <content type="text"><![CDATA[用qrcode包做的生成字符串的二维码的脚本 ps: ubuntu下有个可以终端显示二维码像素点的软件：qrencode 输入qrencode -o - -t UTF8，输入字符串，然后ctrl+D结束 123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899100101102103104105106107108109110111112113114115116117118#coding:utf-8import qrcodefrom PIL import Imageimport osdef openpic(filename): os.system(&quot;eog &quot; + filename)# 生成二维码图片def make_qr(string, pic_name): qr = qrcode.QRCode( version = 4, # 生成二维码尺寸的大小 1-40 1:21*21（21+(n-1)*4） error_correction = qrcode.constants.ERROR_CORRECT_M, #L:7% M:15% Q:25% H:30% box_size = 10, # 每个格子的像素大小 border = 2, # 边框的格子宽度大小 ) qr.add_data(string) qr.make(fit = True) img = qr.make_image() img.save(pic_name) openpic(pic_name) # 生成带logo的二维码图片def make_logo_qr(string, logo, pic_name): # 参数配置 qr = qrcode.QRCode( version = 4, error_correction = qrcode.constants.ERROR_CORRECT_Q, box_size = 8, border = 2 ) # 添加转换内容 qr.add_data(string) # qr.make(fit = True) # 生成二维码 img=qr.make_image() # img=img.convert(&quot;RGBA&quot;) # 添加logo if logo and os.path.exists(logo): icon = Image.open(logo) # 获取二维码图片的大小 img_w, img_h = img.size factor = 4 size_w = int(img_w/factor) size_h = int(img_h/factor) # logo图片的大小不能超过二维码图片的1/4 icon_w, icon_h = icon.size if icon_w &gt; size_w: icon_w = size_w if icon_h &gt; size_h: icon_h = size_h icon = icon.resize((icon_w, icon_h), Image.ANTIALIAS) # 计算logo在二维码图中的位置 w = int((img_w - icon_w) / 2) h = int((img_h - icon_h) / 2) icon = icon.convert(&quot;RGBA&quot;) img.paste(icon, (w, h), icon) # 保存处理后图片 img.save(pic_name) openpic(pic_name) if __name__==&apos;__main__&apos;: print print &quot;usage: input text, then input empty line to stop input&quot; print &quot; or input q or nothing to stop the script!&quot; print path = os.path.dirname(os.path.realpath(__file__)) qrcode_pic = os.path.join(path, &apos;theqrcode.png&apos;) #生成后的保存文件 logo = os.path.join(path, &apos;logo.png&apos;) #logo图片 string = &quot;start&quot; stop_strings = [&quot;q&quot;, &quot;exit&quot;, &quot;&quot;] while(1): string = raw_input(&quot;input:\n&quot;) if(string.strip() in stop_strings): break # 输入内容允许有空格 while True: line = raw_input() if(line == &apos;&apos;): break else: string = string + &quot;\n&quot; + line #make_qr(string, qrcode_pic) make_logo_qr(string, logo, qrcode_pic)]]></content>
-      <categories>
-        <category>python</category>
-      </categories>
-      <tags>
-        <tag>python</tag>
       </tags>
   </entry>
   <entry>
@@ -844,13 +844,13 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[categories]]></title>
-    <url>%2Fcategories%2Findex.html</url>
+    <title><![CDATA[about]]></title>
+    <url>%2Fabout%2Findex.html</url>
     <content type="text"></content>
   </entry>
   <entry>
-    <title><![CDATA[about]]></title>
-    <url>%2Fabout%2Findex.html</url>
+    <title><![CDATA[categories]]></title>
+    <url>%2Fcategories%2Findex.html</url>
     <content type="text"></content>
   </entry>
   <entry>
