@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[服务器上同步/备份大量文件的处理方式]]></title>
+    <url>%2F2019%2F05%2F15%2Fparsyncfp-parallel-rsync%2F</url>
+    <content type="text"><![CDATA[hjmangalam/parsyncfp: follow-on to parsync (parallel rsync) with better startup perf 1./parsyncfp --NP=4 --CS=100K --nowait --rsyncopts="-uv" --startdir="/home/zzp" "test" "/home/zzp/program/" 将123456789101112并行增量备份的另一种实现(rsync+parallel)```bash#!/bin/bashdst=&quot;/mnt/500G移动硬盘/results/&quot;filename=&quot;backuplist&quot;ncpu=8cat $filename | parallel -j $ncpu &quot;rsync -urv &#123;&#125; $dst&quot;]]></content>
+      <categories>
+        <category>linux</category>
+      </categories>
+      <tags>
+        <tag>linux</tag>
+        <tag>parallel</tag>
+        <tag>rsync</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[test]]></title>
     <url>%2F2019%2F05%2F02%2Ftest%2F</url>
     <content type="text"></content>
@@ -33,8 +46,8 @@
         <category>python</category>
       </categories>
       <tags>
-        <tag>python</tag>
         <tag>linux</tag>
+        <tag>python</tag>
         <tag>PyQt</tag>
       </tags>
   </entry>
@@ -66,8 +79,8 @@
         <category>linux</category>
       </categories>
       <tags>
-        <tag>trick</tag>
         <tag>linux</tag>
+        <tag>trick</tag>
       </tags>
   </entry>
   <entry>
@@ -85,7 +98,7 @@
   <entry>
     <title><![CDATA[gist id of atom and vscode settings]]></title>
     <url>%2F2018%2F09%2F12%2Flinux%2Fgithub-gist-sync-settings%2F</url>
-    <content type="text"><![CDATA[Please enter the password to read the blog. Decrypt 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]]></content>
+    <content type="text"><![CDATA[Please enter the password to read the blog. Decrypt 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]]></content>
       <categories>
         <category>linux</category>
       </categories>
@@ -101,8 +114,8 @@
         <category>linux</category>
       </categories>
       <tags>
-        <tag>trick</tag>
         <tag>linux</tag>
+        <tag>trick</tag>
         <tag>tool</tag>
       </tags>
   </entry>
@@ -198,8 +211,8 @@
         <category>linux</category>
       </categories>
       <tags>
-        <tag>trick</tag>
         <tag>linux</tag>
+        <tag>trick</tag>
         <tag>github</tag>
       </tags>
   </entry>
@@ -259,9 +272,9 @@
         <category>algorithm</category>
       </categories>
       <tags>
-        <tag>python</tag>
-        <tag>algorithms</tag>
         <tag>LeetCode</tag>
+        <tag>algorithms</tag>
+        <tag>python</tag>
       </tags>
   </entry>
   <entry>
@@ -272,9 +285,9 @@
         <category>algorithm</category>
       </categories>
       <tags>
-        <tag>python</tag>
-        <tag>algorithms</tag>
         <tag>LeetCode</tag>
+        <tag>algorithms</tag>
+        <tag>python</tag>
       </tags>
   </entry>
   <entry>
@@ -285,9 +298,9 @@
         <category>algorithm</category>
       </categories>
       <tags>
-        <tag>python</tag>
-        <tag>algorithms</tag>
         <tag>LeetCode</tag>
+        <tag>algorithms</tag>
+        <tag>python</tag>
       </tags>
   </entry>
   <entry>
@@ -298,9 +311,9 @@
         <category>algorithm</category>
       </categories>
       <tags>
-        <tag>python</tag>
-        <tag>algorithms</tag>
         <tag>LeetCode</tag>
+        <tag>algorithms</tag>
+        <tag>python</tag>
       </tags>
   </entry>
   <entry>
@@ -311,9 +324,9 @@
         <category>algorithm</category>
       </categories>
       <tags>
-        <tag>python</tag>
-        <tag>algorithms</tag>
         <tag>LeetCode</tag>
+        <tag>algorithms</tag>
+        <tag>python</tag>
       </tags>
   </entry>
   <entry>
@@ -324,9 +337,9 @@
         <category>algorithm</category>
       </categories>
       <tags>
-        <tag>python</tag>
-        <tag>algorithms</tag>
         <tag>LeetCode</tag>
+        <tag>algorithms</tag>
+        <tag>python</tag>
       </tags>
   </entry>
   <entry>
@@ -337,22 +350,9 @@
         <category>algorithm</category>
       </categories>
       <tags>
-        <tag>python</tag>
-        <tag>algorithms</tag>
         <tag>LeetCode</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[LeetCode: add two numbers]]></title>
-    <url>%2F2018%2F04%2F12%2Falgorithm%2Fadd-two-number%2F</url>
-    <content type="text"><![CDATA[123456789101112131415161718192021222324252627282930313233343536373839404142"""https://leetcode-cn.com/problems/add-two-numbers/description/copy codes."""class ListNode: def __init__(self, x): self.val = x self.next = Noneclass Solution(object): def addTwoNumbers(self, l1, l2): """ :type l1: ListNode :type l2: ListNode :rtype: ListNode """ dummy = ListNode(0) current, carry = dummy, 0 while l1 or l2: val = carry if l1: val += l1.val l1 = l1.next if l2: val += l2.val l2 = l2.next carry, val = divmod(val, 10) current.next = ListNode(val) current = current.next if carry == 1: current.next = ListNode(1) return dummy.nextif __name__ == '__main__': a, a.next, a.next.next = ListNode(2), ListNode(4), ListNode(3) b, b.next, b.next.next = ListNode(5), ListNode(6), ListNode(4) result = Solution().addTwoNumbers(a, b) print("&#123;0&#125; -&gt; &#123;1&#125; -&gt; &#123;2&#125;".format(result.val, result.next.val, result.next.next.val))]]></content>
-      <categories>
-        <category>algorithm</category>
-      </categories>
-      <tags>
-        <tag>python</tag>
         <tag>algorithms</tag>
-        <tag>LeetCode</tag>
+        <tag>python</tag>
       </tags>
   </entry>
   <entry>
@@ -363,9 +363,22 @@
         <category>algorithm</category>
       </categories>
       <tags>
-        <tag>python</tag>
-        <tag>algorithms</tag>
         <tag>LeetCode</tag>
+        <tag>algorithms</tag>
+        <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[LeetCode: add two numbers]]></title>
+    <url>%2F2018%2F04%2F12%2Falgorithm%2Fadd-two-number%2F</url>
+    <content type="text"><![CDATA[123456789101112131415161718192021222324252627282930313233343536373839404142"""https://leetcode-cn.com/problems/add-two-numbers/description/copy codes."""class ListNode: def __init__(self, x): self.val = x self.next = Noneclass Solution(object): def addTwoNumbers(self, l1, l2): """ :type l1: ListNode :type l2: ListNode :rtype: ListNode """ dummy = ListNode(0) current, carry = dummy, 0 while l1 or l2: val = carry if l1: val += l1.val l1 = l1.next if l2: val += l2.val l2 = l2.next carry, val = divmod(val, 10) current.next = ListNode(val) current = current.next if carry == 1: current.next = ListNode(1) return dummy.nextif __name__ == '__main__': a, a.next, a.next.next = ListNode(2), ListNode(4), ListNode(3) b, b.next, b.next.next = ListNode(5), ListNode(6), ListNode(4) result = Solution().addTwoNumbers(a, b) print("&#123;0&#125; -&gt; &#123;1&#125; -&gt; &#123;2&#125;".format(result.val, result.next.val, result.next.next.val))]]></content>
+      <categories>
+        <category>algorithm</category>
+      </categories>
+      <tags>
+        <tag>LeetCode</tag>
+        <tag>algorithms</tag>
+        <tag>python</tag>
       </tags>
   </entry>
   <entry>
@@ -376,9 +389,9 @@
         <category>algorithm</category>
       </categories>
       <tags>
-        <tag>python</tag>
-        <tag>algorithms</tag>
         <tag>LeetCode</tag>
+        <tag>algorithms</tag>
+        <tag>python</tag>
       </tags>
   </entry>
   <entry>
@@ -389,9 +402,9 @@
         <category>algorithm</category>
       </categories>
       <tags>
-        <tag>python</tag>
-        <tag>algorithms</tag>
         <tag>LeetCode</tag>
+        <tag>algorithms</tag>
+        <tag>python</tag>
       </tags>
   </entry>
   <entry>
@@ -491,7 +504,7 @@
   <entry>
     <title><![CDATA[fisa-vim-config]]></title>
     <url>%2F2017%2F12%2F29%2Fvim%2Ffisa-vim-config-features%2F</url>
-    <content type="text"><![CDATA[install123sudo apt-get install curl vim exuberant-ctags git ack-grepsudo pip install pep8 flake8 pyflakes isort yapfcurl -O https://raw.githubusercontent.com/fisadev/fisa-vim-config/master/.vimrc fisa-vim-config fisa-vim-config/features.rst at master · fisadev/fisa-vim-config Most important features include: Plugins managed using Vim-plug! You can easily install or removeplugins, and they are installed into .vim/plugged/. More infohere | Command | Description || ———————————– | —————————————————————— || PlugInstall [name ...] [#threads] | Install plugins || PlugUpdate [name ...] [#threads] | Install or update plugins || PlugClean[!] | Remove unused directories (bang version will clean without prompt) || PlugUpgrade | Upgrade vim-plug itself || PlugStatus | Check the status of plugins || PlugDiff | Examine changes from the previous update and the pending changes || PlugSnapshot[!] [output path] | Generate script for restoring the current snapshot of the plugins | Smart autocompletion as you type, sometimes using pythoninstrospection (completion of module names, instance methods andattributes) and sometimes text-based (used words) (from version 4.0,it’s even more intelligent!). And with neocomplcache, it even canautocomplete with typos, thanks to the fuzzy completion settings. Fuzzy file, code and command finder (like Textmante or SublimeText 2): ,e = open file (like the original :e) but with recursive andfuzzy file name matching. Example: if you type “mopy” it willfind a file named “models.py” placed on a subdirectory. Andallows you to open the selected file on a new tab with Ctrl-t! ,g = fuzzy symbol finder (classes, methods, variables,functions, …) on the current file. Example: if you type “usr”it will find the User class definition on the current file. ,Gdoes the same but on all opened files. ,c = fuzzy command finder (internal vim commands, or customcommands). Example: if you type “diff” it will find :GitDiff,:diffthis, and many other similar commands. ,f = fuzzy text finder on all the opened files. Example: ifyou type “ctm=6” it will find the line containing “current_time= 16”. ,m = fuzzy finder of most recently used files. ,we, ,wg, ,wc, ,wf and ,wm = same as ,e, ,g, ,c,,f and ,wm but initiate the search with the word under thecursor (also the upper case version of ,G, ,wG). Is usefulto think about the ,wg as a “fuzzy go to definition” (if thedefinition is in the same file, or ,wG if the definition is onany of the opened files). ,pe = same as ,e but initiates the search with the pathunder the cursor. Ropevim for really neat python goodies!: Go to definition with ,d, or open the definition on a newtab with ,D. Find occurrences with ,o. Classes/module browser that lists classes, functions, methods,and such of the current file, and navigates to them when ENTER ispressed. Toggle it with F4. Pending tasks browser pressing F2. This reads the current filesearching for comments that start with “TODO”, “FIXME”, and such,and shows them on a list that allows navigation similar to the classbrowser. Error checking of code using Syntastic (it will detect unusedvariables or imports, syntax errors, and such), for severallanguages, highlighting the errors and warnings in the code. You canopen an errors list with \e. In python, the error checkingincludes pep8 validation, and pylint. Grep code recursively and navigate the results: ,r uses the ack command (a kind of grep optimized for codesearch), lists the found matches, and allows you to open themwith ENTER. ,wr does the same, but searching the word under the cursor. Some settings for better tabs and spaces handling. Better file browser, toggle it with F3, or open it with yourcurrent file selected using ,t. Results count while searching text. Search and read python documentation with the :Pydoc command.Example: :Pydoc collections (also works over the current word withvim’s default help keybinding: Shift-K). Comment and uncomment code with n\ci. Easy tab navigation: tt = new tab and leaves the cursor waiting to specify the filepath to open (leave blank to open an empty tab). tn or Ctrl-Shift-Right = next tab. tp or Ctrl-Shift-Left = previous tab. tm = move current tab to a specific position (or to the end ifno position number is specified). tl = show a list of current tabs with their inner windows on aside pane. You can navigate them! ts = duplicate current tab. The mappings starting with the t letter work only on command mode,but the mappings with Ctrl-Shift work on both, command and insertmode. Easy window navigation using Alt-arrows keys. Some vim goodies enabled by default: incremental search (moves to the first result while you aretyping). highlighted search results. line numbers. keep cursor 3 lines away from screen border while scrolling. shell-like autocompletion of commands and paths(autocomplete the common part and show matching options). syntax highlighting on by default. Python interpreter inside vim, or any other console. They areopened as a buffer using the command :ConqueTerm. Examples::ConqueTerm python, :ConqueTerm bash. Save current file as sudo using :w!!. Navigate html/xml tags the same way that you navigate (), {} and[]: using %. Beautiful status line allways visible, with colors, breadcrumbsand useful information about file type, encoding and position. Whenworking with python files, it also displays the current pythonfunction or class where the cursor is. Automatically removes trailing spaces when saving python files. Smart autoclosing of (, [, and { Beautiful color schemes for on vim with 256 colors (fisacolorscheme) and gvim (wombat colorscheme). Use of 256 colors when possible. 2 spaces indentation for html and javascript (can disable itremoving two lines from the .vimrc). Thousands of code snippets for many languages with SnipMate.Example, in python you can write cl and press tab (while ininser mode), and it will insert the boilerplate code of a commonpython class (then use tab to navigate the snippet fields). Zen coding for html: generate lots of html code writing simpleand short expressions. Example: 12345678910111213141516171819202122231. write `#books&gt;ul&gt;li.book*5&gt;a`2. press `Ctrl-y ,`3. it will generate: &lt;div id=&quot;books&quot;&gt; &lt;ul&gt; &lt;li class=&quot;book&quot;&gt; &lt;a href=&quot;&quot;&gt;&lt;/a&gt; &lt;/li&gt; &lt;li class=&quot;book&quot;&gt; &lt;a href=&quot;&quot;&gt;&lt;/a&gt; &lt;/li&gt; &lt;li class=&quot;book&quot;&gt; &lt;a href=&quot;&quot;&gt;&lt;/a&gt; &lt;/li&gt; &lt;li class=&quot;book&quot;&gt; &lt;a href=&quot;&quot;&gt;&lt;/a&gt; &lt;/li&gt; &lt;li class=&quot;book&quot;&gt; &lt;a href=&quot;&quot;&gt;&lt;/a&gt; &lt;/li&gt; &lt;/ul&gt; &lt;/div&gt; Learn more on the pluginsite. Git and other vcs integration, with commands such as::GitStatus, :GitDiff, :GitBlame, :GitLog, :GitCommit, orsimply :Git with your own command. Key mappings and syntaxhighlighting for git displays. Displays icons on the side of eachline based on the result of a diff of the current file (example: ifyou added a line and still didn’t commit the file, that line willhave a green + on its side). And finally, when on a changed fileyou can jump through changes using \sn and \sp. Better python indentation. Really neat surround actions using the surround.vim plugin.Learn how to use it here. Indentation defined text objects for the editing language, namedi. For example, you can change an entire indented code block withcii, or the indented block and its header line with cai (alsoyank, delete, …). Indentation based movements, move to the header of your currentpython block with [-, to the end of the block with ]-, and more(short referencehere). Python class and method/function text objects for the editinglanguage, named C and M. For example, you can change an entirefunction content with ciM, or delete a class including its headerwith daC. Run the current python file and display the output on a splitwith \r. Insert and remove ipdb breakpoints with \b. Copy history navigation using the YankRing plugin, which allowsyou to cicle the vim clipboard with Ctrl-p and Ctrl-n, and manyother features (describedhere). Insert ipdb breakpoints with \b. Automatically sort python imports using :Isort. Persistent undos modify file, exit vim, reopen file, and you canundo changes done on the previous session. Better paths for temporary swap files, backups, and persistentundos (all of them stored under ~/.vim/dirs). Drag visual blocks (blocks selected on Ctrl-v and Shift-vvisual modes) with Shift-Alt-arrows, or even duplicate themwith D. Simple window chooser: press - and you will see big greenletters for each window. Just press the letter of the window youwant to activate. Paint css color values with the actual color. Format Python code using yapf (:YapfFullFormat formats thewhole file, and has other commands as well, explainedhere. Works only ifyou have a vim compiled with python 2, not python 3). Custom configs by folder add a .vim.custom file in theproject’s root folder with whatever configs you want to customizefor that project. For example, if you have a project tree like thisexample and you want to exclude folder_x from FuzzyFinder, putlet g:ctrlp_custom_ignore[&quot;dir&quot;] = g:ctrlp_custom_ignore[&quot;dir&quot;] . &#39;|\v[\/]folder_x$&#39;in the .vim.custom file. project ├── folder_1 ├── folder_2 ├── folder_x └── .vim.custom]]></content>
+    <content type="text"><![CDATA[install123sudo apt-get install curl vim exuberant-ctags git ack-grepsudo pip3 install pep8 flake8 pyflakes isort yapf# curl -O https://raw.githubusercontent.com/fisadev/fisa-vim-config/master/.vimrc fisa-vim-config fisa-vim-config/features.rst at master · fisadev/fisa-vim-config Most important features include: Plugins managed using Vim-plug! You can easily install or removeplugins, and they are installed into .vim/plugged/. More infohere | Command | Description || ———————————– | —————————————————————— || PlugInstall [name ...] [#threads] | Install plugins || PlugUpdate [name ...] [#threads] | Install or update plugins || PlugClean[!] | Remove unused directories (bang version will clean without prompt) || PlugUpgrade | Upgrade vim-plug itself || PlugStatus | Check the status of plugins || PlugDiff | Examine changes from the previous update and the pending changes || PlugSnapshot[!] [output path] | Generate script for restoring the current snapshot of the plugins | Smart autocompletion as you type, sometimes using pythoninstrospection (completion of module names, instance methods andattributes) and sometimes text-based (used words) (from version 4.0,it’s even more intelligent!). And with neocomplcache, it even canautocomplete with typos, thanks to the fuzzy completion settings. Fuzzy file, code and command finder (like Textmante or SublimeText 2): ,e = open file (like the original :e) but with recursive andfuzzy file name matching. Example: if you type “mopy” it willfind a file named “models.py” placed on a subdirectory. Andallows you to open the selected file on a new tab with Ctrl-t! ,g = fuzzy symbol finder (classes, methods, variables,functions, …) on the current file. Example: if you type “usr”it will find the User class definition on the current file. ,Gdoes the same but on all opened files. ,c = fuzzy command finder (internal vim commands, or customcommands). Example: if you type “diff” it will find :GitDiff,:diffthis, and many other similar commands. ,f = fuzzy text finder on all the opened files. Example: ifyou type “ctm=6” it will find the line containing “current_time= 16”. ,m = fuzzy finder of most recently used files. ,we, ,wg, ,wc, ,wf and ,wm = same as ,e, ,g, ,c,,f and ,wm but initiate the search with the word under thecursor (also the upper case version of ,G, ,wG). Is usefulto think about the ,wg as a “fuzzy go to definition” (if thedefinition is in the same file, or ,wG if the definition is onany of the opened files). ,pe = same as ,e but initiates the search with the pathunder the cursor. Ropevim for really neat python goodies!: Go to definition with ,d, or open the definition on a newtab with ,D. Find occurrences with ,o. Classes/module browser that lists classes, functions, methods,and such of the current file, and navigates to them when ENTER ispressed. Toggle it with F4. Pending tasks browser pressing F2. This reads the current filesearching for comments that start with “TODO”, “FIXME”, and such,and shows them on a list that allows navigation similar to the classbrowser. Error checking of code using Syntastic (it will detect unusedvariables or imports, syntax errors, and such), for severallanguages, highlighting the errors and warnings in the code. You canopen an errors list with \e. In python, the error checkingincludes pep8 validation, and pylint. Grep code recursively and navigate the results: ,r uses the ack command (a kind of grep optimized for codesearch), lists the found matches, and allows you to open themwith ENTER. ,wr does the same, but searching the word under the cursor. Some settings for better tabs and spaces handling. Better file browser, toggle it with F3, or open it with yourcurrent file selected using ,t. Results count while searching text. Search and read python documentation with the :Pydoc command.Example: :Pydoc collections (also works over the current word withvim’s default help keybinding: Shift-K). Comment and uncomment code with n\ci. Easy tab navigation: tt = new tab and leaves the cursor waiting to specify the filepath to open (leave blank to open an empty tab). tn or Ctrl-Shift-Right = next tab. tp or Ctrl-Shift-Left = previous tab. tm = move current tab to a specific position (or to the end ifno position number is specified). tl = show a list of current tabs with their inner windows on aside pane. You can navigate them! ts = duplicate current tab. The mappings starting with the t letter work only on command mode,but the mappings with Ctrl-Shift work on both, command and insertmode. Easy window navigation using Alt-arrows keys. Some vim goodies enabled by default: incremental search (moves to the first result while you aretyping). highlighted search results. line numbers. keep cursor 3 lines away from screen border while scrolling. shell-like autocompletion of commands and paths(autocomplete the common part and show matching options). syntax highlighting on by default. Python interpreter inside vim, or any other console. They areopened as a buffer using the command :ConqueTerm. Examples::ConqueTerm python, :ConqueTerm bash. Save current file as sudo using :w!!. Navigate html/xml tags the same way that you navigate (), {} and[]: using %. Beautiful status line allways visible, with colors, breadcrumbsand useful information about file type, encoding and position. Whenworking with python files, it also displays the current pythonfunction or class where the cursor is. Automatically removes trailing spaces when saving python files. Smart autoclosing of (, [, and { Beautiful color schemes for on vim with 256 colors (fisacolorscheme) and gvim (wombat colorscheme). Use of 256 colors when possible. 2 spaces indentation for html and javascript (can disable itremoving two lines from the .vimrc). Thousands of code snippets for many languages with SnipMate.Example, in python you can write cl and press tab (while ininser mode), and it will insert the boilerplate code of a commonpython class (then use tab to navigate the snippet fields). Zen coding for html: generate lots of html code writing simpleand short expressions. Example: 12345678910111213141516171819202122231. write `#books&gt;ul&gt;li.book*5&gt;a`2. press `Ctrl-y ,`3. it will generate: &lt;div id=&quot;books&quot;&gt; &lt;ul&gt; &lt;li class=&quot;book&quot;&gt; &lt;a href=&quot;&quot;&gt;&lt;/a&gt; &lt;/li&gt; &lt;li class=&quot;book&quot;&gt; &lt;a href=&quot;&quot;&gt;&lt;/a&gt; &lt;/li&gt; &lt;li class=&quot;book&quot;&gt; &lt;a href=&quot;&quot;&gt;&lt;/a&gt; &lt;/li&gt; &lt;li class=&quot;book&quot;&gt; &lt;a href=&quot;&quot;&gt;&lt;/a&gt; &lt;/li&gt; &lt;li class=&quot;book&quot;&gt; &lt;a href=&quot;&quot;&gt;&lt;/a&gt; &lt;/li&gt; &lt;/ul&gt; &lt;/div&gt; Learn more on the pluginsite. Git and other vcs integration, with commands such as::GitStatus, :GitDiff, :GitBlame, :GitLog, :GitCommit, orsimply :Git with your own command. Key mappings and syntaxhighlighting for git displays. Displays icons on the side of eachline based on the result of a diff of the current file (example: ifyou added a line and still didn’t commit the file, that line willhave a green + on its side). And finally, when on a changed fileyou can jump through changes using \sn and \sp. Better python indentation. Really neat surround actions using the surround.vim plugin.Learn how to use it here. Indentation defined text objects for the editing language, namedi. For example, you can change an entire indented code block withcii, or the indented block and its header line with cai (alsoyank, delete, …). Indentation based movements, move to the header of your currentpython block with [-, to the end of the block with ]-, and more(short referencehere). Python class and method/function text objects for the editinglanguage, named C and M. For example, you can change an entirefunction content with ciM, or delete a class including its headerwith daC. Run the current python file and display the output on a splitwith \r. Insert and remove ipdb breakpoints with \b. Copy history navigation using the YankRing plugin, which allowsyou to cicle the vim clipboard with Ctrl-p and Ctrl-n, and manyother features (describedhere). Insert ipdb breakpoints with \b. Automatically sort python imports using :Isort. Persistent undos modify file, exit vim, reopen file, and you canundo changes done on the previous session. Better paths for temporary swap files, backups, and persistentundos (all of them stored under ~/.vim/dirs). Drag visual blocks (blocks selected on Ctrl-v and Shift-vvisual modes) with Shift-Alt-arrows, or even duplicate themwith D. Simple window chooser: press - and you will see big greenletters for each window. Just press the letter of the window youwant to activate. Paint css color values with the actual color. Format Python code using yapf (:YapfFullFormat formats thewhole file, and has other commands as well, explainedhere. Works only ifyou have a vim compiled with python 2, not python 3). Custom configs by folder add a .vim.custom file in theproject’s root folder with whatever configs you want to customizefor that project. For example, if you have a project tree like thisexample and you want to exclude folder_x from FuzzyFinder, putlet g:ctrlp_custom_ignore[&quot;dir&quot;] = g:ctrlp_custom_ignore[&quot;dir&quot;] . &#39;|\v[\/]folder_x$&#39;in the .vim.custom file. project ├── folder_1 ├── folder_2 ├── folder_x └── .vim.custom]]></content>
       <categories>
         <category>vim</category>
       </categories>
@@ -508,8 +521,8 @@
         <category>algorithm</category>
       </categories>
       <tags>
-        <tag>python</tag>
         <tag>algorithms</tag>
+        <tag>python</tag>
         <tag>math</tag>
       </tags>
   </entry>
@@ -526,6 +539,18 @@
       </tags>
   </entry>
   <entry>
+    <title><![CDATA[rst转换为md]]></title>
+    <url>%2F2017%2F12%2F14%2Flinux%2Fpandoc-rst2md%2F</url>
+    <content type="text"><![CDATA[1sudo apt install pandoc 1234567FILES=*.rstfor f in $FILESdo filename="$&#123;f%.*&#125;" echo "Converting $f to $filename.md" `pandoc $f -f rst -t markdown -o $filename.md`done]]></content>
+      <categories>
+        <category>linux</category>
+      </categories>
+      <tags>
+        <tag>linux</tag>
+        <tag>trick</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[vundle插件安装器， nerdcommenter注释插件]]></title>
     <url>%2F2017%2F12%2F14%2Fvim%2Fvundle-vim%2F</url>
     <content type="text"><![CDATA[vundle vim 使用命令 1234&quot; :PluginList - 列出所有已配置的插件&quot; :PluginInstall - 安装插件, 加 `!` 用以更新或使用 :PluginUpdate&quot; :PluginSearch foo - 搜索 foo ;追加 `!` 清除本地缓存&quot; :PluginClean - 清除未使用插件,需要确认; 追加 `!` nerdcommenterUsage Doc 12345678910111213141516 n\cc : 为光标以下 n 行添加注释 n\cu : 为光标以下 n 行取消注释 n\cm : 为光标以下 n 行添加块注释for python:单行：注释: \cs取消注释：\cu多行：ctrl + v 块选中后：注释: \cs取消注释：\cu\ci 为Inverts the commented state of each selected line.]]></content>
@@ -535,18 +560,6 @@
       <tags>
         <tag>vim</tag>
         <tag>config</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[rst转换为md]]></title>
-    <url>%2F2017%2F12%2F14%2Flinux%2Fpandoc-rst2md%2F</url>
-    <content type="text"><![CDATA[1sudo apt install pandoc 1234567FILES=*.rstfor f in $FILESdo filename="$&#123;f%.*&#125;" echo "Converting $f to $filename.md" `pandoc $f -f rst -t markdown -o $filename.md`done]]></content>
-      <categories>
-        <category>linux</category>
-      </categories>
-      <tags>
-        <tag>trick</tag>
-        <tag>linux</tag>
       </tags>
   </entry>
   <entry>
@@ -569,8 +582,8 @@
         <category>algorithm</category>
       </categories>
       <tags>
-        <tag>python</tag>
         <tag>algorithms</tag>
+        <tag>python</tag>
       </tags>
   </entry>
   <entry>
@@ -598,9 +611,9 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[python判断字符编码]]></title>
-    <url>%2F2017%2F09%2F16%2Fpython%2F%E5%AD%97%E7%AC%A6%E7%BC%96%E7%A0%81%E5%88%A4%E6%96%AD%2F</url>
-    <content type="text"><![CDATA[1234import sysreload(sys)sys.setdefaultencoding(&apos;utf-8&apos;) Python 字符编码判断 法一12345678#判断是否为一般字符串isinstance(s, str)#用来判断是否为unicodeisinstance(s, unicode) 或 12if type(str).__name__ != &quot;unicode&quot;: str=unicode(str, &quot;utf-8&quot;) 法二：Python chardet 字符编码判断使用 chardet 可以很方便的实现字符串/文件的编码检测。尤其是中文网页，有的页面使用GBK/GB2312，有的使用UTF8，如果你需要去爬一些页面，知道网页编码很重要的，虽然HTML页面有charset标签，但是有些时候是不对的。那么chardet就能帮我们大忙了。123456import urllibimport chardetrawdata = urllib.urlopen(&apos;http://www.google.cn/&apos;).read()chardet.detect(rawdata) Results: 12&#123;&apos;confidence&apos;: 0.98999999999999999, &apos;encoding&apos;: &apos;GB2312&apos;&#125; chardet可以直接用detect函数来检测所给字符的编码。 函数返回值为字典，有2个元数，一个是检测的可信度，另外一个就是检测到的编码。]]></content>
+    <title><![CDATA[python: operator]]></title>
+    <url>%2F2017%2F09%2F16%2Fpython%2Fpython-operator%2F</url>
+    <content type="text"><![CDATA[12345678910111213141516171819202122#!/usr/bin/env python3&quot;&quot;&quot;This program lets you create a simple command line calculator without usingthe &apos;if..else&apos; construct. It uses built-in &apos;operator&apos; module to accomplish thesameCreated with help of an answer on stackoverflow. Don&apos;t have the exact link.&quot;&quot;&quot;import operatorops = &#123; &quot;+&quot;: operator.add, &quot;-&quot;: operator.sub, &quot;/&quot;: operator.truediv, &quot;*&quot;: operator.mul&#125;x = input(&quot;Enter an operator [OPTIONS: +, -, *, /]: &quot;)y = int(input(&quot;Enter number: &quot;))z = int(input(&quot;Enter number: &quot;))print (ops[x](y, z))]]></content>
       <categories>
         <category>python</category>
       </categories>
@@ -609,9 +622,9 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[python: operator]]></title>
-    <url>%2F2017%2F09%2F16%2Fpython%2Fpython-operator%2F</url>
-    <content type="text"><![CDATA[12345678910111213141516171819202122#!/usr/bin/env python3&quot;&quot;&quot;This program lets you create a simple command line calculator without usingthe &apos;if..else&apos; construct. It uses built-in &apos;operator&apos; module to accomplish thesameCreated with help of an answer on stackoverflow. Don&apos;t have the exact link.&quot;&quot;&quot;import operatorops = &#123; &quot;+&quot;: operator.add, &quot;-&quot;: operator.sub, &quot;/&quot;: operator.truediv, &quot;*&quot;: operator.mul&#125;x = input(&quot;Enter an operator [OPTIONS: +, -, *, /]: &quot;)y = int(input(&quot;Enter number: &quot;))z = int(input(&quot;Enter number: &quot;))print (ops[x](y, z))]]></content>
+    <title><![CDATA[python判断字符编码]]></title>
+    <url>%2F2017%2F09%2F16%2Fpython%2F%E5%AD%97%E7%AC%A6%E7%BC%96%E7%A0%81%E5%88%A4%E6%96%AD%2F</url>
+    <content type="text"><![CDATA[1234import sysreload(sys)sys.setdefaultencoding(&apos;utf-8&apos;) Python 字符编码判断 法一12345678#判断是否为一般字符串isinstance(s, str)#用来判断是否为unicodeisinstance(s, unicode) 或 12if type(str).__name__ != &quot;unicode&quot;: str=unicode(str, &quot;utf-8&quot;) 法二：Python chardet 字符编码判断使用 chardet 可以很方便的实现字符串/文件的编码检测。尤其是中文网页，有的页面使用GBK/GB2312，有的使用UTF8，如果你需要去爬一些页面，知道网页编码很重要的，虽然HTML页面有charset标签，但是有些时候是不对的。那么chardet就能帮我们大忙了。123456import urllibimport chardetrawdata = urllib.urlopen(&apos;http://www.google.cn/&apos;).read()chardet.detect(rawdata) Results: 12&#123;&apos;confidence&apos;: 0.98999999999999999, &apos;encoding&apos;: &apos;GB2312&apos;&#125; chardet可以直接用detect函数来检测所给字符的编码。 函数返回值为字典，有2个元数，一个是检测的可信度，另外一个就是检测到的编码。]]></content>
       <categories>
         <category>python</category>
       </categories>
@@ -638,8 +651,8 @@
         <category>python</category>
       </categories>
       <tags>
-        <tag>python</tag>
         <tag>algorithms</tag>
+        <tag>python</tag>
       </tags>
   </entry>
   <entry>
@@ -664,30 +677,6 @@
       <tags>
         <tag>linux</tag>
         <tag>ssh</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[shadowsocks配置，运行]]></title>
-    <url>%2F2017%2F01%2F04%2Flinux%2Fshadowsocks-proxy%2F</url>
-    <content type="text"><![CDATA[Home · shadowsocks/shadowsocks Wiki sudo pip install shadowsocks 在远程服务器上：12345678后台运行ss：sudo ssserver -p 14321 -k your_password -d start停止：sudo ssserver -d stop检查日志：sudo less /var/log/shadowsocks.log 本地linux1sslocal -s 服务器地址 -p 服务器端口 -l 本地端端口 -k 密码 -m 加密方法 或者ssh端口转发12ssh -fND 127.0.0.1:1234 zzp@10.2.0.4 -p 9920ssh -L 12369:localhost:12369 -R 12369:localhost:12370 -ND localhost:12345 root@138.69.29.65 卡顿出错：123ssh sfo2 -vvv...debug1: expecting SSH2_MSG_KEX_ECDH_REPLY sudo ifconfig eno1 mtu 1454 服务器端：12 GSSAPIAuthentication noUseDNS no`]]></content>
-      <categories>
-        <category>linux</category>
-      </categories>
-      <tags>
-        <tag>tool</tag>
-        <tag>internet</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[rsync同步命令]]></title>
-    <url>%2F2017%2F01%2F04%2Flinux%2Frsync%E5%91%BD%E4%BB%A4%2F</url>
-    <content type="text"><![CDATA[rsync最常用的操作同步远程zzp主机下note文件夹到本地文件夹note(以前者为准,后者的更改都会被抹除) 1rsync -urv --delete "zzp:/home/zzp/note/" note/ rsync的命令格式1234567rsync [OPTION]... SRC DESTrsync [OPTION]... SRC [USER@]HOST:DESTrsync [OPTION]... [USER@]HOST:SRC DESTrsync [OPTION]... [USER@]HOST::SRC DESTrsync [OPTION]... SRC [USER@]HOST::DESTrsync [OPTION]... rsync://[USER@]HOST[:PORT]/SRC [DEST] 对应于以上六种命令格式，rsync有六种不同的工作模式： 拷贝本地文件。当SRC和DES路径信息都不包含有单个冒号”:”分隔符时就启动这种工作模式。如：-a/backup```122. 使用一个远程shell程序(如rsh、ssh)来实现将本地机器的内容拷贝到远程机器。当DST路径地址包含单个冒号&quot;:&quot;分隔符时启动该模式。如：```rsync -avz *.c foo:src 使用一个远程shell程序(如rsh、ssh)来实现将远程机器的内容拷贝到本地机器。当SRC地址路径包含单个冒号”:”分隔符时启动该模式。如：-avz foo:src/barlink124. 从远程rsync服务器中拷贝文件到本地机。当SRC路径信息包含&quot;::&quot;分隔符时启动该模式。如：```rsync -av root@172.16.78.192::www /databack 从本地机器拷贝文件到远程rsync服务器中。当DST路径信息包含”::”分隔符时启动该模式。如：-avroot@172.16.78.192::www```126. 列远程机的文件列表。这类似于rsync传输，不过只要在命令中省略掉本地机信息即可。如：```rsync -v rsync://172.16.78.192/www rsync参数12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061-v, --verbose 详细模式输出-q, --quiet 精简输出模式-c, --checksum 打开校验开关，强制对文件传输进行校验-a, --archive 归档模式，表示以递归方式传输文件，并保持所有文件属性，等于-rlptgoD-r, --recursive 对子目录以递归模式处理-R, --relative 使用相对路径信息-b, --backup 创建备份，也就是对于目的已经存在有同样的文件名时，将老的文件重新命名为~filename。可以使用--suffix选项来指定不同的备份文件前缀。--backup-dir 将备份文件(如~filename)存放在在目录下。-suffix=SUFFIX 定义备份文件前缀-u, --update 仅仅进行更新，也就是跳过所有已经存在于DST，并且文件时间晚于要备份的文件。(不覆盖更新的文件)-l, --links 保留软链结-L, --copy-links 想对待常规文件一样处理软链结--copy-unsafe-links 仅仅拷贝指向SRC路径目录树以外的链结--safe-links 忽略指向SRC路径目录树以外的链结-H, --hard-links 保留硬链结-p, --perms 保持文件权限-o, --owner 保持文件属主信息-g, --group 保持文件属组信息-D, --devices 保持设备文件信息-t, --times 保持文件时间信息-S, --sparse 对稀疏文件进行特殊处理以节省DST的空间-n, --dry-run现实哪些文件将被传输-W, --whole-file 拷贝文件，不进行增量检测-x, --one-file-system 不要跨越文件系统边界-B, --block-size=SIZE 检验算法使用的块尺寸，默认是700字节-e, --rsh=COMMAND 指定使用rsh、ssh方式进行数据同步--rsync-path=PATH 指定远程服务器上的rsync命令所在路径信息-C, --cvs-exclude 使用和CVS一样的方法自动忽略文件，用来排除那些不希望传输的文件--existing 仅仅更新那些已经存在于DST的文件，而不备份那些新创建的文件--delete 删除那些DST中SRC没有的文件--delete-excluded 同样删除接收端那些被该选项指定排除的文件--delete-after 传输结束以后再删除--ignore-errors 及时出现IO错误也进行删除--max-delete=NUM 最多删除NUM个文件--partial 保留那些因故没有完全传输的文件，以是加快随后的再次传输--force 强制删除目录，即使不为空--numeric-ids 不将数字的用户和组ID匹配为用户名和组名--timeout=TIME IP超时时间，单位为秒-I, --ignore-times 不跳过那些有同样的时间和长度的文件--size-only 当决定是否要备份文件时，仅仅察看文件大小而不考虑文件时间--modify-window=NUM 决定文件是否时间相同时使用的时间戳窗口，默认为0-T --temp-dir=DIR 在DIR中创建临时文件--compare-dest=DIR 同样比较DIR中的文件来决定是否需要备份-P 等同于 --partial--progress 显示备份过程-z, --compress 对备份的文件在传输时进行压缩处理--exclude=PATTERN 指定排除不需要传输的文件模式--include=PATTERN 指定不排除而需要传输的文件模式--exclude-from=FILE 排除FILE中指定模式的文件--include-from=FILE 不排除FILE指定模式匹配的文件--version 打印版本信息--address 绑定到特定的地址--config=FILE 指定其他的配置文件，不使用默认的rsyncd.conf文件--port=PORT 指定其他的rsync服务端口--blocking-io 对远程shell使用阻塞IO-stats 给出某些文件的传输状态--progress 在传输时现实传输过程--log-format=formAT 指定日志文件格式--password-file=FILE 从FILE中得到密码--bwlimit=KBPS 限制I/O带宽，KBytes per second-h, --help 显示帮助信息]]></content>
-      <categories>
-        <category>linux</category>
-      </categories>
-      <tags>
-        <tag>linux</tag>
-        <tag>command</tag>
       </tags>
   </entry>
   <entry>
@@ -716,6 +705,30 @@
       </tags>
   </entry>
   <entry>
+    <title><![CDATA[shadowsocks配置，运行]]></title>
+    <url>%2F2017%2F01%2F04%2Flinux%2Fshadowsocks-proxy%2F</url>
+    <content type="text"><![CDATA[Home · shadowsocks/shadowsocks Wiki sudo pip install shadowsocks 在远程服务器上：12345678后台运行ss：sudo ssserver -p 14321 -k your_password -d start停止：sudo ssserver -d stop检查日志：sudo less /var/log/shadowsocks.log 本地linux1sslocal -s 服务器地址 -p 服务器端口 -l 本地端端口 -k 密码 -m 加密方法 或者ssh端口转发12ssh -fND 127.0.0.1:1234 zzp@10.2.0.4 -p 9920ssh -L 12369:localhost:12369 -R 12369:localhost:12370 -ND localhost:12345 root@138.69.29.65 卡顿出错：123ssh sfo2 -vvv...debug1: expecting SSH2_MSG_KEX_ECDH_REPLY sudo ifconfig eno1 mtu 1454 服务器端：12 GSSAPIAuthentication noUseDNS no`]]></content>
+      <categories>
+        <category>linux</category>
+      </categories>
+      <tags>
+        <tag>tool</tag>
+        <tag>internet</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[rsync同步命令]]></title>
+    <url>%2F2017%2F01%2F04%2Flinux%2Frsync%E5%91%BD%E4%BB%A4%2F</url>
+    <content type="text"><![CDATA[rsync最常用的操作同步远程zzp主机下note文件夹到本地文件夹note(以前者为准,后者的更改都会被抹除) 1rsync -urv --delete "zzp:/home/zzp/note/" note/ rsync的命令格式1234567rsync [OPTION]... SRC DESTrsync [OPTION]... SRC [USER@]HOST:DESTrsync [OPTION]... [USER@]HOST:SRC DESTrsync [OPTION]... [USER@]HOST::SRC DESTrsync [OPTION]... SRC [USER@]HOST::DESTrsync [OPTION]... rsync://[USER@]HOST[:PORT]/SRC [DEST] 对应于以上六种命令格式，rsync有六种不同的工作模式： 拷贝本地文件。当SRC和DES路径信息都不包含有单个冒号”:”分隔符时就启动这种工作模式。如：-a/backup```122. 使用一个远程shell程序(如rsh、ssh)来实现将本地机器的内容拷贝到远程机器。当DST路径地址包含单个冒号&quot;:&quot;分隔符时启动该模式。如：```rsync -avz *.c foo:src 使用一个远程shell程序(如rsh、ssh)来实现将远程机器的内容拷贝到本地机器。当SRC地址路径包含单个冒号”:”分隔符时启动该模式。如：-avz foo:src/barlink124. 从远程rsync服务器中拷贝文件到本地机。当SRC路径信息包含&quot;::&quot;分隔符时启动该模式。如：```rsync -av root@172.16.78.192::www /databack 从本地机器拷贝文件到远程rsync服务器中。当DST路径信息包含”::”分隔符时启动该模式。如：-avroot@172.16.78.192::www```126. 列远程机的文件列表。这类似于rsync传输，不过只要在命令中省略掉本地机信息即可。如：```rsync -v rsync://172.16.78.192/www rsync参数12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061-v, --verbose 详细模式输出-q, --quiet 精简输出模式-c, --checksum 打开校验开关，强制对文件传输进行校验-a, --archive 归档模式，表示以递归方式传输文件，并保持所有文件属性，等于-rlptgoD-r, --recursive 对子目录以递归模式处理-R, --relative 使用相对路径信息-b, --backup 创建备份，也就是对于目的已经存在有同样的文件名时，将老的文件重新命名为~filename。可以使用--suffix选项来指定不同的备份文件前缀。--backup-dir 将备份文件(如~filename)存放在在目录下。-suffix=SUFFIX 定义备份文件前缀-u, --update 仅仅进行更新，也就是跳过所有已经存在于DST，并且文件时间晚于要备份的文件。(不覆盖更新的文件)-l, --links 保留软链结-L, --copy-links 想对待常规文件一样处理软链结--copy-unsafe-links 仅仅拷贝指向SRC路径目录树以外的链结--safe-links 忽略指向SRC路径目录树以外的链结-H, --hard-links 保留硬链结-p, --perms 保持文件权限-o, --owner 保持文件属主信息-g, --group 保持文件属组信息-D, --devices 保持设备文件信息-t, --times 保持文件时间信息-S, --sparse 对稀疏文件进行特殊处理以节省DST的空间-n, --dry-run现实哪些文件将被传输-W, --whole-file 拷贝文件，不进行增量检测-x, --one-file-system 不要跨越文件系统边界-B, --block-size=SIZE 检验算法使用的块尺寸，默认是700字节-e, --rsh=COMMAND 指定使用rsh、ssh方式进行数据同步--rsync-path=PATH 指定远程服务器上的rsync命令所在路径信息-C, --cvs-exclude 使用和CVS一样的方法自动忽略文件，用来排除那些不希望传输的文件--existing 仅仅更新那些已经存在于DST的文件，而不备份那些新创建的文件--delete 删除那些DST中SRC没有的文件--delete-excluded 同样删除接收端那些被该选项指定排除的文件--delete-after 传输结束以后再删除--ignore-errors 及时出现IO错误也进行删除--max-delete=NUM 最多删除NUM个文件--partial 保留那些因故没有完全传输的文件，以是加快随后的再次传输--force 强制删除目录，即使不为空--numeric-ids 不将数字的用户和组ID匹配为用户名和组名--timeout=TIME IP超时时间，单位为秒-I, --ignore-times 不跳过那些有同样的时间和长度的文件--size-only 当决定是否要备份文件时，仅仅察看文件大小而不考虑文件时间--modify-window=NUM 决定文件是否时间相同时使用的时间戳窗口，默认为0-T --temp-dir=DIR 在DIR中创建临时文件--compare-dest=DIR 同样比较DIR中的文件来决定是否需要备份-P 等同于 --partial--progress 显示备份过程-z, --compress 对备份的文件在传输时进行压缩处理--exclude=PATTERN 指定排除不需要传输的文件模式--include=PATTERN 指定不排除而需要传输的文件模式--exclude-from=FILE 排除FILE中指定模式的文件--include-from=FILE 不排除FILE指定模式匹配的文件--version 打印版本信息--address 绑定到特定的地址--config=FILE 指定其他的配置文件，不使用默认的rsyncd.conf文件--port=PORT 指定其他的rsync服务端口--blocking-io 对远程shell使用阻塞IO-stats 给出某些文件的传输状态--progress 在传输时现实传输过程--log-format=formAT 指定日志文件格式--password-file=FILE 从FILE中得到密码--bwlimit=KBPS 限制I/O带宽，KBytes per second-h, --help 显示帮助信息]]></content>
+      <categories>
+        <category>linux</category>
+      </categories>
+      <tags>
+        <tag>linux</tag>
+        <tag>command</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[windows-tricks]]></title>
     <url>%2F2017%2F01%2F03%2Ftrick%2Fwindows-tricks%2F</url>
     <content type="text"><![CDATA[使用windows系统的小技巧，2015年之前整理。 SoftwareAutoHotkey 键位映射AutoHotkey config file format. 12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152;;ctrl ^;;shift +;;windows #;;alt !#n::run,notepad^!A::run,&quot;C:\GreenPrograms\FSCapture\FSCapture.exe&quot;#f::run,&quot;C:\Program Files\Mozilla Firefox\firefox.exe&quot;#g::run,&quot;E:\win10\regedit.vbs&quot;#c::run,&quot;C:\GreenPrograms\cleaner\kcleaner.exe&quot;^!t::run,&quot;C:\Windows\System32\bash.exe&quot;#PrintScreen::&#123; KeyWait PrintScreen KeyWait LWin ;释放左Win键才激活下面的命令 SendMessage,0x112,0xF170,2,,Program Manager ;关闭显示器。0x112:WM_SYSCOMMAND，0xF170:SC_MONITORPOWER。2：关闭，-1：开启显示器 Return&#125;;双击鼠标右键在窗口最大化与正常状态之间切换 WinStatus:=0 RButton:: &#123; KeyWait, RButton ;松开鼠标右键后才继续执行下面的代码 keyWait, RButton, D T0.15 ;在 100 毫秒内等待再次按下鼠标右键，可以设置一个自己觉得适合的等待时间。 If ErrorLevel Click, Right Else &#123; if WinStatus=0 &#123; WinMaximize , A WinStatus:=1 &#125; else &#123; WinRestore ,A WinStatus:=0 &#125; &#125; Return&#125;;置顶窗口F7::winset,AlwaysOnTop,, A ;;A表示当前窗口标题return dos 命令查看计算机启动时间1net statistics workstation 文件夹及文件名中的点 dos命令 usage md d..\ 创建d..文件夹 rd d..\ 删除d..文件夹 md .f 创建.f文件夹 ren 3 .3 将文件3改名为.3 使用vbs脚本使得bat无黑框1.bat12@echo offshutdown -s -t 3600 1.vbs12Set ws = CreateObject(&quot;Wscript.Shell&quot;) ws.run &quot;cmd /c *.bat&quot;,vbhide 强制删除bat脚本del.bat123DEL /F /A /Q \\?\%1RD /S /Q \\?\%1pause bat脚本传入参数12345传入参数：%1，%2……脚本所在路径：%~dp0脚本所在路径短路径：%~sdp0脚本所在盘符：%~d0环境当前目录：%cd% dos命令显示日期时间#%date% 和 %time% 2007-08-08 23:13 1234567C:/&gt;echo %date%2007-08-08 星期三C:/&gt;echo %date:~0,4%2007 盘符:/&gt;输出 %date%是一个参数 但是他后面带的这些就是取值范围，说说后面的数值 第一个0代表从头开始 后面的4代表共取4个字符1234C:/&gt;echo %date:~-3%星期三 这里面的负数代表倒数,也就取最后3个字符1234C:/&gt;echo %date:~-3,-1%星期 这里的-1是不输出最后1个字符-2当然是2个类推 time也类似1234echo %time%23:12:49.05 dos切换编码切换utf-81chcp 65001 切换gbk 1chcp 936 建立windows特殊文件夹(zzp..)Command 窗口输入 md zzp..\ 普通文件夹是一个“ . ” 复制文件进入： copy 文件名 c:\zzp..\ 打开文件夹： 进行中输入完整的路径和文件夹的名称 删除文件夹： Command 中输入 rd c:\zzp..\ 之前得清空文件夹！ 复制文件到专业文件夹1copy 文件路径 %systemroot%\tasks 伪造文件夹新建文件夹名称为：12## 合并复制隐藏文件 copy d:\ab.jpg /b +d:\abc.txt abcd.jpg12## love bat @echo offset all=zn echo %all% %all%%all% %all% %all% %all%%all%%all%%all%%all%echo %all% %all% %all% %all% %all% %all%echo %all% %all% %all% %all% %all% %all%echo %all% %all% %all% %all% %all% %all%%all%%all%%all%%all%echo %all% %all% %all% %all% %all% %all%echo %all% %all% %all% %all% %all% %all%echo %all% %all% %all% %all% %all% %all%echo %all% %all%%all% %all%%all% %all%%all%%all%%all%%all% pause&gt;nul12345# 注册表相关## 添加右键获取权限 Windows Registry Editor Version 5.00[HKEY_CLASSES_ROOT*\shell\runas]@=”获取权限”“NoWorkingDirectory”=””[HKEY_CLASSES_ROOT*\shell\runas\command]@=”cmd.exe /c takeown /f \”%1\” &amp;&amp; icacls \”%1\” /grant administrators:F”“IsolatedCommand”=”cmd.exe /c takeown /f \”%1\” &amp;&amp; icacls \”%1\” /grant administrators:F”[HKEY_CLASSES_ROOT\Directory\shell\runas]@=”获取权限”“NoWorkingDirectory”=””[HKEY_CLASSES_ROOT\Directory\shell\runas\command]@=”cmd.exe /c takeown /f \”%1\” /r /d y &amp;&amp; icacls \”%1\” /grant administrators:F /t”“IsolatedCommand”=”cmd.exe /c takeown /f \”%1\” /r /d y &amp;&amp; icacls \”%1\” /grant administrators:F /t”12## 隐藏文件 @ECHO OFFMD E:\RECYCLED\UDrives.{25336920-03F9-11CF-8FD0-00AA00686F13}&gt;NULIF EXIST o:\NUL GOTO DELETESUBST o: E:\RECYCLED\UDrives.{25336920-03F9-11CF-8FD0-00AA00686F13}START o:\echo 请把文件移动到打开的窗口中，但请妥善保留该文件，此批处理文件可用来存取隐藏文件！pausesubst /d o:12## 打开剪切板里路径的注册表 ‘ Created by Sergey TkachenkoDim objHTADim cClipBoardDim WshShellset objHTA=createobject(“htmlfile”)cClipBoard=objHTA.parentwindow.clipboarddata.getdata(“text”)Set WshShell = WScript.CreateObject(“WScript.Shell”)WshShell.RegWrite “HKCU\Software\Microsoft\Windows\CurrentVersion\Applets\Regedit\LastKey”, cClipBoard, “REG_SZ”WshShell.Run “regedit.exe -m”Set objHTA = nothingSet WshShell = nothing12## cmd更换字体 Windows Registry Editor Version 5.00[HKEY_CURRENT_USER\Console\%SystemRoot%_system32_cmd.exe]“WindowSize”=dword:00170058“ScreenBufferSize”=dword:01900119“WindowPosition”=dword:0079004b“ColorTable01”=dword:00235600“FontSize”=dword:00150000“FontWeight”=dword:00000190“FaceName”=”Consolas”“FontFamily”=dword:0000003612## 注册表添加程序自启动 开始-运行-输入regeditHKeyLocalMochine\SOFTWARE\Microsoft\Windows\CurrenVersion\Run12## 去除快捷方式字样 HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorerlink改为00-00-00-00`]]></content>
@@ -728,32 +741,9 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[python qrcode 二维码]]></title>
-    <url>%2F2017%2F01%2F03%2Fpython%2Fpython-qrcode%2F</url>
-    <content type="text"><![CDATA[用qrcode包做的生成字符串的二维码的脚本 ps: ubuntu下有个可以终端显示二维码像素点的软件：qrencode 输入qrencode -o - -t UTF8，输入字符串，然后ctrl+D结束 123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899100101102103104105106107108109110111112113114115116117118#coding:utf-8import qrcodefrom PIL import Imageimport osdef openpic(filename): os.system(&quot;eog &quot; + filename)# 生成二维码图片def make_qr(string, pic_name): qr = qrcode.QRCode( version = 4, # 生成二维码尺寸的大小 1-40 1:21*21（21+(n-1)*4） error_correction = qrcode.constants.ERROR_CORRECT_M, #L:7% M:15% Q:25% H:30% box_size = 10, # 每个格子的像素大小 border = 2, # 边框的格子宽度大小 ) qr.add_data(string) qr.make(fit = True) img = qr.make_image() img.save(pic_name) openpic(pic_name) # 生成带logo的二维码图片def make_logo_qr(string, logo, pic_name): # 参数配置 qr = qrcode.QRCode( version = 4, error_correction = qrcode.constants.ERROR_CORRECT_Q, box_size = 8, border = 2 ) # 添加转换内容 qr.add_data(string) # qr.make(fit = True) # 生成二维码 img=qr.make_image() # img=img.convert(&quot;RGBA&quot;) # 添加logo if logo and os.path.exists(logo): icon = Image.open(logo) # 获取二维码图片的大小 img_w, img_h = img.size factor = 4 size_w = int(img_w/factor) size_h = int(img_h/factor) # logo图片的大小不能超过二维码图片的1/4 icon_w, icon_h = icon.size if icon_w &gt; size_w: icon_w = size_w if icon_h &gt; size_h: icon_h = size_h icon = icon.resize((icon_w, icon_h), Image.ANTIALIAS) # 计算logo在二维码图中的位置 w = int((img_w - icon_w) / 2) h = int((img_h - icon_h) / 2) icon = icon.convert(&quot;RGBA&quot;) img.paste(icon, (w, h), icon) # 保存处理后图片 img.save(pic_name) openpic(pic_name) if __name__==&apos;__main__&apos;: print print &quot;usage: input text, then input empty line to stop input&quot; print &quot; or input q or nothing to stop the script!&quot; print path = os.path.dirname(os.path.realpath(__file__)) qrcode_pic = os.path.join(path, &apos;theqrcode.png&apos;) #生成后的保存文件 logo = os.path.join(path, &apos;logo.png&apos;) #logo图片 string = &quot;start&quot; stop_strings = [&quot;q&quot;, &quot;exit&quot;, &quot;&quot;] while(1): string = raw_input(&quot;input:\n&quot;) if(string.strip() in stop_strings): break # 输入内容允许有空格 while True: line = raw_input() if(line == &apos;&apos;): break else: string = string + &quot;\n&quot; + line #make_qr(string, qrcode_pic) make_logo_qr(string, logo, qrcode_pic)]]></content>
-      <categories>
-        <category>python</category>
-      </categories>
-      <tags>
-        <tag>python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[sklearn: kmeans]]></title>
-    <url>%2F2017%2F01%2F03%2Fai%2Fsklearn-kmeans%2F</url>
-    <content type="text"><![CDATA[12345678910111213141516171819202122232425262728293031323334353637383940# -*- coding: utf-8 -*-from sklearn.cluster import KMeansfrom sklearn.externals import joblibfinal = open(&apos;c:/test/final.dat&apos; , &apos;r&apos;)data = [line.strip().split(&apos;\t&apos;) for line in final]feature = [[float(x) for x in row[3:]] for row in data]#调用kmeans类clf = KMeans(n_clusters=9)s = clf.fit(feature)print s#9个中心print clf.cluster_centers_#每个样本所属的簇print clf.labels_#用来评估簇的个数是否合适，距离越小说明簇分的越好，选取临界点的簇个数print clf.inertia_#进行预测print clf.predict(feature)#保存模型joblib.dump(clf , &apos;c:/km.pkl&apos;)#载入保存的模型clf = joblib.load(&apos;c:/km.pkl&apos;)&apos;&apos;&apos;#用来评估簇的个数是否合适，距离越小说明簇分的越好，选取临界点的簇个数for i in range(5,30,1): clf = KMeans(n_clusters=i) s = clf.fit(feature) print i , clf.inertia_&apos;&apos;&apos; 来源：http://blog.itpub.net/12199764/viewspace-1479320/]]></content>
-      <categories>
-        <category>ai</category>
-      </categories>
-      <tags>
-        <tag>python</tag>
-        <tag>sklearn</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[rar and tar]]></title>
-    <url>%2F2017%2F01%2F03%2Flinux%2Frar-tar%2F</url>
-    <content type="text"><![CDATA[rar，tar为linux上最常用的压缩解压打包工具。 rar12345678910111213#将文件log.py, grades.py，文件夹dir1压缩到log.rarrar a log.rar log.py grades.py dir1#将log.rar解压至temp文件夹（需新建）rar x log.rar ./temp#列出压缩包内文件rar l log.rar tar123456789101112131415161718192021222324# 压缩文件tar zcvf sth.tar.gz file1 file2 dir1#解压到当前目录tar zxvf sth.tar.gz#解压到指定目录tar zxvf sth.tar.gz -C ./temp#列出压缩包内文件tar tvf sth.tar.gz# 不压缩，只打包tar cvf sth.tar file1 dir1-c, --create 创建一个新归档-z 通过gzip压缩( tar本身不是压缩命令，)]]></content>
+    <title><![CDATA[patchelf 修改动态链接库]]></title>
+    <url>%2F2017%2F01%2F03%2Flinux%2Fpatchelf%2F</url>
+    <content type="text"><![CDATA[12patchelf --set-rpath $&#123;HOME&#125;/temp/demo/lib subscriber]]></content>
       <categories>
         <category>linux</category>
       </categories>
@@ -785,15 +775,27 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[patchelf 修改动态链接库]]></title>
-    <url>%2F2017%2F01%2F03%2Flinux%2Fpatchelf%2F</url>
-    <content type="text"><![CDATA[12patchelf --set-rpath $&#123;HOME&#125;/temp/demo/lib subscriber]]></content>
+    <title><![CDATA[rar and tar]]></title>
+    <url>%2F2017%2F01%2F03%2Flinux%2Frar-tar%2F</url>
+    <content type="text"><![CDATA[rar，tar为linux上最常用的压缩解压打包工具。 rar12345678910111213#将文件log.py, grades.py，文件夹dir1压缩到log.rarrar a log.rar log.py grades.py dir1#将log.rar解压至temp文件夹（需新建）rar x log.rar ./temp#列出压缩包内文件rar l log.rar tar123456789101112131415161718192021222324# 压缩文件tar zcvf sth.tar.gz file1 file2 dir1#解压到当前目录tar zxvf sth.tar.gz#解压到指定目录tar zxvf sth.tar.gz -C ./temp#列出压缩包内文件tar tvf sth.tar.gz# 不压缩，只打包tar cvf sth.tar file1 dir1-c, --create 创建一个新归档-z 通过gzip压缩( tar本身不是压缩命令，)]]></content>
       <categories>
         <category>linux</category>
       </categories>
       <tags>
         <tag>linux</tag>
         <tag>tool</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[sklearn: kmeans]]></title>
+    <url>%2F2017%2F01%2F03%2Fai%2Fsklearn-kmeans%2F</url>
+    <content type="text"><![CDATA[12345678910111213141516171819202122232425262728293031323334353637383940# -*- coding: utf-8 -*-from sklearn.cluster import KMeansfrom sklearn.externals import joblibfinal = open(&apos;c:/test/final.dat&apos; , &apos;r&apos;)data = [line.strip().split(&apos;\t&apos;) for line in final]feature = [[float(x) for x in row[3:]] for row in data]#调用kmeans类clf = KMeans(n_clusters=9)s = clf.fit(feature)print s#9个中心print clf.cluster_centers_#每个样本所属的簇print clf.labels_#用来评估簇的个数是否合适，距离越小说明簇分的越好，选取临界点的簇个数print clf.inertia_#进行预测print clf.predict(feature)#保存模型joblib.dump(clf , &apos;c:/km.pkl&apos;)#载入保存的模型clf = joblib.load(&apos;c:/km.pkl&apos;)&apos;&apos;&apos;#用来评估簇的个数是否合适，距离越小说明簇分的越好，选取临界点的簇个数for i in range(5,30,1): clf = KMeans(n_clusters=i) s = clf.fit(feature) print i , clf.inertia_&apos;&apos;&apos; 来源：http://blog.itpub.net/12199764/viewspace-1479320/]]></content>
+      <categories>
+        <category>ai</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+        <tag>sklearn</tag>
       </tags>
   </entry>
   <entry>
@@ -807,6 +809,17 @@
         <tag>linux</tag>
         <tag>tool</tag>
         <tag>terminal</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[python qrcode 二维码]]></title>
+    <url>%2F2017%2F01%2F03%2Fpython%2Fpython-qrcode%2F</url>
+    <content type="text"><![CDATA[用qrcode包做的生成字符串的二维码的脚本 ps: ubuntu下有个可以终端显示二维码像素点的软件：qrencode 输入qrencode -o - -t UTF8，输入字符串，然后ctrl+D结束 123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899100101102103104105106107108109110111112113114115116117118#coding:utf-8import qrcodefrom PIL import Imageimport osdef openpic(filename): os.system(&quot;eog &quot; + filename)# 生成二维码图片def make_qr(string, pic_name): qr = qrcode.QRCode( version = 4, # 生成二维码尺寸的大小 1-40 1:21*21（21+(n-1)*4） error_correction = qrcode.constants.ERROR_CORRECT_M, #L:7% M:15% Q:25% H:30% box_size = 10, # 每个格子的像素大小 border = 2, # 边框的格子宽度大小 ) qr.add_data(string) qr.make(fit = True) img = qr.make_image() img.save(pic_name) openpic(pic_name) # 生成带logo的二维码图片def make_logo_qr(string, logo, pic_name): # 参数配置 qr = qrcode.QRCode( version = 4, error_correction = qrcode.constants.ERROR_CORRECT_Q, box_size = 8, border = 2 ) # 添加转换内容 qr.add_data(string) # qr.make(fit = True) # 生成二维码 img=qr.make_image() # img=img.convert(&quot;RGBA&quot;) # 添加logo if logo and os.path.exists(logo): icon = Image.open(logo) # 获取二维码图片的大小 img_w, img_h = img.size factor = 4 size_w = int(img_w/factor) size_h = int(img_h/factor) # logo图片的大小不能超过二维码图片的1/4 icon_w, icon_h = icon.size if icon_w &gt; size_w: icon_w = size_w if icon_h &gt; size_h: icon_h = size_h icon = icon.resize((icon_w, icon_h), Image.ANTIALIAS) # 计算logo在二维码图中的位置 w = int((img_w - icon_w) / 2) h = int((img_h - icon_h) / 2) icon = icon.convert(&quot;RGBA&quot;) img.paste(icon, (w, h), icon) # 保存处理后图片 img.save(pic_name) openpic(pic_name) if __name__==&apos;__main__&apos;: print print &quot;usage: input text, then input empty line to stop input&quot; print &quot; or input q or nothing to stop the script!&quot; print path = os.path.dirname(os.path.realpath(__file__)) qrcode_pic = os.path.join(path, &apos;theqrcode.png&apos;) #生成后的保存文件 logo = os.path.join(path, &apos;logo.png&apos;) #logo图片 string = &quot;start&quot; stop_strings = [&quot;q&quot;, &quot;exit&quot;, &quot;&quot;] while(1): string = raw_input(&quot;input:\n&quot;) if(string.strip() in stop_strings): break # 输入内容允许有空格 while True: line = raw_input() if(line == &apos;&apos;): break else: string = string + &quot;\n&quot; + line #make_qr(string, qrcode_pic) make_logo_qr(string, logo, qrcode_pic)]]></content>
+      <categories>
+        <category>python</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
       </tags>
   </entry>
   <entry>
