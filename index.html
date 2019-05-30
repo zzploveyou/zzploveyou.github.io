@@ -225,16 +225,6 @@
           </a>
         </li>
       
-        
-        <li class="menu-item menu-item-tags">
-          <a href="/tags/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
-            
-            标签
-          </a>
-        </li>
-      
 
       
         <li class="menu-item menu-item-search">
@@ -354,7 +344,7 @@
               
                 <span class="post-meta-item-text">更新于</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2019-05-30T14:56:39+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2019-05-30T15:09:06+08:00">
                 2019-05-30
               </time>
             
@@ -507,177 +497,6 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://zzploveyou.github.io/2019/05/30/linux/ubuntu-usb/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="ningning">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/doggod.png">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="zzp's blog">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2019/05/30/linux/ubuntu-usb/" itemprop="url">ubuntu-dev-usb-mount</a></h1>
-        
-
-        <div class="post-meta">
-            
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-05-30T14:56:39+08:00">
-                2019-05-30
-              </time>
-            
-
-            
-              <span class="post-meta-divider">|</span>
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-check-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">更新于</span>
-              
-              <time title="更新于" itemprop="dateModified" datetime="2019-05-30T14:56:39+08:00">
-                2019-05-30
-              </time>
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/linux/" itemprop="url" rel="index">
-                    <span itemprop="name">linux</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-             <span id="/2019/05/30/linux/ubuntu-usb/" class="leancloud_visitors" data-flag-title="ubuntu-dev-usb-mount">
-               <span class="post-meta-divider">|</span>
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               
-                 <span class="post-meta-item-text">阅读次数 </span>
-               
-                 <span class="leancloud-visitors-count"></span>
-             </span>
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h1 id="检查挂载硬盘信息"><a href="#检查挂载硬盘信息" class="headerlink" title="检查挂载硬盘信息"></a>检查挂载硬盘信息</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cat /proc/partitions</span><br></pre></td></tr></table></figure>
-<h1 id="检查硬盘的文件系统格式"><a href="#检查硬盘的文件系统格式" class="headerlink" title="检查硬盘的文件系统格式"></a>检查硬盘的文件系统格式</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">fdisk -l /dev/sdb</span><br></pre></td></tr></table></figure>
-<h1 id="挂载位置"><a href="#挂载位置" class="headerlink" title="挂载位置"></a>挂载位置</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mount -t ?? /dev/sdb /media</span><br></pre></td></tr></table></figure>
-<h1 id="ntfs-修复"><a href="#ntfs-修复" class="headerlink" title="ntfs 修复"></a>ntfs 修复</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install ntfs-3g</span><br><span class="line">ntfsfix /dev/sdd3</span><br></pre></td></tr></table></figure>
-<h1 id="开机自动挂载"><a href="#开机自动挂载" class="headerlink" title="开机自动挂载"></a>开机自动挂载</h1><p>配合”磁盘”软件，设置<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/etc/fstab</span><br></pre></td></tr></table></figure></p>
-<h1 id="分区"><a href="#分区" class="headerlink" title="分区"></a>分区</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">/dev/sda1 /boot 1G</span><br><span class="line">/dev/sda3 /home 500G</span><br></pre></td></tr></table></figure>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="https://zzploveyou.github.io/2019/05/30/python/PyQt5-eric6-ubuntu/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -710,7 +529,7 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-05-30T14:56:39+08:00">
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-05-30T15:09:06+08:00">
                 2019-05-30
               </time>
             
@@ -726,7 +545,7 @@
               
                 <span class="post-meta-item-text">更新于</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2019-05-30T14:56:39+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2019-05-30T15:09:06+08:00">
                 2019-05-30
               </time>
             
@@ -849,7 +668,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://zzploveyou.github.io/2019/05/30/algorithm/leetcode/valid-palindrome-LeetCode/">
+    <link itemprop="mainEntityOfPage" href="https://zzploveyou.github.io/2019/05/30/linux/ubuntu-usb/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="ningning">
@@ -868,7 +687,178 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2019/05/30/algorithm/leetcode/valid-palindrome-LeetCode/" itemprop="url">valid-palindrome-LeetCode</a></h1>
+                <a class="post-title-link" href="/2019/05/30/linux/ubuntu-usb/" itemprop="url">ubuntu-dev-usb-mount</a></h1>
+        
+
+        <div class="post-meta">
+            
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-05-30T15:09:06+08:00">
+                2019-05-30
+              </time>
+            
+
+            
+              <span class="post-meta-divider">|</span>
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">更新于</span>
+              
+              <time title="更新于" itemprop="dateModified" datetime="2019-05-30T15:09:06+08:00">
+                2019-05-30
+              </time>
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/linux/" itemprop="url" rel="index">
+                    <span itemprop="name">linux</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/2019/05/30/linux/ubuntu-usb/" class="leancloud_visitors" data-flag-title="ubuntu-dev-usb-mount">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数 </span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="检查挂载硬盘信息"><a href="#检查挂载硬盘信息" class="headerlink" title="检查挂载硬盘信息"></a>检查挂载硬盘信息</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cat /proc/partitions</span><br></pre></td></tr></table></figure>
+<h1 id="检查硬盘的文件系统格式"><a href="#检查硬盘的文件系统格式" class="headerlink" title="检查硬盘的文件系统格式"></a>检查硬盘的文件系统格式</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">fdisk -l /dev/sdb</span><br></pre></td></tr></table></figure>
+<h1 id="挂载位置"><a href="#挂载位置" class="headerlink" title="挂载位置"></a>挂载位置</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mount -t ?? /dev/sdb /media</span><br></pre></td></tr></table></figure>
+<h1 id="ntfs-修复"><a href="#ntfs-修复" class="headerlink" title="ntfs 修复"></a>ntfs 修复</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install ntfs-3g</span><br><span class="line">ntfsfix /dev/sdd3</span><br></pre></td></tr></table></figure>
+<h1 id="开机自动挂载"><a href="#开机自动挂载" class="headerlink" title="开机自动挂载"></a>开机自动挂载</h1><p>配合”磁盘”软件，设置<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/etc/fstab</span><br></pre></td></tr></table></figure></p>
+<h1 id="分区"><a href="#分区" class="headerlink" title="分区"></a>分区</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">/dev/sda1 /boot 1G</span><br><span class="line">/dev/sda3 /home 500G</span><br></pre></td></tr></table></figure>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://zzploveyou.github.io/2019/05/30/algorithm/leetcode/valid-palindrome/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="ningning">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/doggod.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="zzp's blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2019/05/30/algorithm/leetcode/valid-palindrome/" itemprop="url">valid-palindrome</a></h1>
         
 
         <div class="post-meta">
@@ -897,7 +887,7 @@
               
                 <span class="post-meta-item-text">更新于</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2019-05-30T14:56:39+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2019-05-30T15:16:38+08:00">
                 2019-05-30
               </time>
             
@@ -944,7 +934,7 @@
 
           
           
-             <span id="/2019/05/30/algorithm/leetcode/valid-palindrome-LeetCode/" class="leancloud_visitors" data-flag-title="valid-palindrome-LeetCode">
+             <span id="/2019/05/30/algorithm/leetcode/valid-palindrome/" class="leancloud_visitors" data-flag-title="valid-palindrome">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -1074,7 +1064,7 @@
               
                 <span class="post-meta-item-text">更新于</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2019-05-30T14:56:39+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2019-05-30T15:09:06+08:00">
                 2019-05-30
               </time>
             
@@ -1242,7 +1232,7 @@
               
                 <span class="post-meta-item-text">更新于</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2019-05-30T14:56:39+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2019-05-30T15:09:06+08:00">
                 2019-05-30
               </time>
             
@@ -1415,7 +1405,7 @@
               
                 <span class="post-meta-item-text">更新于</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2019-05-30T14:56:39+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2019-05-30T15:09:06+08:00">
                 2019-05-30
               </time>
             
@@ -1583,7 +1573,7 @@
               
                 <span class="post-meta-item-text">更新于</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2019-05-30T14:56:39+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2019-05-30T15:09:06+08:00">
                 2019-05-30
               </time>
             
@@ -1759,7 +1749,7 @@
               
                 <span class="post-meta-item-text">更新于</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2019-05-30T14:56:39+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2019-05-30T15:09:06+08:00">
                 2019-05-30
               </time>
             
@@ -1928,7 +1918,7 @@
               
                 <span class="post-meta-item-text">更新于</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2019-05-30T14:56:39+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2019-05-30T15:09:06+08:00">
                 2019-05-30
               </time>
             
