@@ -76,7 +76,7 @@
 <link href="/css/main.css?v=5.1.2" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="linux,parallel,rsync," />
+  <meta name="keywords" content="Hexo, NexT" />
 
 
 
@@ -92,18 +92,17 @@
 
 
 
-<meta name="description" content="hjmangalam/parsyncfp: follow-on to parsync (parallel rsync) with better startup perf 1./parsyncfp --NP=4 --CS=100K --nowait --rsyncopts=&quot;-uv&quot; --startdir=&quot;/home/zzp&quot; &quot;test&quot; &quot;/home/zzp/program/&quot; 将123456">
-<meta name="keywords" content="linux,parallel,rsync">
+<meta name="description" content="parsyncfphjmangalam/parsyncfp: follow-on to parsync (parallel rsync) with better startup perf 1./parsyncfp --NP=4 --CS=100K --nowait --rsyncopts=&quot;-uv&quot; --startdir=&quot;/home/zzp&quot; &quot;test&quot; &quot;/home/zzp/program/">
 <meta property="og:type" content="article">
 <meta property="og:title" content="服务器上同步&#x2F;备份大量文件的处理方式">
 <meta property="og:url" content="https://zzploveyou.github.io/2019/05/15/linux/parsyncfp-parallel-rsync/index.html">
 <meta property="og:site_name" content="zzp&#39;s blog">
-<meta property="og:description" content="hjmangalam/parsyncfp: follow-on to parsync (parallel rsync) with better startup perf 1./parsyncfp --NP=4 --CS=100K --nowait --rsyncopts=&quot;-uv&quot; --startdir=&quot;/home/zzp&quot; &quot;test&quot; &quot;/home/zzp/program/&quot; 将123456">
+<meta property="og:description" content="parsyncfphjmangalam/parsyncfp: follow-on to parsync (parallel rsync) with better startup perf 1./parsyncfp --NP=4 --CS=100K --nowait --rsyncopts=&quot;-uv&quot; --startdir=&quot;/home/zzp&quot; &quot;test&quot; &quot;/home/zzp/program/">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-05-15T14:23:08.575Z">
+<meta property="og:updated_time" content="2019-05-30T06:52:35.433Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="服务器上同步&#x2F;备份大量文件的处理方式">
-<meta name="twitter:description" content="hjmangalam/parsyncfp: follow-on to parsync (parallel rsync) with better startup perf 1./parsyncfp --NP=4 --CS=100K --nowait --rsyncopts=&quot;-uv&quot; --startdir=&quot;/home/zzp&quot; &quot;test&quot; &quot;/home/zzp/program/&quot; 将123456">
+<meta name="twitter:description" content="parsyncfphjmangalam/parsyncfp: follow-on to parsync (parallel rsync) with better startup perf 1./parsyncfp --NP=4 --CS=100K --nowait --rsyncopts=&quot;-uv&quot; --startdir=&quot;/home/zzp&quot; &quot;test&quot; &quot;/home/zzp/program/">
 
 
 
@@ -351,12 +350,34 @@
               
                 <span class="post-meta-item-text">更新于</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2019-05-15T22:23:08+08:00">
-                2019-05-15
+              <time title="更新于" itemprop="dateModified" datetime="2019-05-30T14:52:35+08:00">
+                2019-05-30
               </time>
             
           </span>
 
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/linux/" itemprop="url" rel="index">
+                    <span itemprop="name">linux</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
           
 
           
@@ -401,9 +422,9 @@
       
 
       
-        <p><a href="https://github.com/hjmangalam/parsyncfp" target="_blank" rel="noopener">hjmangalam/parsyncfp: follow-on to parsync (parallel rsync) with better startup perf</a></p>
+        <h1 id="parsyncfp"><a href="#parsyncfp" class="headerlink" title="parsyncfp"></a>parsyncfp</h1><p><a href="https://github.com/hjmangalam/parsyncfp" target="_blank" rel="noopener">hjmangalam/parsyncfp: follow-on to parsync (parallel rsync) with better startup perf</a></p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./parsyncfp --NP=4 --CS=100K --nowait --rsyncopts=<span class="string">"-uv"</span> --startdir=<span class="string">"/home/zzp"</span> <span class="string">"test"</span> <span class="string">"/home/zzp/program/"</span></span><br></pre></td></tr></table></figure>
-<p>将<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br><span class="line">并行增量备份的另一种实现(rsync+parallel)</span><br><span class="line"></span><br><span class="line">```bash</span><br><span class="line">#!/bin/bash</span><br><span class="line"></span><br><span class="line">dst=&quot;/mnt/500G移动硬盘/results/&quot;</span><br><span class="line">filename=&quot;backuplist&quot;</span><br><span class="line">ncpu=8</span><br><span class="line"></span><br><span class="line">cat $filename | parallel -j $ncpu &quot;rsync -urv &#123;&#125; $dst&quot;</span><br></pre></td></tr></table></figure></p>
+<h1 id="rsync-parallel"><a href="#rsync-parallel" class="headerlink" title="rsync + parallel"></a>rsync + parallel</h1><p>将<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br><span class="line">并行增量备份的另一种实现(rsync+parallel)</span><br><span class="line"></span><br><span class="line">```bash</span><br><span class="line">#!/bin/bash</span><br><span class="line"></span><br><span class="line">dst=&quot;/mnt/500G移动硬盘/results/&quot;</span><br><span class="line">filename=&quot;backuplist&quot;</span><br><span class="line">ncpu=8</span><br><span class="line"></span><br><span class="line">cat $filename | parallel -j $ncpu &quot;rsync -urv &#123;&#125; $dst&quot;</span><br></pre></td></tr></table></figure></p>
 
       
     </div>
@@ -448,16 +469,6 @@
 
     <footer class="post-footer">
       
-        <div class="post-tags">
-          
-            <a href="/tags/linux/" rel="tag"># linux</a>
-          
-            <a href="/tags/parallel/" rel="tag"># parallel</a>
-          
-            <a href="/tags/rsync/" rel="tag"># rsync</a>
-          
-        </div>
-      
 
       
       
@@ -476,6 +487,10 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2019/05/21/python/pip/" rel="prev" title="pip">
+                pip <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -529,8 +544,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
+      <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/doggod.png"
@@ -545,7 +569,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives/">
-                <span class="site-state-item-count">73</span>
+                <span class="site-state-item-count">76</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
@@ -562,15 +586,6 @@
             </div>
           
 
-          
-            
-            
-            <div class="site-state-item site-state-tags">
-              <a href="/tags/index.html">
-                <span class="site-state-item-count">30</span>
-                <span class="site-state-item-name">标签</span>
-              </a>
-            </div>
           
 
         </nav>
@@ -607,6 +622,22 @@
 
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#parsyncfp"><span class="nav-number">1.</span> <span class="nav-text">parsyncfp</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#rsync-parallel"><span class="nav-number">2.</span> <span class="nav-text">rsync + parallel</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
