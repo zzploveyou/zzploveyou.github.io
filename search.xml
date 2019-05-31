@@ -433,19 +433,19 @@
       </categories>
   </entry>
   <entry>
-    <title><![CDATA[rst转换为md]]></title>
-    <url>%2F2017%2F12%2F14%2Flinux%2Fpandoc-rst2md%2F</url>
-    <content type="text"><![CDATA[1sudo apt install pandoc 1234567FILES=*.rstfor f in $FILESdo filename="$&#123;f%.*&#125;" echo "Converting $f to $filename.md" `pandoc $f -f rst -t markdown -o $filename.md`done]]></content>
-      <categories>
-        <category>linux</category>
-      </categories>
-  </entry>
-  <entry>
     <title><![CDATA[vim registers 寄存器]]></title>
     <url>%2F2017%2F12%2F14%2Fvim%2Fvim-registers%2F</url>
     <content type="text"><![CDATA[常见文本编辑器都会提供剪切板来支持复制粘贴，Vim也不例外。 不同的是Vim提供了10类共48个寄存器，提供无与伦比的寄存功能。 最常用的y操作将会拷贝到默认的匿名寄存器中，我们也可以指定具体拷贝到哪个寄存器中。 一般来讲，可以用用```"&#123;register&#125;p```来粘贴```&#123;register&#125;```中的内容。例如： "ayy可以拷贝当前行到寄存器a中，而"ap则可以粘贴寄存器a中的内容。12345678910111213141516171819202122232425262728除了a-z26个命名寄存器，Vim还提供了很多特殊寄存器。合理地使用可以极大地提高效率。例如：* ```&quot;+p```可以粘贴剪切板的内容，* ```&quot;:p```可以粘贴上一个Vim命令（比如你刚刚费力拼写的正则表达式），* ```&quot;/p```可以粘贴上一次搜索关键词（你猜的没错，正是normal模式下的/foo搜索命令）。在Vim中可通过```:reg```来查看每个寄存器当前的值。寄存器分类Vim提供了10类寄存器，可在Vim中通过:help registers查看帮助。1. 匿名寄存器 &quot;&quot;2. 编号寄存器 &quot;0 到 &quot;93. 小删除寄存器 &quot;-4. 26个命名寄存器 &quot;a 到 &quot;z5. 3个只读寄存器 &quot;:, &quot;., &quot;%6. Buffer交替文件寄存器 &quot;#7. 表达式寄存器 &quot;=8. 选区和拖放寄存器 &quot;*, &quot;+, &quot;~9. 黑洞寄存器 &quot;_10. 搜索模式寄存器 &quot;/# 1. 匿名寄存器使用d, c, s, x等会删除字符的命令时，被删除字符会进入匿名寄存器&quot;&quot;。 你可以认为&quot;&quot;寄存器是一个指针，指向刚才被存到的寄存器。在如何用Vim搭建IDE？一文中提到，Mac下可通过下列设置来让Vim共享系统剪切板， 就是这个原理：所有删除和拷贝操作默认都会到匿名寄存器。 set clipboard=unnamed1234567891011121314使用y命令未指定寄存器会存到&quot;0寄存器中，同时&quot;&quot;会与该寄存器保有同样的值。 这意味着你使用p和&quot;p总会得到同样的结果。# 2. 编号寄存器编号寄存器从&quot;0到&quot;9共10个，其中&quot;0保存着拷贝来的字符串，&quot;1到&quot;9保存着删除掉的字符串。 删除操作符包括s, c, d, x。 删除掉的字符串会被存到&quot;1中，上次删除的则会被存到&quot;2中。以此类推，Vim会保存你最近的9次删除。* 只有整行整行的删除，和通过段落级别的移动指令（包括%,(,),/,`,?,n,N,&#123;,&#125;） 的删除才会被放到&quot;1中。* 当用户指定拷贝操作的寄存器时（如&quot;ap），&quot;0不会被写入；但删除操作一定会被写入到&quot;1中。&gt; &quot;0寄存器很有用，比如我们copy了一段文本然后用它替换另一段文本。 这时默认寄存器&quot;&quot;中的值就变成了被替换文本，如果还需要用copy的文本继续替换的话就需要&quot;0p了。# 3. 小删除寄存器不足一行的小删除则会被放到小删除寄存器中（&quot;-），起作用的删除操作符也包括s, c, d, x。 例如： dw # 删除一个词d9l # 删除9个字符cb # 向前更改一个词1234与&quot;0寄存器类似，当用户指定寄存器并进行删除时，&quot;-不会被写入。# 4. 命名寄存器命名寄存器有&quot;a到&quot;z共26个，这些寄存器只有当我们指定时才会被使用。 其实我们在录制宏时，所有键盘操作会以字符串的形式存到寄存器中。 例如录制一个宏存到&quot;a寄存器中，内容为更改当前行cc，改为foo字符串： qaccfoo1234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950然后执行:reg来查看寄存器，可以发现a寄存器的值是ccfoo。 小技巧：当使用小写字母进行操作时会覆盖当前寄存器内容，当使用大写字母进行操作时，会追加当前寄存器内容。# 5. 只读寄存器只读寄存器共3个，它们的值是由Vim提供的，不允许改变： &quot;.：上次insert模式中插入的字符串。还记得吗？.命令可以重复上次操作，而&quot;.存储了上次插入。 &quot;%：当前文件名，不是全路径，也不是纯文件名，而是从当前Vim的工作目录到该文件的路径。例如此时Harttle的Vim中，&quot;%p的结果为_drafts/vim-registers.md。 &quot;:：上次命令模式下键入的命令。正如@a可以执行&quot;a寄存器中的宏一样，&quot;:可以执行上次命令。# 6. 交替文件寄存器交替文件寄存器&quot;#存储着当前Vim窗口（Window）的交替文件。交替文件（alternate file）是指 Buffer中的上一个文件，可通过Ctrl+^来切换交替文件与当前文件。 Window和Buffer有什么区别？参见Vim 多文件编辑：窗口一文。# 7. 表达式寄存器表达式寄存器&quot;=主要用于计算Vim脚本的返回值，并插入到文本中。 当我们键入&quot;=后光标会移动到命令行，此时我们可以输入任何Vim脚本的表达式。 例如3+2，按下回车并且p则会得到5。这在我们调试Vim脚本时非常有用，比如调用一个函数看它是否有正确的返回值。# 8. 选择和拖放寄存器选择和拖放寄存器包括&quot;*, &quot;+, 和&quot;~，这三个寄存器的行为是和GUI相关的。&quot;*和&quot;+在Mac和Windows中，都是指系统剪切板（clipboard），例如&quot;*yy即可复制当前行到剪切板。 以供其他程序中粘贴。其他程序中复制的内容也会被存储到这两个寄存器中。 在X11系统中（绝大多数带有桌面环境的Linux发行版），二者是有区别的： &quot;*指X11中的PRIMARY选区，即鼠标选中区域。在桌面系统中可按鼠标中键粘贴。 &quot;+指X11中的CLIPBOARD选区，即系统剪切板。在桌面系统中可按Ctrl+V粘贴。 上文所述的Mac下set clipboard=unnamed会使得系统剪切板寄存器&quot;*和Vim默认的匿名寄存器&quot;&quot;始终保有同样的值，即Vim和系统共用剪切板。有文本拖拽到Vim时，被拖拽的文本被存储在&quot;~中。Vim默认的行为是将&quot;~中内容插入到光标所在位置。 当然你可以给&lt;DROP&gt;做键盘映射。# 9. 黑洞寄存器黑洞寄存器&quot;_，所有删除或拷贝到黑洞寄存器的文本将会消失。 这是为了在删除文本的同时不影响任何寄存器的值，&quot;_通常用于Vim脚本中。# 10. 搜索寄存器搜索寄存器&quot;/用于存储上一次搜索的关键词。Vim中如何进行搜索呢？ 在normal模式下按下/即进入search模式，输入关键字并按下回车即可。该寄存器是可写的，例如:let @/ = &quot;harttle&quot;将会把&quot;harttle&quot;写入该寄存器。 下次搜索时不输入搜索词直接回车便会搜索&quot;harttle&quot;。命令行模式拷贝值得一提的时，任何寄存器中的值都是可以拷贝到命令模式下的。比如对于寄存器&quot;a中的值，在normal模式下可以通过&quot;ap来粘贴；在command-line模式下通过&lt;Ctrl-R&gt;a来粘贴。这一操作存在风险，因为寄存器中的值可能是从网页中拷贝来的。如果寄存器中的字符串存在&lt;Esc&gt;字符或&lt;CR&gt;字符，则会时Vim回到normal模式， 并继续执行寄存器中的命令。为了防范剪切板劫持，可以添加下列的Vim配置： inoremap + u&lt;C->“+gP` 该命令的解释请移步：http://vim.wikia.com/wiki/Pasting_registers]]></content>
       <categories>
         <category>vim</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[rst转换为md]]></title>
+    <url>%2F2017%2F12%2F14%2Flinux%2Fpandoc-rst2md%2F</url>
+    <content type="text"><![CDATA[1sudo apt install pandoc 1234567FILES=*.rstfor f in $FILESdo filename="$&#123;f%.*&#125;" echo "Converting $f to $filename.md" `pandoc $f -f rst -t markdown -o $filename.md`done]]></content>
+      <categories>
+        <category>linux</category>
       </categories>
   </entry>
   <entry>
@@ -482,17 +482,17 @@
       </categories>
   </entry>
   <entry>
-    <title><![CDATA[python: operator]]></title>
-    <url>%2F2017%2F09%2F16%2Fpython%2Fpython-operator%2F</url>
-    <content type="text"><![CDATA[12345678910111213141516171819202122#!/usr/bin/env python3&quot;&quot;&quot;This program lets you create a simple command line calculator without usingthe &apos;if..else&apos; construct. It uses built-in &apos;operator&apos; module to accomplish thesameCreated with help of an answer on stackoverflow. Don&apos;t have the exact link.&quot;&quot;&quot;import operatorops = &#123; &quot;+&quot;: operator.add, &quot;-&quot;: operator.sub, &quot;/&quot;: operator.truediv, &quot;*&quot;: operator.mul&#125;x = input(&quot;Enter an operator [OPTIONS: +, -, *, /]: &quot;)y = int(input(&quot;Enter number: &quot;))z = int(input(&quot;Enter number: &quot;))print (ops[x](y, z))]]></content>
+    <title><![CDATA[python判断字符编码]]></title>
+    <url>%2F2017%2F09%2F16%2Fpython%2F%E5%AD%97%E7%AC%A6%E7%BC%96%E7%A0%81%E5%88%A4%E6%96%AD%2F</url>
+    <content type="text"><![CDATA[1234import sysreload(sys)sys.setdefaultencoding(&apos;utf-8&apos;) Python 字符编码判断 法一12345678#判断是否为一般字符串isinstance(s, str)#用来判断是否为unicodeisinstance(s, unicode) 或 12if type(str).__name__ != &quot;unicode&quot;: str=unicode(str, &quot;utf-8&quot;) 法二：Python chardet 字符编码判断使用 chardet 可以很方便的实现字符串/文件的编码检测。尤其是中文网页，有的页面使用GBK/GB2312，有的使用UTF8，如果你需要去爬一些页面，知道网页编码很重要的，虽然HTML页面有charset标签，但是有些时候是不对的。那么chardet就能帮我们大忙了。123456import urllibimport chardetrawdata = urllib.urlopen(&apos;http://www.google.cn/&apos;).read()chardet.detect(rawdata) Results: 12&#123;&apos;confidence&apos;: 0.98999999999999999, &apos;encoding&apos;: &apos;GB2312&apos;&#125; chardet可以直接用detect函数来检测所给字符的编码。 函数返回值为字典，有2个元数，一个是检测的可信度，另外一个就是检测到的编码。]]></content>
       <categories>
         <category>python</category>
       </categories>
   </entry>
   <entry>
-    <title><![CDATA[python判断字符编码]]></title>
-    <url>%2F2017%2F09%2F16%2Fpython%2F%E5%AD%97%E7%AC%A6%E7%BC%96%E7%A0%81%E5%88%A4%E6%96%AD%2F</url>
-    <content type="text"><![CDATA[1234import sysreload(sys)sys.setdefaultencoding(&apos;utf-8&apos;) Python 字符编码判断 法一12345678#判断是否为一般字符串isinstance(s, str)#用来判断是否为unicodeisinstance(s, unicode) 或 12if type(str).__name__ != &quot;unicode&quot;: str=unicode(str, &quot;utf-8&quot;) 法二：Python chardet 字符编码判断使用 chardet 可以很方便的实现字符串/文件的编码检测。尤其是中文网页，有的页面使用GBK/GB2312，有的使用UTF8，如果你需要去爬一些页面，知道网页编码很重要的，虽然HTML页面有charset标签，但是有些时候是不对的。那么chardet就能帮我们大忙了。123456import urllibimport chardetrawdata = urllib.urlopen(&apos;http://www.google.cn/&apos;).read()chardet.detect(rawdata) Results: 12&#123;&apos;confidence&apos;: 0.98999999999999999, &apos;encoding&apos;: &apos;GB2312&apos;&#125; chardet可以直接用detect函数来检测所给字符的编码。 函数返回值为字典，有2个元数，一个是检测的可信度，另外一个就是检测到的编码。]]></content>
+    <title><![CDATA[python: operator]]></title>
+    <url>%2F2017%2F09%2F16%2Fpython%2Fpython-operator%2F</url>
+    <content type="text"><![CDATA[12345678910111213141516171819202122#!/usr/bin/env python3&quot;&quot;&quot;This program lets you create a simple command line calculator without usingthe &apos;if..else&apos; construct. It uses built-in &apos;operator&apos; module to accomplish thesameCreated with help of an answer on stackoverflow. Don&apos;t have the exact link.&quot;&quot;&quot;import operatorops = &#123; &quot;+&quot;: operator.add, &quot;-&quot;: operator.sub, &quot;/&quot;: operator.truediv, &quot;*&quot;: operator.mul&#125;x = input(&quot;Enter an operator [OPTIONS: +, -, *, /]: &quot;)y = int(input(&quot;Enter number: &quot;))z = int(input(&quot;Enter number: &quot;))print (ops[x](y, z))]]></content>
       <categories>
         <category>python</category>
       </categories>
@@ -530,9 +530,9 @@
       </categories>
   </entry>
   <entry>
-    <title><![CDATA[rsync同步命令]]></title>
-    <url>%2F2017%2F01%2F04%2Flinux%2Frsync%E5%91%BD%E4%BB%A4%2F</url>
-    <content type="text"><![CDATA[rsync最常用的操作同步远程zzp主机下note文件夹到本地文件夹note(以前者为准,后者的更改都会被抹除) 1rsync -urv --delete "zzp:/home/zzp/note/" note/ rsync的命令格式1234567rsync [OPTION]... SRC DESTrsync [OPTION]... SRC [USER@]HOST:DESTrsync [OPTION]... [USER@]HOST:SRC DESTrsync [OPTION]... [USER@]HOST::SRC DESTrsync [OPTION]... SRC [USER@]HOST::DESTrsync [OPTION]... rsync://[USER@]HOST[:PORT]/SRC [DEST] 对应于以上六种命令格式，rsync有六种不同的工作模式： 拷贝本地文件。当SRC和DES路径信息都不包含有单个冒号”:”分隔符时就启动这种工作模式。如：-a/backup```122. 使用一个远程shell程序(如rsh、ssh)来实现将本地机器的内容拷贝到远程机器。当DST路径地址包含单个冒号&quot;:&quot;分隔符时启动该模式。如：```rsync -avz *.c foo:src 使用一个远程shell程序(如rsh、ssh)来实现将远程机器的内容拷贝到本地机器。当SRC地址路径包含单个冒号”:”分隔符时启动该模式。如：-avz foo:src/barlink124. 从远程rsync服务器中拷贝文件到本地机。当SRC路径信息包含&quot;::&quot;分隔符时启动该模式。如：```rsync -av root@172.16.78.192::www /databack 从本地机器拷贝文件到远程rsync服务器中。当DST路径信息包含”::”分隔符时启动该模式。如：-avroot@172.16.78.192::www```126. 列远程机的文件列表。这类似于rsync传输，不过只要在命令中省略掉本地机信息即可。如：```rsync -v rsync://172.16.78.192/www rsync参数12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061-v, --verbose 详细模式输出-q, --quiet 精简输出模式-c, --checksum 打开校验开关，强制对文件传输进行校验-a, --archive 归档模式，表示以递归方式传输文件，并保持所有文件属性，等于-rlptgoD-r, --recursive 对子目录以递归模式处理-R, --relative 使用相对路径信息-b, --backup 创建备份，也就是对于目的已经存在有同样的文件名时，将老的文件重新命名为~filename。可以使用--suffix选项来指定不同的备份文件前缀。--backup-dir 将备份文件(如~filename)存放在在目录下。-suffix=SUFFIX 定义备份文件前缀-u, --update 仅仅进行更新，也就是跳过所有已经存在于DST，并且文件时间晚于要备份的文件。(不覆盖更新的文件)-l, --links 保留软链结-L, --copy-links 想对待常规文件一样处理软链结--copy-unsafe-links 仅仅拷贝指向SRC路径目录树以外的链结--safe-links 忽略指向SRC路径目录树以外的链结-H, --hard-links 保留硬链结-p, --perms 保持文件权限-o, --owner 保持文件属主信息-g, --group 保持文件属组信息-D, --devices 保持设备文件信息-t, --times 保持文件时间信息-S, --sparse 对稀疏文件进行特殊处理以节省DST的空间-n, --dry-run现实哪些文件将被传输-W, --whole-file 拷贝文件，不进行增量检测-x, --one-file-system 不要跨越文件系统边界-B, --block-size=SIZE 检验算法使用的块尺寸，默认是700字节-e, --rsh=COMMAND 指定使用rsh、ssh方式进行数据同步--rsync-path=PATH 指定远程服务器上的rsync命令所在路径信息-C, --cvs-exclude 使用和CVS一样的方法自动忽略文件，用来排除那些不希望传输的文件--existing 仅仅更新那些已经存在于DST的文件，而不备份那些新创建的文件--delete 删除那些DST中SRC没有的文件--delete-excluded 同样删除接收端那些被该选项指定排除的文件--delete-after 传输结束以后再删除--ignore-errors 及时出现IO错误也进行删除--max-delete=NUM 最多删除NUM个文件--partial 保留那些因故没有完全传输的文件，以是加快随后的再次传输--force 强制删除目录，即使不为空--numeric-ids 不将数字的用户和组ID匹配为用户名和组名--timeout=TIME IP超时时间，单位为秒-I, --ignore-times 不跳过那些有同样的时间和长度的文件--size-only 当决定是否要备份文件时，仅仅察看文件大小而不考虑文件时间--modify-window=NUM 决定文件是否时间相同时使用的时间戳窗口，默认为0-T --temp-dir=DIR 在DIR中创建临时文件--compare-dest=DIR 同样比较DIR中的文件来决定是否需要备份-P 等同于 --partial--progress 显示备份过程-z, --compress 对备份的文件在传输时进行压缩处理--exclude=PATTERN 指定排除不需要传输的文件模式--include=PATTERN 指定不排除而需要传输的文件模式--exclude-from=FILE 排除FILE中指定模式的文件--include-from=FILE 不排除FILE指定模式匹配的文件--version 打印版本信息--address 绑定到特定的地址--config=FILE 指定其他的配置文件，不使用默认的rsyncd.conf文件--port=PORT 指定其他的rsync服务端口--blocking-io 对远程shell使用阻塞IO-stats 给出某些文件的传输状态--progress 在传输时现实传输过程--log-format=formAT 指定日志文件格式--password-file=FILE 从FILE中得到密码--bwlimit=KBPS 限制I/O带宽，KBytes per second-h, --help 显示帮助信息]]></content>
+    <title><![CDATA[ubuntu配置初始化]]></title>
+    <url>%2F2017%2F01%2F04%2Flinux%2Fubuntu-config%2F</url>
+    <content type="text"><![CDATA[fcitx 输入法12sudo apt-get install fcitx fcitx-config-gtk fcitx-sunpinyin fcitx-googlepinyin fcitx-module-cloudpinyin im-configsudo im-config -s fcitx -z default 取消默认文件夹设置123456789# ~/.config/user-dirs.dirsxdg-user-dirs-update --set DESKTOP $HOME/xdg-user-dirs-update --set DOWNLOAD $HOME/xdg-user-dirs-update --set TEMPLATES $HOME/xdg-user-dirs-update --set PUBLICSHARE $HOME/xdg-user-dirs-update --set DOCUMENTS $HOME/xdg-user-dirs-update --set MUSIC $HOME/xdg-user-dirs-update --set PICTURES $HOME/xdg-user-dirs-update --set VIDEOS $HOME/ 卸载软件列表1sudo apt purge deja-dup gnome-sudoku webbrowser-app cheese gnome-mines gnome-mahjongg simple-scan empathy thunderbird rhythmbox libreoffice-common unity-webapps-common aisleriot transmission-common transmission-gtk remmina ubuntu-web-launchers 必备软件列表1234sudo apt-get install curl vim exuberant-ctags git ack-grepsudo pip install pep8 flake8 pyflakes isort yapfsudo apt install tmux zsh htop rar vim terminator ipython3 python3-pip openssh-server devtodo tree chsh -s /bin/zsh 可选安装软件列表123sudo apt install flashplugin-installer folder-color ubuntu-gnome-desktop moc kdeconnect gnome-tweak-toolsudo apt install graphviz virtualbox masterpdfeditor4sudo apt install gtk-recordmydesktop recordmydesktop 其余软件列表123nitrogen okular vlc screenfetchunison unison-gtk qrencode figlet xdotool cmatrix fortune fortune-zh cowsay vscode wps vimconfig zsh]]></content>
       <categories>
         <category>linux</category>
       </categories>
@@ -546,9 +546,9 @@
       </categories>
   </entry>
   <entry>
-    <title><![CDATA[ubuntu配置初始化]]></title>
-    <url>%2F2017%2F01%2F04%2Flinux%2Fubuntu-config%2F</url>
-    <content type="text"><![CDATA[fcitx 输入法12sudo apt-get install fcitx fcitx-config-gtk fcitx-sunpinyin fcitx-googlepinyin fcitx-module-cloudpinyin im-configsudo im-config -s fcitx -z default 取消默认文件夹设置123456789# ~/.config/user-dirs.dirsxdg-user-dirs-update --set DESKTOP $HOME/xdg-user-dirs-update --set DOWNLOAD $HOME/xdg-user-dirs-update --set TEMPLATES $HOME/xdg-user-dirs-update --set PUBLICSHARE $HOME/xdg-user-dirs-update --set DOCUMENTS $HOME/xdg-user-dirs-update --set MUSIC $HOME/xdg-user-dirs-update --set PICTURES $HOME/xdg-user-dirs-update --set VIDEOS $HOME/ 卸载软件列表1sudo apt purge deja-dup gnome-sudoku webbrowser-app cheese gnome-mines gnome-mahjongg simple-scan empathy thunderbird rhythmbox libreoffice-common unity-webapps-common aisleriot transmission-common transmission-gtk remmina ubuntu-web-launchers 必备软件列表1234sudo apt-get install curl vim exuberant-ctags git ack-grepsudo pip install pep8 flake8 pyflakes isort yapfsudo apt install tmux zsh htop rar vim terminator ipython3 python3-pip openssh-server devtodo tree chsh -s /bin/zsh 可选安装软件列表123sudo apt install flashplugin-installer folder-color ubuntu-gnome-desktop moc kdeconnect gnome-tweak-toolsudo apt install graphviz virtualbox masterpdfeditor4sudo apt install gtk-recordmydesktop recordmydesktop 其余软件列表123nitrogen okular vlc screenfetchunison unison-gtk qrencode figlet xdotool cmatrix fortune fortune-zh cowsay vscode wps vimconfig zsh]]></content>
+    <title><![CDATA[rsync同步命令]]></title>
+    <url>%2F2017%2F01%2F04%2Flinux%2Frsync%E5%91%BD%E4%BB%A4%2F</url>
+    <content type="text"><![CDATA[rsync最常用的操作同步远程zzp主机下note文件夹到本地文件夹note(以前者为准,后者的更改都会被抹除) 1rsync -urv --delete "zzp:/home/zzp/note/" note/ rsync的命令格式1234567rsync [OPTION]... SRC DESTrsync [OPTION]... SRC [USER@]HOST:DESTrsync [OPTION]... [USER@]HOST:SRC DESTrsync [OPTION]... [USER@]HOST::SRC DESTrsync [OPTION]... SRC [USER@]HOST::DESTrsync [OPTION]... rsync://[USER@]HOST[:PORT]/SRC [DEST] 对应于以上六种命令格式，rsync有六种不同的工作模式： 拷贝本地文件。当SRC和DES路径信息都不包含有单个冒号”:”分隔符时就启动这种工作模式。如：-a/backup```122. 使用一个远程shell程序(如rsh、ssh)来实现将本地机器的内容拷贝到远程机器。当DST路径地址包含单个冒号&quot;:&quot;分隔符时启动该模式。如：```rsync -avz *.c foo:src 使用一个远程shell程序(如rsh、ssh)来实现将远程机器的内容拷贝到本地机器。当SRC地址路径包含单个冒号”:”分隔符时启动该模式。如：-avz foo:src/barlink124. 从远程rsync服务器中拷贝文件到本地机。当SRC路径信息包含&quot;::&quot;分隔符时启动该模式。如：```rsync -av root@172.16.78.192::www /databack 从本地机器拷贝文件到远程rsync服务器中。当DST路径信息包含”::”分隔符时启动该模式。如：-avroot@172.16.78.192::www```126. 列远程机的文件列表。这类似于rsync传输，不过只要在命令中省略掉本地机信息即可。如：```rsync -v rsync://172.16.78.192/www rsync参数12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061-v, --verbose 详细模式输出-q, --quiet 精简输出模式-c, --checksum 打开校验开关，强制对文件传输进行校验-a, --archive 归档模式，表示以递归方式传输文件，并保持所有文件属性，等于-rlptgoD-r, --recursive 对子目录以递归模式处理-R, --relative 使用相对路径信息-b, --backup 创建备份，也就是对于目的已经存在有同样的文件名时，将老的文件重新命名为~filename。可以使用--suffix选项来指定不同的备份文件前缀。--backup-dir 将备份文件(如~filename)存放在在目录下。-suffix=SUFFIX 定义备份文件前缀-u, --update 仅仅进行更新，也就是跳过所有已经存在于DST，并且文件时间晚于要备份的文件。(不覆盖更新的文件)-l, --links 保留软链结-L, --copy-links 想对待常规文件一样处理软链结--copy-unsafe-links 仅仅拷贝指向SRC路径目录树以外的链结--safe-links 忽略指向SRC路径目录树以外的链结-H, --hard-links 保留硬链结-p, --perms 保持文件权限-o, --owner 保持文件属主信息-g, --group 保持文件属组信息-D, --devices 保持设备文件信息-t, --times 保持文件时间信息-S, --sparse 对稀疏文件进行特殊处理以节省DST的空间-n, --dry-run现实哪些文件将被传输-W, --whole-file 拷贝文件，不进行增量检测-x, --one-file-system 不要跨越文件系统边界-B, --block-size=SIZE 检验算法使用的块尺寸，默认是700字节-e, --rsh=COMMAND 指定使用rsh、ssh方式进行数据同步--rsync-path=PATH 指定远程服务器上的rsync命令所在路径信息-C, --cvs-exclude 使用和CVS一样的方法自动忽略文件，用来排除那些不希望传输的文件--existing 仅仅更新那些已经存在于DST的文件，而不备份那些新创建的文件--delete 删除那些DST中SRC没有的文件--delete-excluded 同样删除接收端那些被该选项指定排除的文件--delete-after 传输结束以后再删除--ignore-errors 及时出现IO错误也进行删除--max-delete=NUM 最多删除NUM个文件--partial 保留那些因故没有完全传输的文件，以是加快随后的再次传输--force 强制删除目录，即使不为空--numeric-ids 不将数字的用户和组ID匹配为用户名和组名--timeout=TIME IP超时时间，单位为秒-I, --ignore-times 不跳过那些有同样的时间和长度的文件--size-only 当决定是否要备份文件时，仅仅察看文件大小而不考虑文件时间--modify-window=NUM 决定文件是否时间相同时使用的时间戳窗口，默认为0-T --temp-dir=DIR 在DIR中创建临时文件--compare-dest=DIR 同样比较DIR中的文件来决定是否需要备份-P 等同于 --partial--progress 显示备份过程-z, --compress 对备份的文件在传输时进行压缩处理--exclude=PATTERN 指定排除不需要传输的文件模式--include=PATTERN 指定不排除而需要传输的文件模式--exclude-from=FILE 排除FILE中指定模式的文件--include-from=FILE 不排除FILE指定模式匹配的文件--version 打印版本信息--address 绑定到特定的地址--config=FILE 指定其他的配置文件，不使用默认的rsyncd.conf文件--port=PORT 指定其他的rsync服务端口--blocking-io 对远程shell使用阻塞IO-stats 给出某些文件的传输状态--progress 在传输时现实传输过程--log-format=formAT 指定日志文件格式--password-file=FILE 从FILE中得到密码--bwlimit=KBPS 限制I/O带宽，KBytes per second-h, --help 显示帮助信息]]></content>
       <categories>
         <category>linux</category>
       </categories>
@@ -570,11 +570,11 @@
       </categories>
   </entry>
   <entry>
-    <title><![CDATA[python 判断字符串内容类型]]></title>
-    <url>%2F2017%2F01%2F03%2Fpython%2F%E5%88%A4%E6%96%AD%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%86%85%E5%AE%B9%E7%B1%BB%E5%9E%8B%2F</url>
-    <content type="text"><![CDATA[字符串函数 返回True的情况 s.isalnum 只含字母数字且非空 s.isalpha 只含有字母且非空 s.isdigit 只含有数字且非空 s.islower 没有大写字母且非空 s.isupper 没有小写字母且非空 s.isspace 只含有空白字符且非空 s.istitle 每个英文单词首字母都大写且非空]]></content>
+    <title><![CDATA[rar and tar]]></title>
+    <url>%2F2017%2F01%2F03%2Flinux%2Frar-tar%2F</url>
+    <content type="text"><![CDATA[rar，tar为linux上最常用的压缩解压打包工具。 rar12345678910111213#将文件log.py, grades.py，文件夹dir1压缩到log.rarrar a log.rar log.py grades.py dir1#将log.rar解压至temp文件夹（需新建）rar x log.rar ./temp#列出压缩包内文件rar l log.rar tar123456789101112131415161718192021222324# 压缩文件tar zcvf sth.tar.gz file1 file2 dir1#解压到当前目录tar zxvf sth.tar.gz#解压到指定目录tar zxvf sth.tar.gz -C ./temp#列出压缩包内文件tar tvf sth.tar.gz# 不压缩，只打包tar cvf sth.tar file1 dir1-c, --create 创建一个新归档-z 通过gzip压缩( tar本身不是压缩命令，)]]></content>
       <categories>
-        <category>python</category>
+        <category>linux</category>
       </categories>
   </entry>
   <entry>
@@ -602,14 +602,6 @@
       </categories>
   </entry>
   <entry>
-    <title><![CDATA[rar and tar]]></title>
-    <url>%2F2017%2F01%2F03%2Flinux%2Frar-tar%2F</url>
-    <content type="text"><![CDATA[rar，tar为linux上最常用的压缩解压打包工具。 rar12345678910111213#将文件log.py, grades.py，文件夹dir1压缩到log.rarrar a log.rar log.py grades.py dir1#将log.rar解压至temp文件夹（需新建）rar x log.rar ./temp#列出压缩包内文件rar l log.rar tar123456789101112131415161718192021222324# 压缩文件tar zcvf sth.tar.gz file1 file2 dir1#解压到当前目录tar zxvf sth.tar.gz#解压到指定目录tar zxvf sth.tar.gz -C ./temp#列出压缩包内文件tar tvf sth.tar.gz# 不压缩，只打包tar cvf sth.tar file1 dir1-c, --create 创建一个新归档-z 通过gzip压缩( tar本身不是压缩命令，)]]></content>
-      <categories>
-        <category>linux</category>
-      </categories>
-  </entry>
-  <entry>
     <title><![CDATA[python qrcode 二维码]]></title>
     <url>%2F2017%2F01%2F03%2Fpython%2Fpython-qrcode%2F</url>
     <content type="text"><![CDATA[用qrcode包做的生成字符串的二维码的脚本 ps: ubuntu下有个可以终端显示二维码像素点的软件：qrencode 输入qrencode -o - -t UTF8，输入字符串，然后ctrl+D结束 123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899100101102103104105106107108109110111112113114115116117118#coding:utf-8import qrcodefrom PIL import Imageimport osdef openpic(filename): os.system(&quot;eog &quot; + filename)# 生成二维码图片def make_qr(string, pic_name): qr = qrcode.QRCode( version = 4, # 生成二维码尺寸的大小 1-40 1:21*21（21+(n-1)*4） error_correction = qrcode.constants.ERROR_CORRECT_M, #L:7% M:15% Q:25% H:30% box_size = 10, # 每个格子的像素大小 border = 2, # 边框的格子宽度大小 ) qr.add_data(string) qr.make(fit = True) img = qr.make_image() img.save(pic_name) openpic(pic_name) # 生成带logo的二维码图片def make_logo_qr(string, logo, pic_name): # 参数配置 qr = qrcode.QRCode( version = 4, error_correction = qrcode.constants.ERROR_CORRECT_Q, box_size = 8, border = 2 ) # 添加转换内容 qr.add_data(string) # qr.make(fit = True) # 生成二维码 img=qr.make_image() # img=img.convert(&quot;RGBA&quot;) # 添加logo if logo and os.path.exists(logo): icon = Image.open(logo) # 获取二维码图片的大小 img_w, img_h = img.size factor = 4 size_w = int(img_w/factor) size_h = int(img_h/factor) # logo图片的大小不能超过二维码图片的1/4 icon_w, icon_h = icon.size if icon_w &gt; size_w: icon_w = size_w if icon_h &gt; size_h: icon_h = size_h icon = icon.resize((icon_w, icon_h), Image.ANTIALIAS) # 计算logo在二维码图中的位置 w = int((img_w - icon_w) / 2) h = int((img_h - icon_h) / 2) icon = icon.convert(&quot;RGBA&quot;) img.paste(icon, (w, h), icon) # 保存处理后图片 img.save(pic_name) openpic(pic_name) if __name__==&apos;__main__&apos;: print print &quot;usage: input text, then input empty line to stop input&quot; print &quot; or input q or nothing to stop the script!&quot; print path = os.path.dirname(os.path.realpath(__file__)) qrcode_pic = os.path.join(path, &apos;theqrcode.png&apos;) #生成后的保存文件 logo = os.path.join(path, &apos;logo.png&apos;) #logo图片 string = &quot;start&quot; stop_strings = [&quot;q&quot;, &quot;exit&quot;, &quot;&quot;] while(1): string = raw_input(&quot;input:\n&quot;) if(string.strip() in stop_strings): break # 输入内容允许有空格 while True: line = raw_input() if(line == &apos;&apos;): break else: string = string + &quot;\n&quot; + line #make_qr(string, qrcode_pic) make_logo_qr(string, logo, qrcode_pic)]]></content>
@@ -623,6 +615,14 @@
     <content type="text"><![CDATA[12345678910111213141516171819202122232425262728293031323334353637383940# -*- coding: utf-8 -*-from sklearn.cluster import KMeansfrom sklearn.externals import joblibfinal = open(&apos;c:/test/final.dat&apos; , &apos;r&apos;)data = [line.strip().split(&apos;\t&apos;) for line in final]feature = [[float(x) for x in row[3:]] for row in data]#调用kmeans类clf = KMeans(n_clusters=9)s = clf.fit(feature)print s#9个中心print clf.cluster_centers_#每个样本所属的簇print clf.labels_#用来评估簇的个数是否合适，距离越小说明簇分的越好，选取临界点的簇个数print clf.inertia_#进行预测print clf.predict(feature)#保存模型joblib.dump(clf , &apos;c:/km.pkl&apos;)#载入保存的模型clf = joblib.load(&apos;c:/km.pkl&apos;)&apos;&apos;&apos;#用来评估簇的个数是否合适，距离越小说明簇分的越好，选取临界点的簇个数for i in range(5,30,1): clf = KMeans(n_clusters=i) s = clf.fit(feature) print i , clf.inertia_&apos;&apos;&apos; 来源：http://blog.itpub.net/12199764/viewspace-1479320/]]></content>
       <categories>
         <category>ai</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[python 判断字符串内容类型]]></title>
+    <url>%2F2017%2F01%2F03%2Fpython%2F%E5%88%A4%E6%96%AD%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%86%85%E5%AE%B9%E7%B1%BB%E5%9E%8B%2F</url>
+    <content type="text"><![CDATA[字符串函数 返回True的情况 s.isalnum 只含字母数字且非空 s.isalpha 只含有字母且非空 s.isdigit 只含有数字且非空 s.islower 没有大写字母且非空 s.isupper 没有小写字母且非空 s.isspace 只含有空白字符且非空 s.istitle 每个英文单词首字母都大写且非空]]></content>
+      <categories>
+        <category>python</category>
       </categories>
   </entry>
   <entry>
