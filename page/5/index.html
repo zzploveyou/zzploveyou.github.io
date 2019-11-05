@@ -292,6 +292,372 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://zzploveyou.github.io/2018/04/12/algorithm/leetcode/longest-substring-without-repeating-characters/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="ningning">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/doggod.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="zzp's blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/04/12/algorithm/leetcode/longest-substring-without-repeating-characters/" itemprop="url">longest substring without repeating characters</a></h1>
+        
+
+        <div class="post-meta">
+            
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-04-12T09:28:00+08:00">
+                2018-04-12
+              </time>
+            
+
+            
+              <span class="post-meta-divider">|</span>
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">更新于</span>
+              
+              <time title="更新于" itemprop="dateModified" datetime="2019-05-31T15:02:40+08:00">
+                2019-05-31
+              </time>
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/algorithm/" itemprop="url" rel="index">
+                    <span itemprop="name">algorithm</span>
+                  </a>
+                </span>
+
+                
+                
+                  ， 
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/algorithm/leetcode/" itemprop="url" rel="index">
+                    <span itemprop="name">leetcode</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/2018/04/12/algorithm/leetcode/longest-substring-without-repeating-characters/" class="leancloud_visitors" data-flag-title="longest substring without repeating characters">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数 </span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>“””<br><a href="https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/description/" target="_blank" rel="noopener">https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/description/</a><br>无重复字符的最长子串<br>“””</p>
+<p>class Solution(object):<br>    def lengthOfLongestSubstring(self, s):<br>        “””<br>        :type s: str<br>        :rtype: int<br>        &gt;&gt;&gt; s = Solution()<br>        &gt;&gt;&gt; s.lengthOfLongestSubstring(“aab”)<br>        2<br>        &gt;&gt;&gt; s.lengthOfLongestSubstring(“dvdf”)<br>        3<br>        &gt;&gt;&gt; s.lengthOfLongestSubstring(“abcabcbb”)<br>        3<br>        &gt;&gt;&gt; s.lengthOfLongestSubstring(“abcabcbb”)<br>        3<br>        &gt;&gt;&gt; s.lengthOfLongestSubstring(“abba”)<br>        2<br>        &gt;&gt;&gt; s.lengthOfLongestSubstring(“aaaaaaa”)<br>        1<br>        &gt;&gt;&gt; s.lengthOfLongestSubstring(“a”)<br>        1<br>        &gt;&gt;&gt; s.lengthOfLongestSubstring(“”)<br>        0<br>        “””<br>        if s == “”:<br>            return 0<br>        if len(s) == 1:<br>            return 1</p>
+<pre><code># 记录字符到index的映射
+dic = {}
+L, start_ind = 0, 0
+for idx, i in enumerate(s):
+    # 第idx个字符在dic中且是超过start_ind的字符
+    if i in dic and start_ind &lt;= dic[i]:
+        L = max(idx - start_ind, L)
+        start_ind = dic[i] + 1
+    dic[i] = idx
+L = max(idx + 1 - start_ind, L)
+return L
+</code></pre>
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://zzploveyou.github.io/2018/04/11/algorithm/leetcode/twosum/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="ningning">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/doggod.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="zzp's blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/04/11/algorithm/leetcode/twosum/" itemprop="url">two sum</a></h1>
+        
+
+        <div class="post-meta">
+            
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-04-11T08:06:00+08:00">
+                2018-04-11
+              </time>
+            
+
+            
+              <span class="post-meta-divider">|</span>
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">更新于</span>
+              
+              <time title="更新于" itemprop="dateModified" datetime="2019-05-31T15:02:40+08:00">
+                2019-05-31
+              </time>
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/algorithm/" itemprop="url" rel="index">
+                    <span itemprop="name">algorithm</span>
+                  </a>
+                </span>
+
+                
+                
+                  ， 
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/algorithm/leetcode/" itemprop="url" rel="index">
+                    <span itemprop="name">leetcode</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/2018/04/11/algorithm/leetcode/twosum/" class="leancloud_visitors" data-flag-title="two sum">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数 </span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <a id="more"></a>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">"""</span></span><br><span class="line"><span class="string">https://leetcode-cn.com/problems/two-sum/description/</span></span><br><span class="line"><span class="string">"""</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span><span class="params">(object)</span>:</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">twoSum</span><span class="params">(self, nums, target)</span>:</span></span><br><span class="line">        <span class="string">"""</span></span><br><span class="line"><span class="string">        :type nums: List[int]</span></span><br><span class="line"><span class="string">        :type target: int</span></span><br><span class="line"><span class="string">        :rtype: List[int]</span></span><br><span class="line"><span class="string">        &gt;&gt;&gt; s = Solution()</span></span><br><span class="line"><span class="string">        &gt;&gt;&gt; nums = [3, 2, 4]</span></span><br><span class="line"><span class="string">        &gt;&gt;&gt; target = 6</span></span><br><span class="line"><span class="string">        &gt;&gt;&gt; s.twoSum(nums, target)</span></span><br><span class="line"><span class="string">        [1, 2]</span></span><br><span class="line"><span class="string">        """</span></span><br><span class="line">        <span class="comment"># tmp = [target - i for i in nums]</span></span><br><span class="line">        <span class="comment"># for idx, i in enumerate(tmp):</span></span><br><span class="line">        <span class="comment">#     try:</span></span><br><span class="line">        <span class="comment">#         idx2 = nums.index(i)</span></span><br><span class="line">        <span class="comment">#         if idx2 != idx:</span></span><br><span class="line">        <span class="comment">#             return [idx, idx2]</span></span><br><span class="line">        <span class="comment">#     except ValueError:</span></span><br><span class="line">        <span class="comment">#         pass</span></span><br><span class="line"></span><br><span class="line">        dic = &#123;&#125;</span><br><span class="line">        <span class="keyword">for</span> idx, num <span class="keyword">in</span> enumerate(nums):</span><br><span class="line">            <span class="keyword">if</span> target - num <span class="keyword">in</span> dic:</span><br><span class="line">                <span class="keyword">return</span> [dic[target-num], idx]</span><br><span class="line">            dic[num] = idx</span><br></pre></td></tr></table></figure>
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="https://zzploveyou.github.io/2018/04/10/algorithm/leetcode/max_subarray_leetcode/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -340,7 +706,7 @@
               
                 <span class="post-meta-item-text">更新于</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2019-05-31T15:00:08+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2019-05-31T15:02:40+08:00">
                 2019-05-31
               </time>
             
@@ -518,7 +884,7 @@
               
                 <span class="post-meta-item-text">更新于</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2019-05-31T15:00:08+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2019-05-31T15:02:40+08:00">
                 2019-05-31
               </time>
             
@@ -697,7 +1063,7 @@
               
                 <span class="post-meta-item-text">更新于</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2019-05-31T15:00:08+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2019-05-31T15:02:40+08:00">
                 2019-05-31
               </time>
             
@@ -863,7 +1229,7 @@
               
                 <span class="post-meta-item-text">更新于</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2019-05-31T15:00:08+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2019-05-31T15:02:40+08:00">
                 2019-05-31
               </time>
             
@@ -1034,7 +1400,7 @@
               
                 <span class="post-meta-item-text">更新于</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2019-05-31T15:00:08+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2019-05-31T15:02:40+08:00">
                 2019-05-31
               </time>
             
@@ -1209,7 +1575,7 @@
               
                 <span class="post-meta-item-text">更新于</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2019-05-31T15:00:08+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2019-05-31T15:02:40+08:00">
                 2019-05-31
               </time>
             
@@ -1380,7 +1746,7 @@
               
                 <span class="post-meta-item-text">更新于</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2019-05-31T15:00:08+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2019-05-31T15:02:40+08:00">
                 2019-05-31
               </time>
             
@@ -1562,7 +1928,7 @@
               
                 <span class="post-meta-item-text">更新于</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2019-05-31T15:00:08+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2019-05-31T15:02:40+08:00">
                 2019-05-31
               </time>
             
@@ -1666,588 +2032,11 @@
 
 
     
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://zzploveyou.github.io/2018/01/01/linux/git/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="ningning">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/doggod.png">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="zzp's blog">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/01/01/linux/git/" itemprop="url">git命令笔记</a></h1>
-        
-
-        <div class="post-meta">
-            
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-01-01T00:00:00+08:00">
-                2018-01-01
-              </time>
-            
-
-            
-              <span class="post-meta-divider">|</span>
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-check-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">更新于</span>
-              
-              <time title="更新于" itemprop="dateModified" datetime="2019-05-31T15:00:08+08:00">
-                2019-05-31
-              </time>
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/linux/" itemprop="url" rel="index">
-                    <span itemprop="name">linux</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-             <span id="/2018/01/01/linux/git/" class="leancloud_visitors" data-flag-title="git命令笔记">
-               <span class="post-meta-divider">|</span>
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               
-                 <span class="post-meta-item-text">阅读次数 </span>
-               
-                 <span class="leancloud-visitors-count"></span>
-             </span>
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h1 id="git添加远程仓库"><a href="#git添加远程仓库" class="headerlink" title="git添加远程仓库"></a>git添加远程仓库</h1><p>服务器上</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git init --bare repo</span><br></pre></td></tr></table></figure>
-<p>repo相当于中转站,</p>
-<p>配置一下remote之后,服务器上的程序git push到repo</p>
-<p>然后本机再从repo上pull下来.</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"># local</span><br><span class="line">git remote -v</span><br><span class="line">git remote add origin biolab@biolab:~/zzp/repo</span><br><span class="line">git push --set-upstream origin master</span><br><span class="line">git config --global push.default simple</span><br></pre></td></tr></table></figure>
-<h1 id="rm-file-from-git-repo"><a href="#rm-file-from-git-repo" class="headerlink" title="rm file from git repo"></a>rm file from git repo</h1><p><a href="http://help.github.com/remove-sensitive-data/" target="_blank" rel="noopener">官方文档</a><br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">git filter-branch --index-filter <span class="string">'git rm -r --cached --ignore-unmatch path/to/your/file'</span> HEAD</span><br><span class="line">git push origin master --force</span><br><span class="line">rm -rf .git/refs/original/</span><br><span class="line">git reflog expire --expire=now --all</span><br><span class="line">git gc --prune=now</span><br><span class="line">git gc --aggressive --prune=now</span><br></pre></td></tr></table></figure></p>
-<h1 id="设置全局编辑器"><a href="#设置全局编辑器" class="headerlink" title="设置全局编辑器"></a>设置全局编辑器</h1><p>git config –global core.editor vim</p>
-<h1 id="删除恢复"><a href="#删除恢复" class="headerlink" title="删除恢复:"></a>删除恢复:</h1><h2 id="场景1"><a href="#场景1" class="headerlink" title="场景1"></a>场景1</h2><p>当你改乱了工作区某个文件的内容，想直接丢弃工作区的修改时，用命令git checkout – file。</p>
-<h2 id="场景2"><a href="#场景2" class="headerlink" title="场景2"></a>场景2</h2><p>当你不但改乱了工作区某个文件的内容，还添加到了暂存区时，想丢弃修改，分两步，第一步用命令git reset HEAD file，就回到了场景1，第二步按场景1操作。</p>
-<h2 id="场景3"><a href="#场景3" class="headerlink" title="场景3"></a>场景3</h2><p>已经提交了不合适的修改到版本库时，想要撤销本次提交</p>
-<p>HEAD指向的版本就是当前版本，因此，Git允许我们在版本的历史之间穿梭，使用命令git reset –hard commit_id。</p>
-<p> 穿梭前，用git log可以查看提交历史，以便确定要回退到哪个版本。</p>
-<p>要重返未来，用git reflog查看命令历史，以便确定要回到未来的哪个版本</p>
-<p>git reset –hard HEAD^回到上一个版本</p>
-<p>在Git中，用HEAD表示当前版本.</p>
-<p>上一个版本就是HEAD^，上上一个版本就是HEAD^^，</p>
-<p>当然往上100个版本写100个^比较容易数不过来，所以写成HEAD~100。</p>
-<h1 id="修改-gitignore后移除索引"><a href="#修改-gitignore后移除索引" class="headerlink" title="修改.gitignore后移除索引"></a>修改.gitignore后移除索引</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">git rm -r --cached .</span><br><span class="line"></span><br><span class="line">git add .</span><br><span class="line"></span><br><span class="line">git commit -m &quot;update .gitignore&quot;</span><br></pre></td></tr></table></figure>
-<h1 id="gitignore设置"><a href="#gitignore设置" class="headerlink" title=".gitignore设置"></a>.gitignore设置</h1><p>/*代表当前目录(根目录)下全部</p>
-<p>*代表所有</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"># 以&amp;#39;#&amp;#39;开始的行，被视为注释.                                                                                                                          </span><br><span class="line"># 忽略掉所有文件名是 foo.txt的文件.</span><br><span class="line">foo.txt</span><br><span class="line"># 忽略所有生成的 html文件,</span><br><span class="line">*.html</span><br><span class="line"># foo.html是手工维护的，所以例外.</span><br><span class="line">!foo.html</span><br><span class="line"># 忽略所有.o和 .a文件.</span><br><span class="line">*.[oa]</span><br><span class="line"># 忽略*.b和*.B文件，my.b除外</span><br><span class="line">*.[bB]</span><br><span class="line">!my.b</span><br><span class="line"># 忽略dbg文件和dbg目录</span><br><span class="line">dbg</span><br><span class="line"># 只忽略dbg目录，不忽略dbg文件</span><br><span class="line">dbg/</span><br><span class="line"># 只忽略dbg文件，不忽略dbg目录</span><br><span class="line">dbg</span><br><span class="line">!dbg/</span><br><span class="line"># 只忽略当前目录下的dbg文件和目录，子目录的dbg不在忽略范围内</span><br><span class="line">/dbg</span><br></pre></td></tr></table></figure>
-<h1 id="不用每次push都输入用户名密码的操作"><a href="#不用每次push都输入用户名密码的操作" class="headerlink" title="不用每次push都输入用户名密码的操作"></a>不用每次push都输入用户名密码的操作</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config --global credential.helper store</span><br></pre></td></tr></table></figure>
-<p>使用下面的命令从远程仓库强制覆盖本地文件:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git fetch --all</span><br><span class="line">git reset --hard origin/master</span><br></pre></td></tr></table></figure></p>
-<p>要下载一些其他分支的更改使用以下命令。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git reset --hard origin/other_branch</span><br></pre></td></tr></table></figure>
-<p>说明：-</p>
-<p>Git fetch命令下载最新的更新远程，但不合并或本地文件变基址。</p>
-<p>Git reset master分支重置你刚才取下的。该-hard选项更改的所有文件到你的工作树origin/master。</p>
-<h1 id="一、git-clone"><a href="#一、git-clone" class="headerlink" title="一、git clone"></a>一、git clone</h1><p>远程操作的第一步，通常是从远程主机克隆一个版本库，这时就要用到git clone命令。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git clone &lt;版本库的网址&gt;</span><br></pre></td></tr></table></figure>
-<p>比如，克隆jQuery的版本库。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git clone https://github.com/jquery/jquery.git</span><br></pre></td></tr></table></figure>
-<p>该命令会在本地主机生成一个目录，与远程主机的版本库同名。如果要指定不同的目录名，可以将目录名作为git clone命令的第二个参数。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git clone &lt;版本库的网址&gt; &lt;本地目录名&gt;</span><br></pre></td></tr></table></figure>
-<p>git clone支持多种协议，除了HTTP(s)以外，还支持SSH、Git、本地文件协议等，下面是一些例子。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">$ git clone http[s]://example.com/path/to/repo.git/</span><br><span class="line"></span><br><span class="line">$ git clone ssh://example.com/path/to/repo.git/</span><br><span class="line"></span><br><span class="line">$ git clone git://example.com/path/to/repo.git/</span><br><span class="line"></span><br><span class="line">$ git clone /opt/git/project.git </span><br><span class="line"></span><br><span class="line">$ git clone file:///opt/git/project.git</span><br><span class="line"></span><br><span class="line">$ git clone ftp[s]://example.com/path/to/repo.git/</span><br><span class="line"></span><br><span class="line">$ git clone rsync://example.com/path/to/repo.git/</span><br></pre></td></tr></table></figure>
-<p>SSH协议还有另一种写法。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git clone [user@]example.com:path/to/repo.git/</span><br></pre></td></tr></table></figure>
-<p>通常来说，Git协议下载速度最快，SSH协议用于需要用户认证的场合。各种协议优劣的详细讨论请参考官方文档。</p>
-<h1 id="二、git-remote"><a href="#二、git-remote" class="headerlink" title="二、git remote"></a>二、git remote</h1><p>为了便于管理，Git要求每个远程主机都必须指定一个主机名。git remote命令就用于管理主机名。</p>
-<p>不带选项的时候，git remote命令列出所有远程主机。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git remote</span><br><span class="line">origin</span><br></pre></td></tr></table></figure>
-<p>使用-v选项，可以参看远程主机的网址。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ git remote -v</span><br><span class="line">origin  git@github.com:jquery/jquery.git (fetch)</span><br><span class="line">origin  git@github.com:jquery/jquery.git (push)</span><br></pre></td></tr></table></figure>
-<p>上面命令表示，当前只有一台远程主机，叫做origin，以及它的网址。</p>
-<p>克隆版本库的时候，所使用的远程主机自动被Git命名为origin。如果想用其他的主机名，需要用git clone命令的-o选项指定。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ git clone -o jQuery https://github.com/jquery/jquery.git</span><br><span class="line">$ git remote</span><br><span class="line">jQuery</span><br></pre></td></tr></table></figure>
-<p>上面命令表示，克隆的时候，指定远程主机叫做jQuery。</p>
-<p>git remote show命令加上主机名，可以查看该主机的详细信息。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git remote show &lt;主机名&gt;</span><br></pre></td></tr></table></figure>
-<p>git remote add命令用于添加远程主机。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git remote add &lt;主机名&gt; &lt;网址&gt;</span><br></pre></td></tr></table></figure>
-<p>git remote rm命令用于删除远程主机。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git remote rm &lt;主机名&gt;</span><br><span class="line">git remote rm origin</span><br></pre></td></tr></table></figure>
-<p>git remote rename命令用于远程主机的改名。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git remote rename &lt;原主机名&gt; &lt;新主机名&gt;</span><br></pre></td></tr></table></figure>
-<h1 id="三、git-fetch"><a href="#三、git-fetch" class="headerlink" title="三、git fetch"></a>三、git fetch</h1><p>一旦远程主机的版本库有了更新（Git术语叫做commit），需要将这些更新取回本地，这时就要用到git fetch命令。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git fetch &lt;远程主机名&gt;</span><br></pre></td></tr></table></figure>
-<p>上面命令将某个远程主机的更新，全部取回本地。</p>
-<p>git fetch命令通常用来查看其他人的进程，因为它取回的代码对你本地的开发代码没有影响。</p>
-<p>默认情况下，git fetch取回所有分支（branch）的更新。如果只想取回特定分支的更新，可以指定分支名。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git fetch &lt;远程主机名&gt; &lt;分支名&gt;</span><br></pre></td></tr></table></figure>
-<p>比如，取回origin主机的master分支。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git fetch origin master</span><br></pre></td></tr></table></figure>
-<p>所取回的更新，在本地主机上要用”远程主机名/分支名”的形式读取。比如origin主机的master，就要用origin/master读取。</p>
-<p>git branch命令的-r选项，可以用来查看远程分支，-a选项查看所有分支。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">$ git branch -r</span><br><span class="line">origin/master</span><br><span class="line"></span><br><span class="line">$ git branch -a</span><br><span class="line">* master</span><br><span class="line">  remotes/origin/master</span><br></pre></td></tr></table></figure>
-<p>上面命令表示，本地主机的当前分支是master，远程分支是origin/master。</p>
-<p>取回远程主机的更新以后，可以在它的基础上，使用git checkout命令创建一个新的分支。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git checkout -b newBrach origin/master</span><br></pre></td></tr></table></figure>
-<p>上面命令表示，在origin/master的基础上，创建一个新分支。</p>
-<p>此外，也可以使用git merge命令或者git rebase命令，在本地分支上合并远程分支。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ git merge origin/master</span><br><span class="line"># 或者</span><br><span class="line">$ git rebase origin/master</span><br></pre></td></tr></table></figure>
-<p>上面命令表示在当前分支上，合并origin/master。</p>
-<h1 id="四、git-pull"><a href="#四、git-pull" class="headerlink" title="四、git pull"></a>四、git pull</h1><p>git pull命令的作用是，取回远程主机某个分支的更新，再与本地的指定分支合并。它的完整格式稍稍有点复杂。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git pull &lt;远程主机名&gt; &lt;远程分支名&gt;:&lt;本地分支名&gt;</span><br></pre></td></tr></table></figure>
-<p>比如，取回origin主机的next分支，与本地的master分支合并，需要写成下面这样。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git pull origin next:master</span><br></pre></td></tr></table></figure>
-<p>如果远程分支是与当前分支合并，则冒号后面的部分可以省略。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git pull origin next</span><br></pre></td></tr></table></figure>
-<p>上面命令表示，取回origin/next分支，再与当前分支合并。实质上，这等同于先做git fetch，再做git merge。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git fetch origin</span><br><span class="line">$ git merge origin/next</span><br></pre></td></tr></table></figure>
-<p>在某些场合，Git会自动在本地分支与远程分支之间，建立一种追踪关系（tracking）。比如，在git clone的时候，所有本地分支默认与远程主机的同名分支，建立追踪关系，也就是说，本地的master分支自动”追踪”origin/master分支。</p>
-<p>Git也允许手动建立追踪关系。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git branch --set-upstream master origin/next</span><br></pre></td></tr></table></figure>
-<p>上面命令指定master分支追踪origin/next分支。</p>
-<p>如果当前分支与远程分支存在追踪关系，git pull就可以省略远程分支名。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git pull origin</span><br></pre></td></tr></table></figure>
-<p>上面命令表示，本地的当前分支自动与对应的origin主机”追踪分支”（remote-tracking branch）进行合并。</p>
-<p>如果当前分支只有一个追踪分支，连远程主机名都可以省略。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git pull</span><br></pre></td></tr></table></figure>
-<p>上面命令表示，当前分支自动与唯一一个追踪分支进行合并。</p>
-<p>如果合并需要采用rebase模式，可以使用–rebase选项。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git pull --rebase &lt;远程主机名&gt; &lt;远程分支名&gt;:&lt;本地分支名&gt;</span><br></pre></td></tr></table></figure>
-<p>如果远程主机删除了某个分支，默认情况下，git pull 不会在拉取远程分支的时候，删除对应的本地分支。这是为了防止，由于其他人操作了远程主机，导致git pull不知不觉删除了本地分支。</p>
-<p>但是，你可以改变这个行为，加上参数 -p 就会在本地删除远程已经删除的分支。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ git pull -p</span><br><span class="line"># 等同于下面的命令</span><br><span class="line">$ git fetch --prune origin </span><br><span class="line">$ git fetch -p</span><br></pre></td></tr></table></figure>
-<h1 id="五、git-push"><a href="#五、git-push" class="headerlink" title="五、git push"></a>五、git push</h1><p>git push命令用于将本地分支的更新，推送到远程主机。它的格式与git pull命令相仿。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git push &lt;远程主机名&gt; &lt;本地分支名&gt;:&lt;远程分支名&gt;</span><br></pre></td></tr></table></figure>
-<p>注意，分支推送顺序的写法是&lt;来源地&gt;:&lt;目的地&gt;，所以git pull是&lt;远程分支&gt;:&lt;本地分支&gt;，而git push是&lt;本地分支&gt;:&lt;远程分支&gt;。</p>
-<p>如果省略远程分支名，则表示将本地分支推送与之存在”追踪关系”的远程分支（通常两者同名），如果该远程分支不存在，则会被新建。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git push origin master</span><br></pre></td></tr></table></figure>
-<p>上面命令表示，将本地的master分支推送到origin主机的master分支。如果后者不存在，则会被新建。</p>
-<p>如果省略本地分支名，则表示删除指定的远程分支，因为这等同于推送一个空的本地分支到远程分支。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ git push origin :master</span><br><span class="line"># 等同于</span><br><span class="line">$ git push origin --delete master</span><br></pre></td></tr></table></figure>
-<p>上面命令表示删除origin主机的master分支。</p>
-<p>如果当前分支与远程分支之间存在追踪关系，则本地分支和远程分支都可以省略。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git push origin</span><br></pre></td></tr></table></figure>
-<p>上面命令表示，将当前分支推送到origin主机的对应分支。</p>
-<p>如果当前分支只有一个追踪分支，那么主机名都可以省略。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git push</span><br></pre></td></tr></table></figure>
-<p>如果当前分支与多个主机存在追踪关系，则可以使用-u选项指定一个默认主机，这样后面就可以不加任何参数使用git push。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git push -u origin master</span><br></pre></td></tr></table></figure>
-<p>上面命令将本地的master分支推送到origin主机，同时指定origin为默认主机，后面就可以不加任何参数使用git push了。</p>
-<p>不带任何参数的git push，默认只推送当前分支，这叫做simple方式。此外，还有一种matching方式，会推送所有有对应的远程分支的本地分支。Git 2.0版本之前，默认采用matching方法，现在改为默认采用simple方式。如果要修改这个设置，可以采用git config命令。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ git config --global push.default matching</span><br><span class="line"># 或者</span><br><span class="line">$ git config --global push.default simple</span><br></pre></td></tr></table></figure>
-<p>还有一种情况，就是不管是否存在对应的远程分支，将本地的所有分支都推送到远程主机，这时需要使用–all选项。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git push --all origin</span><br></pre></td></tr></table></figure>
-<p>上面命令表示，将所有本地分支都推送到origin主机。</p>
-<p>如果远程主机的版本比本地版本更新，推送时Git会报错，要求先在本地做git pull合并差异，然后再推送到远程主机。这时，如果你一定要推送，可以使用–force选项。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git push --force origin</span><br></pre></td></tr></table></figure>
-<p>上面命令使用–force选项，结果导致远程主机上更新的版本被覆盖。除非你很确定要这样做，否则应该尽量避免使用–force选项。</p>
-<p>最后，git push不会推送标签（tag），除非使用–tags选项。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git push origin --tags</span><br></pre></td></tr></table></figure>
-<h1 id="六、git-stash"><a href="#六、git-stash" class="headerlink" title="六、git stash"></a>六、git stash</h1><p>git栈，在切换分支的时候，当前分支有未完成提交的代码，但又不想提交，一方面是因为代码没有完成，一方面是因为这样会在log中打印许多无用的日志信息。但是不提交就无法切换分支，于是git便开辟出来一个临时的仓库，这个仓库可以暂时存放最新修改过的代码。</p>
-<p>git栈，可以存放多次修改，切换分支后这些存放的修改还在。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">工作区--------暂存区--------本地仓库</span><br><span class="line">   \</span><br><span class="line">   </span><br><span class="line">     \</span><br><span class="line">     </span><br><span class="line">       \----git栈</span><br></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git stash</span><br></pre></td></tr></table></figure>
-<p>保存当前的工作进度,会分别对暂存区和工作区的状态进行保存。保存后工作区恢复到之前最后一次提交的状态</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git stash list</span><br></pre></td></tr></table></figure>
-<p>显示进度列表。此命令显然显示了git stash 可以多次保存工作进度，并在恢复时候选择。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git stash pop [--index] []</span><br></pre></td></tr></table></figure>
-<p>如果不使用任何参数，会恢复最新保存的工作进度，并将恢复的工作进度从存储的git栈列表中清除。</p>
-<p>如果提供参数（来自git stash list显示的列表），则将工作进度恢复。恢复完毕也将从git栈删除工作进度。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git stash [save [--patch] [-k|--[no]keep-index] [-q|--quiet] []]</span><br></pre></td></tr></table></figure>
-<p>这条命令实际上是第一条git stash命令的完整版。</p>
-<p>使用参数–patch会显示工作区和HEAD的差异，通过对差异文件的编辑决定在进度中最终要保存的工作区的内容，通过编辑差异文件可以在进度中排除无关内容。</p>
-<p>使用-k或者–keep-index参数，在保存进度后不会将暂存区重置。默认会将暂存区和工作区强制重置。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git stash apply [--index] []</span><br></pre></td></tr></table></figure>
-<p>除了不删除恢复的进度之外，其余和git stash pop 命令一样。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git stash drop []</span><br></pre></td></tr></table></figure>
-<p>删除一个存储的进度。默认删除最新的进度。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git stash clear</span><br></pre></td></tr></table></figure>
-<p>删除所有存储的进度。</p>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://zzploveyou.github.io/2017/12/29/vim/fisa-vim-config-features/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="ningning">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/doggod.png">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="zzp's blog">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2017/12/29/vim/fisa-vim-config-features/" itemprop="url">fisa-vim-config</a></h1>
-        
-
-        <div class="post-meta">
-            
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-12-29T00:00:00+08:00">
-                2017-12-29
-              </time>
-            
-
-            
-              <span class="post-meta-divider">|</span>
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-check-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">更新于</span>
-              
-              <time title="更新于" itemprop="dateModified" datetime="2019-05-31T15:00:08+08:00">
-                2019-05-31
-              </time>
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/vim/" itemprop="url" rel="index">
-                    <span itemprop="name">vim</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-             <span id="/2017/12/29/vim/fisa-vim-config-features/" class="leancloud_visitors" data-flag-title="fisa-vim-config">
-               <span class="post-meta-divider">|</span>
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               
-                 <span class="post-meta-item-text">阅读次数 </span>
-               
-                 <span class="leancloud-visitors-count"></span>
-             </span>
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h1 id="install"><a href="#install" class="headerlink" title="install"></a>install</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install curl vim exuberant-ctags git ack-grep</span><br><span class="line">sudo pip3 install pep8 flake8 pyflakes isort yapf</span><br><span class="line"># curl -O https://raw.githubusercontent.com/fisadev/fisa-vim-config/master/.vimrc</span><br></pre></td></tr></table></figure>
-<p><a href="https://github.com/fisadev/fisa-vim-config" target="_blank" rel="noopener">fisa-vim-config</a></p>
-<p><a href="https://github.com/fisadev/fisa-vim-config" target="_blank" rel="noopener">fisa-vim-config/features.rst at master · fisadev/fisa-vim-config</a></p>
-<p>Most important features include:</p>
-<ul>
-<li><p><strong>Plugins managed using Vim-plug</strong>! You can easily install or remove<br>plugins, and they are installed into <code>.vim/plugged/</code>. More info<br><a href="https://github.com/junegunn/vim-plug" target="_blank" rel="noopener">here</a></p>
-<p>| Command                             | Description                                                        |<br>| ———————————– | —————————————————————— |<br>| <code>PlugInstall [name ...] [#threads]</code> | Install plugins                                                    |<br>| <code>PlugUpdate [name ...] [#threads]</code>  | Install or update plugins                                          |<br>| <code>PlugClean[!]</code>                      | Remove unused directories (bang version will clean without prompt) |<br>| <code>PlugUpgrade</code>                       | Upgrade vim-plug itself                                            |<br>| <code>PlugStatus</code>                        | Check the status of plugins                                        |<br>| <code>PlugDiff</code>                          | Examine changes from the previous update and the pending changes   |<br>| <code>PlugSnapshot[!] [output path]</code>     | Generate script for restoring the current snapshot of the plugins  |</p>
-</li>
-<li><p><strong>Smart autocompletion as you type</strong>, sometimes using python<br>instrospection (completion of module names, instance methods and<br>attributes) and sometimes text-based (used words) (from version 4.0,<br>it’s even more intelligent!). And with neocomplcache, it even can<br>autocomplete with typos, thanks to the fuzzy completion settings.</p>
-</li>
-<li><strong>Fuzzy file, code and command finder</strong> (like Textmante or Sublime<br>Text 2):<ul>
-<li><code>,e</code> = open file (like the original :e) but with recursive and<br>fuzzy file name matching. Example: if you type “mopy” it will<br>find a file named “models.py” placed on a subdirectory. And<br>allows you to open the selected file on a new tab with <code>Ctrl-t</code>!</li>
-<li><code>,g</code> = fuzzy symbol finder (classes, methods, variables,<br>functions, …) on the current file. Example: if you type “usr”<br>it will find the User class definition on the current file. <code>,G</code><br>does the same but on all opened files.</li>
-<li><code>,c</code> = fuzzy command finder (internal vim commands, or custom<br>commands). Example: if you type “diff” it will find <code>:GitDiff</code>,<br><code>:diffthis</code>, and many other similar commands.</li>
-<li><code>,f</code> = fuzzy text finder on all the opened files. Example: if<br>you type “ctm=6” it will find the line containing “current_time<br>= 16”.</li>
-<li><code>,m</code> = fuzzy finder of most recently used files.</li>
-<li><code>,we</code>, <code>,wg</code>, <code>,wc</code>, <code>,wf</code> and <code>,wm</code> = same as <code>,e</code>, <code>,g</code>, <code>,c</code>,<br><code>,f</code> and <code>,wm</code> but initiate the search with the word under the<br>cursor (also the upper case version of <code>,G</code>, <code>,wG</code>). Is useful<br>to think about the <code>,wg</code> as a “fuzzy go to definition” (if the<br>definition is in the same file, or <code>,wG</code> if the definition is on<br>any of the opened files).</li>
-<li><code>,pe</code> = same as <code>,e</code> but initiates the search with the path<br>under the cursor.</li>
-</ul>
-</li>
-<li><strong>Ropevim for really neat python goodies!</strong>:<ul>
-<li><strong>Go to definition</strong> with <code>,d</code>, or open the definition on a new<br>tab with <code>,D</code>.</li>
-<li><strong>Find occurrences</strong> with <code>,o</code>.</li>
-</ul>
-</li>
-<li><strong>Classes/module browser</strong> that lists classes, functions, methods,<br>and such of the current file, and navigates to them when ENTER is<br>pressed. Toggle it with <code>F4</code>.</li>
-<li><strong>Pending tasks browser</strong> pressing <code>F2</code>. This reads the current file<br>searching for comments that start with “TODO”, “FIXME”, and such,<br>and shows them on a list that allows navigation similar to the class<br>browser.</li>
-<li><strong>Error checking of code</strong> using Syntastic (it will detect unused<br>variables or imports, syntax errors, and such), for several<br>languages, highlighting the errors and warnings in the code. You can<br>open an errors list with <code>\e</code>. In python, the error checking<br>includes <strong>pep8</strong> validation, and <strong>pylint</strong>.</li>
-<li><strong>Grep code recursively</strong> and navigate the results:<ul>
-<li><code>,r</code> uses the ack command (a kind of grep optimized for code<br>search), lists the found matches, and allows you to open them<br>with ENTER.</li>
-<li><code>,wr</code> does the same, but searching the word under the cursor.</li>
-</ul>
-</li>
-<li>Some settings for better <strong>tabs and spaces handling</strong>.</li>
-<li><strong>Better file browser</strong>, toggle it with <code>F3</code>, or open it with your<br>current file selected using <code>,t</code>.</li>
-<li><strong>Results count</strong> while searching text.</li>
-<li><strong>Search and read python documentation</strong> with the <code>:Pydoc</code> command.<br>Example: <code>:Pydoc collections</code> (also works over the current word with<br>vim’s default help keybinding: <code>Shift-K</code>).</li>
-<li><strong>Comment and uncomment code</strong> with <code>n\ci</code>.</li>
-<li><p><strong>Easy tab navigation</strong>:</p>
-<ul>
-<li><code>tt</code> = new tab and leaves the cursor waiting to specify the file<br>path to open (leave blank to open an empty tab).</li>
-<li><code>tn</code> or <code>Ctrl-Shift-Right</code> = next tab.</li>
-<li><code>tp</code> or <code>Ctrl-Shift-Left</code> = previous tab.</li>
-<li><code>tm</code> = move current tab to a specific position (or to the end if<br>no position number is specified).</li>
-<li><code>tl</code> = show a list of current tabs with their inner windows on a<br>side pane. You can navigate them!</li>
-<li><code>ts</code> = duplicate current tab.</li>
-</ul>
-<p>The mappings starting with the <code>t</code> letter work only on command mode,<br>but the mappings with <code>Ctrl-Shift</code> work on both, command and insert<br>mode.</p>
-</li>
-<li><p><strong>Easy window navigation</strong> using <code>Alt-arrows</code> keys.</p>
-</li>
-<li>Some vim goodies enabled by default:<ul>
-<li><strong>incremental search</strong> (moves to the first result while you are<br>typing).</li>
-<li><strong>highlighted search results</strong>.</li>
-<li><strong>line numbers</strong>.</li>
-<li>keep <strong>cursor 3 lines away from screen border while scrolling</strong>.</li>
-<li><strong>shell-like autocompletion of commands and paths</strong><br>(autocomplete the common part and show matching options).</li>
-<li><strong>syntax highlighting on</strong> by default.</li>
-</ul>
-</li>
-<li><strong>Python interpreter inside vim</strong>, or any other console. They are<br>opened as a buffer using the command <code>:ConqueTerm</code>. Examples:<br><code>:ConqueTerm python</code>, <code>:ConqueTerm bash</code>.</li>
-<li><strong>Save current file as sudo</strong> using <code>:w!!</code>.</li>
-<li><strong>Navigate html/xml tags</strong> the same way that you navigate (), {} and<br>[]: using <code>%</code>.</li>
-<li><strong>Beautiful status line allways visible</strong>, with colors, breadcrumbs<br>and useful information about file type, encoding and position. When<br>working with python files, it also displays the current python<br>function or class where the cursor is.</li>
-<li><strong>Automatically removes trailing spaces</strong> when saving python files.</li>
-<li><strong>Smart autoclosing of (, [, and {</strong></li>
-<li><strong>Beautiful color schemes for on vim with 256 colors (fisa<br>colorscheme) and gvim (wombat colorscheme)</strong>.</li>
-<li><strong>Use of 256 colors</strong> when possible.</li>
-<li><strong>2 spaces indentation for html and javascript</strong> (can disable it<br>removing two lines from the <code>.vimrc</code>).</li>
-<li><strong>Thousands of code snippets for many languages</strong> with SnipMate.<br>Example, in python you can write <code>cl</code> and press <code>tab</code> (while in<br>inser mode), and it will insert the boilerplate code of a common<br>python class (then use <code>tab</code> to navigate the snippet fields).</li>
-<li><p><strong>Zen coding</strong> for html: generate lots of html code writing simple<br>and short expressions. Example:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line">1.  write `#books&gt;ul&gt;li.book*5&gt;a`</span><br><span class="line">2.  press `Ctrl-y ,`</span><br><span class="line">3.  it will generate:</span><br><span class="line"></span><br><span class="line">        &lt;div id=&quot;books&quot;&gt;</span><br><span class="line">            &lt;ul&gt;</span><br><span class="line">                &lt;li class=&quot;book&quot;&gt;</span><br><span class="line">                    &lt;a href=&quot;&quot;&gt;&lt;/a&gt;</span><br><span class="line">                &lt;/li&gt;</span><br><span class="line">                &lt;li class=&quot;book&quot;&gt;</span><br><span class="line">                    &lt;a href=&quot;&quot;&gt;&lt;/a&gt;</span><br><span class="line">                &lt;/li&gt;</span><br><span class="line">                &lt;li class=&quot;book&quot;&gt;</span><br><span class="line">                    &lt;a href=&quot;&quot;&gt;&lt;/a&gt;</span><br><span class="line">                &lt;/li&gt;</span><br><span class="line">                &lt;li class=&quot;book&quot;&gt;</span><br><span class="line">                    &lt;a href=&quot;&quot;&gt;&lt;/a&gt;</span><br><span class="line">                &lt;/li&gt;</span><br><span class="line">                &lt;li class=&quot;book&quot;&gt;</span><br><span class="line">                    &lt;a href=&quot;&quot;&gt;&lt;/a&gt;</span><br><span class="line">                &lt;/li&gt;</span><br><span class="line">            &lt;/ul&gt;</span><br><span class="line">        &lt;/div&gt;</span><br></pre></td></tr></table></figure>
-<p>Learn more on the plugin<br><a href="https://github.com/mattn/zencoding-vim/" target="_blank" rel="noopener">site</a>.</p>
-</li>
-<li><p><strong>Git and other vcs integration</strong>, with commands such as:<br><code>:GitStatus</code>, <code>:GitDiff</code>, <code>:GitBlame</code>, <code>:GitLog</code>, <code>:GitCommit</code>, or<br>simply <code>:Git</code> with your own command. Key mappings and syntax<br>highlighting for git displays. Displays icons on the side of each<br>line based on the result of a diff of the current file (example: if<br>you added a line and still didn’t commit the file, that line will<br>have a green <code>+</code> on its side). And finally, when on a changed file<br>you can <strong>jump through changes</strong> using <code>\sn</code> and <code>\sp</code>.</p>
-</li>
-<li><strong>Better python indentation</strong>.</li>
-<li>Really neat <strong>surround actions</strong> using the surround.vim plugin.<br>Learn how to use it <a href="https://github.com/tpope/vim-surround" target="_blank" rel="noopener">here</a>.</li>
-<li><strong>Indentation defined text objects</strong> for the editing language, named<br><code>i</code>. For example, you can change an entire indented code block with<br><code>cii</code>, or the indented block and its header line with <code>cai</code> (also<br>yank, delete, …).</li>
-<li><strong>Indentation based movements</strong>, move to the header of your current<br>python block with <code>[-</code>, to the end of the block with <code>]-</code>, and more<br>(short reference<br><a href="https://github.com/jeetsukumaran/vim-indentwise" target="_blank" rel="noopener">here</a>).</li>
-<li><strong>Python class and method/function text objects</strong> for the editing<br>language, named <code>C</code> and <code>M</code>. For example, you can change an entire<br>function content with <code>ciM</code>, or delete a class including its header<br>with <code>daC</code>.</li>
-<li><strong>Run the current python file</strong> and display the output on a split<br>with <code>\r</code>.</li>
-<li><strong>Insert and remove ipdb breakpoints</strong> with <code>\b</code>.</li>
-<li><strong>Copy history navigation</strong> using the YankRing plugin, which allows<br>you to cicle the vim clipboard with <code>Ctrl-p</code> and <code>Ctrl-n</code>, and many<br>other features (described<br><a href="http://www.vim.org/scripts/script.php?script_id=1234" target="_blank" rel="noopener">here</a>).</li>
-<li><strong>Insert ipdb breakpoints</strong> with <code>\b</code>.</li>
-<li><strong>Automatically sort python imports</strong> using <code>:Isort</code>.</li>
-<li><strong>Persistent undos</strong> modify file, exit vim, reopen file, and you can<br>undo changes done on the previous session.</li>
-<li><strong>Better paths</strong> for temporary swap files, backups, and persistent<br>undos (all of them stored under <code>~/.vim/dirs</code>).</li>
-<li><strong>Drag visual blocks</strong> (blocks selected on <code>Ctrl-v</code> and <code>Shift-v</code><br>visual modes) with <code>Shift-Alt-arrows</code>, or even <strong>duplicate</strong> them<br>with <code>D</code>.</li>
-<li><strong>Simple window chooser</strong>: press <code>-</code> and you will see big green<br>letters for each window. Just press the letter of the window you<br>want to activate.</li>
-<li><strong>Paint css color</strong> values with the actual color.</li>
-<li><strong>Format Python code</strong> using yapf (<code>:YapfFullFormat</code> formats the<br>whole file, and has other commands as well, explained<br><a href="https://github.com/pignacio/vim-yapf-format" target="_blank" rel="noopener">here</a>. <strong>Works only if<br>you have a vim compiled with python 2, not python 3</strong>).</li>
-<li><p><strong>Custom configs by folder</strong> add a <code>.vim.custom</code> file in the<br>project’s root folder with whatever configs you want to customize<br>for that project. For example, if you have a project tree like this<br>example and you want to exclude <code>folder_x</code> from FuzzyFinder, put<br><code>let g:ctrlp_custom_ignore[&quot;dir&quot;] = g:ctrlp_custom_ignore[&quot;dir&quot;] . &#39;|\v[\/]folder_x$&#39;</code><br>in the <code>.vim.custom</code> file.</p>
-<blockquote>
-<pre><code>project
-├── folder_1
-├── folder_2
-├── folder_x
-└── .vim.custom
-</code></pre></blockquote>
-</li>
-</ul>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
   </section>
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/4/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/4/">4</a><span class="page-number current">5</span><a class="page-number" href="/page/6/">6</a><span class="space">&hellip;</span><a class="page-number" href="/page/8/">8</a><a class="extend next" rel="next" href="/page/6/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" href="/page/4/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/4/">4</a><span class="page-number current">5</span><a class="page-number" href="/page/6/">6</a><span class="space">&hellip;</span><a class="page-number" href="/page/9/">9</a><a class="extend next" rel="next" href="/page/6/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 
@@ -2293,7 +2082,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives/">
-                <span class="site-state-item-count">79</span>
+                <span class="site-state-item-count">81</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>

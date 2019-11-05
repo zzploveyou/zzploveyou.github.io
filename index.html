@@ -292,6 +292,186 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://zzploveyou.github.io/2019/11/05/trick/ipv6-windows10-无网络权限/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="ningning">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/doggod.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="zzp's blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2019/11/05/trick/ipv6-windows10-无网络权限/" itemprop="url">ipv6-windows10-无网络权限</a></h1>
+        
+
+        <div class="post-meta">
+            
+            <i class="fa fa-thumb-tack"></i>
+            <font color=7D26CD>置顶</font>
+            <span class="post-meta-divider">|</span>
+            
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-11-05T13:09:38+08:00">
+                2019-11-05
+              </time>
+            
+
+            
+              <span class="post-meta-divider">|</span>
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">更新于</span>
+              
+              <time title="更新于" itemprop="dateModified" datetime="2019-11-05T13:18:21+08:00">
+                2019-11-05
+              </time>
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/trick/" itemprop="url" rel="index">
+                    <span itemprop="name">trick</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/2019/11/05/trick/ipv6-windows10-无网络权限/" class="leancloud_visitors" data-flag-title="ipv6-windows10-无网络权限">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数 </span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>校园网IPV6, windows10无法自动登录，显示无网络权限</p>
+<p>问题：校园网IPV6, windows10无法自动登录，显示无网络权限</p>
+<p>（可能原因：动态ipv6分配与网络账号登陆的不一致性）</p>
+<p>网上的解决方法包括命令行，官方脚本，修改注册表，<strong>通通无用</strong></p>
+<p><strong>手动重新勾选网络适配器中的ipv6协议可以解决此问题</strong></p>
+<p>自动脚本</p>
+<p>enable_ipv6.ps1</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Disable-NetAdapterBinding -Name Wi-Fi -ComponentID ms_tcpip6</span><br><span class="line"></span><br><span class="line">Enable-NetAdapterBinding -Name Wi-Fi -ComponentID ms_tcpip6</span><br></pre></td></tr></table></figure>
+<p>enable_ipv6.bat</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">cd C:\xxx\</span><br><span class="line">PowerShell.exe  -ExecutionPolicy Bypass -file enable-ipv6.ps1</span><br><span class="line">pause</span><br></pre></td></tr></table></figure>
+<p>此外由于权限问题，可以通过新建bat脚本的快捷方式，并修改为管理员权限执行即可解决</p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="https://zzploveyou.github.io/2018/09/12/linux/efficient-tools/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -344,7 +524,7 @@
               
                 <span class="post-meta-item-text">更新于</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2019-05-31T15:00:08+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2019-05-31T15:02:40+08:00">
                 2019-05-31
               </time>
             
@@ -497,6 +677,172 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://zzploveyou.github.io/2019/07/24/trick/wireguard/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="ningning">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/doggod.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="zzp's blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2019/07/24/trick/wireguard/" itemprop="url">wireguard</a></h1>
+        
+
+        <div class="post-meta">
+            
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-07-24T23:30:20+08:00">
+                2019-07-24
+              </time>
+            
+
+            
+              <span class="post-meta-divider">|</span>
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">更新于</span>
+              
+              <time title="更新于" itemprop="dateModified" datetime="2019-11-05T13:18:21+08:00">
+                2019-11-05
+              </time>
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/trick/" itemprop="url" rel="index">
+                    <span itemprop="name">trick</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/2019/07/24/trick/wireguard/" class="leancloud_visitors" data-flag-title="wireguard">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数 </span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>install and auto config<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget https://raw.githubusercontent.com/atrandys/wireguard/master/wireguard_install_ubuntu.sh &amp;&amp; chmod +x wireguard_install_ubuntu.sh &amp;&amp; ./wireguard_install_ubuntu.sh</span><br></pre></td></tr></table></figure></p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="https://zzploveyou.github.io/2019/05/31/algorithm/leetcode/gas-station/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -545,7 +891,7 @@
               
                 <span class="post-meta-item-text">更新于</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2019-05-31T15:00:08+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2019-05-31T15:02:40+08:00">
                 2019-05-31
               </time>
             
@@ -721,7 +1067,7 @@
               
                 <span class="post-meta-item-text">更新于</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2019-05-31T15:00:08+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2019-05-31T15:02:40+08:00">
                 2019-05-31
               </time>
             
@@ -897,7 +1243,7 @@
               
                 <span class="post-meta-item-text">更新于</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2019-05-31T15:00:08+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2019-05-31T15:02:40+08:00">
                 2019-05-31
               </time>
             
@@ -1074,7 +1420,7 @@
               
                 <span class="post-meta-item-text">更新于</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2019-05-31T15:00:08+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2019-05-31T15:02:40+08:00">
                 2019-05-31
               </time>
             
@@ -1251,7 +1597,7 @@
               
                 <span class="post-meta-item-text">更新于</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2019-05-31T15:00:08+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2019-05-31T15:02:40+08:00">
                 2019-05-31
               </time>
             
@@ -1419,7 +1765,7 @@
               
                 <span class="post-meta-item-text">更新于</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2019-05-31T15:00:08+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2019-05-31T15:02:40+08:00">
                 2019-05-31
               </time>
             
@@ -1587,7 +1933,7 @@
               
                 <span class="post-meta-item-text">更新于</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2019-05-31T15:00:08+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2019-05-31T15:02:40+08:00">
                 2019-05-31
               </time>
             
@@ -1699,355 +2045,11 @@
 
 
     
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://zzploveyou.github.io/2019/05/15/linux/parsyncfp-parallel-rsync/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="ningning">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/doggod.png">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="zzp's blog">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2019/05/15/linux/parsyncfp-parallel-rsync/" itemprop="url">服务器上同步/备份大量文件的处理方式</a></h1>
-        
-
-        <div class="post-meta">
-            
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-05-15T22:13:34+08:00">
-                2019-05-15
-              </time>
-            
-
-            
-              <span class="post-meta-divider">|</span>
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-check-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">更新于</span>
-              
-              <time title="更新于" itemprop="dateModified" datetime="2019-05-31T15:00:08+08:00">
-                2019-05-31
-              </time>
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/linux/" itemprop="url" rel="index">
-                    <span itemprop="name">linux</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-             <span id="/2019/05/15/linux/parsyncfp-parallel-rsync/" class="leancloud_visitors" data-flag-title="服务器上同步/备份大量文件的处理方式">
-               <span class="post-meta-divider">|</span>
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               
-                 <span class="post-meta-item-text">阅读次数 </span>
-               
-                 <span class="leancloud-visitors-count"></span>
-             </span>
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h1 id="parsyncfp"><a href="#parsyncfp" class="headerlink" title="parsyncfp"></a>parsyncfp</h1><p><a href="https://github.com/hjmangalam/parsyncfp" target="_blank" rel="noopener">hjmangalam/parsyncfp: follow-on to parsync (parallel rsync) with better startup perf</a></p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./parsyncfp --NP=4 --CS=100K --nowait --rsyncopts=<span class="string">"-uv"</span> --startdir=<span class="string">"/home/zzp"</span> <span class="string">"test"</span> <span class="string">"/home/zzp/program/"</span></span><br></pre></td></tr></table></figure>
-<h1 id="rsync-parallel"><a href="#rsync-parallel" class="headerlink" title="rsync + parallel"></a>rsync + parallel</h1><p>将<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br><span class="line">并行增量备份的另一种实现(rsync+parallel)</span><br><span class="line"></span><br><span class="line">```bash</span><br><span class="line">#!/bin/bash</span><br><span class="line"></span><br><span class="line">dst=&quot;/mnt/500G移动硬盘/results/&quot;</span><br><span class="line">filename=&quot;backuplist&quot;</span><br><span class="line">ncpu=8</span><br><span class="line"></span><br><span class="line">cat $filename | parallel -j $ncpu &quot;rsync -urv &#123;&#125; $dst&quot;</span><br></pre></td></tr></table></figure></p>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://zzploveyou.github.io/2019/04/26/python/sys-settrace/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="ningning">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/doggod.png">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="zzp's blog">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2019/04/26/python/sys-settrace/" itemprop="url">sys-settrace</a></h1>
-        
-
-        <div class="post-meta">
-            
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-04-26T17:58:12+08:00">
-                2019-04-26
-              </time>
-            
-
-            
-              <span class="post-meta-divider">|</span>
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-check-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">更新于</span>
-              
-              <time title="更新于" itemprop="dateModified" datetime="2019-05-31T15:00:08+08:00">
-                2019-05-31
-              </time>
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/python/" itemprop="url" rel="index">
-                    <span itemprop="name">python</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-             <span id="/2019/04/26/python/sys-settrace/" class="leancloud_visitors" data-flag-title="sys-settrace">
-               <span class="post-meta-divider">|</span>
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               
-                 <span class="post-meta-item-text">阅读次数 </span>
-               
-                 <span class="leancloud-visitors-count"></span>
-             </span>
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>sys.settrace 为built-in函数</p>
-<p>底层实现代码</p>
-<h1 id="sys-settrace-调用关系"><a href="#sys-settrace-调用关系" class="headerlink" title="sys.settrace 调用关系"></a>sys.settrace 调用关系</h1><ol>
-<li><a href="https://github.com/python/cpython/blob/master/Python/sysmodule.c" target="_blank" rel="noopener">https://github.com/python/cpython/blob/master/Python/sysmodule.c</a></li>
-<li><a href="https://github.com/python/cpython/blob/master/Python/ceval.c" target="_blank" rel="noopener">https://github.com/python/cpython/blob/master/Python/ceval.c</a></li>
-</ol>
-<h1 id="PyFrameObject-实现"><a href="#PyFrameObject-实现" class="headerlink" title="PyFrameObject 实现"></a>PyFrameObject 实现</h1><ol start="3">
-<li><a href="https://github.com/python/cpython/blob/master/Include/frameobject.h" target="_blank" rel="noopener">https://github.com/python/cpython/blob/master/Include/frameobject.h</a></li>
-<li><a href="https://github.com/python/cpython/blob/master/Objects/frameobject.c" target="_blank" rel="noopener">https://github.com/python/cpython/blob/master/Objects/frameobject.c</a></li>
-</ol>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">import sys</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">def trace_func(frame, event, arg):</span><br><span class="line">    value = frame.f_locals[&quot;a&quot;]</span><br><span class="line">    if value % 2 == 0:</span><br><span class="line">        value += 1</span><br><span class="line">        frame.f_locals[&quot;a&quot;] = value</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">def f(a):</span><br><span class="line">    print(a)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">if __name__ == &quot;__main__&quot;:</span><br><span class="line">    trace = sys.gettrace()</span><br><span class="line">    sys.settrace(trace_func)</span><br><span class="line">    for i in range(0, 5):</span><br><span class="line">        f(i)</span><br><span class="line">    sys.settrace(trace)</span><br></pre></td></tr></table></figure>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
   </section>
 
   
   <nav class="pagination">
-    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><span class="space">&hellip;</span><a class="page-number" href="/page/8/">8</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-angle-right"></i></a>
+    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><span class="space">&hellip;</span><a class="page-number" href="/page/9/">9</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 
@@ -2093,7 +2095,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives/">
-                <span class="site-state-item-count">79</span>
+                <span class="site-state-item-count">81</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
